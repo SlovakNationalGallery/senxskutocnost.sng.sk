@@ -7,6 +7,7 @@ $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif
 $red: #e00000;
 $grey: #aeaeae;
 $greyed-out: #6d6d6d;
+$dark-green: #3f3c25;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -72,6 +73,7 @@ $greyed-out: #6d6d6d;
 }
 
 .landing {
+  background-color: $dark-green;
   * {
     z-index: 9;
   }
@@ -94,6 +96,13 @@ $greyed-out: #6d6d6d;
       text-indent: -9999px;
       padding-top: 33%;
       z-index: 1;
+    }
+    .landing-image-fade {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 250px;
+      @include linear-gradient(to bottom, rgba(63, 60, 37, 0), $dark-green);
     }
   }
   .landing-content {
