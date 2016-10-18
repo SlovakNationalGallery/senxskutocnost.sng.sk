@@ -127,8 +127,9 @@ $greyed-out: #6d6d6d;
 form#email-capture {
   width: 50%;
   margin: 25px auto;
-  legend {
     padding: 15px;
+  legend {
+    padding-top: 5px;
     font-size: 20px;
   }
   legend:after {
@@ -150,7 +151,7 @@ form#email-capture {
   }
   p {
     font-size: 18px;
-    padding: 10px;
+    padding-top: 15px;
   }
 }
 
