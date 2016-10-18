@@ -1,3 +1,12 @@
+a {
+  text-decoration: underline; }
+
+a:hover {
+  text-decoration: none; }
+
+a, a:visited, a:hover, a:active {
+  color: inherit; }
+
 .f-moyenage {
   font-family: Moyenage14;
   font-weight: normal;
@@ -11,6 +20,12 @@
 
 .f-uppercase {
   text-transform: uppercase; }
+
+.padding-bottom-s {
+  padding-bottom: 25px !important; }
+
+.margin-bottom-s {
+  margin-bottom: 25px !important; }
 
 .margin-bottom-m {
   margin-bottom: 50px !important; }
@@ -148,5 +163,9 @@ button.button-ghost {
   #chapter-preview .chapter-thumb h5 {
     border-top: #6d6d6d solid 2px;
     padding-top: 15px; }
+
+#footer .footer-icon {
+  width: 25px;
+  margin: auto 12px; }
 
 /*# sourceMappingURL=custom.css.map */
