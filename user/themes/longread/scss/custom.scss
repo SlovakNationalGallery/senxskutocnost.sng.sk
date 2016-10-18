@@ -8,6 +8,7 @@ $red: #e00000;
 $grey: #aeaeae;
 $greyed-out: #6d6d6d;
 $dark-green: #3f3c25;
+$light-grey: #efefef;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -19,7 +20,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  text-decoration: none; 
+  color: #efefef;
 }
 a, a:visited, a:hover, a:active {
   color: inherit;
@@ -211,8 +212,14 @@ button.button-ghost {
 }
 
 #footer {
+  a:hover {
+    color: $light-grey;
+  }
   .footer-icon {
     width: 25px;
     margin: auto 12px;
+  }
+  .footer-icon *:hover {
+    fill: $light-grey;
   }
 }

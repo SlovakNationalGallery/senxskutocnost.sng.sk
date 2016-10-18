@@ -2,7 +2,7 @@ a {
   text-decoration: underline; }
 
 a:hover {
-  text-decoration: none; }
+  color: #efefef; }
 
 a, a:visited, a:hover, a:active {
   color: inherit; }
@@ -169,8 +169,12 @@ button.button-ghost {
     border-top: #6d6d6d solid 2px;
     padding-top: 15px; }
 
+#footer a:hover {
+  color: #efefef; }
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
+#footer .footer-icon *:hover {
+  fill: #efefef; }
 
 /*# sourceMappingURL=custom.css.map */
