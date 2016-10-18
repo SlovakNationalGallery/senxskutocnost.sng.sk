@@ -31,7 +31,8 @@
     background-repeat: no-repeat; }
 
 .centered {
-  text-align: center; }
+  text-align: center;
+  margin: auto; }
 
 .c-grey {
   color: #aeaeae; }
@@ -65,40 +66,41 @@
     text-indent: -9999px;
     padding-top: 33%;
     z-index: 1; }
-  .landing .landing-image .landing-content {
-    position: relative;
-    margin: 60px auto 35px;
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box; }
-    @media only screen and (max-width: 800px) {
-      .landing .landing-image .landing-content {
-        left: 16px;
-        right: 16px; } }
-    .landing .landing-image .landing-content h1 {
-      font-size: 105px; }
-      .landing .landing-image .landing-content h1 img.headline-logo {
-        height: 65px;
-        vertical-align: baseline; }
-    .landing .landing-image .landing-content h2 {
-      font-weight: bold;
-      font-size: 23px;
-      letter-spacing: 0.45px; }
-    .landing .landing-image .landing-content h3 {
-      font-size: 25px;
-      line-height: 28px;
-      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
+.landing .landing-content {
+  position: relative;
+  margin: 60px auto 35px;
+  font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media only screen and (max-width: 800px) {
+    .landing .landing-content {
+      left: 16px;
+      right: 16px; } }
+  .landing .landing-content h1 {
+    font-size: 105px; }
+    .landing .landing-content h1 img.headline-logo {
+      height: 65px;
+      vertical-align: baseline; }
+  .landing .landing-content h2 {
+    font-weight: bold;
+    font-size: 23px;
+    letter-spacing: 0.45px; }
+  .landing .landing-content h3 {
+    font-size: 25px;
+    line-height: 28px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
 
 form#email-capture {
   width: 50%;
   margin: 25px auto; }
   form#email-capture legend {
-    padding: 10px; }
+    padding: 15px;
+    font-size: 20px; }
   form#email-capture legend:after {
     border-bottom: none; }
   form#email-capture input {
-    width: 60%;
+    width: 50%;
     border: black solid 1px;
     margin-right: 4%; }
     form#email-capture input::-webkit-input-placeholder {
@@ -111,7 +113,12 @@ form#email-capture {
       color: black; }
   form#email-capture button {
     border-radius: 3px;
-    font-weight: 900; }
+    font-weight: 900;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); }
+  form#email-capture p {
+    font-size: 18px;
+    padding: 10px; }
 
 button.button-ghost {
   background: none;

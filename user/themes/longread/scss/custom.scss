@@ -51,6 +51,7 @@ $greyed-out: #6d6d6d;
 
 .centered {
   text-align: center;
+  margin: auto;
 }
 
 .c-grey {
@@ -90,7 +91,8 @@ $greyed-out: #6d6d6d;
       padding-top: 33%;
       z-index: 1;
     }
-    .landing-content {
+  }
+  .landing-content {
       position: relative;
       margin: 60px auto 35px;
       // left: 10%;
@@ -120,20 +122,20 @@ $greyed-out: #6d6d6d;
         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
       }
     }
-  }
 }
 
 form#email-capture {
   width: 50%;
   margin: 25px auto;
   legend {
-    padding: 10px;
+    padding: 15px;
+    font-size: 20px;
   }
   legend:after {
     border-bottom: none;
   }
   input {
-    width: 60%;
+    width: 50%;
     border: black solid 1px;
     margin-right: 4%;
     @include placeholder {
@@ -143,6 +145,12 @@ form#email-capture {
   button {
     border-radius: 3px;
     font-weight: 900;
+    font-size: 20px;
+    box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.7);
+  }
+  p {
+    font-size: 18px;
+    padding: 10px;
   }
 }
 
