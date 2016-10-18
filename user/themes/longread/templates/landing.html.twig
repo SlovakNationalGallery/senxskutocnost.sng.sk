@@ -5,32 +5,29 @@
 {% endblock %}
 
 {% block content %}
-    <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
-
-
-      <article class="landing">
-
+    <main class="landing {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
         <div class="landing-image">
           <div class="landing-image-image" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})"></div>
-          
-          <div class="landing-content centered uk-width-8-10">
-              <div>
-                <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="X" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
-                <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.subTitle }}</h2>
-                <h3 class="c-white f-uni-grotesk-regular">{{ page.header.subSubTitle }}</h3>
-              </div>
+        </div> {# /div.landing-image #}
 
-              {% include 'partials/emailcapture.html.twig' with {
-                'emailCTA': page.header.emailCTA, 
-                'emailPlaceholder': page.header.emailPlaceholder, 
-                'emailButton': page.header.emailButton, 
-                'emailNotice': page.header.emailNotice} 
-              %}
-              
-              <button class="uk-button button-ghost" type="button">Share</button>
+        <div class="landing-content">
+          <div class="centered uk-width-8-10">
+            <div id="landing-titles">
+              <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="X" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
+              <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.subTitle }}</h2>
+              <h3 class="c-white f-uni-grotesk-regular">{{ page.header.subSubTitle }}</h3>
+            </div>
+
+            {% include 'partials/emailcapture.html.twig' with {
+              'emailCTA': page.header.emailCTA, 
+              'emailPlaceholder': page.header.emailPlaceholder, 
+              'emailButton': page.header.emailButton, 
+              'emailNotice': page.header.emailNotice} 
+            %}
             
+            <button class="uk-button button-ghost" type="button">Share</button>
           </div>
-
+          
           <div id="chapter-preview" class="uk-grid centered c-white ">
             <div class="uk-width-1-4 chapter-thumb">
               <h5 class="f-uni-grotesk-bold">1. chapter name</h5>
@@ -56,8 +53,8 @@
               <img src="{{ page.media['sxs-bg.jpg'].grayscale.url }}" alt="chapter 1">
             </div>
           </div>
-        </div> {# /div.landing-image #}
-      </article>
+          
+        </div>
     </main>
     {% include 'partials/footer.html.twig' %}
 {% endblock %}
