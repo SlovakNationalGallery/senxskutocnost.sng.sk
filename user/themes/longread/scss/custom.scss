@@ -25,6 +25,10 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
+@include selection {
+  background-color: $red;
+}
+
 .f-moyenage { 
   font-family: Moyenage14;
   font-weight: normal;

@@ -7,6 +7,12 @@ a:hover {
 a, a:visited, a:hover, a:active {
   color: inherit; }
 
+::-moz-selection {
+  background-color: #e00000; }
+
+::selection {
+  background-color: #e00000; }
+
 .f-moyenage {
   font-family: Moyenage14;
   font-weight: normal;
