@@ -1,0 +1,109 @@
+.logo-sng {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  z-index: 99; }
+  .logo-sng .logo {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.centered {
+  text-align: center; }
+
+.c-grey {
+  color: #aeaeae; }
+
+.c-white {
+  color: white; }
+
+.c-black {
+  color: black !important; }
+
+.bg-red {
+  background-color: #e63322 !important; }
+
+.landing * {
+  z-index: 9; }
+.landing .landing-image {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+  .landing .landing-image .landing-image-image {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    padding-top: 33%;
+    z-index: 1; }
+  .landing .landing-image .landing-content {
+    position: relative;
+    margin: 60px auto 35px;
+    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media only screen and (max-width: 800px) {
+      .landing .landing-image .landing-content {
+        left: 16px;
+        right: 16px; } }
+    .landing .landing-image .landing-content h1 {
+      font-size: 70px; }
+      .landing .landing-image .landing-content h1 img.headline-logo {
+        height: 80px;
+        vertical-align: text-bottom; }
+
+form#email-capture {
+  width: 50%;
+  margin: 25px auto; }
+  form#email-capture legend {
+    padding: 10px; }
+  form#email-capture legend:after {
+    border-bottom: none; }
+  form#email-capture input {
+    width: 60%;
+    border: black solid 1px;
+    margin-right: 4%; }
+    form#email-capture input::-webkit-input-placeholder {
+      color: black; }
+    form#email-capture input::-moz-placeholder {
+      color: black; }
+    form#email-capture input:-moz-placeholder {
+      color: black; }
+    form#email-capture input:-ms-input-placeholder {
+      color: black; }
+  form#email-capture button {
+    border-radius: 3px;
+    font-weight: 900; }
+
+button.button-ghost {
+  background: none;
+  border: white solid 1px;
+  border-radius: 3px;
+  color: white; }
+
+#chapter-preview {
+  margin-left: 0px;
+  margin-right: 25px; }
+  #chapter-preview .chapter-thumb * {
+    color: #6d6d6d !important; }
+  #chapter-preview .chapter-thumb h5 {
+    border-top: #6d6d6d solid 2px;
+    padding-top: 15px; }
+
+/*# sourceMappingURL=custom.css.map */

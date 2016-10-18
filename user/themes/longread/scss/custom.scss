@@ -1,0 +1,145 @@
+@import "vendor/bourbon/bourbon";
+
+$rs: 16px;
+$font-serif: Linux Libertine;
+$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+
+$red: #e63322;
+$grey: #aeaeae;
+$greyed-out: #6d6d6d;
+
+@mixin respond-to($breakpoint) {
+  @media only screen and (max-width: $breakpoint + px) {
+    @content;
+  }
+}
+
+.logo-sng {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: $rs * 3;
+  height: $rs * 3;
+  overflow: hidden;
+  z-index: 99;
+  .logo {
+    display: block;
+    position: absolute;
+    top: $rs / 2;
+    left: $rs / 2;
+    width: $rs * 2;
+    height: $rs * 2;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.centered {
+  text-align: center;
+}
+
+.c-grey {
+  color: $grey;
+}
+.c-white {
+  color: white;
+}
+.c-black {
+  color: black !important;
+}
+.bg-red {
+  background-color: $red !important;
+}
+
+.landing {
+  * {
+    z-index: 9;
+  }
+  
+  .landing-image {
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    .landing-image-image {
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-indent: -9999px;
+      padding-top: 33%;
+      z-index: 1;
+    }
+    .landing-content {
+      position: relative;
+      margin: 60px auto 35px;
+      // left: 10%;
+      // right: 10%;
+      font-family: $font-sans;
+      @include box-sizing(border-box);
+      @include respond-to(800) {
+        left: $rs;
+        right: $rs;
+      }
+
+      h1 {
+        font-size: 70px;
+        img.headline-logo {
+          height: 80px;
+          vertical-align: text-bottom;
+        }
+      }
+    }
+  }
+}
+
+form#email-capture {
+  width: 50%;
+  margin: 25px auto;
+  legend {
+    padding: 10px;
+  }
+  legend:after {
+    border-bottom: none;
+  }
+  input {
+    width: 60%;
+    border: black solid 1px;
+    margin-right: 4%;
+    @include placeholder {
+      color: black;
+    }
+  }
+  button {
+    border-radius: 3px;
+    font-weight: 900;
+  }
+}
+
+button.button-ghost {
+  background: none;
+  border: white solid 1px;
+  border-radius: 3px;
+  color: white;
+}
+
+#chapter-preview {
+  margin-left: 0px;
+  margin-right: 25px;
+
+  .chapter-thumb {
+    
+    * {
+      color: $greyed-out !important; 
+    }
+    h5 {
+      border-top: $greyed-out solid 2px;
+      padding-top: 15px;
+    }
+  }
+}
