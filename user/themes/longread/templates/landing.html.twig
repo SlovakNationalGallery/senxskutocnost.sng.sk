@@ -15,12 +15,12 @@
           
           <div class="landing-content centered uk-width-8-10">
               <div>
-                <h1 class="c-white">Sen <img src="{{ theme_url }}/images/headline-logo.svg" alt="X" class="headline-logo"> Skutocnost</h1>
-                <h2 class="c-white">{{ page.header.subTitle }}</h2>
-                <h3 class="c-grey">{{ page.header.subSubTitle }}</h3>
+                <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="X" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
+                <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.subTitle }}</h2>
+                <h3 class="c-white f-uni-grotesk-regular">{{ page.header.subSubTitle }}</h3>
               </div>
 
-              {% include 'partials/emailcapture.html.twig' %}
+              {% include 'partials/emailcapture.html.twig' with {'cta':'chcem informacie!'} %}
               
               <button class="uk-button button-ghost" type="button">Share</button>
             
@@ -28,26 +28,26 @@
 
           <div id="chapter-preview" class="uk-grid centered c-white ">
             <div class="uk-width-1-4 chapter-thumb">
-              <h5>1. chapter name</h5>
-              <p>26. october</p>
+              <h5 class="f-uni-grotesk-bold">1. chapter name</h5>
+              <p class="f-uni-grotesk-regular">26. october</p>
               <img src="{{ page.media['sxs-bg.jpg'].grayscale.url }}" alt="chapter 1">
             </div>
 
             <div class="uk-width-1-4 chapter-thumb">
-              <h5>2. chapter name</h5>
-              <p>26. october</p>
+              <h5 class="f-uni-grotesk-bold">2. chapter name</h5>
+              <p class="f-uni-grotesk-regular">26. october</p>
               <img src="{{ page.media['sxs-bg.jpg'].grayscale.url }}" alt="chapter 1">
             </div>
 
             <div class="uk-width-1-4 chapter-thumb">
-              <h5>3. chapter name</h5>
-              <p>26. october</p>
+              <h5 class="f-uni-grotesk-bold">3. chapter name</h5>
+              <p class="f-uni-grotesk-regular">26. october</p>
               <img src="{{ page.media['sxs-bg.jpg'].grayscale.url }}" alt="chapter 1">
             </div>
 
             <div class="uk-width-1-4 chapter-thumb">
-              <h5>4. chapter name</h5>
-              <p>26. october</p>
+              <h5 class="f-uni-grotesk-bold">4. chapter name</h5>
+              <p class="f-uni-grotesk-regular">26. october</p>
               <img src="{{ page.media['sxs-bg.jpg'].grayscale.url }}" alt="chapter 1">
             </div>
           </div>
