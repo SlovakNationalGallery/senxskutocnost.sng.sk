@@ -49,8 +49,7 @@ a, a:visited, a:hover, a:active {
     background-repeat: no-repeat; }
 
 .centered {
-  text-align: center;
-  margin: auto; }
+  text-align: center; }
 
 .c-grey {
   color: #aeaeae; }
