@@ -2,8 +2,11 @@
 title:  "Sen X Skutocnost"
 subTitle: "História slovenského štátu v 4 kapitolách"
 subSubTitle: "Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obetí – obdobie rokov 1938–1945 patrí medzi najkomplikovanejšie obdobia slovenských dejín."
-emailCTA: "Let me know when the story opens"
-emailSubTitle: "first chapter will be release on 26. October"
+emailCTA: "Chcem informácie o zverejnení prvej kapitoly."
+emailPlaceholder: "e-mailová adresa"
+emailButton: "informujte ma"
+emailNotice: "Prvá kapitola bude zverejnená 31. októbra."
+
 slug: landing
 date:   10/19/2016
 taxonomy:

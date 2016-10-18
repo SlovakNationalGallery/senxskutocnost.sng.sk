@@ -20,7 +20,12 @@
                 <h3 class="c-white f-uni-grotesk-regular">{{ page.header.subSubTitle }}</h3>
               </div>
 
-              {% include 'partials/emailcapture.html.twig' with {'cta':'chcem informacie!'} %}
+              {% include 'partials/emailcapture.html.twig' with {
+                'emailCTA': page.header.emailCTA, 
+                'emailPlaceholder': page.header.emailPlaceholder, 
+                'emailButton': page.header.emailButton, 
+                'emailNotice': page.header.emailNotice} 
+              %}
               
               <button class="uk-button button-ghost" type="button">Share</button>
             
