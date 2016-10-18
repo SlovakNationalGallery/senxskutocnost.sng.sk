@@ -174,7 +174,8 @@ button.button-ghost {
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
-#footer .footer-icon *:hover {
+#footer a svg:hover #footericonsng,
+#footer a svg:hover #footericonfb {
   fill: #efefef; }
 
 /*# sourceMappingURL=custom.css.map */

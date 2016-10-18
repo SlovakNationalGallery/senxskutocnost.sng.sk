@@ -219,7 +219,8 @@ button.button-ghost {
     width: 25px;
     margin: auto 12px;
   }
-  .footer-icon *:hover {
+  a svg:hover #footericonsng,
+  a svg:hover #footericonfb { 
     fill: $light-grey;
   }
 }
