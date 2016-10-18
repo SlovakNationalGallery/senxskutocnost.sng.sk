@@ -29,6 +29,10 @@ $greyed-out: #6d6d6d;
   text-transform : uppercase;
 }
 
+.margin-bottom-m {
+  margin-bottom: 50px !important;
+}
+
 .logo-sng {
   position: fixed;
   left: 10px;
@@ -127,7 +131,7 @@ $greyed-out: #6d6d6d;
 form#email-capture {
   width: 50%;
   margin: 25px auto;
-    padding: 15px;
+  padding: 15px;
   legend {
     padding-top: 5px;
     font-size: 20px;
