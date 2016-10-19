@@ -127,7 +127,7 @@ a, a:visited, a:hover, a:active {
 form#email-capture {
   width: 50%;
   margin: 25px auto;
-  padding: 15px; }
+  padding-top: 15px; }
   form#email-capture legend {
     padding-top: 5px;
     font-size: 20px; }
@@ -174,7 +174,9 @@ button.button-ghost, a.button-ghost {
 
 .sharing button, .sharing a {
   font-size: 16px;
-  margin: auto 10px; }
+  margin: auto 10px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 #footer a:hover {
   color: #efefef; }
