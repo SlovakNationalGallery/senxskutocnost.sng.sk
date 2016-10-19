@@ -167,7 +167,10 @@ button.button-ghost, a.button-ghost {
     color: #6d6d6d !important; }
   #chapter-preview .chapter-thumb h5 {
     border-top: #6d6d6d solid 2px;
-    padding-top: 15px; }
+    padding-top: 15px;
+    margin-bottom: 5px; }
+  #chapter-preview .chapter-thumb p {
+    margin-top: 0px; }
 
 .sharing button, .sharing a {
   font-size: 16px;
