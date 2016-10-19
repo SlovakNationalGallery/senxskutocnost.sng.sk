@@ -135,7 +135,7 @@ form#email-capture {
     border-bottom: none; }
   form#email-capture input {
     width: 50%;
-    border: black solid 1px;
+    border: none;
     margin-right: 4%; }
     form#email-capture input::-webkit-input-placeholder {
       color: black; }
