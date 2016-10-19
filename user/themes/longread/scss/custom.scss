@@ -188,7 +188,7 @@ form#email-capture {
   }
 }
 
-button.button-ghost {
+button.button-ghost, a.button-ghost {
   background: none;
   border: white solid 1px;
   border-radius: 3px;
@@ -209,6 +209,11 @@ button.button-ghost {
       padding-top: 15px;
     }
   }
+}
+
+.sharing button, .sharing a {
+  font-size: 16px;
+  margin: auto 10px;
 }
 
 #footer {

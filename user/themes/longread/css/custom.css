@@ -154,7 +154,7 @@ form#email-capture {
     font-size: 18px;
     padding-top: 15px; }
 
-button.button-ghost {
+button.button-ghost, a.button-ghost {
   background: none;
   border: white solid 1px;
   border-radius: 3px;
@@ -168,6 +168,10 @@ button.button-ghost {
   #chapter-preview .chapter-thumb h5 {
     border-top: #6d6d6d solid 2px;
     padding-top: 15px; }
+
+.sharing button, .sharing a {
+  font-size: 16px;
+  margin: auto 10px; }
 
 #footer a:hover {
   color: #efefef; }
