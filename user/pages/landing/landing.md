@@ -1,9 +1,12 @@
 ---
 title:  "Sen X Skutocnost"
-subTitle: "\"Pise sa rok 1938, ked si nacisticke Nemecko tzv. anslusom nasilne pripaja Rakusko. Hitler sa zaroven netaji snahami zlikvidovat susedne Ceskoslovenso\""
-subSubTitle: "historia 1938 - 1945 in <strong>5 chapters</strong>"
-emailCTA: "Let me know when the story opens"
-emailSubTitle: "first chapter will be release on 26. October"
+subTitle: "Udalosti slovenského štátu v 4 kapitolách"
+subSubTitle: "Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obetí – obdobie rokov 1939 – 1945 patrí medzi najkomplikovanejšie obdobia slovenských dejín."
+emailCTA: "Chcem informácie o zverejnení prvej kapitoly."
+emailPlaceholder: "e-mailová adresa"
+emailButton: "informujte ma"
+emailNotice: "Prvá kapitola bude zverejnená 31. októbra."
+
 slug: landing
 date:   10/19/2016
 taxonomy:

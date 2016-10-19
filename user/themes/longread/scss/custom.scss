@@ -4,14 +4,55 @@ $rs: 16px;
 $font-serif: Linux Libertine;
 $font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
 
-$red: #e63322;
+$red: #e00000;
 $grey: #aeaeae;
 $greyed-out: #6d6d6d;
+$dark-green: #3f3c25;
+$light-grey: #efefef;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
     @content;
   }
+}
+
+a {
+  text-decoration: underline;
+}
+a:hover {
+  color: #efefef;
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+@include selection {
+  background-color: $red;
+}
+
+.f-moyenage { 
+  font-family: Moyenage14;
+  font-weight: normal;
+  font-style: normal;
+}
+.f-uni-grotesk-regular {
+  font-family: "Uni Grotesk Regular";
+}
+.f-uni-grotesk-bold {
+  font-family: "Uni Grotesk Bold";
+}
+.f-uppercase {
+  text-transform : uppercase;
+}
+
+.padding-bottom-s {
+  padding-bottom: 25px !important;
+}
+.margin-bottom-s {
+  margin-bottom: 25px !important;
+}
+.margin-bottom-m {
+  margin-bottom: 50px !important;
 }
 
 .logo-sng {
@@ -52,6 +93,7 @@ $greyed-out: #6d6d6d;
 }
 
 .landing {
+  background-color: $dark-green;
   * {
     z-index: 9;
   }
@@ -75,7 +117,15 @@ $greyed-out: #6d6d6d;
       padding-top: 33%;
       z-index: 1;
     }
-    .landing-content {
+    .landing-image-fade {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      height: 250px;
+      @include linear-gradient(to bottom, rgba(63, 60, 37, 0), $dark-green);
+    }
+  }
+  .landing-content {
       position: relative;
       margin: 60px auto 35px;
       // left: 10%;
@@ -88,28 +138,39 @@ $greyed-out: #6d6d6d;
       }
 
       h1 {
-        font-size: 70px;
+        font-size: 105px;
         img.headline-logo {
-          height: 80px;
-          vertical-align: text-bottom;
+          height: 65px;
+          vertical-align: baseline;
         }
       }
+      h2 {
+        font-weight: bold;
+        font-size: 23px;
+        letter-spacing: 0.45px;
+      }
+      h3 {
+        font-size: 25px;
+        line-height: 28px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+      }
     }
-  }
 }
 
 form#email-capture {
   width: 50%;
   margin: 25px auto;
+  padding-top: 15px;
   legend {
-    padding: 10px;
+    padding-top: 5px;
+    font-size: 20px;
   }
   legend:after {
     border-bottom: none;
   }
   input {
-    width: 60%;
-    border: black solid 1px;
+    width: 50%;
+    border: none;
     margin-right: 4%;
     @include placeholder {
       color: black;
@@ -118,10 +179,16 @@ form#email-capture {
   button {
     border-radius: 3px;
     font-weight: 900;
+    font-size: 20px;
+    box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.7);
+  }
+  p {
+    font-size: 18px;
+    padding-top: 15px;
   }
 }
 
-button.button-ghost {
+button.button-ghost, a.button-ghost {
   background: none;
   border: white solid 1px;
   border-radius: 3px;
@@ -140,6 +207,31 @@ button.button-ghost {
     h5 {
       border-top: $greyed-out solid 2px;
       padding-top: 15px;
+      margin-bottom: 5px;
     }
+    p {
+      margin-top: 0px;
+    }
+  }
+}
+
+.sharing button, .sharing a {
+  font-size: 16px;
+  margin: auto 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#footer {
+  a:hover {
+    color: $light-grey;
+  }
+  .footer-icon {
+    width: 25px;
+    margin: auto 12px;
+  }
+  a svg:hover #footericonsng,
+  a svg:hover #footericonfb { 
+    fill: $light-grey;
   }
 }
