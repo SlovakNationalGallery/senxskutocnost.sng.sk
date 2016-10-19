@@ -19,6 +19,12 @@
     <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
     {% endfor %}
 
+    <meta property="og:url" content="http://sxs.sng.sk"/>
+    <meta property="og:type" content="website"/> 
+    <meta property="og:title" content="Sen × skutočnosť | Udalosti slovenského štátu v 4 kapitolách"/> 
+    <meta property="og:description" content="Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obetí – obdobie rokov 1938-1945 patrí medzi najkomplikovanejšie obdobia slovenských dejín."/> 
+    <meta property="og:image" content="{{ theme_url }}/images/fb_link_post_image.jpg"/>
+
     <link rel="canonical" href="{{ page.url() }}">
     <link rel="shortcut icon" href="{{ theme_url }}/images/favicon.png">
     <link rel="stylesheet" href="https://fonts.typotheque.com/WF-028643-009596.css" type="text/css" />
