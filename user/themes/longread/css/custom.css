@@ -1,5 +1,6 @@
 html, body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  background-color: #f5f5f5; }
 
 a {
   text-decoration: underline; }
@@ -38,6 +39,12 @@ a, a:visited, a:hover, a:active {
 
 .margin-bottom-m {
   margin-bottom: 50px !important; }
+
+.margin-top-0 {
+  margin-top: 0px !important; }
+
+.padding-top-0 {
+  padding-top: 0px !important; }
 
 .logo-sng {
   position: absolute;
@@ -105,7 +112,7 @@ a, a:visited, a:hover, a:active {
   .landing .landing-content {
     position: relative;
     margin: 60px auto 35px;
-    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-family: "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
@@ -214,6 +221,53 @@ button.button-ghost, a.button-ghost {
     margin-bottom: 5px; }
   #chapter-preview .chapter-thumb p {
     margin-top: 0px; }
+
+.content {
+  max-width: 700px; }
+
+.post.chapter .article-image {
+  bottom: 10vh; }
+  .post.chapter .article-image .post-meta {
+    bottom: 200px; }
+.post.chapter .post-reading {
+  position: relative;
+  top: 0px;
+  right: 0px;
+  line-height: 44px;
+  display: inline-block;
+  white-space: nowrap;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  z-index: 999;
+  color: inherit;
+  text-shadow: none; }
+.post.chapter .post-content {
+  position: relative;
+  width: inherit;
+  padding-top: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "Uni Grotesk Regular";
+  background-color: white;
+  color: #333333;
+  z-index: 3; }
+  .post.chapter .post-content h1 {
+    font-size: 45px; }
+  .post.chapter .post-content h1, .post.chapter .post-content h2 {
+    letter-spacing: normal; }
+  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6 {
+    font-family: "Uni Grotesk Bold"; }
+  .post.chapter .post-content p {
+    font-size: 18px; }
+  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div {
+    margin-left: -20px;
+    margin-right: -20px; }
+  .post.chapter .post-content div p {
+    font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 25px; }
 
 .sharing button, .sharing a {
   font-size: 16px;
