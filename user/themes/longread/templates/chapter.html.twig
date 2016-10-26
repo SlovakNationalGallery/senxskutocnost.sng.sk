@@ -30,6 +30,14 @@
     </main>
 {% endblock %}
 
-{% block footer %}{% endblock %}
+{% block footer %}
+  {% include 'partials/footer.html.twig' with {
+    'sharingButtons': true,
+    'exhibitionLink': true,
+    'orgIcons':       true,
+    'copyright':      true,
+    'stylingClasses': 'bg-grey c-black'}
+  %}
+{% endblock %}
 
 {% endembed %}

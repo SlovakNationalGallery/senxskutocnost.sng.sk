@@ -1,16 +1,18 @@
 @import "vendor/bourbon/bourbon";
 
 $rs: 16px;
-$font-serif: Linux Libertine;
-$font-sans: "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-$font-regular: "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-$font-bold: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-serif:    Linux Libertine;
+$font-sans:     "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-moyenage: "Moyenage14", "Linux Libertine";
 
 $red: #e00000;
 $grey: #aeaeae;
 $greyed-out: #6d6d6d;
 $dark-green: #3f3c25;
 $light-grey: #efefef;
+$dark-grey: #7B7B7B;
 $text-color: #333333;
 $bg-color: #F5F5F5;
 
@@ -23,17 +25,17 @@ $bg-color: #F5F5F5;
 html,body
 {
   overflow-x: hidden; 
-  background-color: #f5f5f5;
+  background-color: $bg-color;
 }
 
 a {
   text-decoration: underline;
 }
 a:hover {
-  color: #efefef;
+  color: $light-grey;
 }
 a, a:visited, a:hover, a:active {
-  color: inherit;
+  // color: inherit;
 }
 
 @include selection {
@@ -41,7 +43,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .f-moyenage { 
-  font-family: Moyenage14;
+  font-family: $font-moyenage;
   font-weight: normal;
   font-style: normal;
 }
@@ -55,9 +57,39 @@ a, a:visited, a:hover, a:active {
   text-transform : uppercase;
 }
 
-.padding-bottom-s {
-  padding-bottom: 25px !important;
+.centered {
+  text-align: center;
 }
+
+.c-grey {
+  color: $grey;
+  * {
+    color: $grey;
+  }
+}
+.c-white {
+  color: white;
+  * {
+    color: white;
+  }
+}
+.c-black {
+  color: black;
+  * {
+    color: black;
+  }
+}
+.bg-red {
+  background-color: $red !important;
+}
+.bg-grey {
+  background-color: $dark-grey !important;
+}
+.bg-dark-green {
+  background-color: $dark-green !important;
+}
+
+
 .margin-bottom-s {
   margin-bottom: 25px !important;
 }
@@ -67,8 +99,14 @@ a, a:visited, a:hover, a:active {
 .margin-top-0 {
   margin-top: 0px !important;
 }
+.padding-bottom-s {
+  padding-bottom: 25px !important;
+}
 .padding-top-0 {
   padding-top: 0px !important;
+}
+.padding-top-s {
+  padding-top: 25px !important;
 }
 
 .logo-sng {
@@ -89,23 +127,6 @@ a, a:visited, a:hover, a:active {
     background-size: cover;
     background-repeat: no-repeat;
   }
-}
-
-.centered {
-  text-align: center;
-}
-
-.c-grey {
-  color: $grey;
-}
-.c-white {
-  color: white;
-}
-.c-black {
-  color: black !important;
-}
-.bg-red {
-  background-color: $red !important;
 }
 
 .landing {
@@ -244,12 +265,25 @@ form#email-capture {
   }
 }
 
-button.button-ghost, a.button-ghost {
+.button-ghost {
   background: none;
   border: white solid 1px;
   border-radius: 3px;
   color: white;
 }
+.button-ghost.button-ghost-black {
+  border-color: black;
+  color: black;
+}
+.button-ghost.button-ghost-black:hover, 
+  .button-ghost.button-ghost-black:focus {
+    background-color: black;
+    color: white;
+    * {
+      color: white;
+    }
+}
+
 
 #chapter-preview {
   margin-left: 0px;
@@ -350,8 +384,16 @@ button.button-ghost, a.button-ghost {
     width: 25px;
     margin: auto 12px;
   }
+  a svg #footericonsng,
+  a svg #footericonfb { 
+    fill: $grey;
+  }
   a svg:hover #footericonsng,
   a svg:hover #footericonfb { 
-    fill: $light-grey;
+    fill: $light-grey !important;
+  }
+  a svg.c-black #footericonsng,
+  a svg.c-black #footericonfb { 
+    fill: black;
   }
 }

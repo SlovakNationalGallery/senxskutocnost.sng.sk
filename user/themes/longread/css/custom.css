@@ -1,15 +1,12 @@
 html, body {
   overflow-x: hidden;
-  background-color: #f5f5f5; }
+  background-color: #F5F5F5; }
 
 a {
   text-decoration: underline; }
 
 a:hover {
   color: #efefef; }
-
-a, a:visited, a:hover, a:active {
-  color: inherit; }
 
 ::-moz-selection {
   background-color: #e00000; }
@@ -18,7 +15,7 @@ a, a:visited, a:hover, a:active {
   background-color: #e00000; }
 
 .f-moyenage {
-  font-family: Moyenage14;
+  font-family: "Moyenage14", "Linux Libertine";
   font-weight: normal;
   font-style: normal; }
 
@@ -31,8 +28,32 @@ a, a:visited, a:hover, a:active {
 .f-uppercase {
   text-transform: uppercase; }
 
-.padding-bottom-s {
-  padding-bottom: 25px !important; }
+.centered {
+  text-align: center; }
+
+.c-grey {
+  color: #aeaeae; }
+  .c-grey * {
+    color: #aeaeae; }
+
+.c-white {
+  color: white; }
+  .c-white * {
+    color: white; }
+
+.c-black {
+  color: black; }
+  .c-black * {
+    color: black; }
+
+.bg-red {
+  background-color: #e00000 !important; }
+
+.bg-grey {
+  background-color: #7B7B7B !important; }
+
+.bg-dark-green {
+  background-color: #3f3c25 !important; }
 
 .margin-bottom-s {
   margin-bottom: 25px !important; }
@@ -43,8 +64,14 @@ a, a:visited, a:hover, a:active {
 .margin-top-0 {
   margin-top: 0px !important; }
 
+.padding-bottom-s {
+  padding-bottom: 25px !important; }
+
 .padding-top-0 {
   padding-top: 0px !important; }
+
+.padding-top-s {
+  padding-top: 25px !important; }
 
 .logo-sng {
   position: absolute;
@@ -63,21 +90,6 @@ a, a:visited, a:hover, a:active {
     height: 32px;
     background-size: cover;
     background-repeat: no-repeat; }
-
-.centered {
-  text-align: center; }
-
-.c-grey {
-  color: #aeaeae; }
-
-.c-white {
-  color: white; }
-
-.c-black {
-  color: black !important; }
-
-.bg-red {
-  background-color: #e00000 !important; }
 
 .landing {
   background-color: #3f3c25; }
@@ -204,11 +216,23 @@ form#email-capture {
       font-size: 18px;
       padding-top: 15px; }
 
-button.button-ghost, a.button-ghost {
+.button-ghost {
   background: none;
   border: white solid 1px;
   border-radius: 3px;
   color: white; }
+
+.button-ghost.button-ghost-black {
+  border-color: black;
+  color: black; }
+
+.button-ghost.button-ghost-black:hover,
+.button-ghost.button-ghost-black:focus {
+  background-color: black;
+  color: white; }
+  .button-ghost.button-ghost-black:hover *,
+  .button-ghost.button-ghost-black:focus * {
+    color: white; }
 
 #chapter-preview {
   margin-left: 0px;
@@ -284,8 +308,14 @@ button.button-ghost, a.button-ghost {
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
+#footer a svg #footericonsng,
+#footer a svg #footericonfb {
+  fill: #aeaeae; }
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
-  fill: #efefef; }
+  fill: #efefef !important; }
+#footer a svg.c-black #footericonsng,
+#footer a svg.c-black #footericonfb {
+  fill: black; }
 
 /*# sourceMappingURL=custom.css.map */

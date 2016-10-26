@@ -25,8 +25,9 @@
               'emailButton': page.header.emailButton, 
               'emailNotice': page.header.emailNotice} 
             %}
-            
-            {% include 'partials/sharing.html.twig' %}
+            <div class="c-white">
+              {% include 'partials/sharing.html.twig' %}
+            </div>
 
           </div>
           
@@ -57,7 +58,15 @@
           </div>
           
         </div>
-        {% include 'partials/footer.html.twig' %}
+
+        {% include 'partials/footer.html.twig' with {
+          'sharingButtons': false,
+          'exhibitionLink': true,
+          'orgIcons':       true,
+          'copyright':      true,
+          'stylingClasses': 'c-grey'}
+        %}
+        
     </main>
     
 {% endblock %}
