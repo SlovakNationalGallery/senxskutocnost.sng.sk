@@ -30,7 +30,7 @@ Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája
 
 ![Štefan Bednár: S jedlom rastie chuť... 1935. SNG, Bratislava (str. 16)](stefan-bednar-s-jedlom-rastie-chut.jpg "Štefan Bednár: S jedlom rastie chuť...")
 
-<iframe src="https://archive.org/embed/48-163" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<!-- <iframe src="https://archive.org/embed/48-163" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe> -->
 
 ## Hlinkova slovenská ľudová strana (objekt 2)
 
