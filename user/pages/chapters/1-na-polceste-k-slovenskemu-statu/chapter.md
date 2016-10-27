@@ -16,9 +16,7 @@ emailButton: "informujte ma"
 
 ## 29. 9. 1938 – Mníchovská dohoda
 
-![Chamberlain, Daladier, Hitler, Mussolini, and Ciano pictured before signing the Munich Agreement, which gave the Sudetenland to Germany.](photo-staatschefs.jpg "Munich Agreement")
-
-Prvá svetová vojna zmenila usporiadanie Európy a po rozpade Rakúsko-Uhorska vznikla na našom území v roku 1918 prvá Československá republika. Slovensko sa ako jej súčasť zviechalo najprv z následkov vojny, neskôr aj z následkov svetovej hospodárskej krízy, ktorá začala pádom newyorskej burzy v roku 1929 a vyostrila vnútropolitické konflikty aj na našom kontinente. V roku 1933 sa aj vďaka nej dostala moc v Nemecku do rúk Adolfa Hitlera, novozvoleného ríšskeho kancelára, ktorý sa na niekoľko ďalších rokov stal ústredným hýbateľom európskych dejín.
+<span class="drop-cap">P</span>rvá svetová vojna zmenila usporiadanie Európy a po rozpade Rakúsko-Uhorska vznikla na našom území v roku 1918 prvá Československá republika. Slovensko sa ako jej súčasť zviechalo najprv z následkov vojny, neskôr aj z následkov svetovej hospodárskej krízy, ktorá začala pádom newyorskej burzy v roku 1929 a vyostrila vnútropolitické konflikty aj na našom kontinente. V roku 1933 sa aj vďaka nej dostala moc v Nemecku do rúk Adolfa Hitlera, novozvoleného ríšskeho kancelára, ktorý sa na niekoľko ďalších rokov stal ústredným hýbateľom európskych dejín.
 
 <div class="highlight">
 <p>
@@ -27,6 +25,8 @@ Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája
 </div>
 
 Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája Rakúsko. Hitler sa zároveň netají snahami zlikvidovať susedné Československo, predsa len – Čechy a Morava majú byť súčasťou plánovanej Veľkonemeckej ríše. Ovládnuť ich chce vojensky, spoliehajúc sa aj na fakt, že na územia Slovenska (pre Hitlera v tom čase pomerne nezaujímavej krajiny) si robia zálusk Maďarsko s Poľskom. Slovenskí susedia sa však do ozbrojeného konfliktu nehrnú a politický nátlak na krajinu nezaberá. Hitler sa preto rozhodne „použiť kartu“ nemeckého obyvateľstva žijúceho a údajnou diskrimináciou trpiaceho za hranicami Nemecka, teda podobnú zámienku, akú použil v prípade pripojenia Rakúska. V hre sú tentoraz Sudety, pohraničné československé oblasti, obývané v prevažnej miere etnickými Nemcami. Nemecko, Taliansko, Veľká Británia a Francúzsko zvolajú na 29. 9. 1938 konferenciu v Mníchove, na ktorej rozhodnú o ďalšom osude Československa bez jeho účasti. Republika má podľa ich rozhodnutia odstúpiť Nemecku sudetské pohraničie. Československá vláda je zaskočená najmä postojom vtedajších spojencov, Francúzska a Veľkej Británie, možností však mnoho nemá. O deň neskôr, 30. 9. 1938 prijíma rozhodnutie, ktoré sa zapisuje do dejín ako Mníchovská dohoda, alebo aj explicitnejšie – Mníchovský diktát. Je jednou z predzvestí blížiacej sa druhej svetovej vojny, pred ktorou však Slovensko čaká niekoľko výrazných politických zmien. Do dejín mu vstupuje Hitler.
+
+![Chamberlain, Daladier, Hitler, Mussolini, and Ciano pictured before signing the Munich Agreement, which gave the Sudetenland to Germany.](photo-staatschefs.jpg "Munich Agreement")
 
 ![Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava (str. 9)](weiner-kral-bude-vojna.png "Imro Weiner-Kráľ: Bude vojna.")
 
