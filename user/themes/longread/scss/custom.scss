@@ -13,7 +13,7 @@ $greyed-out: #6D6D6D;
 $dark-green: #3F3C25;
 $light-grey: #EFEFEF;
 $dark-grey: #7B7B7B;
-$text-color: #333333;
+$text-color: #000;
 $bg-color: #F5F5F5;
 
 @mixin respond-to($breakpoint) {
@@ -375,9 +375,11 @@ form#email-capture {
       letter-spacing: normal;
     }
     h1, h2, h3, h4, h5, h6 {
+      color: $text-color;
       font-family: $font-bold;
     }
     p {
+      color: $text-color;
       font-size: 18px;
     }
     h1, h2, h3, h4, h5, h6, figure, iframe, div {

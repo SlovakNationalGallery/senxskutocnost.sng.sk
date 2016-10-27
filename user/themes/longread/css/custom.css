@@ -272,7 +272,7 @@ form#email-capture {
   padding-right: 40px;
   font-family: "Uni Grotesk Regular";
   background-color: white;
-  color: #333333;
+  color: #000;
   z-index: 3; }
   .post.chapter .post-content .chapter-title {
     position: absolute;
@@ -303,8 +303,10 @@ form#email-capture {
   .post.chapter .post-content h1, .post.chapter .post-content h2 {
     letter-spacing: normal; }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6 {
+    color: #000;
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
   .post.chapter .post-content p {
+    color: #000;
     font-size: 18px; }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div {
     margin-left: -20px;
