@@ -168,17 +168,18 @@ a:hover {
       @media only screen and (max-width: 460px) {
         .landing .landing-content h3 {
           font-size: 18px; } }
+    .landing .landing-content form#email-capture {
+      width: 550px;
+      margin: 25px auto; }
+      @media only screen and (max-width: 805px) {
+        .landing .landing-content form#email-capture {
+          width: 500px; } }
+      @media only screen and (max-width: 630px) {
+        .landing .landing-content form#email-capture {
+          width: 100%; } }
 
 form#email-capture {
-  width: 550px;
-  margin: 25px auto;
   padding-top: 15px; }
-  @media only screen and (max-width: 805px) {
-    form#email-capture {
-      width: 500px; } }
-  @media only screen and (max-width: 630px) {
-    form#email-capture {
-      width: 100%; } }
   form#email-capture fieldset {
     padding: 0px 15px; }
     form#email-capture fieldset legend {
@@ -188,7 +189,8 @@ form#email-capture {
     form#email-capture fieldset input#MERGE0 {
       width: 50%;
       border: none;
-      margin-right: 4%; }
+      margin-right: 4%;
+      max-width: 300px; }
       form#email-capture fieldset input#MERGE0::-webkit-input-placeholder {
         color: black; }
       form#email-capture fieldset input#MERGE0::-moz-placeholder {

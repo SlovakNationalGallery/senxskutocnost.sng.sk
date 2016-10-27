@@ -8,6 +8,10 @@ date: 10/31/2016
 taxonomy:
     tag: [sample post, readability, test, intro]
 image: tiso.jpg
+emailCTA: "Chcem informácie o zverejnení druhej kapitoly."
+emailPlaceholder: "e-mailová adresa"
+emailButton: "informujte ma"
+# emailNotice: "Prvá kapitola bude zverejnená 14. november."
 ---
 
 ## 29. 9. 1938 – Mníchovská dohoda
