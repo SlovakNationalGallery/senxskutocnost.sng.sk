@@ -8,7 +8,7 @@ date: 10/31/2016
 taxonomy:
     tag: [sample post, readability, test, intro]
 image: tiso.jpg
-emailCTA: "Chcem informácie o zverejnení druhej kapitoly."
+emailCTA: "Chcem vedieť o nasledujúcich udalostiach."
 emailPlaceholder: "e-mailová adresa"
 emailButton: "informujte ma"
 # emailNotice: "Prvá kapitola bude zverejnená 14. november."
