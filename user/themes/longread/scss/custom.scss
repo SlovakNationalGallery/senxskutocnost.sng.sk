@@ -1,14 +1,20 @@
 @import "vendor/bourbon/bourbon";
 
 $rs: 16px;
-$font-serif: Linux Libertine;
-$font-sans: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-serif:    Linux Libertine;
+$font-sans:     "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+$font-moyenage: "Moyenage14", "Linux Libertine";
 
-$red: #e00000;
-$grey: #aeaeae;
-$greyed-out: #6d6d6d;
-$dark-green: #3f3c25;
-$light-grey: #efefef;
+$red: #E00000;
+$grey: #AEAEAE;
+$greyed-out: #6D6D6D;
+$dark-green: #3F3C25;
+$light-grey: #EFEFEF;
+$dark-grey: #7B7B7B;
+$text-color: #000;
+$bg-color: #F5F5F5;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -18,17 +24,18 @@ $light-grey: #efefef;
 
 html,body
 {
-    overflow-x: hidden; 
+  overflow-x: hidden; 
+  background-color: $bg-color;
 }
 
 a {
   text-decoration: underline;
 }
 a:hover {
-  color: #efefef;
+  color: $light-grey;
 }
 a, a:visited, a:hover, a:active {
-  color: inherit;
+  // color: inherit;
 }
 
 @include selection {
@@ -36,7 +43,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .f-moyenage { 
-  font-family: Moyenage14;
+  font-family: $font-moyenage;
   font-weight: normal;
   font-style: normal;
 }
@@ -50,14 +57,56 @@ a, a:visited, a:hover, a:active {
   text-transform : uppercase;
 }
 
-.padding-bottom-s {
-  padding-bottom: 25px !important;
+.centered {
+  text-align: center;
 }
+
+.c-grey {
+  color: $grey;
+  * {
+    color: $grey;
+  }
+}
+.c-white {
+  color: white;
+  * {
+    color: white;
+  }
+}
+.c-black {
+  color: black;
+  * {
+    color: black;
+  }
+}
+.bg-red {
+  background-color: $red !important;
+}
+.bg-grey {
+  background-color: $dark-grey !important;
+}
+.bg-dark-green {
+  background-color: $dark-green !important;
+}
+
+
 .margin-bottom-s {
   margin-bottom: 25px !important;
 }
 .margin-bottom-m {
   margin-bottom: 50px !important;
+}
+.margin-top-0 {
+  margin-top: 0px !important;
+}
+.padding-bottom-s {
+  padding-bottom: 25px !important;
+}
+.padding-top-0 {
+  padding-top: 0px !important;
+}
+.padding-top-s {
+  padding-top: 25px !important;
 }
 
 .logo-sng {
@@ -78,23 +127,6 @@ a, a:visited, a:hover, a:active {
     background-size: cover;
     background-repeat: no-repeat;
   }
-}
-
-.centered {
-  text-align: center;
-}
-
-.c-grey {
-  color: $grey;
-}
-.c-white {
-  color: white;
-}
-.c-black {
-  color: black !important;
-}
-.bg-red {
-  background-color: $red !important;
 }
 
 .landing {
@@ -180,23 +212,24 @@ a, a:visited, a:hover, a:active {
           font-size: 18px;
         }
       }
+      form#email-capture {
+        width: 550px;
+        margin: 25px auto;
+        @include respond-to(805) {
+          width: 500px;
+        }
+        @include respond-to(630) {
+          width: 100%;
+        }
+      }
     }
 }
 
 form#email-capture {
-  width: 550px;
-  margin: 25px auto;
   padding-top: 15px;
-  @include respond-to(805) {
-    width: 500px;
-  }
-  @include respond-to(630) {
-    width: 100%;
-  }
   fieldset {
     padding: 0px 15px;
     legend {
-      // padding-top: 5px;
       font-size: 20px;
     }
     legend:after {
@@ -206,6 +239,7 @@ form#email-capture {
       width: 50%;
       border: none;
       margin-right: 4%;
+      max-width: 300px;
       @include placeholder {
         color: black;
       }
@@ -233,12 +267,25 @@ form#email-capture {
   }
 }
 
-button.button-ghost, a.button-ghost {
+.button-ghost {
   background: none;
   border: white solid 1px;
   border-radius: 3px;
   color: white;
 }
+.button-ghost.button-ghost-black {
+  border-color: black;
+  color: black;
+}
+.button-ghost.button-ghost-black:hover, 
+  .button-ghost.button-ghost-black:focus {
+    background-color: black;
+    color: white;
+    * {
+      color: white;
+    }
+}
+
 
 #chapter-preview {
   margin-left: 0px;
@@ -258,6 +305,98 @@ button.button-ghost, a.button-ghost {
     }
   }
 }
+.content {
+  max-width: 700px;
+}
+
+.post.chapter {
+  .article-image {
+    bottom: 10vh;
+    .post-meta {
+      bottom: 200px;
+    }
+  }
+
+  .drop-cap { 
+    float: left;
+    color: $red;
+    font-size: 100px;
+    line-height: 70px;
+    padding-top: 15px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: Moyenage14;
+  }
+
+  .post-content {
+    position: relative;
+    width: inherit;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: "Uni Grotesk Regular";
+    background-color: white;
+    color: $text-color;
+    z-index: 3;
+
+    .chapter-title {
+      position: absolute;
+      top: -250px;
+      margin-left: 0px;
+      margin-right: 20px;
+      color: white;
+      text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+      .chapter-number {
+        font-size: 16px;
+      }
+      h1 {
+        color: white;
+        font-size: 65px;
+        @include respond-to(540) {
+          font-size: 45px;
+        }
+        @include respond-to(460) {
+          font-size: 40px;
+        }
+      }
+      .post-reading {
+        position: relative;
+        top: 0px;
+        right: 0px;
+        font-size: 16px;
+        text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
+      }
+    }
+    
+    h1 {
+      font-size: 45px
+    }
+    h1, h2 {
+      letter-spacing: normal;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: $text-color;
+      font-family: $font-bold;
+    }
+    p {
+      color: $text-color;
+      font-size: 18px;
+    }
+    h1, h2, h3, h4, h5, h6, figure, iframe, div {
+      margin-left: -20px;
+      margin-right: -20px;
+    }
+    div p {
+      font-family: $font-bold;
+      font-size: 25px;
+    }
+    figcaption {
+      margin-top: 10px;
+      font-style: normal;
+      font-size: 14px;
+    }
+  }
+}
 
 .sharing button, .sharing a {
   font-size: 16px;
@@ -274,8 +413,16 @@ button.button-ghost, a.button-ghost {
     width: 25px;
     margin: auto 12px;
   }
+  a svg #footericonsng,
+  a svg #footericonfb { 
+    fill: $grey;
+  }
   a svg:hover #footericonsng,
   a svg:hover #footericonfb { 
-    fill: $light-grey;
+    fill: $light-grey !important;
+  }
+  a svg.c-black #footericonsng,
+  a svg.c-black #footericonfb { 
+    fill: black;
   }
 }
