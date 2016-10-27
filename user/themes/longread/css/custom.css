@@ -255,21 +255,6 @@ form#email-capture {
   bottom: 10vh; }
   .post.chapter .article-image .post-meta {
     bottom: 200px; }
-.post.chapter .post-reading {
-  position: relative;
-  top: 0px;
-  right: 0px;
-  line-height: 44px;
-  display: inline-block;
-  white-space: nowrap;
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  font-weight: 400;
-  font-style: normal;
-  font-family: "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-  z-index: 999;
-  color: inherit;
-  text-shadow: none; }
 .post.chapter .post-content {
   position: relative;
   width: inherit;
@@ -280,12 +265,36 @@ form#email-capture {
   background-color: white;
   color: #333333;
   z-index: 3; }
+  .post.chapter .post-content .chapter-title {
+    position: absolute;
+    top: -250px;
+    margin-left: 0px;
+    margin-right: 20px;
+    color: white;
+    text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
+    .post.chapter .post-content .chapter-title .chapter-number {
+      font-size: 16px; }
+    .post.chapter .post-content .chapter-title h1 {
+      color: white;
+      font-size: 65px; }
+      @media only screen and (max-width: 540px) {
+        .post.chapter .post-content .chapter-title h1 {
+          font-size: 45px; } }
+      @media only screen and (max-width: 460px) {
+        .post.chapter .post-content .chapter-title h1 {
+          font-size: 40px; } }
+    .post.chapter .post-content .chapter-title .post-reading {
+      position: relative;
+      top: 0px;
+      right: 0px;
+      font-size: 16px;
+      text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8); }
   .post.chapter .post-content h1 {
     font-size: 45px; }
   .post.chapter .post-content h1, .post.chapter .post-content h2 {
     letter-spacing: normal; }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6 {
-    font-family: "Uni Grotesk Bold"; }
+    font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
   .post.chapter .post-content p {
     font-size: 18px; }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div {
