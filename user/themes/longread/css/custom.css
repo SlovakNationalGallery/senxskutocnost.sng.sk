@@ -288,12 +288,15 @@ form#email-capture {
     margin-right: 20px;
     color: white;
     text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
+    @media only screen and (max-width: 600px) {
+      .post.chapter .post-content .chapter-title {
+        top: -220px; } }
     .post.chapter .post-content .chapter-title .chapter-number {
       font-size: 16px; }
     .post.chapter .post-content .chapter-title h1 {
       color: white;
       font-size: 80px; }
-      @media only screen and (max-width: 540px) {
+      @media only screen and (max-width: 600px) {
         .post.chapter .post-content .chapter-title h1 {
           font-size: 45px; } }
       @media only screen and (max-width: 460px) {
