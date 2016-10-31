@@ -251,6 +251,7 @@ form#email-capture {
       }
       @include respond-to(630) {
         width: 100%;
+        max-width: none;
         margin-right: 0px;
         height: 50px;
       }
