@@ -1,7 +1,7 @@
 ---
 title: "Na polceste k slovenskému štátu"
 chapterNumber: 1
-titleStyled: "<span class='f-uni-grotesk-bold'>Na polceste k</span> <span class='f-moyenage'>slovenskému štátu</span>"
+titleStyled: "<span class='f-uni-grotesk-bold'>Na polceste<br>k</span> <span class='f-moyenage'>slovenskému štátu</span>"
 slug: chapter-1
 description: "A description about the first chapter"
 date: 10/31/2016
