@@ -71,7 +71,12 @@ Okrem politickej karéry je v roku 1938 Mach tiež úspešným žurnalistom, už
 
 ## 7. 10. 1938 – Vyhlásenie autonómie Slovenska (objekt 3)
 
-Priamym následkom Mníchovskej dohody sú okamžité spoločensko-politické zmeny na území východnej Európy, vrátane Československej republiky. Podľa nemeckej analýzy, ktorú si necháva ešte v októbri vypracovať Adolf Hitler, majú Slováci 4 možnosti: <br/> - osamostatniť sa a založiť vlastný štát, <br/> - vyhlásiť autonómiu v rámci Československej republiky, <br/> - vyhlásiť autonómiu s orientáciou na Maďarsko a prípadným spojením so svojím južným susedom, <br/> - vyhlásiť autonómiu s orientáciou na svojho severného suseda, Poľsko. 
+Priamym následkom Mníchovskej dohody sú okamžité spoločensko-politické zmeny na území východnej Európy, vrátane Československej republiky. Podľa nemeckej analýzy, ktorú si necháva ešte v októbri vypracovať Adolf Hitler, majú Slováci 4 možnosti:
+
+* osamostatniť sa a založiť vlastný štát,
+* vyhlásiť autonómiu v rámci Československej republiky,
+* vyhlásiť autonómiu s orientáciou na Maďarsko a prípadným spojením so svojím južným susedom
+* vyhlásiť autonómiu s orientáciou na svojho severného suseda, Poľsko. 
 
 Slovenská spoločnosť je decentralizácii v značnej miere naklonená, 6. októbra sa preto v Žiline stretnú predstavitelia HSĽS s predstaviteľmi menších politických strán, aby im predstavili svoj návrh autonómie, ktorý napĺňa druhú spomedzi štyroch možností, autonómiu v rámci existujúcej republiky. V Manifeste slovenského národa, ktorý na žilinskej konferencii HSĽS vypracuje, sa Slovensko hlási k „mierovému riešeniu sporov v duchu mníchovskej dohody“ a v konečnom dôsledku tak nahráva do karát nacistickému Nemecku.
 
