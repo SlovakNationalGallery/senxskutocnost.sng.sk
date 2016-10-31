@@ -14,7 +14,8 @@ emailButton: "informujte ma"
 # emailNotice: "Prvá kapitola bude zverejnená 14. november."
 ---
 
-## 29. 9. 1938 – Mníchovská dohoda
+## Mníchovská dohoda
+### 29. 9. 1938 {.title-date}
 
 <span class="drop-cap">P</span>rvá svetová vojna zmenila usporiadanie Európy a po rozpade Rakúsko-Uhorska vznikla na našom území v roku 1918 prvá Československá republika. Slovensko sa ako jej súčasť zviechalo najprv z následkov vojny, neskôr aj z následkov svetovej hospodárskej krízy, ktorá začala pádom newyorskej burzy v roku 1929 a vyostrila vnútropolitické konflikty aj na našom kontinente. V roku 1933 sa aj vďaka nej dostala moc v Nemecku do rúk Adolfa Hitlera, novozvoleného ríšskeho kancelára, ktorý sa na niekoľko ďalších rokov stal ústredným hýbateľom európskych dejín.
 

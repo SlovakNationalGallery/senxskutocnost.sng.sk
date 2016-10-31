@@ -24,11 +24,8 @@
     $window.trigger('scroll');
 
     var height = $('.article-image').height();
-    // $('.post-content').css('padding-top', height + 'px');
     
-    // var standout = 200;
-    // $('.post-content').css('margin-top', height - standout + 'px');
-    var percentageFromTop = 60;
+    var percentageFromTop = 70;
     $('.post-content').css('margin-top', percentageFromTop + 'vh');
 
     $('a[href*=#]:not([href=#])').click(function() {
