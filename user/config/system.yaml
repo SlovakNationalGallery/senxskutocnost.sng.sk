@@ -9,7 +9,7 @@ pages:
     extra: true
   process:
     markdown: true
-    twig: false
+    twig: true
 
 cache:
   enabled: true

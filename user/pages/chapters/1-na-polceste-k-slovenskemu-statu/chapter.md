@@ -27,6 +27,28 @@ Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája
 
 Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája Rakúsko. Hitler sa zároveň netají snahami zlikvidovať susedné Československo, predsa len – Čechy a Morava majú byť súčasťou plánovanej Veľkonemeckej ríše. Ovládnuť ich chce vojensky, spoliehajúc sa aj na fakt, že na územia Slovenska (pre Hitlera v tom čase pomerne nezaujímavej krajiny) si robia zálusk Maďarsko s Poľskom. Slovenskí susedia sa však do ozbrojeného konfliktu nehrnú a politický nátlak na krajinu nezaberá. Hitler sa preto rozhodne „použiť kartu“ nemeckého obyvateľstva žijúceho a údajnou diskrimináciou trpiaceho za hranicami Nemecka, teda podobnú zámienku, akú použil v prípade pripojenia Rakúska. V hre sú tentoraz Sudety, pohraničné československé oblasti, obývané v prevažnej miere etnickými Nemcami. Nemecko, Taliansko, Veľká Británia a Francúzsko zvolajú na 29. 9. 1938 konferenciu v Mníchove, na ktorej rozhodnú o ďalšom osude Československa bez jeho účasti. Republika má podľa ich rozhodnutia odstúpiť Nemecku sudetské pohraničie. Československá vláda je zaskočená najmä postojom vtedajších spojencov, Francúzska a Veľkej Británie, možností však mnoho nemá. O deň neskôr, 30. 9. 1938 prijíma rozhodnutie, ktoré sa zapisuje do dejín ako Mníchovská dohoda, alebo aj explicitnejšie – Mníchovský diktát. Je jednou z predzvestí blížiacej sa druhej svetovej vojny, pred ktorou však Slovensko čaká niekoľko výrazných politických zmien. Do dejín mu vstupuje Hitler.
 
+{% include 'partials/subobjects.html.twig' with {
+    'title': 'Learn more about the details',
+    'subobjects': [
+        {
+            'name':'section subobject 1', 
+            'thumbnail': page.media['placeholder.jpg'],
+            'href': '#'
+        },
+        {
+            'name':'section subobject 2', 
+            'thumbnail': page.media['placeholder.jpg'],
+            'href': '#'
+        },
+        {
+            'name':'section subobject 3', 
+            'thumbnail': page.media['placeholder.jpg'],
+            'href': '#'
+        }
+    ]
+}%}
+
+
 ![Chamberlain, Daladier, Hitler, Mussolini, and Ciano pictured before signing the Munich Agreement, which gave the Sudetenland to Germany.](photo-staatschefs.jpg "Munich Agreement")
 
 ![Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava (str. 9)](weiner-kral-bude-vojna.png "Imro Weiner-Kráľ: Bude vojna.")
