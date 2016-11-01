@@ -416,7 +416,7 @@ form#email-capture {
         line-height: 25px;
       }
     }
-    h1, h2, h3, h4, h5, h6, figure, iframe, div {
+    h1, h2, h3, h4, h5, h6, figure, iframe, div:not(.not-extended) {
       margin-left: -20px;
       margin-right: -20px;
       @include respond-to(600) {
@@ -442,6 +442,45 @@ form#email-capture {
   margin: 10px 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.subobject-overview {
+  .subobject {
+    figure{
+      padding: 0;
+      figcaption {
+        display: none;
+      }
+      img {
+        padding: 20px;
+      }
+    }
+    .subobject-caption {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      margin-left: 10px;
+      img.icon {
+        height: 25px;
+        margin-right: 10px;
+      }
+    }
+    @include respond-to(600) {
+      border: 1px solid black;
+      margin-left: 25px;
+      width: 93%;
+      padding-left: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      figure{
+        display: inline;
+        img {
+          padding: 0 0;
+          width: 25%;
+        }
+      }
+    }
+  }
 }
 
 #footer {
