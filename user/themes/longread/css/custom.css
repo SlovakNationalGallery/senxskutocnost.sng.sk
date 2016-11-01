@@ -366,12 +366,27 @@ form#email-capture {
     display: none; }
   .subobject-overview .subobject figure img {
     padding: 20px; }
-.subobject-overview .subobject img.icon {
-  height: 25px;
-  margin-right: 10px; }
+.subobject-overview .subobject .subobject-caption {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 10px; }
+  .subobject-overview .subobject .subobject-caption img.icon {
+    height: 25px;
+    margin-right: 10px; }
 @media only screen and (max-width: 600px) {
-  .subobject-overview .subobject figure img {
-    padding: 10px 0; } }
+  .subobject-overview .subobject {
+    border: 1px solid black;
+    margin-left: 25px;
+    width: 93%;
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    .subobject-overview .subobject figure {
+      display: inline; }
+      .subobject-overview .subobject figure img {
+        padding: 0 0;
+        width: 25%; } }
 
 #footer a:hover {
   color: #EFEFEF; }

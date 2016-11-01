@@ -455,14 +455,28 @@ form#email-capture {
         padding: 20px;
       }
     }
-    img.icon {
-      height: 25px;
-      margin-right: 10px;
+    .subobject-caption {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      margin-left: 10px;
+      img.icon {
+        height: 25px;
+        margin-right: 10px;
+      }
     }
     @include respond-to(600) {
+      border: 1px solid black;
+      margin-left: 25px;
+      width: 93%;
+      padding-left: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
       figure{
+        display: inline;
         img {
-          padding: 10px 0;
+          padding: 0 0;
+          width: 25%;
         }
       }
     }
