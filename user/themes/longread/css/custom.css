@@ -235,6 +235,10 @@ form#email-capture {
   border-color: black;
   color: black; }
 
+.button-ghost.button-ghost-white {
+  border-color: white;
+  color: white; }
+
 .button-ghost.button-ghost-black:hover,
 .button-ghost.button-ghost-black:focus {
   background-color: black;
