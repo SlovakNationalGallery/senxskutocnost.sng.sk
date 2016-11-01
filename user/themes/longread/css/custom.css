@@ -257,6 +257,9 @@ form#email-capture {
 
 .content {
   max-width: 700px; }
+  @media only screen and (max-width: 600px) {
+    .content {
+      padding: 0 0; } }
 
 .post.chapter .article-image {
   bottom: 10vh; }
@@ -281,6 +284,10 @@ form#email-capture {
   background-color: white;
   color: #000;
   z-index: 3; }
+  @media only screen and (max-width: 600px) {
+    .post.chapter .post-content {
+      padding-left: 20px;
+      padding-right: 20px; } }
   .post.chapter .post-content .chapter-title {
     position: absolute;
     top: -280px;
@@ -328,12 +335,20 @@ form#email-capture {
   .post.chapter .post-content p {
     color: #000;
     font-size: 18px; }
+    @media only screen and (max-width: 600px) {
+      .post.chapter .post-content p {
+        line-height: 25px; } }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div {
     margin-left: -20px;
     margin-right: -20px; }
-  .post.chapter .post-content div p {
+    @media only screen and (max-width: 600px) {
+      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div {
+        margin-left: 0;
+        margin-right: 0; } }
+  .post.chapter .post-content div.highlight p {
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-    font-size: 25px; }
+    font-size: 25px;
+    line-height: 32px; }
   .post.chapter .post-content figcaption {
     margin-top: 10px;
     font-style: normal;

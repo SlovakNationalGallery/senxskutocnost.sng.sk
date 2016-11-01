@@ -412,6 +412,9 @@ form#email-capture {
     p {
       color: $text-color;
       font-size: 18px;
+      @include respond-to(600) {
+        line-height: 25px;
+      }
     }
     h1, h2, h3, h4, h5, h6, figure, iframe, div {
       margin-left: -20px;
@@ -421,9 +424,10 @@ form#email-capture {
         margin-right: 0;
       }
     }
-    div p {
+    div.highlight p {
       font-family: $font-bold;
       font-size: 25px;
+      line-height: 32px;
     }
     figcaption {
       margin-top: 10px;
