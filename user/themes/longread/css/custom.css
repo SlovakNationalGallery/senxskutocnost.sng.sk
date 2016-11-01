@@ -295,13 +295,16 @@ form#email-capture {
       font-size: 16px; }
     .post.chapter .post-content .chapter-title h1 {
       color: white;
-      font-size: 80px; }
+      font-size: 80px;
+      margin-bottom: -30px; }
       @media only screen and (max-width: 605px) {
         .post.chapter .post-content .chapter-title h1 {
-          font-size: 45px; } }
+          font-size: 45px;
+          margin-bottom: -20px; } }
       @media only screen and (max-width: 460px) {
         .post.chapter .post-content .chapter-title h1 {
-          font-size: 40px; } }
+          font-size: 40px;
+          margin-bottom: -15px; } }
     .post.chapter .post-content .chapter-title .post-reading {
       position: relative;
       top: 0px;
