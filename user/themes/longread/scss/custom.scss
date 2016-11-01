@@ -314,6 +314,9 @@ form#email-capture {
 }
 .content {
   max-width: 700px;
+  @include respond-to(600) {
+    padding: 0 0;
+  }
 }
 
 .post.chapter {
@@ -345,6 +348,11 @@ form#email-capture {
     background-color: white;
     color: $text-color;
     z-index: 3;
+
+    @include respond-to(600) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
 
     .chapter-title {
       position: absolute;
@@ -408,6 +416,10 @@ form#email-capture {
     h1, h2, h3, h4, h5, h6, figure, iframe, div {
       margin-left: -20px;
       margin-right: -20px;
+      @include respond-to(600) {
+        margin-left: 0;
+        margin-right: 0;
+      }
     }
     div p {
       font-family: $font-bold;
