@@ -1,22 +1,21 @@
 ---
-title: "Na polceste k slovenskému štátu"
-routes:
-  default: '/chapters/1-na-polceste-k-slovenskemu-statu'
-  canonical: '/chapters/1-na-polceste-k-slovenskemu-statu'
-  aliases:
-    - '/chapters/1'
-chapterNumber: 1
-titleStyled: "<span class='f-uni-grotesk-bold'>Na polceste<br>k</span> <span class='f-moyenage'>slovenskému štátu</span>"
+title: 'Na polceste k slovenskému štátu'
+published: false
+date: '31-10-2016 00:00'
+publish_date: '07-11-2016 06:00'
 slug: chapter-1
-description: "A description about the first chapter"
-date: 10/31/2016
-taxonomy:
-    tag: [sample post, readability, test, intro]
+routes:
+    default: /chapters/1-na-polceste-k-slovenskemu-statu
+    canonical: /chapters/1-na-polceste-k-slovenskemu-statu
+    aliases:
+        - /chapters/1
+chapterNumber: 1
+titleStyled: '<span class=''f-uni-grotesk-bold''>Na polceste<br>k</span> <span class=''f-moyenage''>slovenskému štátu</span>'
+description: '1. kapitola: Na polceste k slovenskému štátu'
 image: tiso.jpg
-emailCTA: "Chcem vedieť o nasledujúcich udalostiach."
-emailPlaceholder: "e-mailová adresa"
-emailButton: "informujte ma"
-# emailNotice: "Prvá kapitola bude zverejnená 14. november."
+emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
+emailPlaceholder: 'e-mailová adresa'
+emailButton: 'informujte ma'
 ---
 
 ## Mníchovská dohoda
