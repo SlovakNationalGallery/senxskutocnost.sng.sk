@@ -14,7 +14,7 @@ $dark-green: #3F3C25;
 $light-grey: #EFEFEF;
 $dark-grey: #7B7B7B;
 $text-color: #000;
-$bg-color: #F5F5F5;
+$bg-color: #f9f9f7;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -399,6 +399,9 @@ form#email-capture {
     h2 {
       margin-bottom: 4px;
       padding-top: 0;
+    }
+    h3, h4, h5, h6 {
+      margin-bottom: 20px;
     }
     h1, h2, h3, h4, h5, h6 {
       color: $text-color;

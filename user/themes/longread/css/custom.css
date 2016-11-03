@@ -1,6 +1,6 @@
 html, body {
   overflow-x: hidden;
-  background-color: #F5F5F5; }
+  background-color: #f9f9f7; }
 
 a {
   text-decoration: underline; }
@@ -325,6 +325,8 @@ form#email-capture {
   .post.chapter .post-content h2 {
     margin-bottom: 4px;
     padding-top: 0; }
+  .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6 {
+    margin-bottom: 20px; }
   .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6 {
     color: #000;
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
