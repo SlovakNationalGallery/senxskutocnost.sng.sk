@@ -1,5 +1,10 @@
 ---
 title: "Na polceste k slovenskému štátu"
+routes:
+  default: '/chapters/1-na-polceste-k-slovenskemu-statu'
+  canonical: '/chapters/1-na-polceste-k-slovenskemu-statu'
+  aliases:
+    - '/chapters/1'
 chapterNumber: 1
 titleStyled: "<span class='f-uni-grotesk-bold'>Na polceste<br>k</span> <span class='f-moyenage'>slovenskému štátu</span>"
 slug: chapter-1
