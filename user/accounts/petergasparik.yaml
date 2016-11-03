@@ -1,5 +1,8 @@
 email: petko.gasparik@gmail.com
 access:
+  admin:
+    login: true
+    super: true
   site:
     login: true
 fullname: 'Peter Gasparik'

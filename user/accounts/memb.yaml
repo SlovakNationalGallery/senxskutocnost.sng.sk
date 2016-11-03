@@ -1,5 +1,8 @@
 email: lukas.stepanovsky@sng.sk
 access:
+  admin:
+    login: true
+    super: true
   site:
     login: true
 fullname: 'Lukas Stepanovsky'
