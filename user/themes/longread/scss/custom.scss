@@ -29,17 +29,24 @@ html,body
 }
 
 a {
+  color: inherit;
   text-decoration: underline;
+  &:hover {
+    color: inherit;
+    text-decoration: none;
+  }  
 }
-a:hover {
-  color: $light-grey;
-}
+
 a, a:visited, a:hover, a:active {
   // color: inherit;
 }
 
 @include selection {
   background-color: $red;
+}
+
+button {
+  border-radius: 3px;
 }
 
 .f-moyenage { 
@@ -293,6 +300,18 @@ form#email-capture {
     }
 }
 
+.button-return {
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  padding: 10px 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  &:hover {
+    background-color: #EEE;
+    color: #111;
+  }
+}
+
 
 #chapter-preview {
   margin-left: 0px;
@@ -319,7 +338,7 @@ form#email-capture {
   }
 }
 
-.post.chapter {
+.post.chapter, .post.subobject {
   .article-image {
     bottom: 10vh;
     .post-meta {
@@ -338,7 +357,7 @@ form#email-capture {
     font-family: Moyenage14;
   }
 
-  .post-content {
+  .post-content, {
     position: relative;
     width: inherit;
     padding-top: 15px;
@@ -383,13 +402,11 @@ form#email-capture {
       }
       .post-reading {
         position: relative;
-        top: 0px;
         right: 0px;
         font-size: 16px;
         text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
       }
     }
-    
     h1 {
       font-size: 45px
     }
@@ -438,6 +455,52 @@ form#email-capture {
       font-size: 14px;
     }
   }
+}
+
+.post.subobject {
+  color: $text-color;
+  .breadcrumbs {
+    padding: 0 20px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    @include respond-to(805) {
+      margin-top: 0;
+    }
+  }
+  .chapter-title {
+    margin-top: 50px;
+    padding: 0 20px;
+    h1 {
+      color: $text-color;
+      font-size: 60px;
+      @include respond-to(605) {
+        font-size: 40px;
+      }
+      @include respond-to(460) {
+        font-size: 35px;
+      }
+    }
+    .title-date {
+      font-family: "Uni Grotesk Regular";
+      font-size: 18px;
+      font-weight: 100;
+    }
+  }
+  .post-reading {
+    top: -48px;
+  }
+}
+.return{
+  height: 200px;
+  padding-top: 50px;
+}
+.return.chapter1 {
+  background: 
+    linear-gradient(
+      rgba(249, 249, 247, 1),
+      rgba(249, 249, 247, 0.5)
+    ),
+    url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
 }
 
 .sharing button, .sharing a {

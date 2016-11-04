@@ -1,0 +1,55 @@
+{% embed 'partials/base.html.twig' %}
+
+{% block body %}
+<body itemscope itemtype="http://schema.org/Article">
+{% endblock %}
+
+{% block content %}
+    <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
+      <article class="post subobject">
+        <div class="breadcrumbs f-uni-grotesk-regular">
+          <a href="{{page.header.chapterHref}}">{{page.header.chapter}}</a>
+           &middot; {{page.title}}
+        </div>
+        <div class="chapter-title subobject-title f-uni-grotesk-bold">
+          <h1 class="f-uni-grotesk-bold">
+            {% if page.header.titleStyled %}
+              {{ page.header.titleStyled }}
+            {% else %}
+              {{ page.header.title }}
+            {% endif %}
+          </h1>
+          {% if page.header.titleDate %}
+            <h3 class="title-date">{{ page.header.titleDate}}</h3>
+          {% endif %}
+        </div>
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          {{ content }}
+        </section>
+      </article>
+    </main>
+{% endblock %}
+
+{% block footer %}
+  <div class="return chapter1 uk-cover-background">
+    <button class="button-return uk-button uk-button-large uk-align-center c-black f-uni-grotesk-regular">{{page.header.returnButtonText}}</button>
+  </div>
+  {% include 'partials/emailcapture.html.twig' with {
+    'emailCTA': page.header.emailCTA, 
+    'emailPlaceholder': page.header.emailPlaceholder, 
+    'emailButton': page.header.emailButton, 
+    'emailNotice': page.header.emailNotice} 
+  %}
+  {% include 'partials/footer.html.twig' with {
+    'sharingButtons': true,
+    'exhibitionLink': true,
+    'orgIcons':       true,
+    'copyright':      true,
+    'stylingClasses': 'bg-grey c-black'}
+  %}
+{% endblock %}
+
+{% endembed %}

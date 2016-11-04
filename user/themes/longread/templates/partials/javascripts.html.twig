@@ -25,8 +25,8 @@
 
     var height = $('.article-image').height();
     
-    var percentageFromTop = 70;
-    $('.post-content').css('margin-top', percentageFromTop + 'vh');
+    var chapterPercentageFromTop = 70;
+    $('.chapter .post-content').css('margin-top', chapterPercentageFromTop + 'vh');
 
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
