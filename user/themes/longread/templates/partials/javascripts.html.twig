@@ -23,10 +23,13 @@
     });
     $window.trigger('scroll');
 
-    var height = $('.article-image').height();
+    // use black logo on subobject pages, because of light bg color
+    if ($('.post.subobject').length === 1) {
+      $('.logo-sng span.logo').css('background-image', 'url(/user/images/logo-sng-black.svg)');
+    }
     
-    var percentageFromTop = 70;
-    $('.post-content').css('margin-top', percentageFromTop + 'vh');
+    var chapterPercentageFromTop = 70;
+    $('.chapter .post-content').css('margin-top', chapterPercentageFromTop + 'vh');
 
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
