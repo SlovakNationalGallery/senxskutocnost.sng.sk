@@ -3,6 +3,12 @@ title: Andrej Hlinka
 chapter: 1. kaptiola - Na polceste k slovenskému štátu
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu
 titleDate: '27. 9. 1864 – 16. 8. 1938'
+slug: chapter-1/hlinka
+routes:
+    default: /chapters/1-na-polceste-k-slovenskemu-statu/hlinka
+    canonical: /chapters/1-na-polceste-k-slovenskemu-statu/hlinka
+    aliases:
+        - /chapters/1/hlinka
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
 emailPlaceholder: 'e-mailová adresa'
 emailButton: 'informujte ma'
