@@ -95,7 +95,7 @@ Alexander (často prezývaný Šaňo) Mach vyštudoval bohoslovectvo, no kňazom
 
 Okrem politickej karéry je v roku 1938 Mach tiež úspešným žurnalistom, už niekoľko rokov pôsobí ako šéfredaktor časopisu Slovák, hlavného tlačového orgánu stranu. Má to byť práve on, kto už onedlho oznámi v rozhlasovom vysielaní osamostatnenie slovenského štátu a po boku Tuku bude viesť protižidovskú politiku, vďaka ktorej sa stane postavou dobovej riekanky: „Od Prešova ide vlak, sedí na ňom Šaňo Mach. Všetci Židia utekajú, lebo majú strach.“
 
-## 7. 10. 1938 – Vyhlásenie autonómie Slovenska (objekt 3)
+## 7. 10. 1938 – Vyhlásenie autonómie Slovenska
 
 Priamym následkom Mníchovskej dohody sú okamžité spoločensko-politické zmeny na území východnej Európy, vrátane Československej republiky. Podľa nemeckej analýzy, ktorú si necháva ešte v októbri vypracovať Adolf Hitler, majú Slováci 4 možnosti:
 
@@ -115,7 +115,7 @@ Slovenská krajina sa 7. októbra 1938 stáva autonómnou republikou v štátnom
 
 Pojmom národ označujeme spoločenstvo osôb, ktoré sa vyformovalo pôsobením viacerých faktorov, najčastejšie na spoločnom území, s rovnakým jazykom, podobnou kultúrou, vierou a hodnotami. Etnografia často uvádza, že národy vznikali spájaním príbuzných kmeňov do národností (etnos), nahrádzaním pokrvných zväzkov za zväzky územné a tvorbou spoločného jazyka. Počiatky moderného slovenského národa môžeme hľadať na konci 18. storočia, rozšírenou je však aj nepodložená teória, podľa ktorej môžeme o národnom povedomí hovoriť prakticky od čias Veľkomoravskej ríše a za vyvrcholenie snáh o národný štát považovať práve snahy autonomistov. Heslo „Za Boha život, za národ slobodu,“ ktorého autorstvo býva často pripisované Andrejovi Hlinkovi, vystihuje hodnotové nastavenie vedúcich politických predstaviteľov slovenského národa v časoch autonómie, ktorého základnými piliermi sú práve národnosť a kresťanská viera. 
 
-## 2. 11. 1938 - Viedenská arbitráž (objekt 4)
+## 2. 11. 1938 - Viedenská arbitráž
 
 Mníchovský diktát pripravil Československú republiku o územia obývané nemeckým obyvateľstvom a keďže sa autonómne Slovensko zaviazalo viesť svoju politiku v „duchu mníchovskej dohody“, začína byť jasné, že nároky Maďarska na územie obývané príslušníkmi a príslušníčkami svojho národa na seba nenechajú dlho čakať. V hre je takmer pätina rozlohy Slovenska, vrátane oblasti Podkarpatskej Rusi, ktorá mu prináleží, 800 000 obyvateľov tohto územia, z nich asi 250 000 Slovákov a Sloveniek.
 
@@ -123,7 +123,7 @@ Oficiálne rokovania medzi česko-slovenskou a maďarskou stranou však nevedú 
 
 V novonadobudnutej časti Maďarska sa slovenské obyvateľstvo, ktoré zostalo obývať svoje domovy, stáva takmer okamžite obeťou prenasledovania, ponižovania, násilia či otvorených perzekúcií. Štát dokáže evakuovať a poskytnúť nové pôsobisko 50 000 Slovákom a Sloveniek, z ďalších osôb, ktoré kvôli zlým podmienkam utekajú na slovenské územie, sa stávajú utečenci. Podľa niektorých odhadov je to v rokoch 1938 – 1943 až 100 000 osôb, ktoré sú po úteku z maďarského na slovenské územie odkázané na charitatívnu pomoc a nízke núdzové dávky od štátu. Počet vysťahovalcov zo Slovenska do Maďarska je výrazne nižší, keďže na zvyšku slovenského územia ich žijú len veľmi malé počty, dochádza však aj k takým prípadom. Na podnet radikálneho krídla HSĽS, ktoré má podporu Nemecka, je po vyhlásení autonómie vysťahovaných z územia Slovenska aj vyše 9 000 českých štátnych zamestnancov a učiteľov, z veľkej časti tých, ktorí prišli svojho času pomôcť krajine, keď nemala dosť vlastných kapacít.
 
-## 18. 12. 1938 - Voľby do autonómneho Snemu Slovenskej krajiny (objekt 5)
+## 18. 12. 1938 - Voľby do autonómneho Snemu Slovenskej krajiny
 
 Autonómna vláda vyhlasuje voľby do Snemu novovzniknutej Slovenskej krajiny v sobotu 26. 11. 1938 s dátumom konania 18. 12. 1938. Kandidátne listiny je nevyhnutné podať 3 týždne pred dňom konania volieb, teda najneskôr v nedeľu 27. 11. 1938. HSĽS si tak poisťuje, že bude jedinou uznanou kandidátnou listinou listina HSĽS – Strany slovenskej národnej jednoty, teda politického zoskupenia, v ktorom ostaté meštianske strany splynuli s HSĽS, čím prakticky prestali existovať. Na kandidátke figurujú v malom počte tiež zástupcovia menších spojených strán a národnostných menšín, okrem nežiadúcej českej a židovskej minority. Na základe potreby „jednoty národa“ sa začína potláčať sloboda tlače a zhromažďovania, HSĽS – SSNJ nechce, aby sa jej víťazstvu vo voľbách stavali do cesty neprajníci.
 
@@ -151,6 +151,3 @@ I nechže je koľko ľudí,<br/> toľko čertov v svete;<br/> Boh je s nami: kto
 A nechže sa i nad nami<br/> hrozná búrka vznesie,<br/> Skala puká, dub sa láme<br/> a zem nech sa trasie;
 
 My stojíme stále pevne,<br/> ako múry hradné.<br/> Čierna zem pohltí toho,<br/> kto odstúpi zradne!
-
-
-
