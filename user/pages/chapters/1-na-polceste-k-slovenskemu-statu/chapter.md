@@ -108,7 +108,7 @@ Dňa 6. októbra sa v Žiline stretnú predstavitelia HSĽS s predstaviteľmi me
 </p>
 </div>
 
-7. októbra 1938 československá vláda prijíma návrh HSĽS. Jozefa Tisa vyhlasuje za predsedu vlády autonómnej Slovenskej krajiny. Národné zhromaždenie 19. novembra 1938 potvrdilo autonómiu ústavným zákonom. Československu do názvu pribúda spojovník a oficiálne sa stáva Česko-Slovenskou republikou. V tom momente už štát čelí ďalšej významnej výzve – stupňujúcim sa požiadavkám zo strany Maďarska a Poľska. Na rokovaniach v Komárne sa česko-slovenská strana pod Tisovým vedením bez jasnej stratégie púšťa do rokovaní s Maďarskom. Tie vedú v novembri toho istého roku do tzv. Viedenskej arbitráže, ktorou Slovensko stráca časť svojho územia.
+7\. októbra 1938 československá vláda prijíma návrh HSĽS. Jozefa Tisa vyhlasuje za predsedu vlády autonómnej Slovenskej krajiny. Národné zhromaždenie 19. novembra 1938 potvrdilo autonómiu ústavným zákonom. Československu do názvu pribúda spojovník a oficiálne sa stáva Česko-Slovenskou republikou. V tom momente už štát čelí ďalšej významnej výzve – stupňujúcim sa požiadavkám zo strany Maďarska a Poľska. Na rokovaniach v Komárne sa česko-slovenská strana pod Tisovým vedením bez jasnej stratégie púšťa do rokovaní s Maďarskom. Tie vedú v novembri toho istého roku do tzv. Viedenskej arbitráže, ktorou Slovensko stráca časť svojho územia.
 
 {% include 'partials/subobjects.html.twig' with {
     'title': 'Zistite viac o pojmoch',
