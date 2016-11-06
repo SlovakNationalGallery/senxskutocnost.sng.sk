@@ -1,9 +1,10 @@
 ---
-title: Andrej Hlinka
-chapter: 1. kaptiola - Na polceste k slovenskému štátu
+title: 'Andrej Hlinka'
+published: true
+slug: hlinka
+chapter: '1. kaptiola - Na polceste k slovenskému štátu'
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu
-titleDate: '27. 9. 1864 – 16. 8. 1938'
-slug: chapter-1/hlinka
+titleDate: '1864 – 1938'
 routes:
     default: /chapters/1-na-polceste-k-slovenskemu-statu/hlinka
     canonical: /chapters/1-na-polceste-k-slovenskemu-statu/hlinka
@@ -12,16 +13,15 @@ routes:
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
 emailPlaceholder: 'e-mailová adresa'
 emailButton: 'informujte ma'
-returnButtonText: 'return to chapter 1'
+returnButtonText: 'Späť na 1. kapitolu'
 ---
-![Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava (str. 9)](weiner-kral-bude-vojna.png "Imro Weiner-Kráľ: Bude vojna.")
 
-<span class="drop-cap">A</span>ndrej Hlinka sa do slovenských dejín zapísal ako politik, publicista, prekladateľ, najmä však ako veľký národovec. Narodil sa ako jeden z deviatich súrodencov v robotníckej rodine a vyštudoval teológiu v seminári v Spišskej kapitule. Počas svojho kaplánskeho pôsobenia na Orave si získal obľubu ľudu a začal sa angažovať aj politicky. Najprv pôsobil v Uhorskej ľudovej strane, ktorá však nenaplnila jeho očakávania v oblasti v riešení otázky nemaďarských národov Uhorska, medzi ktoré v tom čase Slováci patrili.
+[![Štefan Leonard Kostelníček: Súbor pohľadníc vydaný k úmrtiu Andreja Hlinku. 1938. Malokarpatské múzeum, Pezinok ](SVK_TMP.136.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.136?collection=82)
 
-Po krátkom pôsobení v Slovenskej národnej strane sa stal spoluzakladateľom novej Slovenskej ľudovej strany, neskôr aj jej predsedom v dobách najväčšieho rozmachu v medzivojnovom období. Popri svojom pôsobení v strane bol tiež účastníkom a spoluzakladateľom Slovenskej národnej rady v Martine, zakladateľom slovenskej kníhtlačiarne Lev, členom výboru Matice slovenskej, predsedom Spolku svätého Vojtecha, nositeľom titulu pápežský komorník a apoštolským protonotárom. Prežil dokonca dva pokusy o atentát na svoju osobu a skonal v auguste 1938 a na predsedníckom poste ho v strane nahradil Jozef Tiso.
+<span class="drop-cap">A</span>ndrej Hlinka sa do slovenských dejín zapísal ako kňaz, politik, publicista, prekladateľ a národovec. Narodil sa ako jeden z deviatich súrodencov v robotníckej rodine a vyštudoval teológiu v seminári v Spišskej Kapitule. Dokázal osloviť farníkov a neskôr aj získať si hlasy voličov, najmä národne orientovaných a konfesionálne vyhranených voličov. Najprv pôsobil v Uhorskej ľudovej strane, ktorá však jeho politické ambície nenapĺňala. Výrazne akcentoval potrebu riešenia otázky nemaďarských národov Uhorska, medzi ktoré v tom čase Slováci patrili.
 
-## Dalšie médiá
+Po krátkom pôsobení v Slovenskej národnej strane sa stal spoluzakladateľom novej Slovenskej ľudovej strany, a neskôr v dobách najväčšieho rozmachu v medzivojnovom období aj jej predsedom. Bol horlivým zástancom autonómie Slovenska. V období od roku 1918 bol členom Slovenskej národnej rady v Martine, zakladateľom slovenskej kníhtlačiarne Lev, členom výboru Matice slovenskej, predsedom Spolku svätého Vojtecha, nositeľom titulu pápežský komorník a apoštolským protonotárom. Zomrel v lete 1938. Na predsedníckom poste ho v strane roku 1939 nahradil Jozef Tiso.
 
-![Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava (str. 9)](weiner-kral-bude-vojna.png "Imro Weiner-Kráľ: Bude vojna.")
-
-![Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava (str. 9)](weiner-kral-bude-vojna.png "Imro Weiner-Kráľ: Bude vojna.")
+## Ďalšie médiá
+[![Štefan Leonard Kostelníček: Súbor pohľadníc vydaný k úmrtiu Andreja Hlinku. 1938. Malokarpatské múzeum, Pezinok](SVK_TMP.137.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.137?collection=82)
+[![Štefan Leonard Kostelníček: Súbor pohľadníc vydaný k úmrtiu Andreja Hlinku. 1938. Malokarpatské múzeum, Pezinok](SVK_TMP.135.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.135?collection=82)
