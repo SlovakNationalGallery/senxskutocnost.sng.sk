@@ -131,6 +131,7 @@ button {
   overflow: hidden;
   z-index: 99;
   .logo {
+    background-image: url(/user/images/logo-sng.svg);
     display: block;
     position: absolute;
     top: $rs / 2;
@@ -139,6 +140,11 @@ button {
     height: $rs * 2;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+}
+.logo-sng-black {
+  .logo {
+    background-image: url(/user/images/logo-sng-black.svg);
   }
 }
 

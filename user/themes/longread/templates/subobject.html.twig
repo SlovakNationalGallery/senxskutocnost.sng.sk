@@ -4,6 +4,10 @@
 <body itemscope itemtype="http://schema.org/Article">
 {% endblock %}
 
+{% block header %}
+    <a href="/" class="logo-sng logo-sng-black"><span class="logo"></span></a>
+{% endblock %}
+
 {% block content %}
     <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
       <article class="post subobject">

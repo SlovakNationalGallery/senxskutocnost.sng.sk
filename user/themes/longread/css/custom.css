@@ -92,6 +92,7 @@ button {
   overflow: hidden;
   z-index: 99; }
   .logo-sng .logo {
+    background-image: url(/user/images/logo-sng.svg);
     display: block;
     position: absolute;
     top: 8px;
@@ -100,6 +101,9 @@ button {
     height: 32px;
     background-size: cover;
     background-repeat: no-repeat; }
+
+.logo-sng-black .logo {
+  background-image: url(/user/images/logo-sng-black.svg); }
 
 .landing {
   background-color: #3F3C25; }
