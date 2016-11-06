@@ -38,8 +38,8 @@
 {% endblock %}
 
 {% block footer %}
-  <div class="return chapter1 uk-cover-background">
-    <button class="button-return uk-button uk-button-large uk-align-center c-black f-uni-grotesk-regular">{{page.header.returnButtonText}}</button>
+  <div class="return chapter1 uk-cover-background centered">
+    <a href="{{page.header.chapterHref}}" class="button-return uk-button uk-button-large c-black f-uni-grotesk-regular">{{page.header.returnButtonText}}</a>
   </div>
   {% include 'partials/emailcapture.html.twig' with {
     'emailCTA': page.header.emailCTA, 
