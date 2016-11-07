@@ -22,11 +22,6 @@
         .css('opacity', 1-Math.max(top/700, 0));
     });
     $window.trigger('scroll');
-
-    // use black logo on subobject pages, because of light bg color
-    if ($('.post.subobject').length === 1) {
-      $('.logo-sng span.logo').css('background-image', 'url(/user/images/logo-sng-black.svg)');
-    }
     
     var chapterPercentageFromTop = 70;
     $('.chapter .post-content').css('margin-top', chapterPercentageFromTop + 'vh');
