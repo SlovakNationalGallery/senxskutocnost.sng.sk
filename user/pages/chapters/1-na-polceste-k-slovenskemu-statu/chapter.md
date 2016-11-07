@@ -29,7 +29,7 @@ Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája
 </p>
 </div>
 
-![Štefan Bednár: S jedlom rastie chuť... 1935. SNG, Bratislava](stefan-bednar-s-jedlom-rastie-chut.jpg "Štefan Bednár: S jedlom rastie chuť...")
+[![Štefan Bednár: S jedlom rastie chuť... 1935. SNG, Bratislava](stefan-bednar-s-jedlom-rastie-chut.jpg "Štefan Bednár: S jedlom rastie chuť...")](http://www.webumenia.sk/dielo/SVK:SNG.K_12859?collection=82)
 
 Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája Rakúsko. Hitler sa zároveň netají snahami zlikvidovať susedné Československo, ktoré ako demokratická krajina poskytovala útočisko odporcom nacizmu a voči ktorej vznášal územné nároky. Snaží sa ČSR rozbiť – či už medzinárodnopolitickou aktivitou alebo vojensky. Rozhodne sa preto „použiť kartu“ nemeckého obyvateľstva, žijúceho a údajnou diskrimináciou trpiaceho za hranicami Nemecka, teda podobnú zámienku, akú použil v prípade pripojenia Rakúska. Vyhovuje mu aj fakt, že na územie Slovenska (pre Hitlera v tom čase pomerne nezaujímavej krajiny) si robia „zálusk“ Maďarsko s Poľskom. V hre sú tentoraz Sudety, pohraničné československé oblasti, obývané v prevažnej miere etnickými Nemcami.
 
@@ -41,7 +41,7 @@ Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája
 Nemecko, Taliansko, Veľká Británia a Francúzsko zvolajú na 29. 9. 1938 konferenciu v Mníchove, na ktorej rozhodnú o ďalšom osude Československa bez jeho účasti. Republika má podľa ich rozhodnutia odstúpiť Nemecku sudetské pohraničie. Československá vláda je zaskočená najmä postojom svojich vtedajších spojencov, Francúzska a Veľkej Británie, možností však mnoho nemá. O deň neskôr, 30. 9. 1938 prijíma rozhodnutie, ktoré sa zapisuje do dejín ako Mníchovská dohoda, alebo aj explicitnejšie – mníchovský diktát. Je jednou z predzvestí blížiacej sa druhej svetovej vojny, pred ktorou však Slovensko čaká niekoľko výrazných politických zmien. Do dejín mu vstupuje Hitler. 
 
 <iframe src="https://player.vimeo.com/video/190295173?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<figcaption>Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava</figcaption>
+<a href="http://www.webumenia.sk/dielo/SVK:TMP.114?collection=82"><figcaption>Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava</figcaption></a>
 
 ## Hlinkova slovenská ľudová strana
 
@@ -100,7 +100,7 @@ Priamym následkom Mníchovskej dohody sú okamžité spoločensko-politické zm
 - vyhlásiť autonómiu s orientáciou na Maďarsko a prípadným spojením so svojím južným susedom,
 - vyhlásiť autonómiu s orientáciou na svojho severného suseda, Poľsko. 
 
-Dňa 6. októbra sa v Žiline stretnú predstavitelia HSĽS s predstaviteľmi menších politických strán, aby im predstavili svoj návrh autonómie Slovenska v rámci Československej republiky. V dokumentoch, ktoré na žilinskej konferencii HSĽS prezentuje, sa Slovensko hlási k „mierovému riešeniu sporov v duchu mníchovskej dohody. V Manifeste strana privítala Mníchovskú dohodu a zároveň zdôraznila, že “vytrváme po boku národov bojujúcich proti marxisticko-židovskej ideológii rozvratu a násilia”. Žiadala tiež “okamžité prevzatie výkonnej a vládnej moci na Slovensku Slovákmi”, pričom skoro sa ukázalo, že v ponímaní politikov HSĽS bola Slovákov oprávnená reprezentovať len ich strana. 
+Dňa 6. októbra sa v Žiline stretnú predstavitelia HSĽS s predstaviteľmi menších politických strán, aby im predstavili svoj návrh autonómie Slovenska v rámci Československej republiky. V dokumentoch, ktoré na žilinskej konferencii HSĽS prezentuje, sa Slovensko hlási k „mierovému riešeniu sporov v duchu Mníchovskej dohody". V Manifeste strana privítala Mníchovskú dohodu a zároveň zdôraznila, že “vytrváme po boku národov bojujúcich proti marxisticko-židovskej ideológii rozvratu a násilia”. Žiadala tiež “okamžité prevzatie výkonnej a vládnej moci na Slovensku Slovákmi”, pričom skoro sa ukázalo, že v ponímaní politikov HSĽS bola Slovákov oprávnená reprezentovať len ich strana. 
 
 <div class="highlight">
 <p>
@@ -130,7 +130,7 @@ Dňa 6. októbra sa v Žiline stretnú predstavitelia HSĽS s predstaviteľmi me
 ## Viedenská arbitráž
 ### 2. 11. 1938  {.title-date}
 
-![Vincek Hochšteský. Na stráž!. 1939. Dekoratívny obraz. Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.116.jpeg)
+[![Vincek Hochšteský. Na stráž!. 1939. Dekoratívny obraz. Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.116.jpeg "Na Stráž!")](http://www.webumenia.sk/dielo/SVK:TMP.116?collection=82)
 
 Mníchovský diktát pripravil Československú republiku o územia obývané nemeckým obyvateľstvom a keďže dodatok k Mníchovskej dohode hovoril o vyriešení problému maďarskej a poľskej menšiny do 3 mesiacov, začína byť jasné, že nároky Maďarska na územie obývané príslušníkmi a príslušníčkami svojho národa na seba nenechajú dlho čakať. V hre je takmer pätina rozlohy Slovenska, vrátane oblasti Podkarpatskej Rusi, ktorá mu prináleží, 854 218 obyvateľov tohto územia, z nich 272 145 osôb slovenskej a českej národnosti.
 
@@ -142,9 +142,9 @@ Oficiálne rokovania medzi česko-slovenskou a maďarskou stranou však nevedú 
 
 Oficiálne rokovania medzi česko-slovenskou a maďarskou stranou však nevedú k rozhodnutiu, obe krajiny sa obrátia na signatárov Mníchova a rozsiahle územia Slovenska si tzv. Viedenskou arbitrážou (riešenie sporov splnomocnenými rozhodcami) pripojí Maďarsko. Svoj kus zeme si však na základe mníchovského princípu nárokuje aj Poľsko, ku ktorému sú pripojené viaceré obce Oravy, Kysúc a Spiša.
 
-V novonadobudnutej časti Maďarska sa slovenské obyvateľstvo, ktoré zostalo obývať svoje domovy, stáva takmer okamžite obeťou prenasledovania, ponižovania, násilia či otvorených perzekúcií. Štát dokáže evakuovať a poskytnúť nové pôsobisko 50 000 Slovákov a Sloveniek, z ďalších osôb, ktoré kvôli zlým podmienkam utekajú na slovenské územie, sa stávajú utečenci. Podľa niektorých odhadov je to v rokoch 1938 – 1943 až 100 000 osôb, ktoré sú po úteku z maďarského na slovenské územie odkázané na charitatívnu pomoc a nízke núdzové dávky od štátu. Počet vysťahovalcov zo Slovenska do Maďarska je výrazne nižší, keďže na zvyšku slovenského územia ich žijú len veľmi malé počty, dochádza však aj k takým prípadom. Na podnet HSĽS je po vyhlásení autonómie vysťahovaných z územia Slovenska aj vyše 9 000 českých štátnych zamestnancov a učiteľov, z veľkej časti tých, ktorí prišli svojho času pomôcť krajine, keď nemala dosť vlastných kapacít. Krátko po vyhlásení autonómie sa začínajú stupňovať verbálne útoky na židovské obvyvateľstvo a od 4. novembra ľudácky režim realizuje deportáciu vyše 7500 osôb zo Slovenska na arbitrážne územie. Začína sa i s prípravou protižidovských právnych noriem, ktorou vláda poveruje komisiu pod vedením Karola Sidora. 
+V novonadobudnutej časti Maďarska sa slovenské obyvateľstvo, ktoré zostalo obývať svoje domovy, stáva takmer okamžite obeťou prenasledovania, ponižovania, násilia či otvorených perzekúcií. Štát dokáže evakuovať a poskytnúť nové pôsobisko pre 50 000 Slovákov a Sloveniek. Z ďalších osôb, ktoré kvôli zlým podmienkam utekajú na slovenské územie, sa stávajú utečenci. Podľa niektorých odhadov je to v rokoch 1938 – 1943 až 100 000 osôb, ktoré sú po úteku z maďarského na slovenské územie odkázané na charitatívnu pomoc a nízke núdzové dávky od štátu. Počet vysťahovalcov zo Slovenska do Maďarska je výrazne nižší, keďže na zvyšku slovenského územia ich žijú len veľmi malé počty, dochádza však aj k takým prípadom. Na podnet HSĽS je po vyhlásení autonómie vysťahovaných z územia Slovenska aj vyše 9 000 českých štátnych zamestnancov a učiteľov, z veľkej časti tých, ktorí prišli svojho času pomôcť krajine, keď nemala dosť vlastných kapacít. Krátko po vyhlásení autonómie sa začínajú stupňovať verbálne útoky na židovské obvyvateľstvo a od 4. novembra ľudácky režim realizuje deportáciu vyše 7500 osôb zo Slovenska na arbitrážne územie. Začína sa i s prípravou protižidovských právnych noriem, ktorou vláda poveruje komisiu pod vedením Karola Sidora. 
 
-![Gejza Angyal: Dve zúfalé ženy. 1939. Stredoslovenská galéria, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg)
+![Gejza Angyal: Dve zúfalé ženy. 1939. Stredoslovenská galéria, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Dve zúfalé ženy")
 
 ## Voľby do autonómneho Snemu Slovenskej krajiny
 ### 18. 12. 1938 {.title-date}
@@ -180,7 +180,7 @@ Radikálne krídlo HSĽS, zastúpené Tukom, Machom a Ferdinandom Ďurčanským,
 
 Po tom, čo Sidor odmietne na nátlak nacistov vyhlásiť samostatnosť, Hitler pozve do Berlína Jozefa Tisa, kde ho v podstate varuje, že ak Slovensko nevyhlási (v priebehu niekoľkých hodín) samostatnosť, „prenechá osud Slovenska napospas udalostiam“. Spomenutým osudom mohlo byť rozdelenie slovenského územia medzi trojicu susedov – Nemecko, Poľsko a Maďarsko, ktorého jednotky sa už údajne presúvajú k hraniciam. Hoci Jozef Tiso v tej chvíli nie je oficiálnym predstaviteľom Slovenska, vďaka Hitlerovej podpore môže požiadať prezidenta Emila Háchu o zvolanie snemu na 14. marca 1939. Snem Slovenskej krajiny na svojom zasadnutí vyhlási vytvorenie samostatného slovenského štátu a Hitlerove vojská hneď nasledujúci deň vstúpia na české územie, aby ho vyhlásili za Protektorát Čechy a Morava, začlenený do Nemeckej ríše. Novovzniknutý slovenský štát čaká 5 rokov existencie poznačenej druhou svetovou vojnou.
 
-![Neznámy autor. Lepšia budúcnosť na slobodnom Slovensku. 1939. Pohľadnica. Súkromný majetok.](neznamy_autor--lepsia_buducnost_na_slobodnom_Slovensku-pohladnica--sukromny_majetok_2016-023_4.jpg)
+[![Neznámy autor. Lepšia budúcnosť na slobodnom Slovensku. 1939. Pohľadnica. Súkromný majetok.](neznamy_autor--lepsia_buducnost_na_slobodnom_Slovensku-pohladnica--sukromny_majetok_2016-023_4.jpg "Neznámy autor, lepšia budúcnosť na slobodnom Slovensku, pohľadnica")](http://www.webumenia.sk/dielo/SVK:TMP.123?collection=82)
 
 {% include 'partials/subobjects.html.twig' with {
     'title': 'Zistite viac o hymne',
@@ -192,3 +192,5 @@ Po tom, čo Sidor odmietne na nátlak nacistov vyhlásiť samostatnosť, Hitler 
         }
     ]
 }%}
+
+Všetky diela v tejto kapitole nájdete aj v kolekcii na Webe umenia: [Na polceste k slovenskému štátu](http://www.webumenia.sk/kolekcia/82 "Na polceste k slovenskému štátu").
