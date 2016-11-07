@@ -465,7 +465,7 @@ form#email-capture {
         line-height: 25px;
       }
     }
-    h1, h2, h3, h4, h5, h6, figure, iframe, div:not(.not-extended) {
+    h1, h2, h3, h4, h5, h6, figure, div:not(.not-extended) {
       margin-left: -20px;
       margin-right: -20px;
       @include respond-to(600) {
@@ -474,10 +474,7 @@ form#email-capture {
       }
     }
     .fluid-width-video-wrapper {
-      margin-left: 20px !important;
-      @include respond-to(600) {
-        margin-left: 0px !important;
-      }
+      margin-left: 0 !important;
     }
     div.highlight p {
       font-family: $font-bold;

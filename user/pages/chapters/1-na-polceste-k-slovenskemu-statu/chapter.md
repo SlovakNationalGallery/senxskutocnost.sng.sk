@@ -35,7 +35,7 @@ Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája
 
 [![Chamberlain, Daladier, Hitler, Mussolini, and Ciano pred podpisom Mníchovskej dohody. Spolkový archív, Koblenz, Nemecko.](photo-staatschefs.jpg "Munich Agreement")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
 
-<iframe src="https://archive.org/embed/hitler_norimberg_12_9_1939&autoplay=0" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<iframe src="https://archive.org/embed/hitler_norimberg_12_9_1939&autoplay=0" width="100%" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 <figcaption>Prejav Adolfa Hitlera na zjazde NSDAP v Norimbergu 12.9.1938, kde ostro zaútočil na Československo a prezidenta Eduarda Beneša.</figcaption>
 <br>
 Nemecko, Taliansko, Veľká Británia a Francúzsko zvolajú na 29. 9. 1938 konferenciu v Mníchove, na ktorej rozhodnú o ďalšom osude Československa bez jeho účasti. Republika má podľa ich rozhodnutia odstúpiť Nemecku sudetské pohraničie. Československá vláda je zaskočená najmä postojom svojich vtedajších spojencov, Francúzska a Veľkej Británie, možností však mnoho nemá. O deň neskôr, 30. 9. 1938 prijíma rozhodnutie, ktoré sa zapisuje do dejín ako Mníchovská dohoda, alebo aj explicitnejšie – mníchovský diktát. Je jednou z predzvestí blížiacej sa druhej svetovej vojny, pred ktorou však Slovensko čaká niekoľko výrazných politických zmien. Do dejín mu vstupuje Hitler. 
