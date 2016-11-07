@@ -2,7 +2,7 @@
 title:  "sen × skutočnosť"
 subTitle: "Udalosti slovenského štátu v 4 kapitolách"
 subSubTitle: "Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obetí – obdobie rokov 1939 – 1945 patrí medzi najkomplikovanejšie obdobia slovenských dejín."
-emailCTA: "Chcem informácie o zverejnení prvej kapitoly."
+emailCTA: "Chcem informácie o zverejnení ďalšej kapitoly."
 emailPlaceholder: "e-mailová adresa"
 emailButton: "informujte ma"
 emailNotice: "Druhú kapitolu zverejníme čoskoro."
