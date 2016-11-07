@@ -473,6 +473,12 @@ form#email-capture {
         margin-right: 0;
       }
     }
+    .fluid-width-video-wrapper {
+      margin-left: 20px !important;
+      @include respond-to(600) {
+        margin-left: 0px !important;
+      }
+    }
     div.highlight p {
       font-family: $font-bold;
       font-size: 25px;
