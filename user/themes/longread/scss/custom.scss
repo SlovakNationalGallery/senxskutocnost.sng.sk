@@ -343,9 +343,7 @@ form#email-capture {
   margin-right: 25px;
 
   .chapter-thumb {
-    * {
-      color: $greyed-out !important; 
-    }
+    color: white;
     h5 {
       border-top: $greyed-out solid 2px;
       padding-top: 15px;
@@ -353,6 +351,11 @@ form#email-capture {
     }
     p {
       margin-top: 0px;
+    }
+  }
+  .chapter-thumb.disabled {
+    * {
+      color: $greyed-out; 
     }
   }
 }

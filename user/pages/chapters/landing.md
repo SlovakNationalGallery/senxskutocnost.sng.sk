@@ -5,7 +5,7 @@ subSubTitle: "Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obet�
 emailCTA: "Chcem informácie o zverejnení prvej kapitoly."
 emailPlaceholder: "e-mailová adresa"
 emailButton: "informujte ma"
-emailNotice: "Prvá kapitola bude zverejnená 7. novembra."
+emailNotice: "Druhú kapitolu zverejníme čoskoro."
 
 slug: landing
 date:   10/19/2016
