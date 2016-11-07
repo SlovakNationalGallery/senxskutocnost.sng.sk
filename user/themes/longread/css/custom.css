@@ -83,6 +83,9 @@ button, .uk-button {
 .padding-top-s {
   padding-top: 20px !important; }
 
+.blank-list ul {
+  list-style-type: none; }
+
 .logo-sng {
   position: absolute;
   left: 10px;
@@ -279,11 +282,11 @@ form#email-capture {
     .content {
       padding: 0 0; } }
 
-.post.chapter .article-image, .post.subobject .article-image {
+.post.chapter .article-image, .post.subobject .article-image, .post.page .article-image {
   bottom: 10vh; }
-  .post.chapter .article-image .post-meta, .post.subobject .article-image .post-meta {
+  .post.chapter .article-image .post-meta, .post.subobject .article-image .post-meta, .post.page .article-image .post-meta {
     bottom: 200px; }
-.post.chapter .drop-cap, .post.subobject .drop-cap {
+.post.chapter .drop-cap, .post.subobject .drop-cap, .post.page .drop-cap {
   float: left;
   color: black;
   font-size: 125px;
@@ -292,7 +295,7 @@ form#email-capture {
   padding-right: 15px;
   padding-left: 3px;
   font-family: Moyenage14; }
-.post.chapter .post-content, .post.subobject .post-content {
+.post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
   position: relative;
   width: inherit;
   padding-top: 15px;
@@ -303,10 +306,10 @@ form#email-capture {
   color: #000;
   z-index: 3; }
   @media only screen and (max-width: 600px) {
-    .post.chapter .post-content, .post.subobject .post-content {
+    .post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
       padding-left: 20px;
       padding-right: 20px; } }
-  .post.chapter .post-content .chapter-title, .post.subobject .post-content .chapter-title {
+  .post.chapter .post-content .chapter-title, .post.subobject .post-content .chapter-title, .post.page .post-content .chapter-title {
     position: absolute;
     top: -280px;
     margin-left: 0px;
@@ -314,66 +317,73 @@ form#email-capture {
     color: white;
     text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
     @media only screen and (max-width: 605px) {
-      .post.chapter .post-content .chapter-title, .post.subobject .post-content .chapter-title {
+      .post.chapter .post-content .chapter-title, .post.subobject .post-content .chapter-title, .post.page .post-content .chapter-title {
         top: -230px; } }
-    .post.chapter .post-content .chapter-title .chapter-number, .post.subobject .post-content .chapter-title .chapter-number {
+    .post.chapter .post-content .chapter-title .chapter-number, .post.subobject .post-content .chapter-title .chapter-number, .post.page .post-content .chapter-title .chapter-number {
       font-size: 16px; }
-    .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1 {
+    .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
       color: white;
       font-size: 80px;
       margin-bottom: -30px; }
       @media only screen and (max-width: 605px) {
-        .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1 {
+        .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
           font-size: 45px;
           margin-bottom: -20px; } }
       @media only screen and (max-width: 460px) {
-        .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1 {
+        .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
           font-size: 40px;
           margin-bottom: -15px; } }
-    .post.chapter .post-content .chapter-title .post-reading, .post.subobject .post-content .chapter-title .post-reading {
+    .post.chapter .post-content .chapter-title .post-reading, .post.subobject .post-content .chapter-title .post-reading, .post.page .post-content .chapter-title .post-reading {
       position: relative;
       right: 0px;
       font-size: 16px;
       text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8); }
-  .post.chapter .post-content h1, .post.subobject .post-content h1 {
+  .post.chapter .post-content h1, .post.subobject .post-content h1, .post.page .post-content h1 {
     font-size: 45px; }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.subobject .post-content h1, .post.subobject .post-content h2 {
+  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.page .post-content h1, .post.page .post-content h2 {
     letter-spacing: normal; }
-  .post.chapter .post-content h2, .post.subobject .post-content h2 {
+  .post.chapter .post-content h2, .post.subobject .post-content h2, .post.page .post-content h2 {
     margin-bottom: 4px;
     padding-top: 0; }
-  .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6 {
+  .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6 {
     margin-bottom: 20px; }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6 {
+  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6 {
     color: #000;
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
-  .post.chapter .post-content .title-date, .post.subobject .post-content .title-date {
+  .post.chapter .post-content .title-date, .post.subobject .post-content .title-date, .post.page .post-content .title-date {
     font-family: "Uni Grotesk Regular";
     font-size: 18px;
     font-weight: 100; }
-  .post.chapter .post-content p, .post.subobject .post-content p {
+  .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
     color: #000;
     font-size: 18px; }
     @media only screen and (max-width: 600px) {
-      .post.chapter .post-content p, .post.subobject .post-content p {
+      .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
         line-height: 25px; } }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div:not(.not-extended .fluid-width-video-wrapper), .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content iframe, .post.subobject .post-content div:not(.not-extended .fluid-width-video-wrapper) {
+  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div:not(.not-extended), .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content iframe, .post.subobject .post-content div:not(.not-extended), .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content iframe, .post.page .post-content div:not(.not-extended) {
     margin-left: -20px;
     margin-right: -20px; }
     @media only screen and (max-width: 600px) {
-      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div:not(.not-extended .fluid-width-video-wrapper), .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content iframe, .post.subobject .post-content div:not(.not-extended .fluid-width-video-wrapper) {
+      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div:not(.not-extended), .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content iframe, .post.subobject .post-content div:not(.not-extended), .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content iframe, .post.page .post-content div:not(.not-extended) {
         margin-left: 0;
         margin-right: 0; } }
-  .post.chapter .post-content div.highlight p, .post.subobject .post-content div.highlight p {
+  .post.chapter .post-content div.highlight p, .post.subobject .post-content div.highlight p, .post.page .post-content div.highlight p {
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 25px;
     line-height: 32px; }
-  .post.chapter .post-content figcaption, .post.subobject .post-content figcaption {
+  .post.chapter .post-content figcaption, .post.subobject .post-content figcaption, .post.page .post-content figcaption {
     margin-top: 10px;
     font-style: normal;
     font-size: 14px; }
-  .post.chapter .post-content li, .post.subobject .post-content li {
+  .post.chapter .post-content li, .post.subobject .post-content li, .post.page .post-content li {
     font-size: 18px; }
+  .post.chapter .post-content hr, .post.subobject .post-content hr, .post.page .post-content hr {
+    display: block;
+    border: 0px;
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    background-image: url(/user/images/hr.svg); }
 
 .post.subobject {
   color: #000; }
@@ -409,6 +419,39 @@ form#email-capture {
 
 .return.chapter1 {
   background: linear-gradient(#f9f9f7, rgba(249, 249, 247, 0.5)), url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg); }
+
+.post.page .page-title {
+  padding: 15px;
+  margin-bottom: 50px; }
+  .post.page .page-title h1 {
+    font-size: 95px; }
+    @media only screen and (max-width: 680px) {
+      .post.page .page-title h1 {
+        font-size: 70px; } }
+    @media only screen and (max-width: 460px) {
+      .post.page .page-title h1 {
+        font-size: 45px; } }
+  .post.page .page-title img.headline-logo {
+    height: 60px; }
+    @media only screen and (max-width: 680px) {
+      .post.page .page-title img.headline-logo {
+        height: 45px; } }
+    @media only screen and (max-width: 460px) {
+      .post.page .page-title img.headline-logo {
+        height: 30px; } }
+.post.page .post-content {
+  padding: 50px; }
+  @media only screen and (max-width: 600px) {
+    .post.page .post-content {
+      padding-left: 20px;
+      padding-right: 20px; } }
+  .post.page .post-content h2 {
+    margin-bottom: 35px; }
+  .post.page .post-content ul li {
+    margin-left: 20px; }
+  @media only screen and (max-width: 600px) {
+    .post.page .post-content .blank-list ul li {
+      margin-left: 0; } }
 
 .sharing button, .sharing a {
   font-size: 16px;

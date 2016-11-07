@@ -122,6 +122,12 @@ button, .uk-button {
   padding-top: 20px !important;
 }
 
+.blank-list {
+  ul {
+    list-style-type: none;
+  }
+}
+
 .logo-sng {
   position: absolute;
   left: 10px;
@@ -344,7 +350,7 @@ form#email-capture {
   }
 }
 
-.post.chapter, .post.subobject {
+.post.chapter, .post.subobject, .post.page {
   .article-image {
     bottom: 10vh;
     .post-meta {
@@ -463,6 +469,15 @@ form#email-capture {
     li {
       font-size: 18px;
     }
+
+    hr {
+      display:block;
+      border:0px;
+      height:20px;
+      width:20px;
+      margin-top: 10px;
+      background-image:url(/user/images/hr.svg);
+    }
   }
 }
 
@@ -510,6 +525,50 @@ form#email-capture {
       rgba(249, 249, 247, 0.5)
     ),
     url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
+}
+
+.post.page {
+  .page-title {
+    padding: 15px;
+    margin-bottom: 50px;
+    h1 {
+      font-size: 95px;
+      @include respond-to(680) {
+        font-size: 70px;
+      }
+      @include respond-to(460) {
+        font-size: 45px;  
+      }
+    }
+    img.headline-logo {
+      height: 60px;
+      @include respond-to(680) {
+        height: 45px;
+      }
+      @include respond-to(460) {
+        height: 30px;  
+      }
+    }
+  }
+  .post-content {
+    padding: 50px;
+    @include respond-to(600) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    h2 {
+      margin-bottom: 35px;
+    }
+    ul li {
+      margin-left: 20px;
+    }
+    .blank-list ul li {
+      @include respond-to(600) {
+        margin-left: 0;
+      }
+    }
+
+  }
 }
 
 .sharing button, .sharing a {
