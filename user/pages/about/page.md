@@ -50,7 +50,7 @@ Realizáciu digitálnych reprodukcií umožnil národný projekt Digitálna gal�
 
 sen × skutočnosť. Umenie & propaganda 1939—1945 <br>
 Slovenská národná galéria Bratislava <br>
-19/. október 2016 — 26. február 2017 <br>
+19\. október 2016 — 26. február 2017 <br>
 
 <div class="blank-list" markdown='1'>
 - Kurátorky: Katarína Bajcurová (SNG), Petra Hanáková (SNG), Bohunka Koklesová (VŠVU) <br>
