@@ -154,6 +154,19 @@ button, .uk-button {
   }
 }
 
+.nav-about {
+  position: absolute;
+  top: 18px;
+  right: 19px;
+  z-index: 99;
+  line-height: 32px;
+  text-decoration: none;
+  font-size: 16px;
+  &.c-white:hover {
+    color: $light-grey;
+  }
+}
+
 .landing {
   background-color: $dark-green;
   * {
@@ -330,16 +343,20 @@ form#email-capture {
   margin-right: 25px;
 
   .chapter-thumb {
-    * {
-      color: $greyed-out !important; 
-    }
+    color: white;
     h5 {
       border-top: $greyed-out solid 2px;
       padding-top: 15px;
       margin-bottom: 5px;
+      min-height: 60px;
     }
     p {
       margin-top: 0px;
+    }
+  }
+  .chapter-thumb.disabled {
+    * {
+      color: $greyed-out; 
     }
   }
 }
@@ -444,17 +461,21 @@ form#email-capture {
     p {
       color: $text-color;
       font-size: 18px;
+      @include hyphens(none);
       @include respond-to(600) {
         line-height: 25px;
       }
     }
-    h1, h2, h3, h4, h5, h6, figure, iframe, div:not(.not-extended) {
+    h1, h2, h3, h4, h5, h6, figure, div:not(.not-extended) {
       margin-left: -20px;
       margin-right: -20px;
       @include respond-to(600) {
         margin-left: 0;
         margin-right: 0;
       }
+    }
+    .fluid-width-video-wrapper {
+      margin-left: 0 !important;
     }
     div.highlight p {
       font-family: $font-bold;
