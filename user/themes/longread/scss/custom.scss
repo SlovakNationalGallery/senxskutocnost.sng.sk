@@ -461,6 +461,7 @@ form#email-capture {
     p {
       color: $text-color;
       font-size: 18px;
+      @include hyphens(none);
       @include respond-to(600) {
         line-height: 25px;
       }

@@ -370,7 +370,11 @@ form#email-capture {
     font-weight: 100; }
   .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
     color: #000;
-    font-size: 18px; }
+    font-size: 18px;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none; }
     @media only screen and (max-width: 600px) {
       .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
         line-height: 25px; } }
