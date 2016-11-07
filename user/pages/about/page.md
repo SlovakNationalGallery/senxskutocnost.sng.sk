@@ -12,15 +12,21 @@ emailButton: 'informujte ma'
 <hr>
 
 <div class="blank-list" markdown="1">
-- Texty: Peter Gašparík <br>
-- Grafický dizajn: <a href="http://www.solcany.eu/">Matúš Solčány</a> <br>
-- Vývoj: Philo Van Kemenade, Igor Rjabinin (<a href="http://lab.sng.sk">lab.SNG</a>) <br>
-- Produkcia: Michal Čudrnák, Lukáš Štepanovský, Gabriel Balkó (<a href="http://lab.sng.sk">lab.SNG</a>) <br>
-- Zvuk: Michal Lučenič <br>
-- Hudba: <a href="https://phragments.bandcamp.com/">Phragments</a> (video v 1. kapitole - skladba "Into Nothing" z albumu "All Towers Must Fall") <br>
-- Video: Peter Gáll <br>
-- Písma: Uni Grotesk, Moyenage <br>
-- Zdrojový kód: <a href="https://github.com/SlovakNationalGallery/senxskutocnost.sng.sk">github.com/SlovakNationalGallery</a> <br>    
+- Texty: Peter Gašparík
+- Grafický dizajn: <a href="http://www.solcany.eu/">Matúš Solčány</a>
+- Vývoj: Philo Van Kemenade, Igor Rjabinin (<a href="http://lab.sng.sk">lab.SNG</a>)
+- Produkcia: Michal Čudrnák, Lukáš Štepanovský, Gabriel Balkó (<a href="http://lab.sng.sk">lab.SNG</a>)
+- Zvuk: Michal Lučenič
+- Hudba: <a href="https://phragments.bandcamp.com/">Phragments</a> (video v 1. kapitole - skladba "Into Nothing" z albumu "All Towers Must Fall")
+- Video: Peter Gáll
+- Písma: Uni Grotesk, Moyenage
+- Zdrojový kód: <a href="https://github.com/SlovakNationalGallery/senxskutocnost.sng.sk">github.com/SlovakNationalGallery</a>
+- Použitá literatúra: 
+    * Bajcurová K., Hánaková P., Koklesová B. a kol: sen x skutočnosť. Umenie a propaganda 1939     * 1945. Bratislava: Slovenská národná galéria 2016 
+    * Fiamová M., Hlavinka J., Schvarc M. a kol.: Kapitoly z dejín Slovenskej republiky 1939    * 1945. Bratislava: Historický ústav SAV vo Prodama s.r.o. 2014
+    * Fiamová M., Hlavinka J.: Kapitoly z dejín holokaustu na Slovensku. Bratislava: Historický ústav SAV vo vydavateľstve VEDA 2015
+    * Kováč, D.: Dejiny Slovenska. Praha: Nakladatelství Lidové noviny 2007 
+    * Letz, R.: Slovenské dejiny V: 1938 - 1945. Bratislava: Literárne informačné centrum 2012
 </div>
 
 <hr>
