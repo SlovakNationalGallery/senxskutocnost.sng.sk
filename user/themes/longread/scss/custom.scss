@@ -442,7 +442,7 @@ form#email-capture {
         line-height: 25px;
       }
     }
-    h1, h2, h3, h4, h5, h6, figure, iframe, div:not(.not-extended .fluid-width-video-wrapper) {
+    h1, h2, h3, h4, h5, h6, figure, iframe, div:not(.not-extended) {
       margin-left: -20px;
       margin-right: -20px;
       @include respond-to(600) {
