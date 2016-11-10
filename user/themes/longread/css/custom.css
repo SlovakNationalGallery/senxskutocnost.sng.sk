@@ -281,7 +281,7 @@ form#email-capture {
   #chapter-preview .chapter-thumb {
     color: white; }
     #chapter-preview .chapter-thumb h5 {
-      border-top: #6D6D6D solid 2px;
+      border-top: white solid 2px;
       padding-top: 15px;
       margin-bottom: 5px;
       min-height: 60px; }
@@ -289,6 +289,8 @@ form#email-capture {
       margin-top: 0px; }
   #chapter-preview .chapter-thumb.disabled * {
     color: #6D6D6D; }
+  #chapter-preview .chapter-thumb.disabled h5 {
+    border-color: #6D6D6D; }
 
 .content {
   max-width: 700px; }
@@ -434,12 +436,21 @@ form#email-capture {
     top: -48px; }
 
 .return {
-  height: 200px;
-  padding-top: 80px; }
+  height: 250px; }
+  .return .return-gradient {
+    height: 100%;
+    background: linear-gradient(#f9f9f7, rgba(249, 249, 247, 0.5)); }
+  .return .button-return {
+    margin-top: 95px; }
 
 .return.chapter1 {
-  background: linear-gradient(#f9f9f7, rgba(249, 249, 247, 0.5)), url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg); }
+  background: url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
+  background-size: cover;
+  background-position-y: 52%; }
 
+@media only screen and (max-width: 600px) {
+  .post.page {
+    padding-bottom: 0; } }
 .post.page .page-title {
   padding: 15px;
   margin-bottom: 20px; }
@@ -507,14 +518,16 @@ form#email-capture {
         padding: 0 0;
         width: 25%; } }
 
-#footer a:hover {
-  color: #EFEFEF; }
+#footer a:not(.uk-button) {
+  color: white; }
+  #footer a:not(.uk-button):hover {
+    color: #EFEFEF; }
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
 #footer a svg #footericonsng,
 #footer a svg #footericonfb {
-  fill: #AEAEAE; }
+  fill: white; }
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
   fill: #EFEFEF !important; }

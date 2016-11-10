@@ -39,8 +39,10 @@
 {% endblock %}
 
 {% block footer %}
-  <div class="return chapter1 uk-cover-background centered">
-    <a href="{{page.header.chapterHref}}" class="button-return uk-button uk-button-large c-black f-uni-grotesk-regular">{{page.header.returnButtonText}}</a>
+  <div class="return chapter1 centered">
+    <div class="return-gradient">
+      <a href="{{page.header.chapterHref}}" class="button-return uk-button uk-button-large c-black f-uni-grotesk-regular">{{page.header.returnButtonText}}</a>
+    </div>
   </div>
   {% include 'partials/emailcapture.html.twig' with {
     'emailCTA': page.header.emailCTA, 
@@ -53,7 +55,7 @@
     'exhibitionLink': true,
     'orgIcons':       true,
     'copyright':      true,
-    'stylingClasses': 'bg-grey c-black'}
+    'stylingClasses': 'bg-dark-green'}
   %}
 {% endblock %}
 
