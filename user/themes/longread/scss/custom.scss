@@ -656,8 +656,11 @@ $button-height: 60px;
 }
 
 #footer {
-  a:hover {
-    color: $light-grey;
+  a:not(.uk-button) {
+    color: white;
+    &:hover {
+      color: $light-grey;
+    }
   }
   .footer-icon {
     width: 25px;
@@ -665,7 +668,7 @@ $button-height: 60px;
   }
   a svg #footericonsng,
   a svg #footericonfb { 
-    fill: $grey;
+    fill: white;
   }
   a svg:hover #footericonsng,
   a svg:hover #footericonfb { 

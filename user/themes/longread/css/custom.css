@@ -518,14 +518,16 @@ form#email-capture {
         padding: 0 0;
         width: 25%; } }
 
-#footer a:hover {
-  color: #EFEFEF; }
+#footer a:not(.uk-button) {
+  color: white; }
+  #footer a:not(.uk-button):hover {
+    color: #EFEFEF; }
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
 #footer a svg #footericonsng,
 #footer a svg #footericonfb {
-  fill: #AEAEAE; }
+  fill: white; }
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
   fill: #EFEFEF !important; }
