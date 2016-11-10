@@ -345,7 +345,7 @@ form#email-capture {
   .chapter-thumb {
     color: white;
     h5 {
-      border-top: $greyed-out solid 2px;
+      border-top: white solid 2px;
       padding-top: 15px;
       margin-bottom: 5px;
       min-height: 60px;
@@ -357,6 +357,9 @@ form#email-capture {
   .chapter-thumb.disabled {
     * {
       color: $greyed-out; 
+    }
+    h5 {
+      border-color: $greyed-out;
     }
   }
 }
