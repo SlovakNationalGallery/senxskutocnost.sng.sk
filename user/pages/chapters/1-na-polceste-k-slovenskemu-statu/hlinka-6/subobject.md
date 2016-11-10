@@ -20,4 +20,4 @@ returnButtonText: 'Späť na 1. kapitolu'
 
 ## Ďalšie médiá
 [![Neznámy autor: Z prehliadky Hlinkovej mládeže v Trenčíne. 1939. SNA, Bratislava – fond STK](SVK_TMP.133.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.133?collection=82)
-[![Štefan Leonard Kostelníček: Za Boha život, za národ slobodu! 1939. Pohľadnica. MMB, Bratislava](SVK_TMP.132.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.132?collection=82)
+[![Štefan Leonard Kostelníček: Za Boha život, za národ slobodu! 1939. Pohľadnica. MMB, Bratislava](SVK_TMP.132.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.132?collection=82)
