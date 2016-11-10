@@ -33,19 +33,19 @@ Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája
 
 Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája Rakúsko. Hitler sa zároveň netají snahami zlikvidovať susedné Československo, ktoré ako demokratická krajina poskytovala útočisko odporcom nacizmu a voči ktorej vznášal územné nároky. Snaží sa ČSR rozbiť – či už medzinárodnopolitickou aktivitou alebo vojensky. Rozhodne sa preto „použiť kartu“ nemeckého obyvateľstva, žijúceho a údajnou diskrimináciou trpiaceho za hranicami Nemecka, teda podobnú zámienku, akú použil v prípade pripojenia Rakúska. Vyhovuje mu aj fakt, že na územie Slovenska (pre Hitlera v tom čase pomerne nezaujímavej krajiny) si robia „zálusk“ Maďarsko s Poľskom. V hre sú tentoraz Sudety, pohraničné československé oblasti, obývané v prevažnej miere etnickými Nemcami.
 
-[![Chamberlain, Daladier, Hitler, Mussolini, and Ciano pred podpisom Mníchovskej dohody. Spolkový archív, Koblenz, Nemecko.](photo-staatschefs.jpg "Munich Agreement")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
+[![Chamberlain, Daladier, Hitler, Mussolini a Ciano pred podpisom Mníchovskej dohody. Spolkový archív, Koblenz, Nemecko.](photo-staatschefs.jpg "Munich Agreement")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
 
-<iframe src="https://archive.org/embed/hitler_norimberg_12_9_1939&autoplay=0" width="100%" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+<iframe src="https://archive.org/embed/hitler_norimberg_12_9_1939&autoplay=0" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
 <figcaption>Prejav Adolfa Hitlera na zjazde NSDAP v Norimbergu 12.9.1938, kde ostro zaútočil na Československo a prezidenta Eduarda Beneša.</figcaption>
 <br>
 Nemecko, Taliansko, Veľká Británia a Francúzsko zvolajú na 29. 9. 1938 konferenciu v Mníchove, na ktorej rozhodnú o ďalšom osude Československa bez jeho účasti. Republika má podľa ich rozhodnutia odstúpiť Nemecku sudetské pohraničie. Československá vláda je zaskočená najmä postojom svojich vtedajších spojencov, Francúzska a Veľkej Británie, možností však mnoho nemá. O deň neskôr, 30. 9. 1938 prijíma rozhodnutie, ktoré sa zapisuje do dejín ako Mníchovská dohoda, alebo aj explicitnejšie – mníchovský diktát. Je jednou z predzvestí blížiacej sa druhej svetovej vojny, pred ktorou však Slovensko čaká niekoľko výrazných politických zmien. Do dejín mu vstupuje Hitler. 
 
 <iframe src="https://player.vimeo.com/video/190295173?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<a href="http://www.webumenia.sk/dielo/SVK:TMP.114?collection=82"><figcaption>Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava</figcaption></a>
+<figcaption><a href="http://www.webumenia.sk/dielo/SVK:TMP.114?collection=82">Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava</a></figcaption>
 
 ## Hlinkova slovenská ľudová strana
 
-[![Neznámy autor. Verní sebe, svorne napred! 1939 – 1944. Príležitostná tlač. Súkromný majetok.](SVK_TMP.115.jpeg "Neznámy autor. Verní sebe, svorne napred! 1939 – 1944. Príležitostná tlač. Súkromný majetok")](http://www.webumenia.sk/dielo/SVK:TMP.115?collection=82)
+[![Neznámy autor. Verní sebe, svorne napred! 1939 – 1944. Príležitostná tlač. Súkromný majetok.](SVK_TMP.115.jpg "Neznámy autor. Verní sebe, svorne napred! 1939 – 1944. Príležitostná tlač. Súkromný majetok")](http://www.webumenia.sk/dielo/SVK:TMP.115?collection=82)
 
 V čase podpisu Mníchovskej dohody je najsilnejšou politickou stranou na Slovensku Hlinkova slovenská ľudová strana, ktorá roku 1935 vo volebnej koalícii so SNS získala 30 %. Založená bola ako Slovenská ľudová strana v roku 1905, potom obnovená katolíckym kňazom a národovcom Andrejom Hlinkom. Stála na kresťanskom konzervatívnom základe a postupom času v nej čoraz silnejšie rezonovala myšlienka autonomizmu – samostatnejšieho postavenia Slovenska v rámci Československej republiky. Postupnou radikalizácou dospela k totalitne znejúcemu heslu: „Jeden národ, jedna strana, jeden vodca.“ Začiatkom októbra 1938 prevzala HSĽS iniciatívu pri riešení štátnoprávneho postavenia Slovenska a prihlásila sa k jeho autonómii. 
 
@@ -164,7 +164,7 @@ Krátko pred voľbami vydáva ministerstvo vnútra tajnú inštrukciu pre okresn
 
 [![Fraňo Štefunko: Andrej Hlinka. Model sochy pre Snem SR. 1938—1939. SNM – HM, Bratislava](Stefunko--Hlinka-model_sochy--SNMHM_BA--Job_5639.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.117?collection=82)
 
-## Vznik Slovenského štátu
+## Vznik slovenského štátu
 ### 14. 3. 1939  {.title-date}
 [![ Neznámy autor. Apotéza vzniku SR. 1939. Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.121.jpeg)
 ](http://www.webumenia.sk/dielo/SVK:TMP.121?collection=82)
