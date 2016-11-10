@@ -535,17 +535,28 @@ form#email-capture {
     top: -48px;
   }
 }
+
+$return-height: 250px;
+$button-height: 60px;
 .return{
-  height: 200px;
-  padding-top: 80px;
+  height: $return-height;
+  .return-gradient {
+    height: 100%;
+    background: 
+      linear-gradient(
+        rgba(249, 249, 247, 1),
+        rgba(249, 249, 247, 0.5)
+      );
+  }
+  .button-return {
+    margin-top: ($return-height - $button-height)/2;
+  }
 }
 .return.chapter1 {
   background: 
-    linear-gradient(
-      rgba(249, 249, 247, 1),
-      rgba(249, 249, 247, 0.5)
-    ),
     url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
+  background-size: cover;
+  background-position-y: 52%;
 }
 
 .post.page {

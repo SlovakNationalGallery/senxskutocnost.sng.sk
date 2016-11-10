@@ -434,11 +434,17 @@ form#email-capture {
     top: -48px; }
 
 .return {
-  height: 200px;
-  padding-top: 80px; }
+  height: 250px; }
+  .return .return-gradient {
+    height: 100%;
+    background: linear-gradient(#f9f9f7, rgba(249, 249, 247, 0.5)); }
+  .return .button-return {
+    margin-top: 95px; }
 
 .return.chapter1 {
-  background: linear-gradient(#f9f9f7, rgba(249, 249, 247, 0.5)), url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg); }
+  background: url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
+  background-size: cover;
+  background-position-y: 52%; }
 
 .post.page .page-title {
   padding: 15px;
