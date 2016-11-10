@@ -446,6 +446,9 @@ form#email-capture {
   background-size: cover;
   background-position-y: 52%; }
 
+@media only screen and (max-width: 600px) {
+  .post.page {
+    padding-bottom: 0; } }
 .post.page .page-title {
   padding: 15px;
   margin-bottom: 20px; }
