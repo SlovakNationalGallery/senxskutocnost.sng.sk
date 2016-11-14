@@ -340,11 +340,11 @@ form#email-capture {
     @media only screen and (max-width: 600px) {
       .post.chapter .post-content p {
         line-height: 25px; } }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div:not(.not-extended) {
+  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight {
     margin-left: -20px;
     margin-right: -20px; }
     @media only screen and (max-width: 600px) {
-      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content div:not(.not-extended) {
+      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight {
         margin-left: 0;
         margin-right: 0; } }
   .post.chapter .post-content div.highlight p {

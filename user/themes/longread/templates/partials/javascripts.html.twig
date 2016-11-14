@@ -3,6 +3,7 @@
 {% do assets.addJs('theme://js/index.js') %}
 {% do assets.addJs('theme://js/readingTime.min.js') %}
 {% do assets.addJs('theme://js/inline-svg.js') %}
+{% do assets.addJs('theme://js/audioplayer.min.js') %}
 
 {{ assets.js() }}
 
@@ -27,6 +28,9 @@
     
     var percentageFromTop = 70;
     $('.post-content').css('margin-top', percentageFromTop + 'vh');
+
+    // style audio player
+    $( 'audio' ).audioPlayer({classPrefix: 'audioplayer'});
 
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
