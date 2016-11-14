@@ -406,6 +406,8 @@ form#email-capture {
     width: 20px;
     margin-top: 10px;
     background-image: url(/user/images/hr.svg); }
+  .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
+    margin-bottom: -30px; }
 
 .post.subobject {
   color: #000; }

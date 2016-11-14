@@ -502,6 +502,9 @@ form#email-capture {
       margin-top: 10px;
       background-image:url(/user/images/hr.svg);
     }
+    div.audioplayer {
+      margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
+    }
   }
 }
 
