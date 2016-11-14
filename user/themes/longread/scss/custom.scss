@@ -11,9 +11,7 @@ $red: #E00000;
 $grey: #AEAEAE;
 $greyed-out: #6D6D6D;
 $dark-green: #3F3C25;
-$caption: #666665;
 $light-grey: #EFEFEF;
-$semi-dark-grey: #CCC;
 $dark-grey: #7B7B7B;
 $text-color: #000;
 $bg-color: #f9f9f7;
@@ -316,6 +314,9 @@ form#email-capture {
 }
 .content {
   max-width: 700px;
+  @include respond-to(600) {
+    padding: 0 0;
+  }
 }
 
 .post.chapter {
@@ -347,6 +348,11 @@ form#email-capture {
     background-color: white;
     color: $text-color;
     z-index: 3;
+
+    @include respond-to(600) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
 
     .chapter-title {
       position: absolute;
@@ -394,6 +400,9 @@ form#email-capture {
       margin-bottom: 4px;
       padding-top: 0;
     }
+    h3, h4, h5, h6 {
+      margin-bottom: 20px;
+    }
     h1, h2, h3, h4, h5, h6 {
       color: $text-color;
       font-family: $font-bold;
@@ -406,14 +415,22 @@ form#email-capture {
     p {
       color: $text-color;
       font-size: 18px;
+      @include respond-to(600) {
+        line-height: 25px;
+      }
     }
-    h1, h2, h3, h4, h5, h6, figure, iframe, div {
+    h1, h2, h3, h4, h5, h6, figure, iframe, div:not(.not-extended) {
       margin-left: -20px;
       margin-right: -20px;
+      @include respond-to(600) {
+        margin-left: 0;
+        margin-right: 0;
+      }
     }
-    div p {
+    div.highlight p {
       font-family: $font-bold;
       font-size: 25px;
+      line-height: 32px;
     }
     figcaption {
       margin-top: 10px;
@@ -430,271 +447,42 @@ form#email-capture {
   padding-bottom: 5px;
 }
 
-.attribution { /* styles audio caption below audio player */
-  padding: 10px 0 30px 0;
-  text-align: center;
-  font-family: $font-sans;
-  font-size: 14px;
-  color: $caption;
-}
-
-.audioplayer { 
-  height: 2.5em; /* 40 */
-  color: $dark-green;
-  position: relative;
-  z-index: 1;
-  background: $light-grey;
-  font-family: $font-sans;
-  font-size: 16px;
-
-  .audioplayer-mini
-  {
-    width: 2.5em; /* 40 */
-    margin: 0 auto;
-  }
-  .audioplayer > div
-  {
-    position: absolute;
-  }
-  .audioplayer-playpause
-  {
-    width: 2.5em; /* 40 */
-    height: 100%;
-    text-align: left;
-    text-indent: -9999px;
-    cursor: pointer;
-    z-index: 2;
-    top: 0;
-    left: 0;
-  }
-    .audioplayer-mini .audioplayer-playpause
-    {
-      width: 100%;
-    }
-    .audioplayer-playpause:hover,
-    .audioplayer-playpause:focus
-    {
-      background-color: $semi-dark-grey;
-    }
-    .audioplayer-playpause a
-    {
-      display: block;
-    }
-    .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a
-    {
-      width: 0;
-      height: 0;
-      border: 0.5em solid transparent; /* 8 */
-      border-right: none;
-      border-left-color: $dark-green;
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: -0.5em 0 0 -0.25em; /* 8 4 */
-    }
-    .audioplayer-playing .audioplayer-playpause a
-    {
-      width: 0.75em; /* 12 */
-      height: 0.75em; /* 12 */
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      margin: -0.375em 0 0 -0.375em; /* 6 */
-    }
-      .audioplayer-playing .audioplayer-playpause a:before,
-      .audioplayer-playing .audioplayer-playpause a:after
-      {
-        width: 40%;
-        height: 100%;
-        background-color: $red;
-        content: '';
-        position: absolute;
-        top: 0;
+.subobject-overview {
+  .subobject {
+    figure{
+      padding: 0;
+      figcaption {
+        display: none;
       }
-      .audioplayer-playing .audioplayer-playpause a:before
-      {
-        left: 0;
+      img {
+        padding: 20px;
       }
-      .audioplayer-playing .audioplayer-playpause a:after
-      {
-        right: 0;
+    }
+    .subobject-caption {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 900;
+      margin-left: 10px;
+      img.icon {
+        height: 25px;
+        margin-right: 10px;
       }
-  .audioplayer-time
-  {
-    width: 4.375em; /* 70 */
-    height: 100%;
-    line-height: 2.375em; /* 38 */
-    text-align: center;
-    z-index: 2;
-    top: 0;
-  }
-    .audioplayer-time-current
-    {
-
-      left: 2.5em; /* 40 */
     }
-    .audioplayer-time-duration
-    {
-      right: 2.5em; /* 40 */
-    }
-      .audioplayer-novolume .audioplayer-time-duration
-      {
-        border-right: 0;
-        right: 0;
-      }
-  .audioplayer-bar
-  {
-    height: 0.875em; /* 14 */
-    background-color: $semi-dark-grey;
-    cursor: pointer;
-    z-index: 1;
-    top: 50%;
-    right: 6.875em; /* 110 */
-    left: 6.875em; /* 110 */
-    margin-top: -0.438em; /* 7 */
-  }
-    .audioplayer-novolume .audioplayer-bar
-    {
-      right: 4.375em; /* 70 */
-    }
-    .audioplayer-bar div
-    {
-      width: 0;
-      height: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-    }
-    .audioplayer-bar-loaded
-    {
-      background-color: $semi-dark-grey;
-      z-index: 1;
-    }
-    .audioplayer-bar-played
-    {
-      background: $red;
-      z-index: 2;
-    }
-  .audioplayer-volume
-  {
-    width: 2.5em; /* 40 */
-    height: 100%;
-    text-align: left;
-    text-indent: -9999px;
-    cursor: pointer;
-    z-index: 2;
-    top: 0;
-    right: 0;
-  }
-    .audioplayer-volume:hover,
-    .audioplayer-volume:focus
-    {
-      background-color: $semi-dark-grey;
-    }
-    .audioplayer-volume-button
-    {
-      width: 100%;
-      height: 100%;
-    }
-      .audioplayer-volume-button a
-      {
-        width: 0.313em; /* 5 */
-        height: 0.375em; /* 6 */
-        background-color: $dark-green;
-        display: block;
-        position: relative;
-        z-index: 1;
-        top: 40%;
-        left: 35%;
-      }
-        .audioplayer-volume-button a:before,
-        .audioplayer-volume-button a:after
-        {
-          content: '';
-          position: absolute;
+    @include respond-to(600) {
+      border: 1px solid black;
+      margin-left: 25px;
+      width: 93%;
+      padding-left: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      figure{
+        display: inline;
+        img {
+          padding: 0 0;
+          width: 25%;
         }
-        .audioplayer-volume-button a:before
-        {
-          width: 0;
-          height: 0;
-          border: 0.5em solid transparent; /* 8 */
-          border-left: none;
-          border-right-color: $dark-green;
-          z-index: 2;
-          top: 50%;
-          right: -0.25em;
-          margin-top: -0.5em; /* 8 */
-        }
-        .audioplayer:not(.audioplayer-mute) .audioplayer-volume-button a:after
-        {
-          /* "volume" icon by Nicolas Gallagher, http://nicolasgallagher.com/pure-css-gui-icons */
-          width: 0.313em; /* 5 */
-          height: 0.313em; /* 5 */
-          border-width: 0.25em 0.25em 0 0; /* 4 */
-          left: 0.563em; /* 9 */
-          top: -0.063em; /* 1 */
-          -webkit-border-radius: 0 0.938em 0 0; /* 15 */
-          -moz-border-radius: 0 0.938em 0 0; /* 15 */
-          border-radius: 0 0.938em 0 0; /* 15 */
-          -webkit-transform: rotate( 45deg );
-          -moz-transform: rotate( 45deg );
-          -ms-transform: rotate( 45deg );
-          -o-transform: rotate( 45deg );
-          transform: rotate( 45deg );
-        }
-    .audioplayer-volume-adjust
-    {
-      height: 6.25em; /* 100 */
-      cursor: default;
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: -9999px;
-      background: $semi-dark-grey;
+      }
     }
-      .audioplayer-volume:not(:hover) .audioplayer-volume-adjust
-      {
-        opacity: 0;
-      }
-      .audioplayer-volume:hover .audioplayer-volume-adjust
-      {
-        top: auto;
-        bottom: 100%;
-      }
-      .audioplayer-volume-adjust > div
-      {
-        width: 40%;
-        height: 80%;
-        background-color: $dark-grey;
-        cursor: pointer;
-        position: relative;
-        z-index: 1;
-        margin: 30% auto 0;
-      }
-        .audioplayer-volume-adjust div div
-        {
-          width: 100%;
-          height: 100%;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          background: $red;
-        }
-    .audioplayer-novolume .audioplayer-volume
-    {
-      display: none;
-    }
-
-  .audioplayer *,
-  .audioplayer *:before,
-  .audioplayer *:after
-  {
-    -webkit-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
-    -moz-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
-    -ms-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
-    -o-transition: color .25s ease, background-color .25s ease, opacity .5s ease;
-    transition: color .25s ease, background-color .25s ease, opacity .5s ease;
   }
 }
 
