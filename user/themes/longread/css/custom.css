@@ -117,7 +117,7 @@ button, .uk-button {
   text-decoration: none;
   font-size: 16px; }
   .nav-about.c-white:hover {
-    color: #EFEFEF; }
+    color: #E1E1E1; }
 
 .landing {
   background-color: #3F3C25; }
@@ -380,11 +380,11 @@ form#email-capture {
     @media only screen and (max-width: 600px) {
       .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
         line-height: 25px; } }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content div:not(.not-extended), .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content div:not(.not-extended), .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content div:not(.not-extended) {
+  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight {
     margin-left: -20px;
     margin-right: -20px; }
     @media only screen and (max-width: 600px) {
-      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content div:not(.not-extended), .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content div:not(.not-extended), .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content div:not(.not-extended) {
+      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight {
         margin-left: 0;
         margin-right: 0; } }
   .post.chapter .post-content .fluid-width-video-wrapper, .post.subobject .post-content .fluid-width-video-wrapper, .post.page .post-content .fluid-width-video-wrapper {
@@ -406,6 +406,8 @@ form#email-capture {
     width: 20px;
     margin-top: 10px;
     background-image: url(/user/images/hr.svg); }
+  .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
+    margin-bottom: -30px; }
 
 .post.subobject {
   color: #000; }
@@ -521,7 +523,7 @@ form#email-capture {
 #footer a:not(.uk-button) {
   color: white; }
   #footer a:not(.uk-button):hover {
-    color: #EFEFEF; }
+    color: #E1E1E1; }
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
@@ -530,7 +532,7 @@ form#email-capture {
   fill: white; }
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
-  fill: #EFEFEF !important; }
+  fill: #E1E1E1 !important; }
 #footer a svg.c-black #footericonsng,
 #footer a svg.c-black #footericonfb {
   fill: black; }
