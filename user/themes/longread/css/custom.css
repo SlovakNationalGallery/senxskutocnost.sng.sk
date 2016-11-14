@@ -117,7 +117,7 @@ button, .uk-button {
   text-decoration: none;
   font-size: 16px; }
   .nav-about.c-white:hover {
-    color: #EFEFEF; }
+    color: #E1E1E1; }
 
 .landing {
   background-color: #3F3C25; }
@@ -523,7 +523,7 @@ form#email-capture {
 #footer a:not(.uk-button) {
   color: white; }
   #footer a:not(.uk-button):hover {
-    color: #EFEFEF; }
+    color: #E1E1E1; }
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
@@ -532,7 +532,7 @@ form#email-capture {
   fill: white; }
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
-  fill: #EFEFEF !important; }
+  fill: #E1E1E1 !important; }
 #footer a svg.c-black #footericonsng,
 #footer a svg.c-black #footericonfb {
   fill: black; }
