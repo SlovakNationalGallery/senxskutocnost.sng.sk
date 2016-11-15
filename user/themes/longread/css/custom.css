@@ -95,7 +95,7 @@ button, .uk-button {
   overflow: hidden;
   z-index: 99; }
   .logo-sng .logo {
-    background-image: url(/user/images/logo-sng.svg);
+    background-image: url(../images/logo-sng.svg);
     display: block;
     position: absolute;
     top: 8px;
@@ -106,7 +106,7 @@ button, .uk-button {
     background-repeat: no-repeat; }
 
 .logo-sng-black .logo {
-  background-image: url(/user/images/logo-sng-black.svg); }
+  background-image: url(../images/logo-sng-black.svg); }
 
 .nav-about {
   position: absolute;
@@ -407,7 +407,7 @@ form#email-capture {
     height: 20px;
     width: 20px;
     margin-top: 10px;
-    background-image: url(/user/images/hr.svg); }
+    background-image: url(../images/hr.svg); }
   .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
     margin-bottom: -30px; }
 
