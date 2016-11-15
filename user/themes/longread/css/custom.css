@@ -95,7 +95,7 @@ button, .uk-button {
   overflow: hidden;
   z-index: 99; }
   .logo-sng .logo {
-    background-image: url(/user/images/logo-sng.svg);
+    background-image: url(../images/logo-sng.svg);
     display: block;
     position: absolute;
     top: 8px;
@@ -106,7 +106,7 @@ button, .uk-button {
     background-repeat: no-repeat; }
 
 .logo-sng-black .logo {
-  background-image: url(/user/images/logo-sng-black.svg); }
+  background-image: url(../images/logo-sng-black.svg); }
 
 .nav-about {
   position: absolute;
@@ -336,7 +336,8 @@ form#email-capture {
       .post.chapter .post-content .chapter-title, .post.subobject .post-content .chapter-title, .post.page .post-content .chapter-title {
         top: -230px; } }
     .post.chapter .post-content .chapter-title .chapter-number, .post.subobject .post-content .chapter-title .chapter-number, .post.page .post-content .chapter-title .chapter-number {
-      font-size: 16px; }
+      font-size: 16px;
+      margin-left: -20px; }
     .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
       color: white;
       font-size: 80px;
@@ -351,6 +352,7 @@ form#email-capture {
           margin-bottom: -15px; } }
     .post.chapter .post-content .chapter-title .post-reading, .post.subobject .post-content .chapter-title .post-reading, .post.page .post-content .chapter-title .post-reading {
       position: relative;
+      margin-left: -20px;
       right: 0px;
       font-size: 16px;
       text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8); }
@@ -380,11 +382,11 @@ form#email-capture {
     @media only screen and (max-width: 600px) {
       .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
         line-height: 25px; } }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight {
+  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content .post-content > iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content .post-content > iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content .post-content > iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight {
     margin-left: -20px;
     margin-right: -20px; }
     @media only screen and (max-width: 600px) {
-      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight {
+      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content .post-content > iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content .post-content > iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content .post-content > iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight {
         margin-left: 0;
         margin-right: 0; } }
   .post.chapter .post-content .fluid-width-video-wrapper, .post.subobject .post-content .fluid-width-video-wrapper, .post.page .post-content .fluid-width-video-wrapper {
@@ -405,7 +407,7 @@ form#email-capture {
     height: 20px;
     width: 20px;
     margin-top: 10px;
-    background-image: url(/user/images/hr.svg); }
+    background-image: url(../images/hr.svg); }
   .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
     margin-bottom: -30px; }
 
@@ -446,7 +448,7 @@ form#email-capture {
     margin-top: 95px; }
 
 .return.chapter1 {
-  background: url(/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
+  background: url(../../../pages/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
   background-size: cover;
   background-position-y: 52%; }
 
