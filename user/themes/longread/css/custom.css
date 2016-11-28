@@ -418,6 +418,8 @@ form#email-capture {
   bottom: 10vh; }
   .post.chapter .article-image .post-meta, .post.subobject .article-image .post-meta, .post.page .article-image .post-meta {
     bottom: 200px; }
+  .post.chapter .article-image .post-image-image.chapter-1, .post.subobject .article-image .post-image-image.chapter-1, .post.page .article-image .post-image-image.chapter-1 {
+    background-position-x: 67%; }
 .post.chapter .drop-cap, .post.subobject .drop-cap, .post.page .drop-cap {
   float: left;
   color: black;

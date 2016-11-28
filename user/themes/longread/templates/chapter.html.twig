@@ -8,7 +8,7 @@
     <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
       <article class="post chapter">
         <div class="article-image">
-          <div class="post-image-image" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})">
+          <div class="post-image-image chapter-{{page.header.chapterNumber}}" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})">
             Article Image
           </div>
         </div>
