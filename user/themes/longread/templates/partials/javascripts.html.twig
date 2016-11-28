@@ -27,6 +27,12 @@
     var chapterPercentageFromTop = 70;
     $('.chapter .post-content').css('margin-top', chapterPercentageFromTop + 'vh');
 
+    // enable uk-offcanvas elements to be triggered
+    $('[data-uk-offcanvas]').click(function () {
+      var target = $(this).attr('href');
+      UIkit.offcanvas.show(target);
+    });
+
     // style audio player
     $( 'audio' ).audioPlayer({classPrefix: 'audioplayer'});
     
