@@ -2,7 +2,7 @@
 title: 'Andrej Hlinka'
 published: true
 slug: hlinka
-chapter: '1. kaptiola - Na polceste k slovenskému štátu'
+chapter: '1. kapitola - Na polceste k slovenskému štátu'
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu
 titleDate: '1864 – 1938'
 routes:
