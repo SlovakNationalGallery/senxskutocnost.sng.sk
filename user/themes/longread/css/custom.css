@@ -161,7 +161,7 @@ nav.uk-navbar {
       display: none; } }
   nav.uk-navbar .nav-toggle {
     display: none;
-    background-image: url(../images/hamburger.svg);
+    background-image: url(../images/hamburger_default.svg);
     background-repeat: no-repeat;
     width: 26px;
     height: 24px;
@@ -170,6 +170,8 @@ nav.uk-navbar {
     color: black;
     right: 20px;
     font-size: 25px; }
+    nav.uk-navbar .nav-toggle:hover {
+      background-image: url(../images/hamburger_hover.svg); }
     @media only screen and (max-width: 680px) {
       nav.uk-navbar .nav-toggle {
         display: block; } }
@@ -459,7 +461,7 @@ form#email-capture {
     margin-right: 20px;
     color: white;
     text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
-    @media only screen and (max-width: 605px) {
+    @media only screen and (max-width: 620px) {
       .post.chapter .post-content .chapter-title, .post.subobject .post-content .chapter-title, .post.page .post-content .chapter-title {
         top: -230px; } }
     .post.chapter .post-content .chapter-title .chapter-number, .post.subobject .post-content .chapter-title .chapter-number, .post.page .post-content .chapter-title .chapter-number {
@@ -468,7 +470,7 @@ form#email-capture {
       color: white;
       font-size: 80px;
       margin-bottom: -30px; }
-      @media only screen and (max-width: 605px) {
+      @media only screen and (max-width: 620px) {
         .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
           font-size: 45px;
           margin-bottom: -20px; } }
@@ -553,7 +555,7 @@ form#email-capture {
     .post.subobject .chapter-title h1 {
       color: #000;
       font-size: 60px; }
-      @media only screen and (max-width: 605px) {
+      @media only screen and (max-width: 620px) {
         .post.subobject .chapter-title h1 {
           font-size: 40px; } }
       @media only screen and (max-width: 460px) {
