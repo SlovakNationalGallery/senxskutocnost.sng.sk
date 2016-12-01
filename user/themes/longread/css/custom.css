@@ -93,7 +93,7 @@ nav.uk-navbar {
   z-index: 9; }
   @media only screen and (max-width: 800px) {
     nav.uk-navbar {
-      height: 85px; } }
+      height: 80px; } }
   @media only screen and (max-width: 680px) {
     nav.uk-navbar {
       height: 65px; } }
@@ -102,7 +102,7 @@ nav.uk-navbar {
     font-size: 30px; }
     @media only screen and (max-width: 800px) {
       nav.uk-navbar .uk-navbar-brand {
-        line-height: 80px; } }
+        line-height: 75px; } }
     @media only screen and (max-width: 680px) {
       nav.uk-navbar .uk-navbar-brand {
         line-height: 62px; } }
@@ -139,7 +139,8 @@ nav.uk-navbar {
           color: #E00000; }
       @media only screen and (max-width: 800px) {
         nav.uk-navbar ul.uk-navbar-nav .chapter-nav {
-          width: 95px; } }
+          width: 95px;
+          line-height: 18px; } }
     nav.uk-navbar ul.uk-navbar-nav .chapter-nav.disabled {
       color: #6D6D6D;
       border-top-color: #6D6D6D; }
@@ -154,7 +155,7 @@ nav.uk-navbar {
         cursor: default; }
   @media only screen and (max-width: 800px) {
     nav.uk-navbar .nav-about {
-      line-height: 50px; } }
+      line-height: 45px; } }
   @media only screen and (max-width: 680px) {
     nav.uk-navbar .nav-about {
       display: none; } }

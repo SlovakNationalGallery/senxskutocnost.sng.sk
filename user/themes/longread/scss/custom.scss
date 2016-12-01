@@ -133,7 +133,7 @@ nav.uk-navbar {
   margin-top: -20px;
   z-index: 9;
   @include respond-to(800) {
-    height: 85px;
+    height: 80px;
   }
   @include respond-to(680) {
     height: 65px;
@@ -142,7 +142,7 @@ nav.uk-navbar {
     line-height: 62px;
     font-size: 30px;
     @include respond-to(800) {
-      line-height: 80px;
+      line-height: 75px;
     }
     @include respond-to(680) {
       line-height: 62px;
@@ -187,6 +187,7 @@ nav.uk-navbar {
       }
       @include respond-to(800) {
         width: 95px;
+        line-height: 18px;
       }
     }
     .chapter-nav.disabled {
@@ -208,7 +209,7 @@ nav.uk-navbar {
   }
   .nav-about {
     @include respond-to(800) {
-      line-height: 50px;
+      line-height: 45px;
     }
     @include respond-to(680) {
       display: none;
