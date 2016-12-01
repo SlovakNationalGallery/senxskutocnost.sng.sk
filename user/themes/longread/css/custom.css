@@ -134,9 +134,9 @@ nav.uk-navbar {
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav a {
         text-decoration: none; }
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav:not(.active):not(.disabled):hover {
-        border-top-color: #6D6D6D; }
+        border-top-color: #E00000; }
         nav.uk-navbar ul.uk-navbar-nav .chapter-nav:not(.active):not(.disabled):hover a {
-          color: #6D6D6D; }
+          color: #E00000; }
       @media only screen and (max-width: 800px) {
         nav.uk-navbar ul.uk-navbar-nav .chapter-nav {
           width: 95px; } }
@@ -395,7 +395,11 @@ form#email-capture {
   margin-left: 0px;
   margin-right: 25px; }
   #chapter-preview .chapter-thumb {
-    color: white; }
+    color: white;
+    margin-top: 25px; }
+    #chapter-preview .chapter-thumb a:hover h5 {
+      color: #E00000;
+      border-top-color: #E00000; }
     #chapter-preview .chapter-thumb h5 {
       border-top: white solid 2px;
       padding-top: 15px;
