@@ -180,9 +180,9 @@ nav.uk-navbar {
         text-decoration: none;
       }
       &:not(.active):not(.disabled):hover {
-        border-top-color: $dark-grey;
+        border-top-color: $red;
         a {
-          color: $dark-grey;
+          color: $red;
         }
       }
       @include respond-to(800) {
@@ -496,6 +496,12 @@ form#email-capture {
 
   .chapter-thumb {
     color: white;
+    a:hover {
+      h5 {
+        color: $red;
+        border-top-color:$red;
+      }
+    }
     h5 {
       border-top: white solid 2px;
       padding-top: 15px;
