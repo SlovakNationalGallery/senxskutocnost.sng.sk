@@ -27,6 +27,10 @@ html,body
   background-color: $bg-color;
 }
 
+body.uk-offcanvas-page {
+  overflow-y: hidden;
+}
+
 a {
   color: inherit;
   &:hover {

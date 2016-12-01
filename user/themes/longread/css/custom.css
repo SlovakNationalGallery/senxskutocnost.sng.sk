@@ -2,6 +2,9 @@ html, body {
   overflow-x: hidden;
   background-color: #f9f9f7; }
 
+body.uk-offcanvas-page {
+  overflow-y: hidden; }
+
 a {
   color: inherit; }
   a:hover {
