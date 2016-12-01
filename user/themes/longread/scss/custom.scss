@@ -136,7 +136,7 @@ nav.uk-navbar {
     height: 80px;
   }
   @include respond-to(680) {
-    height: 65px;
+    height: 60px;
   }
   .uk-navbar-brand {
     line-height: 62px;
@@ -145,7 +145,7 @@ nav.uk-navbar {
       line-height: 75px;
     }
     @include respond-to(680) {
-      line-height: 62px;
+      line-height: 55px;
     }
     img.navbar-icon {
       height: 80%;
@@ -217,8 +217,13 @@ nav.uk-navbar {
   }
   .nav-toggle {
     display: none;
+
+    background-image: url(../images/hamburger.svg);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 24px;
     position: absolute;
-    top: 14px;
+    top: 18px;
     color: black;
     right: 20px;
     font-size: 25px;

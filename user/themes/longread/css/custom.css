@@ -96,7 +96,7 @@ nav.uk-navbar {
       height: 80px; } }
   @media only screen and (max-width: 680px) {
     nav.uk-navbar {
-      height: 65px; } }
+      height: 60px; } }
   nav.uk-navbar .uk-navbar-brand {
     line-height: 62px;
     font-size: 30px; }
@@ -105,7 +105,7 @@ nav.uk-navbar {
         line-height: 75px; } }
     @media only screen and (max-width: 680px) {
       nav.uk-navbar .uk-navbar-brand {
-        line-height: 62px; } }
+        line-height: 55px; } }
     nav.uk-navbar .uk-navbar-brand img.navbar-icon {
       height: 80%;
       padding: 5px 0; }
@@ -161,8 +161,12 @@ nav.uk-navbar {
       display: none; } }
   nav.uk-navbar .nav-toggle {
     display: none;
+    background-image: url(../images/hamburger.svg);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 24px;
     position: absolute;
-    top: 14px;
+    top: 18px;
     color: black;
     right: 20px;
     font-size: 25px; }
