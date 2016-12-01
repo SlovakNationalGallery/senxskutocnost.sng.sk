@@ -9,10 +9,9 @@ $font-moyenage: "Moyenage14", "Linux Libertine";
 
 $red: #E00000;
 $grey: #AEAEAE;
-$greyed-out: #6D6D6D;
+$dark-grey: #6D6D6D;
 $dark-green: #3F3C25;
 $light-grey: #E1E1E1;
-$dark-grey: #7B7B7B;
 $text-color: #000;
 $bg-color: #f9f9f7;
 
@@ -191,8 +190,8 @@ nav.uk-navbar {
       }
     }
     .chapter-nav.disabled {
-      color: $greyed-out;
-      border-top-color: $greyed-out;
+      color: $dark-grey;
+      border-top-color: $dark-grey;
       a {
         pointer-events: none;
         cursor: default;
@@ -237,13 +236,13 @@ div#side-nav-bar {
     ul.uk-nav {
       .chapter-nav {
         padding: 20px;
-        border-bottom: solid 1px $greyed-out;
+        border-bottom: solid 1px $dark-grey;
         div.nav-state-bar {
           width: 50px;
           height: 5px;
           margin-top: -20px;
           margin-bottom: 20px;
-          background-color: $greyed-out;
+          background-color: $dark-grey;
         }
         span.chapter-title {
           font-family: $font-bold;
@@ -258,7 +257,7 @@ div#side-nav-bar {
         }
       }
       .chapter-nav.disabled {
-        color: $greyed-out;
+        color: $dark-grey;
         a {
           pointer-events: none;
           cursor: default;
@@ -509,10 +508,10 @@ form#email-capture {
   }
   .chapter-thumb.disabled {
     * {
-      color: $greyed-out; 
+      color: $dark-grey; 
     }
     h5 {
-      border-color: $greyed-out;
+      border-color: $dark-grey;
     }
   }
 }

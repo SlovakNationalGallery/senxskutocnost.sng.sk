@@ -53,7 +53,7 @@ button, .uk-button {
   background-color: #E00000 !important; }
 
 .bg-grey {
-  background-color: #7B7B7B !important; }
+  background-color: #6D6D6D !important; }
 
 .bg-dark-green {
   background-color: #3F3C25 !important; }
@@ -134,9 +134,9 @@ nav.uk-navbar {
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav a {
         text-decoration: none; }
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav:not(.active):not(.disabled):hover {
-        border-top-color: #7B7B7B; }
+        border-top-color: #6D6D6D; }
         nav.uk-navbar ul.uk-navbar-nav .chapter-nav:not(.active):not(.disabled):hover a {
-          color: #7B7B7B; }
+          color: #6D6D6D; }
       @media only screen and (max-width: 800px) {
         nav.uk-navbar ul.uk-navbar-nav .chapter-nav {
           width: 95px; } }
