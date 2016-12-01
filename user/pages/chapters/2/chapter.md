@@ -1,7 +1,7 @@
 ---
 title: 'Jeden národ, jedna strana, jeden vodca'
 published: true
-disabled: true
+disabled: false
 date: '18-11-2016 00:00'
 slug: chapter-2
 routes:
