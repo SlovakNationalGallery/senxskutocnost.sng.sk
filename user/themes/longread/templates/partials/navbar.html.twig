@@ -1,0 +1,88 @@
+<nav class="uk-navbar ">
+    <a href="/" class="uk-navbar-brand">
+        <span class="f-uni-grotesk-bold c-black">sen</span>
+        <img class="navbar-icon" src="{{ base_url_relative }}/user/themes/longread/images/headline-logo-black.svg" alt="×">
+        <span class="f-moyenage c-black">skutočnosť</span>
+    </a>
+    <ul class="uk-navbar-nav uk-navbar-center">
+        <li>
+            <div class="chapter-nav {% if page.header.chapterNumber == 1 %}active{% endif %} {% if page.find('/chapters/1').header.disabled == true %}disabled{% endif %}">
+                <a href="{{page.find('/chapters/1').url}}">
+                    <span class="chapter-number">{{page.find('/chapters/1').header.chapterNumber}}.</span><br>
+                    <span class="chapter-title">{{page.find('/chapters/1').title}}</span>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="chapter-nav {% if page.header.chapterNumber == 2 %}active{% endif %} {% if page.find('/chapters/2').header.disabled == true %}disabled{% endif %}">
+                <a href="{{page.find('/chapters/2').url}}">
+                    <span class="chapter-number">{{page.find('/chapters/2').header.chapterNumber}}.</span><br>
+                    <span class="chapter-title">{{page.find('/chapters/2').title}}</span>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="chapter-nav {% if page.header.chapterNumber == 3 %}active{% endif %} {% if page.find('/chapters/3').header.disabled == true %}disabled{% endif %}">
+                <a href="{{page.find('/chapters/3').url}}">
+                    <span class="chapter-number">{{page.find('/chapters/3').header.chapterNumber}}.</span><br>
+                    <span class="chapter-title">{{page.find('/chapters/3').title}}</span>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="chapter-nav {% if page.header.chapterNumber == 4 %}active{% endif %} {% if page.find('/chapters/4').header.disabled == true %}disabled{% endif %}">
+                <a href="{{page.find('/chapters/4').url}}">
+                    <span class="chapter-number">{{page.find('/chapters/4').header.chapterNumber}}.</span><br>
+                    <span class="chapter-title">{{page.find('/chapters/4').title}}</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+    <a href="#side-nav-bar" class="uk-navbar-flip uk-navbar-toggle nav-toggle" data-uk-offcanvas></a>
+    <a href="/about" class="uk-navbar-flip nav-about c-black f-uni-grotesk-bold">O Projekte</a>
+</nav>
+<div id="side-nav-bar" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip f-uni-grotesk-regular bg-dark-green">
+        <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>
+            <li>
+                <div class="chapter-nav {% if page.header.chapterNumber == 1 %}active{% endif %} {% if page.find('/chapters/1').header.disabled == true %}disabled{% endif %}">
+                    <div class="nav-state-bar"></div>
+                    <a href="{{page.find('/chapters/1').url}}">
+                        <span class="chapter-number">{{page.find('/chapters/1').header.chapterNumber}}. kapitola</span><br>
+                        <span class="chapter-title">{{page.find('/chapters/1').title}}</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-nav {% if page.header.chapterNumber == 2 %}active{% endif %} {% if page.find('/chapters/2').header.disabled == true %}disabled{% endif %}">
+                    <div class="nav-state-bar"></div>
+                    <a href="{{page.find('/chapters/2').url}}">
+                        <span class="chapter-number">{{page.find('/chapters/2').header.chapterNumber}}. kapitola</span><br>
+                        <span class="chapter-title">{{page.find('/chapters/2').title}}</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-nav {% if page.header.chapterNumber == 3 %}active{% endif %} {% if page.find('/chapters/3').header.disabled == true %}disabled{% endif %}">
+                    <div class="nav-state-bar"></div>
+                    <a href="{{page.find('/chapters/3').url}}">
+                        <span class="chapter-number">{{page.find('/chapters/3').header.chapterNumber}}. kapitola</span><br>
+                        <span class="chapter-title">{{page.find('/chapters/3').title}}</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="chapter-nav {% if page.header.chapterNumber == 4 %}active{% endif %} {% if page.find('/chapters/4').header.disabled == true %}disabled{% endif %}">
+                    <div class="nav-state-bar"></div>
+                    <a href="{{page.find('/chapters/4').url}}">
+                        <span class="chapter-number">{{page.find('/chapters/4').header.chapterNumber}}. kapitola</span><br>
+                        <span class="chapter-title">{{page.find('/chapters/4').title}}</span>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <div class="centered">
+            <a class="button-about uk-button button-ghost" href="/about">O Projekte</a>
+        </div>
+    </div>
+</div>
