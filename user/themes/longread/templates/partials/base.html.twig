@@ -8,21 +8,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}" />
 
+    {% for meta in page.metadata %}
+    <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
+    {% endfor %}
+    
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    {% for meta in page.metadata %}
-    <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
-    {% endfor %}
-
-    <meta property="og:url" content="http://sxs.sng.sk"/>
+    <meta property="og:url" content="{{site.metadata.url}}"/>
     <meta property="og:type" content="website"/> 
-    <meta property="og:title" content="sen × skutočnosť | Udalosti slovenského štátu v 4 kapitolách"/> 
-    <meta property="og:description" content="Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obetí – obdobie rokov 1938-1945 patrí medzi najkomplikovanejšie obdobia slovenských dejín."/> 
+    <meta property="og:title" content="{{site.metadata.title}}"/> 
+    <meta property="og:description" content="{{site.metadata.description}}"/> 
     <meta property="og:image" content="{{ theme_url }}/images/fb_link_post_image.jpg"/>
 
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ theme_url }}/images/favicons/apple-touch-icon-57x57.png" />
