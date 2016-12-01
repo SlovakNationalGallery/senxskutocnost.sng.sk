@@ -30,7 +30,7 @@
     // enable uk-offcanvas elements to be triggered
     $('[data-uk-offcanvas]').click(function () {
       var target = $(this).attr('href');
-      UIkit.offcanvas.show(target);
+      UIkit.offcanvas.show(target, {mode: 'slide'});
     });
 
     // style audio player
