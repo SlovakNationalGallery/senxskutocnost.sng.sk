@@ -10,7 +10,7 @@ routes:
     aliases:
         - /chapters/1
 chapterNumber: 1
-titleStyled: '<span class=''f-uni-grotesk-bold''>Na polceste<br>k</span> <span class=''f-moyenage''>slovenskému štátu</span>'
+titleStyled: "<span class='f-uni-grotesk-bold'>Na polceste<br>k</span> <span class='f-moyenage'>slovenskému štátu</span>"
 description: '1. kapitola: Na polceste k slovenskému štátu'
 image: tiso.jpg
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
