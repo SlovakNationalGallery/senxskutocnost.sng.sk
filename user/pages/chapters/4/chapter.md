@@ -10,7 +10,7 @@ routes:
     aliases:
         - /chapters/4
 chapterNumber: 4
-titleStyled: '<span class=''f-uni-grotesk-bold''>Vytriezvenie</span> <span class=''f-moyenage''>zo sna</span>'
+titleStyled: "<span class='f-uni-grotesk-bold'>Vytriezvenie</span> <span class='f-moyenage'>zo sna</span>"
 description: '4. kapitola: Vytriezvenie zo sna'
 image: tiso.jpg
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'

@@ -10,7 +10,7 @@ routes:
     aliases:
         - /chapters/2
 chapterNumber: 2
-titleStyled: '<span class=''f-uni-grotesk-bold''>Jeden národ,<br></span> <span class=''f-moyenage''>jedna strana, jeden vodca</span>'
+titleStyled: "<span class='f-uni-grotesk-bold'>Jeden národ,<br></span> <span class='f-moyenage'>jedna strana, jeden vodca</span>"
 description: '2. kapitola: Jeden národ, jedna strana, jeden vodca'
 image: tiso.jpg
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'

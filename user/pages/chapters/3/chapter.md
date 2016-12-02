@@ -10,7 +10,7 @@ routes:
     aliases:
         - /chapters/3
 chapterNumber: 3
-titleStyled: '<span class=''f-uni-grotesk-bold''>70 000</span> <span class=''f-moyenage''>obetí</span>'
+titleStyled: "<span class='f-uni-grotesk-bold'>70 000</span> <span class='f-moyenage'>obetí</span>"
 description: '3. kapitola: 70 000 obetí'
 image: tiso.jpg
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
