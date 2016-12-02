@@ -115,9 +115,15 @@ nav.uk-navbar {
       @media only screen and (max-width: 1100px) {
         nav.uk-navbar .uk-navbar-brand img.navbar-icon {
           height: 100%; } }
+      @media only screen and (max-width: 680px) {
+        nav.uk-navbar .uk-navbar-brand img.navbar-icon {
+          height: 80%; } }
     @media only screen and (max-width: 1100px) {
       nav.uk-navbar .uk-navbar-brand span {
         display: none; } }
+    @media only screen and (max-width: 680px) {
+      nav.uk-navbar .uk-navbar-brand span {
+        display: inline; } }
   nav.uk-navbar ul.uk-navbar-nav {
     max-width: none;
     width: 600px; }

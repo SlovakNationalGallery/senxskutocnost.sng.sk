@@ -157,10 +157,16 @@ nav.uk-navbar {
       @include respond-to(1100) {
         height: 100%;
       }
+      @include respond-to(680) {
+        height: 80%;
+      }
     }
     span {
       @include respond-to(1100) {
         display: none;
+      }
+      @include respond-to(680) {
+        display: inline;
       }
     }
   }
