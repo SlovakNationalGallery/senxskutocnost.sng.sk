@@ -12,7 +12,7 @@
         </div> {# /div.landing-image #}
 
         <div class="landing-content">
-          <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10 margin-bottom-m">
+          <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
             <div id="landing-titles">
               <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="×" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
               <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.subTitle }}</h2>
@@ -33,7 +33,9 @@
           
           <div id="chapter-preview" class="uk-grid centered c-white ">
             <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb">
-              <h5 class="f-uni-grotesk-bold">1.<br><a href="{{page.find('/chapters/1').url}}">Na polceste k slovenskému štátu</a></h5>
+              <a href="{{page.find('/chapters/1').url}}">
+                <h5 class="f-uni-grotesk-bold">1.<br>Na polceste k slovenskému štátu</h5>
+              </a>
               <p class="f-uni-grotesk-regular">7. november</p>
               <a href="{{page.find('/chapters/1').url}}">
                 <img src="{{ page.media['thumb-chapter1.jpg'].url }}" class="uk-hidden-small" alt="chapter 1">

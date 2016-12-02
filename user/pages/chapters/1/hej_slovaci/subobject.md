@@ -8,6 +8,8 @@ routes:
     canonical: /chapters/1-na-polceste-k-slovenskemu-statu/hej_slovaci
     aliases:
         - /chapters/1/hej_slovaci
+content:
+    items: '@self.parent'
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
 emailPlaceholder: 'e-mailová adresa'
 emailButton: 'informujte ma'
