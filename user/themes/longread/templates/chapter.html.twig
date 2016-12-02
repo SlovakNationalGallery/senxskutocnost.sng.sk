@@ -4,6 +4,10 @@
 <body itemscope itemtype="http://schema.org/Article">
 {% endblock %}
 
+{% block header %}
+    {% include 'partials/navbar.html.twig' %}
+{% endblock %}
+
 {% block content %}
     <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
       <article class="post chapter">

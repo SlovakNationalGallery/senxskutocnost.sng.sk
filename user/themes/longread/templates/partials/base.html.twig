@@ -66,7 +66,8 @@
 {% set home = pages.find(config.system.home.alias) %}
 
     {% block header %}
-        {% include 'partials/navbar.html.twig' %}
+      <a href="/" class="logo-sng"><span class="logo"></span></a>
+      <a href="/about" class="nav-about c-white f-uni-grotesk-bold">O Projekte</a>
     {% endblock %}
 
     <!-- content start -->
