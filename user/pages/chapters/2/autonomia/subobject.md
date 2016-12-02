@@ -1,19 +1,19 @@
 ---
 title: Autonómia
-chapter: '1. kaptiola - Na polceste k slovenskému štátu'
+chapter: '2. kaptiola - Jeden národ, jedna strana, jeden vodca'
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu
 slug: autonomia
 routes:
-    default: /chapters/1-na-polceste-k-slovenskemu-statu/autonomia
-    canonical: /chapters/1-na-polceste-k-slovenskemu-statu/autonomia
+    default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca/autonomia
+    canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca/autonomia
     aliases:
-        - /chapters/1/autonomia
+        - /chapters/2/autonomia
 content:
     items: '@self.parent'
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
 emailPlaceholder: 'e-mailová adresa'
 emailButton: 'informujte ma'
-returnButtonText: 'Späť na 1. kapitolu'
+returnButtonText: 'Späť na 2. kapitolu'
 ---
 
 [![Ján Ladvenica: List z albumu Boj za slobodu I. 1938. SNG](SVK_SNG.G_4161.jpeg)](http://www.webumenia.sk/katalog?related_work=Boj%20za%20slobodu&author=Ladvenica,%20J%C3%A1n)

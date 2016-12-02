@@ -590,6 +590,11 @@ form#email-capture {
   background-size: cover;
   background-position-y: 52%; }
 
+.return.chapter2 {
+  background: url(../../../pages/chapters/2/teslik-oslavy.jpg);
+  background-size: cover;
+  background-position-y: 28%; }
+
 @media only screen and (max-width: 600px) {
   .post.page {
     padding-bottom: 0; } }

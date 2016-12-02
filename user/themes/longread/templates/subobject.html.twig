@@ -39,7 +39,7 @@
 {% endblock %}
 
 {% block footer %}
-  <div class="return chapter1 centered">
+  <div class="return chapter{% for p in page.collection %}{{ p.header.chapterNumber }}{% endfor %} centered">
     <div class="return-gradient">
       <a onclick="window.history.back()" href="{{page.header.chapterHref}}" class="button-return uk-button uk-button-large c-black f-uni-grotesk-regular">{{page.header.returnButtonText}}</a>
     </div>

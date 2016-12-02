@@ -748,6 +748,12 @@ $button-height: 60px;
   background-size: cover;
   background-position-y: 52%;
 }
+.return.chapter2 {
+  background: 
+    url(../../../pages/chapters/2/teslik-oslavy.jpg);
+  background-size: cover;
+  background-position-y: 28%;
+}
 
 .post.page {
   @include respond-to(600) {
