@@ -603,6 +603,10 @@ form#email-capture {
         color: white;
         font-size: 80px;
         margin-bottom: -30px;
+        @include respond-to(810) {
+          font-size: 65px;
+          margin-bottom: -25px;
+        }
         @include respond-to(620) {
           font-size: 45px;
           margin-bottom: -20px;
@@ -611,7 +615,6 @@ form#email-capture {
           font-size: 40px;
           margin-bottom: -15px;
         }
-
       }
       .post-reading {
         position: relative;

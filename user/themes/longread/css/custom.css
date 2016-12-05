@@ -479,6 +479,10 @@ form#email-capture {
       color: white;
       font-size: 80px;
       margin-bottom: -30px; }
+      @media only screen and (max-width: 810px) {
+        .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
+          font-size: 65px;
+          margin-bottom: -25px; } }
       @media only screen and (max-width: 620px) {
         .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
           font-size: 45px;
