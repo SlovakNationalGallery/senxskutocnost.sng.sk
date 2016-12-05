@@ -1,0 +1,5 @@
+<div class="carousel">
+    {% for subobject in subobjects %}
+        <img class="slide" src="{{ subobject.thumbnail.url }}" alt="{{subobject.title}}" />
+    {% endfor %}
+</div>
