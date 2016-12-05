@@ -1,9 +1,9 @@
 <div class="carousel">
-    {% for subobject in subobjects %}
-        {% if subobject.href %}
-            <a href="{{ subobject.href }}"><img class="slide" src="{{ subobject.imgSrc }}" alt="{{subobject.title}}" /></a>
+    {% for image in images %}
+        {% if image.href %}
+            <a href="{{ image.href }}"><img class="slide" src="{{ image.src }}" alt="{{image.title}}" /></a>
         {% else %}
-            <img class="slide" src="{{ subobject.imgSrc }}" alt="{{subobject.title}}" />
+            <img class="slide" src="{{ image.src }}" alt="{{image.title}}" />
         {% endif %}
     {% endfor %}
 </div>
