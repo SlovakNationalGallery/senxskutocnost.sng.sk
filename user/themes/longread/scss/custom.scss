@@ -43,6 +43,10 @@ a, a:visited, a:hover, a:active {
   // color: inherit;
 }
 
+a[disabled] { // IE compatible (http://stackoverflow.com/questions/10276133/how-to-disable-html-links/10276157#10276157)
+    pointer-events: none;
+}
+
 @include selection {
   background-color: $red;
 }
@@ -523,6 +527,8 @@ form#email-capture {
       }
     }
     h5 {
+      display: inline-block; // needed for pointer-events: none
+      width: 100%;
       border-top: white solid 2px;
       padding-top: 15px;
       margin-bottom: 5px;
