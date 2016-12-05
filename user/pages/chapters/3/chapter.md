@@ -2,6 +2,7 @@
 title: '70 000 obetí'
 published: true
 disabled: true
+announce_date: 'Zverejníme onedlho'
 date: '18-11-2016 00:00'
 slug: chapter-3
 routes:

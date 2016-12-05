@@ -11,6 +11,9 @@ a {
     color: inherit;
     text-decoration: none; }
 
+a[disabled] {
+  pointer-events: none; }
+
 ::-moz-selection {
   background-color: #E00000; }
 
@@ -417,6 +420,8 @@ form#email-capture {
       color: #E00000;
       border-top-color: #E00000; }
     #chapter-preview .chapter-thumb h5 {
+      display: inline-block;
+      width: 100%;
       border-top: white solid 2px;
       padding-top: 15px;
       margin-bottom: 5px;
@@ -593,12 +598,12 @@ form#email-capture {
   .return .button-return {
     margin-top: 95px; }
 
-.return.chapter1 {
+.return.chapter-1 {
   background: url(../../../pages/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
   background-size: cover;
   background-position-y: 52%; }
 
-.return.chapter2 {
+.return.chapter-2 {
   background: url(../../../pages/chapters/2/teslik-oslavy.jpg);
   background-size: cover;
   background-position-y: 28%; }

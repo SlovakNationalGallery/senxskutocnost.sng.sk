@@ -32,33 +32,65 @@
           </div>
           
           <div id="chapter-preview" class="uk-grid centered c-white ">
-            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb">
-              <a href="{{page.find('/chapters/1').url}}">
-                <h5 class="f-uni-grotesk-bold">1.<br>Na polceste k slovenskému štátu</h5>
+
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if page.find('/chapters/1').header.disabled%}disabled{% endif %}">
+              <a href="{{page.find('/chapters/1').url}}" {% if page.find('/chapters/1').header.disabled%}disabled{% endif %}>
+                <h5 class="f-uni-grotesk-bold">{{page.find('/chapters/1').header.chapterNumber}}.<br>{{page.find('/chapters/1').title}}</h5>
               </a>
-              <p class="f-uni-grotesk-regular">7. november</p>
+              <p class="f-uni-grotesk-regular">{{page.find('/chapters/1').header.announce_date}}</p>
               <a href="{{page.find('/chapters/1').url}}">
-                <img src="{{ page.media['thumb-chapter1.jpg'].url }}" class="uk-hidden-small" alt="chapter 1">
+                <img src="
+                {% if page.find('/chapters/1').header.disabled %}
+                  {{ page.media['thumb-chapter1.jpg'].colorize(-100,-100,-100).url }}
+                {% else %}
+                  {{ page.media['thumb-chapter1.jpg'].url }}
+                {% endif %}"
+                class="uk-hidden-small" alt="chapter 1">
               </a>
             </div>
 
-            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb disabled">
-              <h5 class="f-uni-grotesk-bold">2.<br>Jeden národ, jedna strana, jeden vodca</h5>
-              <p class="f-uni-grotesk-regular">Zverejníme onedlho</p>
-              <img src="{{ page.media['thumb-chapter2.jpg'].colorize(-100,-100,-100).url }}" class="uk-hidden-small" alt="chapter 2">
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if page.find('/chapters/2').header.disabled%}disabled{% endif %}">
+              <a href="{{page.find('/chapters/2').url}}" {% if page.find('/chapters/2').header.disabled%}disabled{% endif %}>
+                <h5 class="f-uni-grotesk-bold">{{page.find('/chapters/2').header.chapterNumber}}.<br>{{page.find('/chapters/2').title}}</h5>
+              </a>
+              <p class="f-uni-grotesk-regular">{{page.find('/chapters/2').header.announce_date}}</p>
+              <img src="
+                {% if page.find('/chapters/2').header.disabled %}
+                  {{ page.media['thumb-chapter2.jpg'].colorize(-100,-100,-100).url }}
+                {% else %}
+                  {{ page.media['thumb-chapter2.jpg'].url }}
+                {% endif %}" 
+                class="uk-hidden-small" alt="chapter 2">
             </div>
 
-            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb disabled">
-              <h5 class="f-uni-grotesk-bold">3.<br>70 000 obetí</h5>
-              <p class="f-uni-grotesk-regular">Zverejníme onedlho</p>
-              <img src="{{ page.media['thumb-chapter3.jpg'].colorize(-100,-100,-100).url }}" class="uk-hidden-small" alt="chapter 3">
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if page.find('/chapters/3').header.disabled%}disabled{% endif %}">
+              <a href="{{page.find('/chapters/3').url}}" {% if page.find('/chapters/3').header.disabled%}disabled{% endif %}>
+                <h5 class="f-uni-grotesk-bold">{{page.find('/chapters/3').header.chapterNumber}}.<br>{{page.find('/chapters/3').title}}</h5>
+              </a>
+              <p class="f-uni-grotesk-regular">{{page.find('/chapters/3').header.announce_date}}</p>
+              <img src="
+                {% if page.find('/chapters/3').header.disabled %}
+                  {{ page.media['thumb-chapter3.jpg'].colorize(-100,-100,-100).url }}
+                {% else %}
+                  {{ page.media['thumb-chapter3.jpg'].url }}
+                {% endif %}"
+                class="uk-hidden-small" alt="chapter 3">
             </div>
 
-            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb disabled">
-              <h5 class="f-uni-grotesk-bold">4.<br>Vytriezvenie zo sna</h5>
-              <p class="f-uni-grotesk-regular">Zverejníme onedlho</p>
-              <img src="{{ page.media['thumb-chapter4.jpg'].colorize(-100,-100,-100).url }}" class="uk-hidden-small" alt="chapter 4">
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if page.find('/chapters/4').header.disabled%}disabled{% endif %}">
+              <a href="{{page.find('/chapters/4').url}}" {% if page.find('/chapters/4').header.disabled%}disabled{% endif %}>
+                <h5 class="f-uni-grotesk-bold">{{page.find('/chapters/4').header.chapterNumber}}.<br>{{page.find('/chapters/4').title}}</h5>
+              </a>
+              <p class="f-uni-grotesk-regular">{{page.find('/chapters/4').header.announce_date}}</p>
+              <img src="
+                {% if page.find('/chapters/4').header.disabled %}
+                  {{ page.media['thumb-chapter4.jpg'].colorize(-100,-100,-100).url }}
+                {% else %}
+                  {{ page.media['thumb-chapter4.jpg'].url }}
+                {% endif %}"
+                class="uk-hidden-small" alt="chapter 4">
             </div>
+
           </div>
           
         </div>
