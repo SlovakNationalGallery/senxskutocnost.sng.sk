@@ -10,7 +10,7 @@ routes:
     aliases:
         - /chapters/1
 chapterNumber: 1
-titleStyled: "<span class='f-uni-grotesk-bold'>Na polceste<br>k</span> <span class='f-moyenage'>slovenskému štátu</span>"
+titleStyled: '<span class=''f-uni-grotesk-bold''>Na polceste<br>k</span> <span class=''f-moyenage''>slovenskému štátu</span>'
 description: '1. kapitola: Na polceste k slovenskému štátu'
 image: tiso.jpg
 emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
@@ -25,7 +25,7 @@ emailButton: 'informujte ma'
 
 <div class="highlight">
 <p>
-Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája Rakúsko. Hitler sa zároveň netají snahami zlikvidovať susedné Československo
+Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája Rakúsko. Hitler sa zároveň netají snahami zlikvidovať susedné Československo.
 </p>
 </div>
 
