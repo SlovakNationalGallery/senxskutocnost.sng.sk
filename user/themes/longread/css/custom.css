@@ -560,16 +560,20 @@ form#email-capture {
       text-decoration: underline; }
   .post.subobject .chapter-title {
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0 20px; }
     .post.subobject .chapter-title h1 {
       color: #000;
-      font-size: 60px; }
+      font-size: 60px;
+      line-height: 60px; }
       @media only screen and (max-width: 620px) {
         .post.subobject .chapter-title h1 {
-          font-size: 40px; } }
+          font-size: 40px;
+          line-height: 40px; } }
       @media only screen and (max-width: 460px) {
         .post.subobject .chapter-title h1 {
-          font-size: 35px; } }
+          font-size: 35px;
+          line-height: 35px; } }
     .post.subobject .chapter-title .title-date {
       font-family: "Uni Grotesk Regular";
       font-size: 18px;

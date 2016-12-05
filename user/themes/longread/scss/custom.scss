@@ -704,15 +704,19 @@ form#email-capture {
   }
   .chapter-title {
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0 20px;
     h1 {
       color: $text-color;
       font-size: 60px;
+      line-height: 60px;
       @include respond-to(620) {
         font-size: 40px;
+        line-height: 40px;
       }
       @include respond-to(460) {
         font-size: 35px;
+        line-height: 35px;
       }
     }
     .title-date {
