@@ -11,6 +11,9 @@ a {
     color: inherit;
     text-decoration: none; }
 
+a[disabled] {
+  pointer-events: none; }
+
 ::-moz-selection {
   background-color: #E00000; }
 
@@ -417,6 +420,8 @@ form#email-capture {
       color: #E00000;
       border-top-color: #E00000; }
     #chapter-preview .chapter-thumb h5 {
+      display: inline-block;
+      width: 100%;
       border-top: white solid 2px;
       padding-top: 15px;
       margin-bottom: 5px;

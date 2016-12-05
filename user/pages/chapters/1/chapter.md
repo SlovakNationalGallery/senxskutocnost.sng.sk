@@ -1,8 +1,8 @@
 ---
 title: 'Na polceste k slovenskému štátu'
 published: true
-date: '31-10-2016 00:00'
-publish_date: '07-11-2016 06:00'
+announce_date: '7. november'
+date: '07-11-2016 06:00'
 slug: chapter-1
 routes:
     default: /chapters/1-na-polceste-k-slovenskemu-statu

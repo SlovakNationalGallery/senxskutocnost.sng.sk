@@ -2,6 +2,7 @@
 title: 'Vytriezvenie zo sna'
 published: true
 disabled: true
+announce_date: 'Zverejníme onedlho'
 date: '18-11-2016 00:00'
 slug: chapter-4
 routes:
