@@ -17,7 +17,7 @@ returnButtonText: 'Späť na 2. kapitolu'
 ---
 
 [![Neznámy autor - Marš zo Slovenska!, 1941 – 1942, Slovenské národné múzeum - archív SNM v Bratislave](SVK_TMP.191.jpeg "Neznámy autor - Marš zo Slovenska!")](http://www.webumenia.sk/dielo/SVK:TMP.191?collection=83)
-Prevod židovského majetku do „kresťanských“ rúk, tzv. arizácia, sa začína pripravovať už po vzniku štátu v marci 1939. Túto štátom riadenú lúpež nazývajú ľudáci „vylúčením Židov z hospodárskeho a sociálneho života“. Úvodné vládne nariadenia arizačného procesu, ktoré prijala vláda vedená ešte Jozefom Tisom, umožňujú odobrať Židom živnosť alebo dosadiť do podniku tzv. dočasného správcu, prípadne dôverníka, ak existujú proti majiteľovi „námietky z hľadiska spoľahlivosti, verejného záujmu, alebo sociálne dôvody“. 
+Prevod židovského majetku do „kresťanských“ rúk, tzv. arizácia, sa začína pripravovať už po vzniku štátu v marci 1939. Túto štátom riadenú lúpež nazývajú ľudáci „vylúčením Židov z hospodárskeho a sociálneho života“. Úvodné vládne nariadenia arizačného procesu, ktoré prijala vláda vedená ešte Jozefom Tisom, umožňujú odobrať Židom živnosť alebo dosadiť do podniku tzv. dočasného správcu, prípadne dôverníka, ak existujú proti majiteľovi „námietky z hľadiska spoľahlivosti, verejného záujmu alebo sociálne dôvody“. 
 
 [![Neznámy autor - Nebuď služobníkom Žida, 1940 - 1942, Slovenské národné múzeum - archív SNM, Bratislava](SVK_TMP.192.jpeg "Neznámy autor - Nebuď služobníkom Žida")](http://www.webumenia.sk/dielo/SVK:TMP.192?collection=83)
 

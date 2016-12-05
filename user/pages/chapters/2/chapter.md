@@ -18,14 +18,14 @@ emailPlaceholder: 'e-mailová adresa'
 emailButton: 'informujte ma'
 ---
 
-<span class="drop-cap">P</span>odmienky, za ktorých vzniká samostatný Slovenský štát, nedávajú informovaným občanom dôvod k optimizmu. Ľudácka propaganda preto kolaboráciu s Hitlerom a podriadenie sa jeho plánom ospravedlňuje masívne medializovanými tvrdeniami, že samostatná republika je zavŕšením „tisícročných snáh slovenského národa o vlastnú štátnosť“. 
+<span class="drop-cap">P</span>odmienky, za ktorých vzniká samostatný "Slovenský štát", nedávajú informovaným občanom dôvod na optimizmus. Ľudácka propaganda preto kolaboráciu s Hitlerom a podriadenie sa jeho plánom ospravedlňuje masívne medializovanými tvrdeniami, že samostatná republika je zavŕšením „tisícročných snáh slovenského národa o vlastnú štátnosť“. 
 ## Ochranná zmluva
 ### 18. 3. 1939 {.title-date}
 
-Realitu „samostatnosti“ vystihuje už Zmluva o ochrannom pomere, ktorú predstavitelia Slovenského štátu podpisujú s Treťou ríšou 18. a 23. marca 1939 vo Viedni a v Berlíne. V nej sa nacistické Nemecko zaväzuje chrániť integritu slovenského územia výmenou za podriadenosť zahraničnej politiky, za budovanie armády „v zhode s nemeckou brannou mocou“ a za zosúladenie hospodárskych záujmov Slovenska s nemeckými, vrátane poľnohospodárstva, priemyslu a výstavby dopravnej komunikačnej siete. Hoci verejnosť je o uzavretí zmluvy informovaná, sprievodné protokoly ostávajú tajné. Nemci preberajú priamu kontrolu nad slovenskými zbrojovkami na Považí, kde vytvárajú tzv. ochranné pásmo, Schutzzone.
+Realitu „samostatnosti“ vystihuje už Zmluva o ochrannom pomere, ktorú predstavitelia "Slovenského štátu" podpisujú s Treťou ríšou 18. a 23. marca 1939 vo Viedni a v Berlíne. V nej sa nacistické Nemecko zaväzuje chrániť integritu slovenského územia výmenou za podriadenosť zahraničnej politiky, za budovanie armády „v zhode s nemeckou brannou mocou“ a za zosúladenie hospodárskych záujmov Slovenska s nemeckými, vrátane poľnohospodárstva, priemyslu a výstavby dopravnej komunikačnej siete. Hoci verejnosť je o uzavretí zmluvy informovaná, sprievodné protokoly ostávajú tajné. Nemci preberajú priamu kontrolu nad slovenskými zbrojovkami na Považí, kde vytvárajú tzv. ochranné pásmo, Schutzzone.
 
 [![Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava, 1939, SNG, Bratislava](Jozef%20Nov%C3%BD%20-%20Budovanie%20hran%C3%ADc%20medzi%20Slovenskou%20republikou%20a%20Protektor%C3%A1tom%20%C4%8Cechy%20a%20Morava,%201939.jpeg "Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
-Hitler sa síce netají svojím opovržlivým postojom k slovanským národom, ktoré považuje za menejcenné, no kvôli ďalším plánovaným expanziám zatiaľ uprednostňuje na území Slovenska zdržanlivý prístup. 
+Hitler sa síce netají svojím opovržlivým postojom k slovanským národom, ktoré považuje za menejcenné, no pre ďalšie plánované expanzie zatiaľ uprednostňuje na území Slovenska zdržanlivý prístup. 
 
 <div class="highlight">
 <p>
@@ -38,13 +38,13 @@ Slovensko sa má stať príkladom pre krajiny juhovýchodnej Európy a má ukáz
 ## Prijatie Ústavy Slovenskej republiky
 ### 21. 7. 1939 {.title-date}
 
-Po decembrových voľbách 1938 Hlinkova slovenská ľudová strana - Strana slovenskej národnej jednoty (HSĽS-SSNJ) nielen stabilizuje svoje vládne pozície, ale agresívnym obsadzovaním postov v štátnej a verejnej správe priamo presadzuje svoj vplyv na hospodársky a spoločenský život v krajine. Likviduje napríklad voľby do obecných samospráv, obce majú riadiť menovaní „vládni komisári“. Toto vedúce postavenie jedinej politickej strany potvrdzuje aj ústava, ktorú snem prijíma 21. júla 1939. Podľa jej preambuly (predhovoru) vychádza všetka moc a právo od Boha, no jej text potvrdzuje autoritársku politickú prax HSĽS, ktorá otvorene odmieta demokratické zásady, na aké boli občania zvyknutí z medzivojnového obdobia.
+Po decembrových voľbách 1938 Hlinkova slovenská ľudová strana - Strana slovenskej národnej jednoty (HSĽS-SSNJ) nielen stabilizuje svoje vládne pozície, ale agresívnym obsadzovaním postov v štátnej a vo verejnej správe priamo presadzuje svoj vplyv na hospodársky a spoločenský život v krajine. Likviduje napríklad voľby do obecných samospráv, obce majú riadiť menovaní „vládni komisári“. Toto vedúce postavenie jedinej politickej strany potvrdzuje aj ústava, ktorú snem prijíma 21. júla 1939. Podľa jej preambuly (predhovoru) vychádza všetka moc a právo od Boha, no jej text potvrdzuje autoritársku politickú prax HSĽS, ktorá otvorene odmieta demokratické zásady, na aké boli občania zvyknutí z medzivojnového obdobia.
 <div class="highlight">
 <p>
 Z HSĽS sa stáva „štátostrana“ – prisvojuje si nárok ako jediná „zastupovať záujmy štátotvorného národa“ a naopak Slováci sa môžu zúčastňovať na politickej moci len „jej prostredníctvom“. 
 </p>
 </div>
-[![Neznámy autor - Boh požehnáva tvoju úrodu ty ňou požehnaj svoj národ, 1939 – 1943, Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.181.jpeg "Neznámy autor - Boh požehnáva tvoju úrodu ty ňou požehnaj svoj národ")](http://www.webumenia.sk/dielo/SVK:TMP.181?collection=83)
+[![Neznámy autor - Slávnostné otvorenie cyklu technických prednášok robotníkov v Považskej Bystrici, 1940, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.206.jpeg "Neznámy autor - Slávnostné otvorenie cyklu technických prednášok robotníkov v Považskej Bystrici")](http://www.webumenia.sk/dielo/SVK:TMP.206?collection=83)
 
 Z ostatných strán legálne fungujú len dve režimové etnické strany, formálne zastupujúce nemeckú a maďarskú menšinu. Ľudácka ideológia tvrdo podriaďuje záujmy jednotlivca svojim potrebám, ktoré prezentuje ako potreby „národného celku“. A v takom celku niet miesta pre tých, ktorých vláda označí za jeho nepriateľov. Tí už od jari 1939 končia v koncentračnom tábore v Ilave.
 
@@ -76,7 +76,7 @@ Hitler vydáva ešte v apríli 1939 príkaz vypracovať plán vojenského ťaže
 
 #### Dňa 1. septembra 1939 nemecké vojská vstupujú na územie Poľska a oficiálne začína druhá svetová vojna. Pre Slovensko, ktoré je zahraničím vnímané ako satelit Tretej ríše, a účasťou svojej armády na nacistickom vpáde do Poľska túto pozíciu otvorene potvrdilo, znamená tento akt okamžité prerušenie diplomatických stykov so západnými veľmocami. 
 
-Ako motív účasti v tomto ťažení po boku Nemecka je slovenskej verejnosti v médiách predkladané najmä prinavrátenie území o rozlohe 770 km2 s 32 obcami a osadami, ktoré zabralo Poľsko po Mníchovskej dohode. Francúzsko a Veľká Británia ako poľskí spojenci vyhlasujú Nemecku vojnu. Zmenou politickej situácie sa vracajú k svojim predmníchovským spojeneckým záväzkom voči Československu. Slovensko rátajú k ostatným, nacistami postupne okupovaným krajinám.
+Ako motív účasti v tomto ťažení po boku Nemecka je slovenskej verejnosti v médiách predkladané najmä prinavrátenie území o rozlohe 770 km2 s 32 obcami a osadami, ktoré zabralo Poľsko po Mníchovskej dohode. Francúzsko a Veľká Británia ako poľskí spojenci vyhlasujú Nemecku vojnu. Zmenou politickej situácie sa vracajú k svojim predmníchovským spojeneckým záväzkom voči Československu. Slovensko rátajú k ďalším, nacistami postupne okupovaným krajinám.
 
 [![Neznámy autor - Obálka časopisu Nové Slovensko, 1940 – 1941, Súkromný majetok](SVK_TMP.145.jpeg "Neznámy autor - Obálka časopisu Nové Slovensko")](http://www.webumenia.sk/dielo/SVK:TMP.145?collection=83)
 
@@ -144,7 +144,7 @@ Program budovania národno-socialistickej kultúry sa vyznačuje najmä návrato
 
 +++ Carousel Strážcovia slovenska (13 obrazov na výšku) +++
 
-Pseudoromantický, idealistický výklad národného mýtu viedol k idylickému návratu k predkom a k výberovému vytváraniu martýria hrdinov minulosti (Pribina, Svätopluk, staroslovanská a cyrilo-metodská tradícia). Zdôrazňovala sa starobylosť národa, zrodeného z „prastarého ducha ľudu“ a nemennosť spôsobu života pretrvávajúceho stáročia.
+Pseudoromantický, idealistický výklad národného mýtu vedie k idylickému návratu k predkom a k výberovému vytváraniu martýria hrdinov minulosti (Pribina, Svätopluk, staroslovanská a cyrilo-metodská tradícia). Zdôrazňuje sa starobylosť národa, zrodeného z „prastarého ducha ľudu“ a nemennosť spôsobu života, pretrvávajúceho stáročia.
 
 [![Ján Ladvenica - Kráľ Svätopluk, 1945, Galéria mesta Bratislavy](SVK_GMB.A_3475.jpeg "Ján Ladvenica - Kráľ Svätopluk")](http://www.webumenia.sk/dielo/SVK:GMB.A_3475?collection=83)
 
@@ -160,7 +160,7 @@ Dobová propaganda využíva ovládnuté médiá na šírenie obrazu Slovenska a
 
 [![Andrej Kováčik - Zdravé dieťa v rodine..., 1940, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](SVK_TMP.187.jpeg "Andrej Kováčik - Zdravé dieťa v rodine")](http://www.webumenia.sk/dielo/SVK:TMP.187?collection=83)
 
-Vojnová výroba, mobilizácia mužov do armády a tiež ich umiestňovanie na práce v Nemecku napomáhajú znižovať nezamestnanosť. Relatívne veľké skupiny obyvateľstva ťažia, alebo aspoň majú nádej, že budú ťažiť, z rozdávania arizovaného majetku, od podnikovej úrovne až po vybavenie zo židovských domácností.
+Vojnová výroba, mobilizácia mužov do armády a tiež ich umiestňovanie na práce v Nemecku pomáhajú znižovať nezamestnanosť. Relatívne veľké skupiny obyvateľstva ťažia, alebo aspoň majú nádej, že budú ťažiť, z rozdávania arizovaného majetku, od podnikovej úrovne až po vybavenie zo židovských domácností.
 {% include 'partials/subobjects.html.twig' with {
     'subobjects': [
         {
@@ -170,6 +170,8 @@ Vojnová výroba, mobilizácia mužov do armády a tiež ich umiestňovanie na p
         }
     ]
 }%}
+
+[![Neznámy autor - Boh požehnáva tvoju úrodu ty ňou požehnaj svoj národ, 1939 – 1943, Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.181.jpeg "Neznámy autor - Boh požehnáva tvoju úrodu ty ňou požehnaj svoj národ")](http://www.webumenia.sk/dielo/SVK:TMP.181?collection=83)
 
 S prehlbovaním vojnového konfliktu sa v ekonomike prejavujú negatívne krízové javy. Už od roku 1940 a najmä od vypuknutia vojny so Sovietskym zväzom v júni 1941 sa rýchlo zhoršuje zásobovanie. V lete 1941 nastáva vážna kríza v zásobovaní múkou. Dlhodobo sa prejavuje aj nedostatok tukov. Šíri sa čierny trh s niekoľkonásobne vyššími cenami než na štátom kontrolovanom trhu. Aby sa vláda vyhla nepopulárnemu lístkovému systému zásobovania obyvateľstva, zaviedla tzv. odberné knižky.
 
@@ -185,11 +187,13 @@ Keďže pre Nemecko je krajina významným zdrojom nerastných surovín, poľnoh
 
 <div class="highlight">
 <p>
-Kľúčové pozície v slovenských podnikoch ovládajú nemecké banky a združenia, a značná časť priemyslu je natoľko naviazaná na vojnové potreby Nemecka, že je v prípade neúspechu Hitlera vo vojne naďalej neudržateľná.
+Kľúčové pozície v slovenských podnikoch ovládajú nemecké banky a združenia a značná časť priemyslu je natoľko naviazaná na vojnové potreby Nemecka, že je v prípade neúspechu Hitlera vo vojne naďalej neudržateľná.
 </p>
 </div>
 
 [![Neznámy autor - Výstava Hradské Adolfa Hitlera, 1940, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.184.jpeg "Neznámy autor - Výstava Hradské Adolfa Hitlera")](http://www.webumenia.sk/dielo/SVK:TMP.184?collection=83)
+
+[![Ernesto B. La Padula, Attilio La Padula (Rím) - Súťažný návrh na Univerzitné mesto v Bratislave (2. cena ex aequo. Nákres), 1940 — 1941, Slovenský národný archív, Bratislava](SVK_TMP-210.jpg "Ernesto B. La Padula, Attilio La Padula (Rím) - Súťažný návrh na Univerzitné mesto v Bratislave (2. cena ex aequo. Nákres)")](http://www.webumenia.sk/dielo/SVK:TMP.76)
 
 [![Ernesto La Padula, Attilio La Padula - Hrad Bratislava 2, súťažný návrh prestavby Bratislavského hradu a podrhadia na univerzitné mesto, 1941](SVK_TMP.76.jpeg "Ernesto La Padula, Attilio La Padula - Hrad Bratislava 2, súťažný návrh prestavby Bratislavského hradu a podrhadia na univerzitné mesto")](http://www.webumenia.sk/dielo/SVK:TMP.76)
 
@@ -198,17 +202,17 @@ Kľúčové pozície v slovenských podnikoch ovládajú nemecké banky a združ
 
 Pri svojich plánoch vojensky napadnúť Zväz sovietskych socialistických republík (ZSSR) ráta Nemecko aj s účasťou vojsk svojich spojencov. Na konci apríla 1941 je podpísaná dohoda o prechode a pobyte nemeckých vojsk na slovenskom území a začiatkom júna zavádza aj slovenská armáda mimoriadne cvičenia. 
 
-Dňa 22. júna 1941 zaútočia na sovietske územie cez svoje hranice nemecké, rumunské a fínske vojská. Zapojenie Slovenska ako slovanského štátu do bojov má posilniť dojem, že ide o „boj proti boľševizmu“, nie vojnu voči civilnému obyvateľstvu. Skutočným dôvodom invázie sú však nemecké mocenské zámery - získanie „životného priestoru" (tzv. „lebensraum") pre nemecké árijské obyvateľstvo, germanizácia východnej európy a likvidácia „podradných" národov. 
+Dňa 22. júna 1941 zaútočia na sovietske územie nemecké, rumunské a fínske vojská. Zapojenie Slovenska ako slovanského štátu do bojov má posilniť dojem, že ide o „boj proti boľševizmu“, nie o vojnu voči civilnému obyvateľstvu. Skutočným dôvodom invázie sú však nemecké mocenské zámery - získanie „životného priestoru" (tzv. „lebensraum") a germanizácia východnej európy. 
 
 [![Neznámy autor - Obálky časopisu Nové Slovensko, 1941, Súkromný majetok](SVK_TMP.147.jpeg "Neznámy autor - Obálky časopisu Nové Slovensko")](http://www.webumenia.sk/dielo/SVK:TMP.147?collection=83)
 
 <div class="highlight">
 <p>
-Politické špičky Slovenského štátu súhlasia s Hitlerovou požiadavkou, aby sa Slováci zúčastnili vojenských operácií. 
+Politické špičky slovenského štátu súhlasia s Hitlerovou požiadavkou, aby sa Slováci zúčastnili vojenských operácií. 
 </p>
 </div>
 
-Svojou ochotou bojovať po boku Tretej ríše súperia aj o nemeckú priazeň s Maďarskom, v nádeji na možnú budúcu revíziu Viedenskej arbitráže. Tuka oznamuje prerušenie diplomatických stykov so ZSSR a vypovedanie vojny. O vstupe do Slovenska do vojny však nerokoval snem. 
+Svojou ochotou bojovať po boku Tretej ríše súperia aj o nemeckú priazeň s Maďarskom v nádeji na možnú budúcu revíziu Viedenskej arbitráže. Tuka oznamuje prerušenie diplomatických stykov so ZSSR a vypovedanie vojny. O vstupe Slovenska do vojny však nerokoval snem. 
 
 [![Jozef Teslík - „Haemistky“ podávajú vojakom na slovenských staniciach čaj. Odchod vojakov na východný front, 1941, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.202.jpeg "Jozef Teslík - „Haemistky“ podávajú vojakom na slovenských staniciach čaj. Odchod vojakov na východný front,")](http://www.webumenia.sk/dielo/SVK:TMP.202?collection=83)
 
