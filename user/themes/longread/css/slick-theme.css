@@ -160,7 +160,7 @@
   margin-right: -40px;
 }
 
-.carousel .slick-slide a  {
+.carousel a.slick-slide  {
     text-decoration: none;
 }
 
