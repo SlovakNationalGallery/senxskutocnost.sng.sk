@@ -1,7 +1,7 @@
 ---
 title: 'Na polceste k slovenskému štátu'
 published: true
-announce_date: '5. december'
+announce_date: '7. november'
 date: '07-11-2016 06:00'
 slug: chapter-1
 routes:
