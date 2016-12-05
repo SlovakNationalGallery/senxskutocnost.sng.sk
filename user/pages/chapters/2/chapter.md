@@ -4,7 +4,7 @@ published: true
 announce_date: '5. december'
 date: '05-12-2016 13:00'
 slug: chapter-2
-disabled: true
+disabled: false
 routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
     canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
