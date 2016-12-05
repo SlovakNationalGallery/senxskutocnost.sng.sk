@@ -101,7 +101,7 @@ Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva Jozef Tiso. Je
         },
         {
             'name':'Hlinkova garda', 
-            'thumbnail': page.media['Hlinkova_garda.jpg'],
+            'thumbnail': page.media['garda_thumb.jpg'],
             'href': '2/hlinkova-garda'
         },
         {
@@ -128,7 +128,7 @@ Slovensko má podľa predstáv nacistov priamo preberať myšlienky a metódy ic
 </div>
 
 Na kľúčové slovenské ministerstvá a úrady, ako aj do mocenských štruktúr režimu navyše po Salzburgu prichádzajú ďalší nemeckí poradcovia. Ich úlohou je kontrolovať chod týchto inštitúcií a zložiek, dbať na lojalitu voči Nemecku a dodržiavanie záväzkov ochrannej zmluvy. 
-[![Andrej Kováčik - Nerozlučné je naše priateľstvo!, 1940 – 1941, Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.165.jpeg "Andrej Kováčik - Nerozlučné je naše priateľstvo!")](http://www.webumenia.sk/dielo/SVK:TMP.165?collection=83)
+
 
 
 ## Lomnický manifest
