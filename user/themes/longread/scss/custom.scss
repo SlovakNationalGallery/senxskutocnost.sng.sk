@@ -43,6 +43,10 @@ a, a:visited, a:hover, a:active {
   // color: inherit;
 }
 
+a[disabled] { // IE compatible (http://stackoverflow.com/questions/10276133/how-to-disable-html-links/10276157#10276157)
+    pointer-events: none;
+}
+
 @include selection {
   background-color: $red;
 }
@@ -157,10 +161,16 @@ nav.uk-navbar {
       @include respond-to(1100) {
         height: 100%;
       }
+      @include respond-to(680) {
+        height: 80%;
+      }
     }
     span {
       @include respond-to(1100) {
         display: none;
+      }
+      @include respond-to(680) {
+        display: inline;
       }
     }
   }
@@ -517,6 +527,8 @@ form#email-capture {
       }
     }
     h5 {
+      display: inline-block; // needed for pointer-events: none
+      width: 100%;
       border-top: white solid 2px;
       padding-top: 15px;
       margin-bottom: 5px;
@@ -597,6 +609,10 @@ form#email-capture {
         color: white;
         font-size: 80px;
         margin-bottom: -30px;
+        @include respond-to(810) {
+          font-size: 65px;
+          margin-bottom: -25px;
+        }
         @include respond-to(620) {
           font-size: 45px;
           margin-bottom: -20px;
@@ -605,7 +621,6 @@ form#email-capture {
           font-size: 40px;
           margin-bottom: -15px;
         }
-
       }
       .post-reading {
         position: relative;
@@ -698,15 +713,19 @@ form#email-capture {
   }
   .chapter-title {
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0 20px;
     h1 {
       color: $text-color;
       font-size: 60px;
+      line-height: 60px;
       @include respond-to(620) {
         font-size: 40px;
+        line-height: 40px;
       }
       @include respond-to(460) {
         font-size: 35px;
+        line-height: 35px;
       }
     }
     .title-date {
@@ -736,11 +755,17 @@ $button-height: 60px;
     margin-top: ($return-height - $button-height)/2;
   }
 }
-.return.chapter1 {
+.return.chapter-1 {
   background: 
-    url(../../../pages/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
+    url(../../../pages/chapters/1/tiso.jpg);
   background-size: cover;
   background-position-y: 52%;
+}
+.return.chapter-2 {
+  background: 
+    url(../../../pages/chapters/2/teslik-oslavy.jpg);
+  background-size: cover;
+  background-position-y: 28%;
 }
 
 .post.page {

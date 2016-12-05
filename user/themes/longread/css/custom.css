@@ -11,6 +11,9 @@ a {
     color: inherit;
     text-decoration: none; }
 
+a[disabled] {
+  pointer-events: none; }
+
 ::-moz-selection {
   background-color: #E00000; }
 
@@ -115,9 +118,15 @@ nav.uk-navbar {
       @media only screen and (max-width: 1100px) {
         nav.uk-navbar .uk-navbar-brand img.navbar-icon {
           height: 100%; } }
+      @media only screen and (max-width: 680px) {
+        nav.uk-navbar .uk-navbar-brand img.navbar-icon {
+          height: 80%; } }
     @media only screen and (max-width: 1100px) {
       nav.uk-navbar .uk-navbar-brand span {
         display: none; } }
+    @media only screen and (max-width: 680px) {
+      nav.uk-navbar .uk-navbar-brand span {
+        display: inline; } }
   nav.uk-navbar ul.uk-navbar-nav {
     max-width: none;
     width: 600px; }
@@ -411,6 +420,8 @@ form#email-capture {
       color: #E00000;
       border-top-color: #E00000; }
     #chapter-preview .chapter-thumb h5 {
+      display: inline-block;
+      width: 100%;
       border-top: white solid 2px;
       padding-top: 15px;
       margin-bottom: 5px;
@@ -473,6 +484,10 @@ form#email-capture {
       color: white;
       font-size: 80px;
       margin-bottom: -30px; }
+      @media only screen and (max-width: 810px) {
+        .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
+          font-size: 65px;
+          margin-bottom: -25px; } }
       @media only screen and (max-width: 620px) {
         .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
           font-size: 45px;
@@ -554,16 +569,20 @@ form#email-capture {
       text-decoration: underline; }
   .post.subobject .chapter-title {
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0 20px; }
     .post.subobject .chapter-title h1 {
       color: #000;
-      font-size: 60px; }
+      font-size: 60px;
+      line-height: 60px; }
       @media only screen and (max-width: 620px) {
         .post.subobject .chapter-title h1 {
-          font-size: 40px; } }
+          font-size: 40px;
+          line-height: 40px; } }
       @media only screen and (max-width: 460px) {
         .post.subobject .chapter-title h1 {
-          font-size: 35px; } }
+          font-size: 35px;
+          line-height: 35px; } }
     .post.subobject .chapter-title .title-date {
       font-family: "Uni Grotesk Regular";
       font-size: 18px;
@@ -579,10 +598,15 @@ form#email-capture {
   .return .button-return {
     margin-top: 95px; }
 
-.return.chapter1 {
-  background: url(../../../pages/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
+.return.chapter-1 {
+  background: url(../../../pages/chapters/1/tiso.jpg);
   background-size: cover;
   background-position-y: 52%; }
+
+.return.chapter-2 {
+  background: url(../../../pages/chapters/2/teslik-oslavy.jpg);
+  background-size: cover;
+  background-position-y: 28%; }
 
 @media only screen and (max-width: 600px) {
   .post.page {
