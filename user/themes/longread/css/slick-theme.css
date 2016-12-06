@@ -89,7 +89,7 @@
 
     width: 20px;
     height: 20px;
-    margin: 0 5px;
+    margin: 0 1px !important;
     padding: 0;
 
     cursor: pointer;
@@ -124,7 +124,7 @@
 }
 .slick-dots li button:before
 {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
 
     position: absolute;
@@ -160,7 +160,7 @@
   margin-right: -40px;
 }
 
-.carousel a figcaption {
+.carousel a.slick-slide  {
     text-decoration: none;
 }
 
@@ -168,10 +168,11 @@
   display: block;
   height: 380px;
   width: auto;
+
 }
 
 .slick-slide{
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .slick-arrow {
@@ -184,4 +185,8 @@
 }
 .slick-arrow:hover, .slick-arrow:active {
     opacity: 1.0;
+}
+
+.carousel figure {
+    margin: 0 !important;
 }
