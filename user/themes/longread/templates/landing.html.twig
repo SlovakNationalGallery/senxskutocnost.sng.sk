@@ -14,9 +14,9 @@
         <div class="landing-content">
           <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
             <div id="landing-titles">
-              <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="×" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
-              <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.subTitle }}</h2>
-              <h3 class="c-white f-uni-grotesk-regular">{{ page.header.subSubTitle }}</h3>
+              <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="x" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
+              <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.h2 }}</h2>
+              <h3 class="c-white f-uni-grotesk-regular">{{ page.header.h3 }}</h3>
             </div>
 
             {% include 'partials/emailcapture.html.twig' with {
@@ -45,7 +45,7 @@
                 {% else %}
                   {{ page.media['thumb-chapter1.jpg'].url }}
                 {% endif %}"
-                class="uk-hidden-small" alt="chapter 1">
+                class="uk-hidden-small" alt="sen x skutočnosť {{page.find('/chapters/1').header.chapterNumber}}. kapitola: {{page.find('/chapters/1').title}}">
               </a>
             </div>
 
@@ -60,7 +60,7 @@
                 {% else %}
                   {{ page.media['thumb-chapter2.jpg'].url }}
                 {% endif %}" 
-                class="uk-hidden-small" alt="chapter 2">
+                class="uk-hidden-small" alt="sen x skutočnosť {{page.find('/chapters/2').header.chapterNumber}}. kapitola: {{page.find('/chapters/2').title}}">
             </div>
 
             <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if page.find('/chapters/3').header.disabled%}disabled{% endif %}">
@@ -74,7 +74,7 @@
                 {% else %}
                   {{ page.media['thumb-chapter3.jpg'].url }}
                 {% endif %}"
-                class="uk-hidden-small" alt="chapter 3">
+                class="uk-hidden-small" alt="sen x skutočnosť {{page.find('/chapters/3').header.chapterNumber}}. kapitola: {{page.find('/chapters/3').title}}">
             </div>
 
             <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if page.find('/chapters/4').header.disabled%}disabled{% endif %}">
@@ -88,7 +88,7 @@
                 {% else %}
                   {{ page.media['thumb-chapter4.jpg'].url }}
                 {% endif %}"
-                class="uk-hidden-small" alt="chapter 4">
+                class="uk-hidden-small" alt="sen x skutočnosť {{page.find('/chapters/4').header.chapterNumber}}. kapitola: {{page.find('/chapters/4').title}}">
             </div>
 
           </div>
