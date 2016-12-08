@@ -1,4 +1,4 @@
-absolute_urls: false
+absolute_urls: true                        # Absolute or relative URLs for `base_url`
 
 home:
   alias: '/chapters'

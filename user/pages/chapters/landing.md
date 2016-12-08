@@ -1,5 +1,5 @@
 ---
-title:  "sen × skutočnosť &middot; Udalosti slovenského štátu v 4 kapitolách"
+title:  "sen × skutočnosť - Udalosti slovenského štátu v 4 kapitolách"
 h2: "Udalosti slovenského štátu v 4 kapitolách"
 h3: "Jeden národ, jedna strana, jeden vodca, ale aj vyše 70 000 obetí – obdobie rokov 1939 – 1945 patrí medzi najkomplikovanejšie obdobia slovenských dejín."
 slug: landing
