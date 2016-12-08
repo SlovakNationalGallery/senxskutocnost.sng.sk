@@ -591,7 +591,7 @@ form#email-capture {
   .post-content, {
     position: relative;
     width: inherit;
-    padding-top: 15px;
+    padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
     font-family: "Uni Grotesk Regular";
@@ -641,71 +641,76 @@ form#email-capture {
         text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
       }
     }
-    h1 {
-      font-size: 45px
-    }
-    h1, h2 {
-      letter-spacing: normal;
-    }
-    h2 {
-      margin-bottom: 4px;
-      padding-top: 0;
-    }
-    h3, h4, h5, h6 {
-      margin-bottom: 20px;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      color: $text-color;
-      font-family: $font-bold;
-    }
-    .title-date {
-      font-family: "Uni Grotesk Regular";
-      font-size: 18px;
-      font-weight: 100;
-    }
-    p {
-      color: $text-color;
-      font-size: 18px;
-      @include hyphens(none);
-      @include respond-to(600) {
-        line-height: 25px;
+    .chapter-content {
+      h1 {
+        font-size: 45px
       }
-    }
-    h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
-      margin-left: -20px;
-      margin-right: -20px;
-      @include respond-to(600) {
-        margin-left: 0;
-        margin-right: 0;
+      h1, h2 {
+        letter-spacing: normal;
       }
-    }
-    .fluid-width-video-wrapper {
-      margin-left: 0 !important;
-    }
-    div.highlight p {
-      font-family: $font-bold;
-      font-size: 25px;
-      line-height: 32px;
-    }
-    figcaption {
-      margin-top: 10px;
-      font-style: normal;
-      font-size: 14px;
-    }
-    li {
-      font-size: 18px;
-    }
+      h2 {
+        margin-bottom: 4px;
+        padding-top: 0;
+      }
+      h3, h4, h5, h6 {
+        margin-bottom: 20px;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        color: $text-color;
+        font-family: $font-bold;
+      }
+      .title-date {
+        font-family: "Uni Grotesk Regular";
+        font-size: 18px;
+        font-weight: 100;
+      }
+      p {
+        color: $text-color;
+        font-size: 18px;
+        @include hyphens(none);
+        @include respond-to(600) {
+          line-height: 25px;
+        }
+      }
+      h2:first-child {
+        margin-top: 0;
+      }
+      h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
+        margin-left: -20px;
+        margin-right: -20px;
+        @include respond-to(600) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+      .fluid-width-video-wrapper {
+        margin-left: 0 !important;
+      }
+      div.highlight p {
+        font-family: $font-bold;
+        font-size: 25px;
+        line-height: 32px;
+      }
+      figcaption {
+        margin-top: 10px;
+        font-style: normal;
+        font-size: 14px;
+      }
+      li {
+        font-size: 18px;
+      }
 
-    hr {
-      display:block;
-      border:0px;
-      height:20px;
-      width:20px;
-      margin-top: 10px;
-      background-image:url(../images/hr.svg);
-    }
-    div.audioplayer {
-      margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
+      hr {
+        display:block;
+        border:0px;
+        height:20px;
+        width:20px;
+        margin-top: 10px;
+        background-image:url(../images/hr.svg);
+      }
+      div.audioplayer {
+        margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
+      }
     }
   }
 }
