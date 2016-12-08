@@ -1,10 +1,9 @@
 ---
 title: 'Jeden národ, jedna strana, jeden vodca'
 published: true
-announce_date: '5. december'
 date: '05-12-2016 13:00'
 slug: chapter-2
-disabled: true
+announce_date: '6. december'
 routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
     canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
@@ -25,8 +24,8 @@ emailButton: 'informujte ma'
 
 Realitu „samostatnosti“ vystihuje už Zmluva o ochrannom pomere, ktorú predstavitelia "Slovenského štátu" podpisujú s Treťou ríšou 18. a 23. marca 1939 vo Viedni a v Berlíne. V nej sa nacistické Nemecko zaväzuje chrániť integritu slovenského územia výmenou za podriadenosť zahraničnej politiky, za budovanie armády „v zhode s nemeckou brannou mocou“ a za zosúladenie hospodárskych záujmov Slovenska s nemeckými, vrátane poľnohospodárstva, priemyslu a výstavby dopravnej komunikačnej siete. Hoci verejnosť je o uzavretí zmluvy informovaná, sprievodné protokoly ostávajú tajné. Nemci preberajú priamu kontrolu nad slovenskými zbrojovkami na Považí, kde vytvárajú tzv. ochranné pásmo, Schutzzone.
 
-[![Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava, 1939, SNG, Bratislava](Jozef%20Nov%C3%BD%20-%20Budovanie%20hran%C3%ADc%20medzi%20Slovenskou%20republikou%20a%20Protektor%C3%A1tom%20%C4%8Cechy%20a%20Morava,%201939.jpeg "Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
-Hitler sa síce netají svojím opovržlivým postojom k slovanským národom, ktoré považuje za menejcenné, no pre ďalšie plánované expanzie zatiaľ uprednostňuje na území Slovenska zdržanlivý prístup. 
+[![Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava, 1939, Súkromný majetok](Jozef%20Nov%C3%BD%20-%20Budovanie%20hran%C3%ADc%20medzi%20Slovenskou%20republikou%20a%20Protektor%C3%A1tom%20%C4%8Cechy%20a%20Morava,%201939.jpeg "Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
+[Adolf Hitler](http://www.webumenia.sk/dielo/SVK:TMP.209?collection=83) sa síce netají svojím opovržlivým postojom k slovanským národom, ktoré považuje za menejcenné, no pre ďalšie plánované expanzie zatiaľ uprednostňuje na území Slovenska zdržanlivý prístup. 
 
 <div class="highlight">
 <p>
@@ -35,6 +34,8 @@ Slovensko sa má stať príkladom pre krajiny juhovýchodnej Európy a má ukáz
 </div>
 
 [![Štefan Bednár - Vlastnými silami budujeme svoj domov – samostatný Slovenský štát!, 1939, Slovenské národné múzeum - Múzeum v Martine](SVK_TMP.185.jpeg "Štefan Bednár - Vlastnými silami budujeme svoj domov – samostatný Slovenský štát")](http://www.webumenia.sk/dielo/SVK:TMP.185?collection=83)
+
+---
 
 ## Prijatie Ústavy Slovenskej republiky
 ### 21. 7. 1939 {.title-date}
@@ -66,6 +67,7 @@ Z ostatných strán legálne fungujú len dve režimové etnické strany, formá
 }%}
 
 
+---
 
 
 ## Začiatok druhej svetovej vojny
@@ -81,16 +83,43 @@ Ako motív účasti v tomto ťažení po boku Nemecka je slovenskej verejnosti v
 
 [![Neznámy autor - Obálka časopisu Nové Slovensko, 1940 – 1941, Súkromný majetok](SVK_TMP.145.jpeg "Neznámy autor - Obálka časopisu Nové Slovensko")](http://www.webumenia.sk/dielo/SVK:TMP.145?collection=83)
 
+---
+
 ## Jozef Tiso zvolený za prezidenta 
 ### 26. 10. 1939 {.title-date} 
 
 Ústava z júla 1939 vymedzuje rozsiahle funkcie prezidentovi, ktorého Slovenská republika zatiaľ nemá. Volený má byť na sedem rokov, nezodpovedá sa vláde ani parlamentu, stíhať ho môže len Štátna rada, aj to len za vlastizradu. Je najvyšším veliteľom armády aj Hlinkovej gardy, menuje ministrov, vysokoškolských profesorov a sudcov. Má právo sa zúčastňovať zasadnutí vlády aj Štátnej rady, vyhlasuje stav brannej pohotovosti a so súhlasom snemu môže vypovedať vojnu či uzatvoriť mier. 
 
+![Audiokoláž z prejavov Jozefa Tisa](SXSwebtiso_mixdown.mp3)<figcaption>Audiokoláž z prejavov Jozefa Tisa</figcaption>
+
 Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva Jozef Tiso. Jeho doterajší post predsedu vlády preberá Vojtech Tuka. 
 
-![Audiokoláž z prejavov Jozefa Tisa](SXSwebtiso_mixdown.mp3)<figcaption>Audiokoláž z prejavov Jozefa Tisa</figcaption>
-[![Vincek Hochštetský - Dr. Jozef Tiso. Prvý prezident SR, 1939, Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.149.jpeg "Vincek Hochštetský - Dr. Jozef Tiso. Prvý prezident SR")](http://www.webumenia.sk/dielo/SVK:TMP.149?collection=83)
-+++ Carousel, 2 dalsi tisovia +++
+
+**Podobizne Jozefa Tisa s titulom prvý prezident Slovenskej republiky:**
+{% include 'partials/carousel.html.twig' with {
+    'images': [
+        {
+            'title':'Štefan Bednár', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/24/SVK_TMP.119/SVK_TMP.119.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.119?collection=83'
+        },
+		{
+            'title':'Vincek Hochštetský', 
+			'src': 'http://www.webumenia.sk/images/diela/TMP/17/SVK_TMP.149/SVK_TMP.149.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.149?collection=83'
+        },
+        {
+            'title':'Vincek Hochštetský', 
+			'src': 'http://www.webumenia.sk/images/diela/TMP/16/SVK_TMP.148/SVK_TMP.148.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.148?collection=83'
+        },
+        {
+            'title':'Vincek Hochštetský', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/46/SVK_TMP.120/SVK_TMP.120.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.120?collection=83'
+        }
+    ]
+}%}
 
 {% include 'partials/subobjects.html.twig' with {
     'title': 'Zistite viac o pojmoch',
@@ -113,6 +142,8 @@ Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva Jozef Tiso. Je
     ]
 }%}
 
+---
+
 ## Salzburské rokovania
 ### 27. - 28. 7. 1940 {.title-date}
 
@@ -130,7 +161,9 @@ Slovensko má podľa predstáv nacistov priamo preberať myšlienky a metódy ic
 
 Na kľúčové slovenské ministerstvá a úrady, ako aj do mocenských štruktúr režimu navyše po Salzburgu prichádzajú ďalší nemeckí poradcovia. Ich úlohou je kontrolovať chod týchto inštitúcií a zložiek, dbať na lojalitu voči Nemecku a dodržiavanie záväzkov ochrannej zmluvy. 
 
+[![Neznámy autor - Deň nemeckých frontových vojakov zorganizovaný stranou nemeckej menšiny na Slovensku (Deutsche Partei) - Franz Karmasin pri prejave, 1940, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.204.jpeg "Neznámy autor - Deň nemeckých frontových vojakov zorganizovaný stranou nemeckej menšiny na Slovensku (Deutsche Partei) - Franz Karmasin pri prejave")](http://www.webumenia.sk/dielo/SVK:TMP.204?collection=83)
 
+---
 
 ## Lomnický manifest
 ### 31. 8. 1940 {.title-date}
@@ -143,21 +176,116 @@ Po salzburských rokovaniach sa aj v slovenskom umení začína presadzovať ná
 
 Program budovania národno-socialistickej kultúry sa vyznačuje najmä návratom k tzv. svojrázu, pretláčaniu ľudových, folklórnych motívov, s cieľom posilniť národný charakter slovenského umenia a ilúziu naplnených tisícročných snáh Slovákov o samostatnosť. 
 
-+++ Carousel Strážcovia slovenska (13 obrazov na výšku) +++
+**Martin Benka - Séria strážcovia a ochrankyne Slovenska (1940 - 1942):**
+{% include 'partials/carousel.html.twig' with {
+   'images': [
+       {
+           'title':'Strážca Tatier',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/9/SVK_TMP.178/SVK_TMP.178.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.178?collection=83'
+       },
+       {
+           'title':'Ochrankyňa vrchov',
+            'src': 'http://www.webumenia.sk/images/diela/TMP/4/SVK_TMP.173/SVK_TMP.173.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.173?collection=83'
+       },
+       {
+           'title':'Strážca Považia', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/8/SVK_TMP.177/SVK_TMP.177.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.177?collection=83'
+       },
+        {
+           'title':'Ochrankyňa tvorivej práce', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/2/SVK_TMP.171/SVK_TMP.171.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.171?collection=83'
+       },
+        {
+           'title':'Strážca na západe', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/6/SVK_TMP.175/SVK_TMP.175.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.175?collection=83'
+       },
+        {
+           'title':'Ochrankyňa umenia', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/3/SVK_TMP.172/SVK_TMP.172.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.172?collection=83'
+       },
+        {
+           'title':'Strážca okolia čachtického', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/7/SVK_TMP.176/SVK_TMP.176.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.176?collection=83'
+       },
+        {
+           'title':'Ochrankyňa ducha', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/79/SVK_TMP.169/SVK_TMP.169.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.169?collection=83'
+       },
+        {
+           'title':'Strážca Detvy', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/5/SVK_TMP.174/SVK_TMP.174.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.174?collection=83'
+       },
+        {
+           'title':'Ochrankyňa čistoty', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/78/SVK_TMP.168/SVK_TMP.168.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.168?collection=83'
+       },
+        {
+           'title':'Strážca východu', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/10/SVK_TMP.179/SVK_TMP.179.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.179?collection=83'
+       },
+        {
+           'title':'Ochrankyňa liturgie', 
+           'src': 'http://www.webumenia.sk/images/diela/TMP/1/SVK_TMP.170/SVK_TMP.170.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:TMP.170?collection=83'
+       }
+   ]
+}%}
 
 Pseudoromantický, idealistický výklad národného mýtu vedie k idylickému návratu k predkom a k výberovému vytváraniu martýria hrdinov minulosti (Pribina, Svätopluk, staroslovanská a cyrilo-metodská tradícia). Zdôrazňuje sa starobylosť národa, zrodeného z „prastarého ducha ľudu“ a nemennosť spôsobu života, pretrvávajúceho stáročia.
 
-[![Ján Ladvenica - Kráľ Svätopluk, 1945, Galéria mesta Bratislavy](SVK_GMB.A_3475.jpeg "Ján Ladvenica - Kráľ Svätopluk")](http://www.webumenia.sk/dielo/SVK:GMB.A_3475?collection=83)
+**Diela zobrazujúce ikony národnej pospolitosti a slovenský "svojráz":**
+{% include 'partials/carousel.html.twig' with {
+    'images': [
+        {
+		    'title':'Ján Ladvenica - Kráľ Svätopluk', 
+            'src': 'http://www.webumenia.sk/images/diela/GMB/89/SVK_GMB.A_3475/SVK_GMB.A_3475.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:GMB.A_3475?collection=83'
+        },
+        {
+		    'title':'Ján Ladvenica - Kráľ Svätopluk so synmi', 
+            'src': 'http://www.webumenia.sk/images/diela/GMB/91/SVK_GMB.A_3477/SVK_GMB.A_3477.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:GMB.A_3477?collection=83'
+        },
+        {
+            'title':'Ján Ladvenica - Zo Ždiaru', 
+            'src': 'http://www.webumenia.sk/images/diela/SNG/11/SVK_SNG.O_1978/SVK_SNG.O_1978.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1978?collection=83'
+        },
+		{
+            'title':'Ján Ladvenica - Oslobodené územie', 
+            'src': 'http://www.webumenia.sk/images/diela/SNG/12/SVK_SNG.O_1977/SVK_SNG.O_1977.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1977?collection=83'
+        },
+		{
+            'title':'Štefan Bednár - Jánošíkova smrť', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/76/SVK_TMP.166/SVK_TMP.166.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.166?collection=83'
+        },
+		{
+            'title':'Janko Alexy - Mojmírova smrť II.', 
+            'src': 'http://www.webumenia.sk/images/diela/SNG/39/SVK_SNG.K_3477/SVK_SNG.K_3477.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_3477?collection=83'
+        }
+    ]
+}%}
 
-[![Ján Ladvenica - Zo Ždiaru, 1942, Slovenská národná galéria, SNG](SVK_SNG.O_1978.jpeg "Ján Ladvenica - Zo Ždiaru")](http://www.webumenia.sk/dielo/SVK:SNG.O_1978?collection=83)
-
-[![Štefan Bednár - Jánošíkova smrť., 1939, časopis Nové Slovensko](SVK_TMP.166.jpeg "Štefan Bednár - Jánošíkova smrť")](http://www.webumenia.sk/dielo/SVK:TMP.166?collection=83)
-
+---
 
 ## Život na „Novom Slovensku“ 
 
 
-Dobová propaganda využíva ovládnuté médiá na šírenie obrazu Slovenska ako mierovej, budujúcej a prosperujúcej krajiny. V porovnaní s Protektorátom či dokonca s Poľskom je na Slovensku spočiatku podstatne menej cítiť priamy vplyv Tretej ríše a do salzburských rokovaní sa darí navonok udržiavať obraz „samostatnosti“, čo u časti populácie pomáha vláde získať a udržať si popularitu. Vláda si osvojuje sociálnu rétoriku a aj investuje do viacerých sociálnych projektov. Zavádza aj niektoré sociálne benefity, ako prídavky na nezaopatrené deti. 
+Dobová propaganda využíva ovládnuté médiá na šírenie obrazu Slovenska ako mierovej, budujúcej a prosperujúcej krajiny. V porovnaní s Protektorátom či dokonca s Poľskom je na Slovensku spočiatku podstatne menej cítiť priamy vplyv Tretej ríše. Až do salzburských rokovaní sa darí navonok udržiavať obraz „samostatnosti“, čo u časti populácie pomáha vláde získať a udržať si popularitu. Vláda si osvojuje sociálnu rétoriku a aj investuje do viacerých sociálnych projektov. Zavádza aj niektoré sociálne benefity, ako prídavky na nezaopatrené deti. 
 
 [![Andrej Kováčik - Zdravé dieťa v rodine..., 1940, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](SVK_TMP.187.jpeg "Andrej Kováčik - Zdravé dieťa v rodine")](http://www.webumenia.sk/dielo/SVK:TMP.187?collection=83)
 
@@ -172,17 +300,36 @@ Vojnová výroba, mobilizácia mužov do armády a tiež ich umiestňovanie na p
     ]
 }%}
 
-[![Neznámy autor - Boh požehnáva tvoju úrodu ty ňou požehnaj svoj národ, 1939 – 1943, Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.181.jpeg "Neznámy autor - Boh požehnáva tvoju úrodu ty ňou požehnaj svoj národ")](http://www.webumenia.sk/dielo/SVK:TMP.181?collection=83)
-
 S prehlbovaním vojnového konfliktu sa v ekonomike prejavujú negatívne krízové javy. Už od roku 1940 a najmä od vypuknutia vojny so Sovietskym zväzom v júni 1941 sa rýchlo zhoršuje zásobovanie. V lete 1941 nastáva vážna kríza v zásobovaní múkou. Dlhodobo sa prejavuje aj nedostatok tukov. Šíri sa čierny trh s niekoľkonásobne vyššími cenami než na štátom kontrolovanom trhu. Aby sa vláda vyhla nepopulárnemu lístkovému systému zásobovania obyvateľstva, zaviedla tzv. odberné knižky.
 
-[![Edmund Massányi (pravdepodobne) - Statočnou prácou a bojom k väčšej skyve chleba, 1941 – 1943, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](SVK_TMP.189.jpeg "Edmund Massányi (pravdepodobne) - Statočnou prácou a bojom k väčšej skyve chleba")](http://www.webumenia.sk/dielo/SVK:TMP.189?collection=83)
+{% include 'partials/carousel.html.twig' with {
+    'images': [
+        {
+		    'title':'Plagát od neznámeho autora', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/33/SVK_TMP.181/SVK_TMP.181.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.181?collection=83'
+        },
+        {
+		    'title':'Plagát pravdepodobne od Edmunda Massányi', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/41/SVK_TMP.189/SVK_TMP.189.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.189?collection=83'
+        },
+		{
+            'title':'Plagát od neznámeho autora', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/34/SVK_TMP.182/SVK_TMP.182.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.182?collection=83'
+        },
+        {
+            'title':'Jozef Cincík - Slovensko na prelome', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/38/SVK_TMP.186/SVK_TMP.186.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.186?collection=83'
+        }
+    ]
+}%}
 
 Pripojením juhu krajiny k Maďarsku stratilo Slovensko poľnohospodársky dôležitú oblasť s viacerými centrami baníckeho, kožiarskeho či polygrafického priemyslu. Narušená je dopravná a telekomunikačná štruktúra, ale aj systém elektrických vedení. V snahe zlepšiť situáciu vyhlasuje vláda vo februári 1939 pôžičku hospodárskej obnovy Slovenska. 
 
-[![Neznámy autor - Národ sebe ZP, 1940 – 1944, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](SVK_TMP.182.jpeg "Neznámy autor - Národ sebe ZP")](http://www.webumenia.sk/dielo/SVK:TMP.182?collection=83)
-
-Keďže pre Nemecko je krajina významným zdrojom nerastných surovín, poľnohospodárskych výrobkov a strategickej zbrojárskej výroby, a neustáva ani využívanie jeho komunikačnej siete, v istých sférach prejavuje vlastný záujem o ich rozvoj. Vláda si osvojuje aj viacero medzivojnových projektov, ktoré prezentuje ako svoje vlastné. Pokračuje budovanie nových železničných spojení, pribúdajú cesty s pevným povrchom, elektrické a telefónne siete..., to všetko dôsledne využité vo filmových týždenníkoch ako dôkaz správnosti novej nastúpenej cesty. Odvrátenú stranu rozmachu hospodárskeho rastu čiastočne prekrývajú propagandistické kampane ako „Usmievavé Slovensko“ či „Radosť z práce“. 
+Keďže pre Nemecko je krajina významným zdrojom nerastných surovín, poľnohospodárskych výrobkov a strategickej zbrojárskej výroby, a neustáva ani využívanie jeho komunikačnej siete, v istých sférach prejavuje vlastný záujem o ich rozvoj. Vláda si osvojuje aj viacero medzivojnových projektov, ktoré prezentuje ako svoje vlastné. Pokračuje budovanie nových železničných spojení, pribúdajú cesty s pevným povrchom, elektrické a telefónne siete - to všetko dôsledne využité vo filmových týždenníkoch ako dôkaz správnosti novej nastúpenej cesty. Odvrátenú stranu rozmachu hospodárskeho rastu čiastočne prekrývajú propagandistické kampane ako „Usmievavé Slovensko“ či „Radosť z práce“. 
 
 [![Neznámy autor - Obálka časopisu Nové Slovensko, 1944, súkromný majetok](SVK_TMP.183.jpeg "Neznámy autor - Obálka časopisu Nové Slovensko")](http://www.webumenia.sk/dielo/SVK:TMP.183?collection=83)
 
@@ -194,14 +341,38 @@ Kľúčové pozície v slovenských podnikoch ovládajú nemecké banky a združ
 
 [![Neznámy autor - Výstava Hradské Adolfa Hitlera, 1940, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.184.jpeg "Neznámy autor - Výstava Hradské Adolfa Hitlera")](http://www.webumenia.sk/dielo/SVK:TMP.184?collection=83)
 
-[![Ernesto B. La Padula, Attilio La Padula (Rím) - Súťažný návrh na Univerzitné mesto v Bratislave (2. cena ex aequo. Nákres), 1940 — 1941, Slovenský národný archív, Bratislava](SVK_TMP-210.jpg "Ernesto B. La Padula, Attilio La Padula (Rím) - Súťažný návrh na Univerzitné mesto v Bratislave (2. cena ex aequo. Nákres)")](http://www.webumenia.sk/dielo/SVK:TMP.76)
+**Attilio a Ernesto La Paluda - Súťažný návrh na Univerzitné mesto v Bratislave (1940-1941):**
+{% include 'partials/carousel.html.twig' with {
+    'images': [
+        {
+		    'title':'Súťažný návrh na Univerzitné mesto v Bratislave', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/76/SVK_TMP.210/SVK_TMP.210.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.210?collection=83'
+        },
+        {
+		    'title':'Perspektívny pohľad návrhu', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/48/SVK_TMP.76/SVK_TMP.76.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.76?collection=83'
+        },
+        {
+            'title':'Celková situácia návrhu', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/47/SVK_TMP.75/SVK_TMP.75.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.75'
+        },
+		{
+            'title':'Model návrhu', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/46/SVK_TMP.74/SVK_TMP.74.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.74'
+        }
+    ]
+}%}
 
-[![Ernesto La Padula, Attilio La Padula - Hrad Bratislava 2, súťažný návrh prestavby Bratislavského hradu a podrhadia na univerzitné mesto, 1941](SVK_TMP.76.jpeg "Ernesto La Padula, Attilio La Padula - Hrad Bratislava 2, súťažný návrh prestavby Bratislavského hradu a podrhadia na univerzitné mesto")](http://www.webumenia.sk/dielo/SVK:TMP.76)
+---
 
 ## Začiatok nemecko-sovietskej vojny
 ### 22. 6. 1941 {.title-date}
 
-Pri svojich plánoch vojensky napadnúť Zväz sovietskych socialistických republík (ZSSR) ráta Nemecko aj s účasťou vojsk svojich spojencov. Na konci apríla 1941 je podpísaná dohoda o prechode a pobyte nemeckých vojsk na slovenskom území a začiatkom júna zavádza aj slovenská armáda mimoriadne cvičenia. 
+Pri svojich plánoch vojensky napadnúť Zväz sovietskych socialistických republík (ZSSR) počíta Nemecko aj s účasťou vojsk svojich spojencov. Na konci apríla 1941 je podpísaná dohoda o prechode a pobyte nemeckých vojsk na slovenskom území a začiatkom júna zavádza aj slovenská armáda mimoriadne cvičenia. 
 
 Dňa 22. júna 1941 zaútočia na sovietske územie nemecké, rumunské a fínske vojská. Zapojenie Slovenska ako slovanského štátu do bojov má posilniť dojem, že ide o „boj proti boľševizmu“, nie o vojnu voči civilnému obyvateľstvu. Skutočným dôvodom invázie sú však nemecké mocenské zámery - získanie „životného priestoru" (tzv. „lebensraum") a germanizácia východnej európy. 
 
@@ -223,4 +394,4 @@ Druhá svetová vojna začne od tejto chvíle Slovensku prinášať čoraz výra
 
 [![Jozef Cincík - Slovenský vojak na stráži pri Azovskom mori, 1941, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.201.jpeg "Jozef Cincík - Slovenský vojak na stráži pri Azovskom mori")](http://www.webumenia.sk/dielo/SVK:TMP.201?collection=83)
 
-Všetky diela v tejto kapitole nájdete aj v kolekcii na Webe umenia: [Jeden národ, jedna strana, jeden vodca](http://www.webumenia.sk/kolekcia/83 "Kolekcia Jeden národ, jedna strana, jeden vodca")
+**Všetky diela v tejto kapitole nájdete aj v kolekcii na Webe umenia: [Jeden národ, jedna strana, jeden vodca](http://www.webumenia.sk/kolekcia/83 "Kolekcia Jeden národ, jedna strana, jeden vodca")**
