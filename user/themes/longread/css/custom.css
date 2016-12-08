@@ -446,7 +446,11 @@ form#email-capture {
   .post.chapter .article-image .post-image-image.chapter-1, .post.subobject .article-image .post-image-image.chapter-1, .post.page .article-image .post-image-image.chapter-1 {
     background-position-x: 67%; }
   .post.chapter .article-image .post-image-image.chapter-2, .post.subobject .article-image .post-image-image.chapter-2, .post.page .article-image .post-image-image.chapter-2 {
-    background-position-y: 15%; }
+    background-position-y: 15%;
+    background-position-x: 48%; }
+  .post.chapter .article-image .article-image-gradient, .post.subobject .article-image .article-image-gradient, .post.page .article-image .article-image-gradient {
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)); }
 .post.chapter .drop-cap, .post.subobject .drop-cap, .post.page .drop-cap {
   float: left;
   color: black;
