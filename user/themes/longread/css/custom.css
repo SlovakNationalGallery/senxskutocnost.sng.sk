@@ -560,7 +560,10 @@ form#email-capture {
     height: 20px;
     width: 20px;
     margin-top: 10px;
+    margin-bottom: 50px;
     background-image: url(../images/hr.svg); }
+  .post.chapter .post-content .chapter-content .slick-slider, .post.subobject .post-content .chapter-content .slick-slider, .post.page .post-content .chapter-content .slick-slider {
+    margin-bottom: 40px; }
   .post.chapter .post-content .chapter-content div.audioplayer, .post.subobject .post-content .chapter-content div.audioplayer, .post.page .post-content .chapter-content div.audioplayer {
     margin-bottom: -30px; }
 
@@ -658,33 +661,35 @@ form#email-capture {
   padding-top: 5px;
   padding-bottom: 5px; }
 
-.subobject-overview .subobject figure {
-  padding: 0; }
-  .subobject-overview .subobject figure figcaption {
-    display: none; }
-  .subobject-overview .subobject figure img {
-    padding: 20px; }
-.subobject-overview .subobject .subobject-caption {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 900;
-  margin-left: 10px; }
-  .subobject-overview .subobject .subobject-caption img.icon {
-    height: 25px;
-    margin-right: 10px; }
-@media only screen and (max-width: 600px) {
-  .subobject-overview .subobject {
-    border: 1px solid black;
-    margin-left: 25px;
-    width: 93%;
-    padding-left: 0;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-    .subobject-overview .subobject figure {
-      display: inline; }
-      .subobject-overview .subobject figure img {
-        padding: 0 0;
-        width: 25%; } }
+.subobject-overview {
+  margin-bottom: 20px; }
+  .subobject-overview .subobject figure {
+    padding: 0; }
+    .subobject-overview .subobject figure figcaption {
+      display: none; }
+    .subobject-overview .subobject figure img {
+      padding: 20px; }
+  .subobject-overview .subobject .subobject-caption {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 10px; }
+    .subobject-overview .subobject .subobject-caption img.icon {
+      height: 25px;
+      margin-right: 10px; }
+  @media only screen and (max-width: 600px) {
+    .subobject-overview .subobject {
+      border: 1px solid black;
+      margin-left: 25px;
+      width: 93%;
+      padding-left: 0;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .subobject-overview .subobject figure {
+        display: inline; }
+        .subobject-overview .subobject figure img {
+          padding: 0 0;
+          width: 25%; } }
 
 #footer a:not(.uk-button) {
   color: white; }
