@@ -13,6 +13,8 @@
     <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
     {% endfor %}
     
+    <meta name="url" content="{{page.url}}" />
+    
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -20,7 +22,7 @@
 
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{site.metadata.url}}" />
+    <meta property="og:url" content="{{page.url}}" />
     <meta property="og:image" content="{{ theme_url }}/images/fb_link_post_image.jpg" />
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:description" content="{{site.metadata.description}}"/> 
