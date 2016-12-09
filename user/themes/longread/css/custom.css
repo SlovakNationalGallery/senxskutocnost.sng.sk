@@ -445,6 +445,12 @@ form#email-capture {
     bottom: 200px; }
   .post.chapter .article-image .post-image-image.chapter-1, .post.subobject .article-image .post-image-image.chapter-1, .post.page .article-image .post-image-image.chapter-1 {
     background-position-x: 67%; }
+  .post.chapter .article-image .post-image-image.chapter-2, .post.subobject .article-image .post-image-image.chapter-2, .post.page .article-image .post-image-image.chapter-2 {
+    background-position-y: 15%;
+    background-position-x: 48%; }
+  .post.chapter .article-image .article-image-gradient, .post.subobject .article-image .article-image-gradient, .post.page .article-image .article-image-gradient {
+    height: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)); }
 .post.chapter .drop-cap, .post.subobject .drop-cap, .post.page .drop-cap {
   float: left;
   color: black;
@@ -457,7 +463,7 @@ form#email-capture {
 .post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
   position: relative;
   width: inherit;
-  padding-top: 15px;
+  padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
   font-family: "Uni Grotesk Regular";
@@ -501,23 +507,23 @@ form#email-capture {
       right: 0px;
       font-size: 16px;
       text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8); }
-  .post.chapter .post-content h1, .post.subobject .post-content h1, .post.page .post-content h1 {
+  .post.chapter .post-content .chapter-content h1, .post.subobject .post-content .chapter-content h1, .post.page .post-content .chapter-content h1 {
     font-size: 45px; }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.page .post-content h1, .post.page .post-content h2 {
+  .post.chapter .post-content .chapter-content h1, .post.chapter .post-content .chapter-content h2, .post.subobject .post-content .chapter-content h1, .post.subobject .post-content .chapter-content h2, .post.page .post-content .chapter-content h1, .post.page .post-content .chapter-content h2 {
     letter-spacing: normal; }
-  .post.chapter .post-content h2, .post.subobject .post-content h2, .post.page .post-content h2 {
+  .post.chapter .post-content .chapter-content h2, .post.subobject .post-content .chapter-content h2, .post.page .post-content .chapter-content h2 {
     margin-bottom: 4px;
     padding-top: 0; }
-  .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6 {
+  .post.chapter .post-content .chapter-content h3, .post.chapter .post-content .chapter-content h4, .post.chapter .post-content .chapter-content h5, .post.chapter .post-content .chapter-content h6, .post.subobject .post-content .chapter-content h3, .post.subobject .post-content .chapter-content h4, .post.subobject .post-content .chapter-content h5, .post.subobject .post-content .chapter-content h6, .post.page .post-content .chapter-content h3, .post.page .post-content .chapter-content h4, .post.page .post-content .chapter-content h5, .post.page .post-content .chapter-content h6 {
     margin-bottom: 20px; }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6 {
+  .post.chapter .post-content .chapter-content h1, .post.chapter .post-content .chapter-content h2, .post.chapter .post-content .chapter-content h3, .post.chapter .post-content .chapter-content h4, .post.chapter .post-content .chapter-content h5, .post.chapter .post-content .chapter-content h6, .post.subobject .post-content .chapter-content h1, .post.subobject .post-content .chapter-content h2, .post.subobject .post-content .chapter-content h3, .post.subobject .post-content .chapter-content h4, .post.subobject .post-content .chapter-content h5, .post.subobject .post-content .chapter-content h6, .post.page .post-content .chapter-content h1, .post.page .post-content .chapter-content h2, .post.page .post-content .chapter-content h3, .post.page .post-content .chapter-content h4, .post.page .post-content .chapter-content h5, .post.page .post-content .chapter-content h6 {
     color: #000;
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
-  .post.chapter .post-content .title-date, .post.subobject .post-content .title-date, .post.page .post-content .title-date {
+  .post.chapter .post-content .chapter-content .title-date, .post.subobject .post-content .chapter-content .title-date, .post.page .post-content .chapter-content .title-date {
     font-family: "Uni Grotesk Regular";
     font-size: 18px;
     font-weight: 100; }
-  .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
+  .post.chapter .post-content .chapter-content p, .post.subobject .post-content .chapter-content p, .post.page .post-content .chapter-content p {
     color: #000;
     font-size: 18px;
     -webkit-hyphens: none;
@@ -525,35 +531,40 @@ form#email-capture {
     -ms-hyphens: none;
     hyphens: none; }
     @media only screen and (max-width: 600px) {
-      .post.chapter .post-content p, .post.subobject .post-content p, .post.page .post-content p {
+      .post.chapter .post-content .chapter-content p, .post.subobject .post-content .chapter-content p, .post.page .post-content .chapter-content p {
         line-height: 25px; } }
-  .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content .post-content > iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.chapter .post-content div.chapter-number, .post.chapter .post-content div.post-reading, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content .post-content > iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.subobject .post-content div.chapter-number, .post.subobject .post-content div.post-reading, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content .post-content > iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight, .post.page .post-content div.chapter-number, .post.page .post-content div.post-reading {
+  .post.chapter .post-content .chapter-content h2:first-child, .post.subobject .post-content .chapter-content h2:first-child, .post.page .post-content .chapter-content h2:first-child {
+    margin-top: 0; }
+  .post.chapter .post-content .chapter-content h1, .post.chapter .post-content .chapter-content h2, .post.chapter .post-content .chapter-content h3, .post.chapter .post-content .chapter-content h4, .post.chapter .post-content .chapter-content h5, .post.chapter .post-content .chapter-content h6, .post.chapter .post-content .chapter-content figure, .post.chapter .post-content .chapter-content .post-content > iframe, .post.chapter .post-content .chapter-content .post-content > div:not(.not-extended), .post.chapter .post-content .chapter-content div.highlight, .post.chapter .post-content .chapter-content div.chapter-number, .post.chapter .post-content .chapter-content div.post-reading, .post.subobject .post-content .chapter-content h1, .post.subobject .post-content .chapter-content h2, .post.subobject .post-content .chapter-content h3, .post.subobject .post-content .chapter-content h4, .post.subobject .post-content .chapter-content h5, .post.subobject .post-content .chapter-content h6, .post.subobject .post-content .chapter-content figure, .post.subobject .post-content .chapter-content .post-content > iframe, .post.subobject .post-content .chapter-content .post-content > div:not(.not-extended), .post.subobject .post-content .chapter-content div.highlight, .post.subobject .post-content .chapter-content div.chapter-number, .post.subobject .post-content .chapter-content div.post-reading, .post.page .post-content .chapter-content h1, .post.page .post-content .chapter-content h2, .post.page .post-content .chapter-content h3, .post.page .post-content .chapter-content h4, .post.page .post-content .chapter-content h5, .post.page .post-content .chapter-content h6, .post.page .post-content .chapter-content figure, .post.page .post-content .chapter-content .post-content > iframe, .post.page .post-content .chapter-content .post-content > div:not(.not-extended), .post.page .post-content .chapter-content div.highlight, .post.page .post-content .chapter-content div.chapter-number, .post.page .post-content .chapter-content div.post-reading {
     margin-left: -20px;
     margin-right: -20px; }
     @media only screen and (max-width: 600px) {
-      .post.chapter .post-content h1, .post.chapter .post-content h2, .post.chapter .post-content h3, .post.chapter .post-content h4, .post.chapter .post-content h5, .post.chapter .post-content h6, .post.chapter .post-content figure, .post.chapter .post-content .post-content > iframe, .post.chapter .post-content .post-content > div:not(.not-extended), .post.chapter .post-content div.highlight, .post.chapter .post-content div.chapter-number, .post.chapter .post-content div.post-reading, .post.subobject .post-content h1, .post.subobject .post-content h2, .post.subobject .post-content h3, .post.subobject .post-content h4, .post.subobject .post-content h5, .post.subobject .post-content h6, .post.subobject .post-content figure, .post.subobject .post-content .post-content > iframe, .post.subobject .post-content .post-content > div:not(.not-extended), .post.subobject .post-content div.highlight, .post.subobject .post-content div.chapter-number, .post.subobject .post-content div.post-reading, .post.page .post-content h1, .post.page .post-content h2, .post.page .post-content h3, .post.page .post-content h4, .post.page .post-content h5, .post.page .post-content h6, .post.page .post-content figure, .post.page .post-content .post-content > iframe, .post.page .post-content .post-content > div:not(.not-extended), .post.page .post-content div.highlight, .post.page .post-content div.chapter-number, .post.page .post-content div.post-reading {
+      .post.chapter .post-content .chapter-content h1, .post.chapter .post-content .chapter-content h2, .post.chapter .post-content .chapter-content h3, .post.chapter .post-content .chapter-content h4, .post.chapter .post-content .chapter-content h5, .post.chapter .post-content .chapter-content h6, .post.chapter .post-content .chapter-content figure, .post.chapter .post-content .chapter-content .post-content > iframe, .post.chapter .post-content .chapter-content .post-content > div:not(.not-extended), .post.chapter .post-content .chapter-content div.highlight, .post.chapter .post-content .chapter-content div.chapter-number, .post.chapter .post-content .chapter-content div.post-reading, .post.subobject .post-content .chapter-content h1, .post.subobject .post-content .chapter-content h2, .post.subobject .post-content .chapter-content h3, .post.subobject .post-content .chapter-content h4, .post.subobject .post-content .chapter-content h5, .post.subobject .post-content .chapter-content h6, .post.subobject .post-content .chapter-content figure, .post.subobject .post-content .chapter-content .post-content > iframe, .post.subobject .post-content .chapter-content .post-content > div:not(.not-extended), .post.subobject .post-content .chapter-content div.highlight, .post.subobject .post-content .chapter-content div.chapter-number, .post.subobject .post-content .chapter-content div.post-reading, .post.page .post-content .chapter-content h1, .post.page .post-content .chapter-content h2, .post.page .post-content .chapter-content h3, .post.page .post-content .chapter-content h4, .post.page .post-content .chapter-content h5, .post.page .post-content .chapter-content h6, .post.page .post-content .chapter-content figure, .post.page .post-content .chapter-content .post-content > iframe, .post.page .post-content .chapter-content .post-content > div:not(.not-extended), .post.page .post-content .chapter-content div.highlight, .post.page .post-content .chapter-content div.chapter-number, .post.page .post-content .chapter-content div.post-reading {
         margin-left: 0;
         margin-right: 0; } }
-  .post.chapter .post-content .fluid-width-video-wrapper, .post.subobject .post-content .fluid-width-video-wrapper, .post.page .post-content .fluid-width-video-wrapper {
+  .post.chapter .post-content .chapter-content .fluid-width-video-wrapper, .post.subobject .post-content .chapter-content .fluid-width-video-wrapper, .post.page .post-content .chapter-content .fluid-width-video-wrapper {
     margin-left: 0 !important; }
-  .post.chapter .post-content div.highlight p, .post.subobject .post-content div.highlight p, .post.page .post-content div.highlight p {
+  .post.chapter .post-content .chapter-content div.highlight p, .post.subobject .post-content .chapter-content div.highlight p, .post.page .post-content .chapter-content div.highlight p {
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 25px;
     line-height: 32px; }
-  .post.chapter .post-content figcaption, .post.subobject .post-content figcaption, .post.page .post-content figcaption {
+  .post.chapter .post-content .chapter-content figcaption, .post.subobject .post-content .chapter-content figcaption, .post.page .post-content .chapter-content figcaption {
     margin-top: 10px;
     font-style: normal;
     font-size: 14px; }
-  .post.chapter .post-content li, .post.subobject .post-content li, .post.page .post-content li {
+  .post.chapter .post-content .chapter-content li, .post.subobject .post-content .chapter-content li, .post.page .post-content .chapter-content li {
     font-size: 18px; }
-  .post.chapter .post-content hr, .post.subobject .post-content hr, .post.page .post-content hr {
+  .post.chapter .post-content .chapter-content hr, .post.subobject .post-content .chapter-content hr, .post.page .post-content .chapter-content hr {
     display: block;
     border: 0px;
     height: 20px;
     width: 20px;
     margin-top: 10px;
+    margin-bottom: 50px;
     background-image: url(../images/hr.svg); }
-  .post.chapter .post-content div.audioplayer, .post.subobject .post-content div.audioplayer, .post.page .post-content div.audioplayer {
+  .post.chapter .post-content .chapter-content .slick-slider, .post.subobject .post-content .chapter-content .slick-slider, .post.page .post-content .chapter-content .slick-slider {
+    margin-bottom: 40px; }
+  .post.chapter .post-content .chapter-content div.audioplayer, .post.subobject .post-content .chapter-content div.audioplayer, .post.page .post-content .chapter-content div.audioplayer {
     margin-bottom: -30px; }
 
 .post.subobject {
@@ -650,33 +661,35 @@ form#email-capture {
   padding-top: 5px;
   padding-bottom: 5px; }
 
-.subobject-overview .subobject figure {
-  padding: 0; }
-  .subobject-overview .subobject figure figcaption {
-    display: none; }
-  .subobject-overview .subobject figure img {
-    padding: 20px; }
-.subobject-overview .subobject .subobject-caption {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 900;
-  margin-left: 10px; }
-  .subobject-overview .subobject .subobject-caption img.icon {
-    height: 25px;
-    margin-right: 10px; }
-@media only screen and (max-width: 600px) {
-  .subobject-overview .subobject {
-    border: 1px solid black;
-    margin-left: 25px;
-    width: 93%;
-    padding-left: 0;
-    margin-top: 10px;
-    margin-bottom: 10px; }
-    .subobject-overview .subobject figure {
-      display: inline; }
-      .subobject-overview .subobject figure img {
-        padding: 0 0;
-        width: 25%; } }
+.subobject-overview {
+  margin-bottom: 20px; }
+  .subobject-overview .subobject figure {
+    padding: 0; }
+    .subobject-overview .subobject figure figcaption {
+      display: none; }
+    .subobject-overview .subobject figure img {
+      padding: 20px; }
+  .subobject-overview .subobject .subobject-caption {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 10px; }
+    .subobject-overview .subobject .subobject-caption img.icon {
+      height: 25px;
+      margin-right: 10px; }
+  @media only screen and (max-width: 600px) {
+    .subobject-overview .subobject {
+      border: 1px solid black;
+      margin-left: 25px;
+      width: 93%;
+      padding-left: 0;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .subobject-overview .subobject figure {
+        display: inline; }
+        .subobject-overview .subobject figure img {
+          padding: 0 0;
+          width: 25%; } }
 
 #footer a:not(.uk-button) {
   color: white; }

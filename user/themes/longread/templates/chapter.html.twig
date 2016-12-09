@@ -13,7 +13,7 @@
       <article class="post chapter">
         <div class="article-image">
           <div class="post-image-image chapter-{{page.header.chapterNumber}}" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})">
-            Article Image
+            <div class="article-image-gradient"></div>
           </div>
         </div>
         <section class="post-content">
@@ -30,7 +30,9 @@
               Čas čítania: <span class="post-reading-time"></span>
             </div>
           </div>
-          {{ content }}
+          <div class="chapter-content">
+            {{ content }}
+          </div>
         </section>
 
       </article>
