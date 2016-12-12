@@ -88,6 +88,18 @@ button, .uk-button {
 .padding-top-s {
   padding-top: 20px !important; }
 
+hr {
+  display: block !important;
+  border: 0px !important;
+  height: 20px !important;
+  width: 20px !important;
+  margin: auto !important;
+  background-image: url(../images/hr.svg) !important;
+  background-repeat: no-repeat; }
+
+hr.white {
+  background-image: url(../images/hr-white.svg) !important; }
+
 .blank-list ul {
   list-style-type: none; }
 
@@ -316,9 +328,6 @@ div#side-nav-bar {
         .landing .landing-content h2 {
           font-size: 20px;
           margin-top: 0px; } }
-      @media only screen and (max-width: 460px) {
-        .landing .landing-content h2 {
-          font-size: 18px; } }
     .landing .landing-content h3 {
       font-size: 25px;
       line-height: 28px;
@@ -328,9 +337,14 @@ div#side-nav-bar {
           font-size: 20px;
           line-height: 25px;
           margin-top: 0px; } }
-      @media only screen and (max-width: 460px) {
-        .landing .landing-content h3 {
-          font-size: 18px; } }
+    .landing .landing-content h4 {
+      font-size: 23px;
+      line-height: 26px;
+      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
+      @media only screen and (max-width: 805px) {
+        .landing .landing-content h4 {
+          font-size: 18px;
+          line-height: 23px; } }
     .landing .landing-content form#email-capture {
       width: 550px;
       margin: 25px auto; }
@@ -412,7 +426,8 @@ form#email-capture {
 
 #chapter-preview {
   margin-left: 0px;
-  margin-right: 25px; }
+  margin-right: 25px;
+  margin-bottom: 80px; }
   #chapter-preview .chapter-thumb {
     color: white;
     margin-top: 25px; }
@@ -555,13 +570,8 @@ form#email-capture {
   .post.chapter .post-content .chapter-content li, .post.subobject .post-content .chapter-content li, .post.page .post-content .chapter-content li {
     font-size: 18px; }
   .post.chapter .post-content .chapter-content hr, .post.subobject .post-content .chapter-content hr, .post.page .post-content .chapter-content hr {
-    display: block;
-    border: 0px;
-    height: 20px;
-    width: 20px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    background-image: url(../images/hr.svg); }
+    margin-top: 10px !important;
+    margin-bottom: 50px !important; }
   .post.chapter .post-content .chapter-content .slick-slider, .post.subobject .post-content .chapter-content .slick-slider, .post.page .post-content .chapter-content .slick-slider {
     margin-bottom: 40px; }
   .post.chapter .post-content .chapter-content div.audioplayer, .post.subobject .post-content .chapter-content div.audioplayer, .post.page .post-content .chapter-content div.audioplayer {
