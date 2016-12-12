@@ -35,10 +35,7 @@
 
             {% for p in page.collection %}
               <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if p.header.disabled%}disabled{% endif %}">
-                <a href="{{p.url}}" {% if p.header.disabled%}disabled{% endif %}>
-                  <h5 class="f-uni-grotesk-bold">{{p.header.chapterNumber}}.<br>{{p.title}}</h5>
-                </a>
-                <p class="f-uni-grotesk-regular">{{p.header.announce_date}}</p>
+                <h5 class="bt-white-red padding-top-xs f-uni-grotesk-bold">{{p.header.chapterNumber}}.</h5>
                 <a href="{{p.url}}">
                   <img src=
                   {% if p.header.disabled %}
@@ -48,6 +45,12 @@
                   {% endif %}
                   class="uk-hidden-small" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}">
                 </a>
+                <h5 class="f-uni-grotesk-bold">{{p.title}}</h5>
+                <p class="f-uni-grotesk-regular">{{p.header.synopsis}}</p>
+                {% if not p.header.disabled %}
+                  <a href="{{p.url}}" class="uk-button button-ghost margin-bottom-xs">Prejsť na kapitolu</a>
+                {% endif %}
+                <p class="f-uni-grotesk-regular c-grey">{{p.header.announce_date}}</p>
               </div>
             {% endfor %}
 

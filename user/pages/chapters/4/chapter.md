@@ -1,5 +1,6 @@
 ---
 title: 'Vytriezvenie zo sna'
+synopsis: Druhá svetová vojna má na slovenskú spoločnosť čoraz väčší dopad, aj preto v nej rastú opozičné nálady. Rozširuje sa partizánske hnutie a znepokojenie ľudáckych predstaviteľov narastá. Koniec vojny môže pre Slovensko znamenať aj koniec jeho samostatnosti.
 published: true
 disabled: true
 announce_date: 'Zverejníme onedlho'

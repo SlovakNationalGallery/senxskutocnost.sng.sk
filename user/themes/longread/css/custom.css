@@ -64,6 +64,9 @@ button, .uk-button {
 .bg-dark-green {
   background-color: #3F3C25 !important; }
 
+.margin-bottom-xs {
+  margin-bottom: 10px !important; }
+
 .margin-bottom-s {
   margin-bottom: 20px !important; }
 
@@ -87,6 +90,9 @@ button, .uk-button {
 
 .padding-top-s {
   padding-top: 20px !important; }
+
+.padding-top-xs {
+  padding-top: 10px !important; }
 
 hr {
   display: block !important;
@@ -431,20 +437,20 @@ form#email-capture {
   #chapter-preview .chapter-thumb {
     color: white;
     margin-top: 25px; }
-    #chapter-preview .chapter-thumb a:hover h5 {
+    #chapter-preview .chapter-thumb a:hover .bt-white-red {
       color: #E00000;
       border-top-color: #E00000; }
+    #chapter-preview .chapter-thumb .bt-white-red {
+      border-top: white solid 2px; }
     #chapter-preview .chapter-thumb h5 {
       display: inline-block;
       width: 100%;
-      border-top: white solid 2px;
-      padding-top: 15px;
       margin-bottom: 5px;
-      min-height: 60px; }
+      margin-top: 15px; }
     #chapter-preview .chapter-thumb p {
       margin-top: 0px; }
   #chapter-preview .chapter-thumb.disabled * {
-    color: #6D6D6D; }
+    color: #6D6D6D !important; }
   #chapter-preview .chapter-thumb.disabled h5 {
     border-color: #6D6D6D; }
 
