@@ -10,4 +10,6 @@ emailCTA: "Chcem informácie o zverejnení ďalšej kapitoly."
 emailPlaceholder: "e-mailová adresa"
 emailButton: "informujte ma"
 emailNotice: "Druhú kapitolu zverejníme čoskoro."
+content:
+    items: '@self.children'
 ---
