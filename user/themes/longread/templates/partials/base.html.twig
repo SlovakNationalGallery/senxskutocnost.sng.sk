@@ -1,69 +1,69 @@
 <!DOCTYPE html>
 <html lang="{{ grav.language.getLanguage ?: 'en' }}">
 <head>
-    <meta charset="utf-8">
-    <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <!-- (1) Optimize for mobile versions: http://goo.gl/EOpFl -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- (1) force latest IE rendering engine: bit.ly/1c8EiC9 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    {% for meta in page.metadata %}
+  {% for meta in page.metadata %}
     <meta {% if meta.name %}name="{{ meta.name }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset }}" {% endif %}{% if meta.property %}property="{{ meta.property }}" {% endif %}{% if meta.content %}content="{{ meta.content }}" {% endif %}/>
-    {% endfor %}
-    
-    <meta name="url" content="{{page.url}}" />
-    
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="MobileOptimized" content="320" />
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  {% endfor %}
+  
+  <meta name="url" content="{{page.url}}" />
+  
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="{{page.url}}" />
-    <meta property="og:image" content="{{ theme_url }}/images/fb_link_post_image.jpg" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:description" content="{{site.metadata.description}}"/> 
-    <meta property="og:site_name" content="{{site.title}}"/> 
-    <meta property="og:locale" content="sk_SK"/> 
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{page.url}}" />
+  <meta property="og:image" content="{{ theme_url }}/images/fb_link_post_image.jpg" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:description" content="{{site.metadata.description}}"/> 
+  <meta property="og:site_name" content="{{site.title}}"/> 
+  <meta property="og:locale" content="sk_SK"/> 
 
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ theme_url }}/images/favicons/apple-touch-icon-57x57.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ theme_url }}/images/favicons/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ theme_url }}/images/favicons/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ theme_url }}/images/favicons/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ theme_url }}/images/favicons/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ theme_url }}/images/favicons/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ theme_url }}/images/favicons/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ theme_url }}/images/favicons/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-128.png" sizes="128x128" />
-    <meta name="application-name" content="sen × skutočnosť"/>
-    <meta name="msapplication-TileColor" content="#FFFFFF" />
-    <meta name="msapplication-TileImage" content="{{ theme_url }}/images/favicons/mstile-144x144.png" />
-    <meta name="msapplication-square70x70logo" content="{{ theme_url }}/images/favicons/mstile-70x70.png" />
-    <meta name="msapplication-square150x150logo" content="{{ theme_url }}/images/favicons/mstile-150x150.png" />
-    <meta name="msapplication-wide310x150logo" content="{{ theme_url }}/images/favicons/mstile-310x150.png" />
-    <meta name="msapplication-square310x310logo" content="{{ theme_url }}/images/favicons/mstile-310x310.png" />
-    
-    <link rel="canonical" href="{{ page.url() }}">
-    <link rel="stylesheet" href="https://fonts.typotheque.com/WF-028643-009596.css" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="{{ theme_url }}/fonts/MyFontsWebfontsKit.css">
-    <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ theme_url }}/images/favicons/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ theme_url }}/images/favicons/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ theme_url }}/images/favicons/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ theme_url }}/images/favicons/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ theme_url }}/images/favicons/apple-touch-icon-60x60.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ theme_url }}/images/favicons/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ theme_url }}/images/favicons/apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ theme_url }}/images/favicons/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-196x196.png" sizes="196x196" />
+  <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicons/favicon-128.png" sizes="128x128" />
+  <meta name="application-name" content="sen × skutočnosť"/>
+  <meta name="msapplication-TileColor" content="#FFFFFF" />
+  <meta name="msapplication-TileImage" content="{{ theme_url }}/images/favicons/mstile-144x144.png" />
+  <meta name="msapplication-square70x70logo" content="{{ theme_url }}/images/favicons/mstile-70x70.png" />
+  <meta name="msapplication-square150x150logo" content="{{ theme_url }}/images/favicons/mstile-150x150.png" />
+  <meta name="msapplication-wide310x150logo" content="{{ theme_url }}/images/favicons/mstile-310x150.png" />
+  <meta name="msapplication-square310x310logo" content="{{ theme_url }}/images/favicons/mstile-310x310.png" />
+  
+  <link rel="canonical" href="{{ page.url() }}">
+  <link rel="stylesheet" href="https://fonts.typotheque.com/WF-028643-009596.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="{{ theme_url }}/fonts/MyFontsWebfontsKit.css">
+  <link rel="stylesheet" href="http://brick.a.ssl.fastly.net/Linux+Libertine:400,400i,700,700i/Open+Sans:400,400i,700,700i">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  
 
-    {% do assets.addCss('theme://css/main.css') %}
-    {% do assets.addCss('theme://css/custom.css') %}
-    {% do assets.addCss('theme://css/audioplayer.css') %}
-    {% do assets.addCss('theme://css/slick.css') %}
-    {% do assets.addCss('theme://css/slick-theme.css') %}
-    {# {% do assets.addCss('theme://css/print.css') %} #}
-    {{ assets.css() }}
+  {% do assets.addCss('theme://css/main.css') %}
+  {% do assets.addCss('theme://css/custom.css') %}
+  {% do assets.addCss('theme://css/audioplayer.css') %}
+  {% do assets.addCss('theme://css/slick.css') %}
+  {% do assets.addCss('theme://css/slick-theme.css') %}
+  {# {% do assets.addCss('theme://css/print.css') %} #}
+  {{ assets.css() }}
 </head>
 {% block body %}
 <body>
@@ -71,34 +71,34 @@
 
 {% set home = pages.find(config.system.home.alias) %}
 
-    {% block header %}
-      <a href="/" class="logo-sng"><span class="logo"></span></a>
-      <a href="/about" class="nav-about c-white f-uni-grotesk-bold">O Projekte</a>
-    {% endblock %}
+  {% block header %}
+    <a href="/" class="logo-sng"><span class="logo"></span></a>
+    <a href="/about" class="nav-about c-white f-uni-grotesk-bold">O Projekte</a>
+  {% endblock %}
 
-    <!-- content start -->
+  <!-- content start -->
 
-    {% block content %}
+  {% block content %}
     <div class="page-content">
-        <div class="wrapper">
-            {{ content }}
-        </div>
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </div>
-    {% endblock %}
-    <!-- content end -->
+  {% endblock %}
+  <!-- content end -->
 
 
-    {% block footer %}
-        {% include 'partials/footer.html.twig' with {
-            'sharingButtons': false,
-            'exhibitionLink': true,
-            'orgIcons':       true,
-            'copyright':      true,
-            'stylingClasses': 'c-grey'}
-        %}
-    {% endblock %}
+  {% block footer %}
+    {% include 'partials/footer.html.twig' with {
+    'sharingButtons': false,
+    'exhibitionLink': true,
+    'orgIcons':       true,
+    'copyright':      true,
+    'stylingClasses': 'c-grey'}
+    %}
+  {% endblock %}
 
-{% include 'partials/javascripts.html.twig' %}
+  {% include 'partials/javascripts.html.twig' %}
 
 </body>
 </html>

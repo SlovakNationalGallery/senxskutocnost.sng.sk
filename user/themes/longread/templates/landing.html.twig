@@ -1,78 +1,77 @@
 {% embed 'partials/base.html.twig' %}
+  {% block body %}
+    <body class="landing" itemscope itemtype="http://schema.org/Article">
+  {% endblock %}
 
-{% block body %}
-<body class="landing" itemscope itemtype="http://schema.org/Article">
-{% endblock %}
-
-{% block content %}
+  {% block content %}
     <main class="landing {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
-        <div class="landing-image">
-          <div class="landing-image-image" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})"></div>
-          <div class="landing-image-fade"></div>
-        </div> {# /div.landing-image #}
+      <div class="landing-image">
+        <div class="landing-image-image" style="background-image: url({% if page.header.image %}{{ page.media[page.header.image].url }}{% endif %})"></div>
+        <div class="landing-image-fade"></div>
+      </div> {# /div.landing-image #}
 
-        <div class="landing-content">
-          <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
-            <div id="landing-titles">
-              <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="x" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
-              <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.h2 }}</h2>
-              <h3 class="c-white f-uni-grotesk-regular">{{ page.header.h3 }}</h3>
-            </div>
-            
-            <div>
-              {% include 'partials/sharing.html.twig' %}
-            </div>
-
+      <div class="landing-content">
+        <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
+          <div id="landing-titles">
+            <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="x" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
+            <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.h2 }}</h2>
+            <h3 class="c-white f-uni-grotesk-regular">{{ page.header.h3 }}</h3>
           </div>
-          
-          <div id="chapter-preview" class="uk-grid centered c-white ">
 
-            {% for p in page.collection %}
-              <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if p.header.disabled%}disabled{% endif %}">
-                <h5 class="bt-white-red padding-top-xs f-uni-grotesk-bold">{{p.header.chapterNumber}}.</h5>
-                <a href="{{p.url}}">
-                  <img src=
-                  {% if p.header.disabled %}
-                    "{{ p.media['thumb-chapter.jpg'].colorize(-100,-100,-100).url }}"
-                  {% else %}
-                    "{{ p.media['thumb-chapter.jpg'].url }}"
-                  {% endif %}
-                  class="uk-hidden-small" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}">
-                </a>
-                <h5 class="f-uni-grotesk-bold">{{p.title}}</h5>
-                <p class="f-uni-grotesk-regular">{{p.header.synopsis}}</p>
-                {% if not p.header.disabled %}
-                  <a href="{{p.url}}" class="uk-button button-ghost margin-bottom-xs">Prejsť na kapitolu</a>
-                {% endif %}
-                <p class="f-uni-grotesk-regular c-grey">{{p.header.announce_date}}</p>
-              </div>
-            {% endfor %}
-
-          </div>
-          
-          <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
-            <hr class="white">
-            <h4 class="centered c-white f-uni-grotesk-regular">{{ page.header.h4}}</h4>
+          <div>
+            {% include 'partials/sharing.html.twig' %}
           </div>
 
         </div>
-    </main>
-{% endblock %}
+        
+        <div id="chapter-preview" class="uk-grid centered c-white ">
 
-{% block footer %}
-  {% include 'partials/emailcapture.html.twig' with {
+          {% for p in page.collection %}
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if p.header.disabled%}disabled{% endif %}">
+              <h5 class="bt-white-red padding-top-xs f-uni-grotesk-bold">{{p.header.chapterNumber}}.</h5>
+              <a href="{{p.url}}">
+                <img src=
+                {% if p.header.disabled %}
+                  "{{ p.media['thumb-chapter.jpg'].colorize(-100,-100,-100).url }}"
+                {% else %}
+                  "{{ p.media['thumb-chapter.jpg'].url }}"
+                {% endif %}
+                class="uk-hidden-small" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}">
+              </a>
+              <h5 class="f-uni-grotesk-bold">{{p.title}}</h5>
+              <p class="f-uni-grotesk-regular">{{p.header.synopsis}}</p>
+              {% if not p.header.disabled %}
+                <a href="{{p.url}}" class="uk-button button-ghost margin-bottom-xs">Prejsť na kapitolu</a>
+              {% endif %}
+              <p class="f-uni-grotesk-regular c-grey">{{p.header.announce_date}}</p>
+            </div>
+          {% endfor %}
+
+        </div>
+        
+        <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
+          <hr class="white">
+          <h4 class="centered c-white f-uni-grotesk-regular">{{ page.header.h4}}</h4>
+        </div>
+
+      </div>
+    </main>
+  {% endblock %}
+
+  {% block footer %}
+    {% include 'partials/emailcapture.html.twig' with {
     'emailCTA': page.header.emailCTA, 
     'emailPlaceholder': page.header.emailPlaceholder, 
     'emailButton': page.header.emailButton, 
     'emailNotice': page.header.emailNotice} 
-  %}
-  {% include 'partials/footer.html.twig' with {
+    %}
+    {% include 'partials/footer.html.twig' with {
     'sharingButtons': false,
     'exhibitionLink': true,
     'orgIcons':       true,
     'copyright':      true,
     'stylingClasses': 'c-grey'}
-  %}
-{% endblock %}
+    %}
+  {% endblock %}
 
 {% endembed %}
