@@ -149,9 +149,11 @@ Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva Jozef Tiso. Je
 
 Samostatný slovenský štát vznikol ako vedľajší produkt presadzovania nemeckých záujmov v strednej Európe a podpísaním ochrannej zmluvy sa definitívne stal satelitom Tretej ríše. Predstavy slovenského ministra zahraničných vecí (a ministra vnútra) Ferdinanda Ďurčanského o akejsi nezávislej zahraničnej politike Slovenska sa ukázali byť absolútne naivné. Nacistické Nemecko vnímalo jeho občasné pokusy o presadzovanie vlastných nápadov ako zradu ríšskych záujmov. 
 
-[![Neznámy autor - Prijatie prezidenta Jozefa Tisa Adolfom Hitlerom v Salzburgu., 1940, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.164.jpeg "Neznámy autor - Prijatie prezidenta Jozefa Tisa Adolfom Hitlerom v Salzburgu")](http://www.webumenia.sk/dielo/SVK:TMP.164?collection=83)
+[![Neznámy autor - Prijatie prezidenta Jozefa Tisa Adolfom Hitlerom v Berlíne., 1939, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.164.jpeg "Neznámy autor - Prijatie prezidenta Jozefa Tisa Adolfom Hitlerom v Berlíne")](http://www.webumenia.sk/dielo/SVK:TMP.164?collection=83)
 
 Na konci júla 1940 si Hitler po viacerých varovaniach necháva zavolať prezidenta Tisa do Salzburgu, aby definitívne ukázal Slovákom, kde sú mantinely ich samostatnosti. V Salzburgu Nemci presadia odstránenie Ferdinanda Ďurčanského zo všetkých postov a nadiktujú zmeny v slovenskej vláde. Kreslo ministra zahraničia obsadzuje predseda vlády Vojtech Tuka, horlivý zástanca nacionálneho socializmu na Slovensku. Tuka mal byť zárukou, že nedôjde k žiadnym odchýlkam od zahranično-politickej línie Nemecka. Post ministra vnútra pripadol Alexandrovi Machovi, ďalšiemu ľudáckemu radikálovi.
+
+[![Z historickej schôdzky v Salzburgu, koláž z časopisu Nový Svet, 17.08.1940, Univerzitná knižnica v Bratislave](Tiso_Hitler_Salzburg.jpg "Z historickej schôdzky v Salzburgu, koláž z časopisu Nový Svet")](http://digitalna.kniznica.info/zoom/28339/view?page=3&p=separate&view=0,0,2808,4041)
 
 <div class="highlight">
 <p>
@@ -280,6 +282,117 @@ Pseudoromantický, idealistický výklad národného mýtu vedie k idylickému n
     ]
 }%}
 
+Aj vďaka tomu, že oficiálne predstavy o tom, aké má byť umenie v „nových“ pomeroch, boli neurčité a rozporné, sieť [„deravej totality“](https://sk.wikipedia.org/wiki/Vladim%C3%ADr_Clementis) dokázala miestami prepustiť nové umelecké iniciatívy. Mladá generácia umelcov väčšmi artikulovala antiklerikálne, antifašistické a protivojnové postoje. Platformou pre nové vedecké, literárne a umelecké názory sa stalo vydávanie nadrealistických zborníkov: Áno a Nie (1938), Sen a skutočnosť (1940), Vo dne a v noci (1941) a Pozdrav (1942). V ich okruhu sa stretali a vzájomne konfrontovali výtvarné názory viacerých príslušníkov Generácie 1909 ([C. Majerník](http://www.webumenia.sk/autor/6151), [J. Mudroch](http://www.webumenia.sk/autor/6948), [P. Matejka](http://www.webumenia.sk/autor/6393), [J. Kostka](http://www.webumenia.sk/autor/5187), [E. Nevan](http://www.webumenia.sk/autor/7258), [J. Želibský](http://www.webumenia.sk/autor/12214), [B. Hoffstädter](http://www.webumenia.sk/autor/3953) a i.), ale i mladších, neskôr nazvaných tiež Generácia druhej svetovej vojny ([V. Hložník](http://www.webumenia.sk/autor/3886), [L. Guderna](http://www.webumenia.sk/autor/3380), [V. Chmel](http://www.webumenia.sk/autor/4278), [E. Semian](http://www.webumenia.sk/autor/8998), [O. Dubay](http://www.webumenia.sk/autor/2167), [E. Zmeták](http://www.webumenia.sk/autor/12162)). 
+
+Diela týchto autorov sa často vyznačovali básnickou invenciou a imagináciou, poetickosťou, fragmentárnosťou (náčrtkovitosťou), inotajnými náznakmi „nevysloveného obsahu" a námetmi, ktoré umožnili, aby „sa výtvarné dielo cítilo ako znak skutočnosti“, „prevrátený symbol doby“. Non-konformný postoj k oficiálnym umeleckým požiadavkam zaujali aj autori, zachovávajúci kontinuitu moderny ako [M. A. Bazovský](http://www.webumenia.sk/autor/582), alebo [A. P. Weisz-Kubínčan](http://www.webumenia.sk/autor/11709), ktorého židovský pôvod bol dôvodom neustáleho prenasledovania s tragickým koncom.
+
+**Príklady diel autorov neoficiálneho umenia:**
+
+{% include 'partials/carousel.html.twig' with {
+   'images': [
+       {
+           'title':'Ján Mudroch - Návrh na obálku zborníka',
+            'src': 'http://www.webumenia.sk/images/diela/SNG/39/SVK_SNG.O_4364/SVK_SNG.O_4364.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_4364'
+       },
+       {
+           'title':'Ján Mudroch - Prekvapenie',
+            'src': 'http://www.webumenia.sk/images/diela/SNG/26/SVK_SNG.O_1667/SVK_SNG.O_1667.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1667'
+       },
+       {
+           'title':'Peter Matejka - Pred zrkadlom', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/25/SVK_SNG.O_1749/SVK_SNG.O_1749.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1749'
+       },
+        {
+           'title':'Cyprián Majerník - Utečenci', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/24/SVK_SNG.O_2479/SVK_SNG.O_2479.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2479'
+       },
+        {
+           'title':'Cyprián Majerník - Milosrdný samaritán', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/25/SVK_SNG.O_2478/SVK_SNG.O_2478.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2478'
+       },
+        {
+           'title':'Ervín Semian - Červený a čierny koník', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/44/SVK_SNG.O_6592/SVK_SNG.O_6592.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6592'
+       },
+        {
+           'title':'František Kudláč - Tragéd', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/96/SVK_SNG.O_1144/SVK_SNG.O_1144.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1144'
+       },
+        {
+           'title':'Dezider Milly - Blúdiaca', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/4/SVK_SNG.O_6655/SVK_SNG.O_6655.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6655'
+       },
+        {
+           'title':'Jozef Šturdík - Zátišie II.', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/59/SVK_SNG.O_4409/SVK_SNG.O_4409.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_4409'
+       },
+        {
+           'title':'Ladislav Čemický - Vojna', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.O_1717/SVK_SNG.O_1717.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1717'
+       },
+        {
+           'title':'Ester Šimerová-Martinčeková - Tri grácie', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/12/SVK_SNG.O_220/SVK_SNG.O_220.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_220'
+       },
+	   {
+           'title':'Vincent Hložník - Mŕtvy', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.O_5371/SVK_SNG.O_5371.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_5371'
+       },
+       {
+           'title':'Ján Želibský - Po nálete', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/37/SVK_SNG.O_6067/SVK_SNG.O_6067.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6067'
+       },
+       {
+           'title':'Arnold Peter Weisz-Kubínčan - Sedliačka', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/13/SVK_SNG.O_2948/SVK_SNG.O_2948.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_2948'
+       },
+	   {
+           'title':'Jozef Kostka - Poézia I.', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/59/SVK_SNG.P_64/SVK_SNG.P_64.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_64'
+       },
+	   {
+           'title':'Jozef Kostka - Žiaľ', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/84/SVK_SNG.P_227/SVK_SNG.P_227.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_227'
+       },
+	   {
+           'title':'Rudolf Pribiš - Dnešok', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/27/SVK_SNG.P_198/SVK_SNG.P_198.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.P_198'
+       },
+	   {
+           'title':'Bedrich Hoffstädter - V električke', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/23/SVK_SNG.K_1475/SVK_SNG.K_1475.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_1475'
+       },
+       {
+           'title':'Miloš Alexander Bazovský - Mier', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/76/SVK_SNG.O_6699/SVK_SNG.O_6699.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_6699'
+       },
+        {
+           'title':'Eugen Nevan - Medúza', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/65/SVK_SNG.O_3549/SVK_SNG.O_3549.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_3549'
+       }
+   ]
+}%}
+
 ---
 
 ## Život na „Novom Slovensku“ 
@@ -388,10 +501,37 @@ Svojou ochotou bojovať po boku Tretej ríše súperia aj o nemeckú priazeň s 
 
 [![Jozef Teslík - „Haemistky“ podávajú vojakom na slovenských staniciach čaj. Odchod vojakov na východný front, 1941, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.202.jpeg "Jozef Teslík - „Haemistky“ podávajú vojakom na slovenských staniciach čaj. Odchod vojakov na východný front,")](http://www.webumenia.sk/dielo/SVK:TMP.202?collection=83)
 
+**Ukážky z časopisu Nový svet (august 1941) o slovákoch na východnom fronte:**
+
+{% include 'partials/carousel.html.twig' with {
+    'images': [
+        {
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/novysvet-vojaci_dievcata-teslik.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=1&p=separate&view=0,0,2789,3909'
+        },
+		{
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/Vojak_na_fronte.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=3&p=separate&view=0,0,2794,3894'
+        },
+        {
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/Boj_na_zivot.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=4&p=separate&view=0,0,2789,3874'
+        },
+        {
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/na_krvacajucom_vychode.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=5&p=separate&view=0,0,2819,3879'
+        },
+		{
+            'src': 'http://isg.cedvu.sk/share/sen-skutocnost/Novy_Svet/hrdinske_boje_letcov.jpg',
+            'href': 'http://digitalna.kniznica.info/zoom/28261/view?page=6&p=separate&view=0,0,2749,3884'
+        }
+    ]
+}%}
+
 Nemecká a slovenská armáda svojimi presunmi natoľko zahlcujú komunikácie, že civilná doprava, najmä vlaková, je často výrazne obmedzená. Slovenské vojská, sformované do tzv. Rýchlej skupiny (neskôr Rýchlej brigády), prekračujú 24. júna Dukliansky priesmyk a za hranicami sa pridávajú k nemeckej armáde. 
 
 Druhá svetová vojna začne od tejto chvíle Slovensku prinášať čoraz výraznejšie straty... 
 
 [![Jozef Cincík - Slovenský vojak na stráži pri Azovskom mori, 1941, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.201.jpeg "Jozef Cincík - Slovenský vojak na stráži pri Azovskom mori")](http://www.webumenia.sk/dielo/SVK:TMP.201?collection=83)
 
-**Všetky diela v tejto kapitole nájdete aj v kolekcii na Webe umenia: [Jeden národ, jedna strana, jeden vodca](http://www.webumenia.sk/kolekcia/83 "Kolekcia Jeden národ, jedna strana, jeden vodca")**
+**Diela a fotografie z tejto kapitoly nájdete aj v kolekcii na Webe umenia: [Jeden národ, jedna strana, jeden vodca](http://www.webumenia.sk/kolekcia/83 "Kolekcia Jeden národ, jedna strana, jeden vodca")**
