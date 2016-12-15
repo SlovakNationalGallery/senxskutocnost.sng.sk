@@ -319,7 +319,7 @@ div#side-nav-bar {
           font-size: 60px; } }
       @media only screen and (max-width: 460px) {
         .landing .landing-content h1 {
-          font-size: 40px; } }
+          font-size: 45px; } }
       .landing .landing-content h1 img.headline-logo {
         height: 65px;
         vertical-align: baseline; }
@@ -354,6 +354,15 @@ div#side-nav-bar {
         .landing .landing-content h4 {
           font-size: 18px;
           line-height: 23px; } }
+    .landing .landing-content .first-chapter-cta {
+      margin: 50px auto; }
+      .landing .landing-content .first-chapter-cta h2 {
+        font-size: 45px;
+        line-height: 48px; }
+        @media only screen and (max-width: 460px) {
+          .landing .landing-content .first-chapter-cta h2 {
+            font-size: 40px;
+            line-height: 43px; } }
     .landing .landing-content form#email-capture {
       width: 550px;
       margin: 25px auto; }
@@ -405,6 +414,27 @@ form#email-capture {
       font-size: 18px;
       padding-top: 15px; }
 
+.button-xlarge {
+  font-size: 25px;
+  padding: 10px 25px; }
+
+.button-red {
+  background-color: #E00000;
+  color: white; }
+  .button-red:hover {
+    background-color: #C70000;
+    color: white; }
+
+.button-white {
+  background-color: white;
+  color: black; }
+  .button-white:hover {
+    background-color: #EEE;
+    color: #111; }
+
+.button-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); }
+
 .button-ghost {
   background: none;
   border: white solid 1px;
@@ -422,16 +452,6 @@ form#email-capture {
   .button-ghost.button-ghost-black:hover *,
   .button-ghost.button-ghost-black:focus * {
     color: white; }
-
-.button-return {
-  background-color: white;
-  color: black;
-  font-size: 25px;
-  padding: 10px 25px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); }
-  .button-return:hover {
-    background-color: #EEE;
-    color: #111; }
 
 #chapter-preview {
   margin-left: 0px;

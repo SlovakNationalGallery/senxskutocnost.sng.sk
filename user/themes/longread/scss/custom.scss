@@ -8,6 +8,7 @@ $font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Aria
 $font-moyenage: "Moyenage14", "Linux Libertine";
 
 $red: #E00000;
+$dark-red: #C70000;
 $grey: #AEAEAE;
 $dark-grey: #6D6D6D;
 $dark-green: #3F3C25;
@@ -450,6 +451,17 @@ div#side-nav-bar {
           line-height: 23px;
         }
       }
+      .first-chapter-cta{
+        margin: 50px auto;
+        h2{
+          font-size: 45px;
+          line-height: 48px;
+          @include respond-to(460) {
+            font-size: 40px;
+            line-height: 43px;
+          }
+        }
+      }
       form#email-capture {
         width: 550px;
         margin: 25px auto;
@@ -506,6 +518,29 @@ form#email-capture {
   }
 }
 
+.button-xlarge{
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.button-red {
+  background-color: $red;
+  color: white;
+  &:hover {
+    background-color: $dark-red;
+    color: white;
+  }
+}
+.button-white {
+  background-color: white;
+  color: black;
+  &:hover {
+    background-color: #EEE;
+    color: #111;
+  }
+}
+.button-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
 .button-ghost {
   background: none;
   border: white solid 1px;
@@ -524,19 +559,6 @@ form#email-capture {
       color: white;
     }
 }
-
-.button-return {
-  background-color: white;
-  color: black;
-  font-size: 25px;
-  padding: 10px 25px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-  &:hover {
-    background-color: #EEE;
-    color: #111;
-  }
-}
-
 
 #chapter-preview {
   margin-left: 0px;

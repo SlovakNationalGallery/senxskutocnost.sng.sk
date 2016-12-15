@@ -17,9 +17,19 @@
             <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.h2 }}</h2>
             <h3 class="c-white f-uni-grotesk-regular">{{ page.header.h3 }}</h3>
           </div>
-
+          
           <div>
             {% include 'partials/sharing.html.twig' %}
+          </div>
+
+          <div class="first-chapter-cta c-white">
+            <h4 class="chapter-number f-uni-grotesk-regular">
+              {{page.find('/chapters/1').header.chapterNumber}}. kapitola
+            </h4>
+            <h2 class="chapter-title">
+              {{page.find('/chapters/1').header.titleStyled|regex_replace(['/<br>/'], [' '])}}
+            </h2>
+            <a href="{{page.find('/chapters/1').url}}" class="uk-button uk-button-large button-xlarge button-red button-shadow">Prejsť na kapitolu</a>
           </div>
 
         </div>
