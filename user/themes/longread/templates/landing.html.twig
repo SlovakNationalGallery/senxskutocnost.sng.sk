@@ -18,13 +18,7 @@
               <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.h2 }}</h2>
               <h3 class="c-white f-uni-grotesk-regular">{{ page.header.h3 }}</h3>
             </div>
-
-            {% include 'partials/emailcapture.html.twig' with {
-              'emailCTA': page.header.emailCTA, 
-              'emailPlaceholder': page.header.emailPlaceholder, 
-              'emailButton': page.header.emailButton, 
-              'emailNotice': page.header.emailNotice} 
-            %}
+            
             <div>
               {% include 'partials/sharing.html.twig' %}
             </div>
@@ -63,6 +57,22 @@
 
         </div>
     </main>
+{% endblock %}
+
+{% block footer %}
+  {% include 'partials/emailcapture.html.twig' with {
+    'emailCTA': page.header.emailCTA, 
+    'emailPlaceholder': page.header.emailPlaceholder, 
+    'emailButton': page.header.emailButton, 
+    'emailNotice': page.header.emailNotice} 
+  %}
+  {% include 'partials/footer.html.twig' with {
+    'sharingButtons': false,
+    'exhibitionLink': true,
+    'orgIcons':       true,
+    'copyright':      true,
+    'stylingClasses': 'c-grey'}
+  %}
 {% endblock %}
 
 {% endembed %}
