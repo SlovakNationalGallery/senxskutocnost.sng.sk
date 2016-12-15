@@ -1,7 +1,8 @@
 ---
 title: 'Na polceste k slovenskému štátu'
+synopsis: V roku 1938 je Slovenská krajina súčasťou Československej republiky, no v národe silnejú tendencie osamostatniť sa. Svoju úlohu v nich majú zohrať snahy Hlinkovej slovenskej ľudovej strany o autonómiu v rámci Československa a Hitlerove mocenské plány, ktorým by rozdelenie republiky hralo do karát.
 published: true
-announce_date: '7. november'
+announce_date: 'Zverejnené 7. novembra'
 date: '07-11-2016 06:00'
 slug: chapter-1
 routes:

@@ -8,6 +8,7 @@ $font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Aria
 $font-moyenage: "Moyenage14", "Linux Libertine";
 
 $red: #E00000;
+$dark-red: #C70000;
 $grey: #AEAEAE;
 $dark-grey: #6D6D6D;
 $dark-green: #3F3C25;
@@ -25,6 +26,10 @@ html,body
 {
   overflow-x: hidden; 
   background-color: $bg-color;
+}
+
+body.landing {
+  background-color: $dark-green;
 }
 
 body.uk-offcanvas-page {
@@ -103,6 +108,9 @@ button, .uk-button {
 }
 
 
+.margin-bottom-xs {
+  margin-bottom: 10px !important;
+}
 .margin-bottom-s {
   margin-bottom: 20px !important;
 }
@@ -126,6 +134,22 @@ button, .uk-button {
 }
 .padding-top-s {
   padding-top: 20px !important;
+}
+.padding-top-xs {
+  padding-top: 10px !important;
+}
+
+hr {
+  display:block !important;
+  border:0px !important;
+  height:20px !important;
+  width:20px !important;
+  margin: auto !important;
+  background-image:url(../images/hr.svg) !important;
+  background-repeat: no-repeat;
+}
+hr.white{
+  background-image:url(../images/hr-white.svg) !important;
 }
 
 .blank-list {
@@ -347,7 +371,6 @@ div#side-nav-bar {
   * {
     z-index: 9;
   }
-  
   .landing-image {
     position: absolute;
     background-color: black;
@@ -387,7 +410,7 @@ div#side-nav-bar {
           font-size: 60px;
         }
         @include respond-to(460) {
-          font-size: 40px;
+          font-size: 45px;
         }
         img.headline-logo {
           height: 65px;
@@ -408,9 +431,6 @@ div#side-nav-bar {
           font-size: 20px;
           margin-top: 0px;
         }
-        @include respond-to(460) {
-          font-size: 18px;
-        }
       }
       h3 {
         font-size: 25px;
@@ -421,8 +441,25 @@ div#side-nav-bar {
           line-height: 25px;
           margin-top: 0px;
         }
-        @include respond-to(460) {
+      }
+      h4 {
+        font-size: 23px;
+        line-height: 26px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+        @include respond-to(805) {
           font-size: 18px;
+          line-height: 23px;
+        }
+      }
+      .first-chapter-cta{
+        margin: 50px auto;
+        h2{
+          font-size: 45px;
+          line-height: 48px;
+          @include respond-to(460) {
+            font-size: 40px;
+            line-height: 43px;
+          }
         }
       }
       form#email-capture {
@@ -481,6 +518,29 @@ form#email-capture {
   }
 }
 
+.button-xlarge{
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.button-red {
+  background-color: $red;
+  color: white;
+  &:hover {
+    background-color: $dark-red;
+    color: white;
+  }
+}
+.button-white {
+  background-color: white;
+  color: black;
+  &:hover {
+    background-color: #EEE;
+    color: #111;
+  }
+}
+.button-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
 .button-ghost {
   background: none;
   border: white solid 1px;
@@ -500,39 +560,28 @@ form#email-capture {
     }
 }
 
-.button-return {
-  background-color: white;
-  color: black;
-  font-size: 25px;
-  padding: 10px 25px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-  &:hover {
-    background-color: #EEE;
-    color: #111;
-  }
-}
-
-
 #chapter-preview {
   margin-left: 0px;
   margin-right: 25px;
+  margin-bottom: 80px;
 
   .chapter-thumb {
     color: white;
     margin-top: 25px;
-    a:hover {
-      h5 {
-        color: $red;
+    .bt-white-red{
+      border-top: white solid 2px;
+    }
+    &:hover {
+      .bt-white-red {
         border-top-color:$red;
       }
     }
     h5 {
       display: inline-block; // needed for pointer-events: none
       width: 100%;
-      border-top: white solid 2px;
-      padding-top: 15px;
+      font-size: 16px;
       margin-bottom: 5px;
-      min-height: 60px;
+      margin-top: 15px;
     }
     p {
       margin-top: 0px;
@@ -540,10 +589,10 @@ form#email-capture {
   }
   .chapter-thumb.disabled {
     * {
-      color: $dark-grey; 
+      color: $dark-grey !important; 
     }
     h5 {
-      border-color: $dark-grey;
+      border-color: $dark-grey !important;
     }
   }
 }
@@ -699,15 +748,9 @@ form#email-capture {
       li {
         font-size: 18px;
       }
-
       hr {
-        display:block;
-        border:0px;
-        height:20px;
-        width:20px;
-        margin-top: 10px;
-        margin-bottom: 50px;
-        background-image:url(../images/hr.svg);
+        margin-top: 10px !important;
+        margin-bottom: 50px !important;
       }
       .slick-slider {
         margin-bottom: 40px;

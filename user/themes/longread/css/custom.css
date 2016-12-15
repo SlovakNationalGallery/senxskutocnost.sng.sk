@@ -2,6 +2,9 @@ html, body {
   overflow-x: hidden;
   background-color: #f9f9f7; }
 
+body.landing {
+  background-color: #3F3C25; }
+
 body.uk-offcanvas-page {
   overflow-y: hidden; }
 
@@ -64,6 +67,9 @@ button, .uk-button {
 .bg-dark-green {
   background-color: #3F3C25 !important; }
 
+.margin-bottom-xs {
+  margin-bottom: 10px !important; }
+
 .margin-bottom-s {
   margin-bottom: 20px !important; }
 
@@ -87,6 +93,21 @@ button, .uk-button {
 
 .padding-top-s {
   padding-top: 20px !important; }
+
+.padding-top-xs {
+  padding-top: 10px !important; }
+
+hr {
+  display: block !important;
+  border: 0px !important;
+  height: 20px !important;
+  width: 20px !important;
+  margin: auto !important;
+  background-image: url(../images/hr.svg) !important;
+  background-repeat: no-repeat; }
+
+hr.white {
+  background-image: url(../images/hr-white.svg) !important; }
 
 .blank-list ul {
   list-style-type: none; }
@@ -298,7 +319,7 @@ div#side-nav-bar {
           font-size: 60px; } }
       @media only screen and (max-width: 460px) {
         .landing .landing-content h1 {
-          font-size: 40px; } }
+          font-size: 45px; } }
       .landing .landing-content h1 img.headline-logo {
         height: 65px;
         vertical-align: baseline; }
@@ -316,9 +337,6 @@ div#side-nav-bar {
         .landing .landing-content h2 {
           font-size: 20px;
           margin-top: 0px; } }
-      @media only screen and (max-width: 460px) {
-        .landing .landing-content h2 {
-          font-size: 18px; } }
     .landing .landing-content h3 {
       font-size: 25px;
       line-height: 28px;
@@ -328,9 +346,23 @@ div#side-nav-bar {
           font-size: 20px;
           line-height: 25px;
           margin-top: 0px; } }
-      @media only screen and (max-width: 460px) {
-        .landing .landing-content h3 {
-          font-size: 18px; } }
+    .landing .landing-content h4 {
+      font-size: 23px;
+      line-height: 26px;
+      text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
+      @media only screen and (max-width: 805px) {
+        .landing .landing-content h4 {
+          font-size: 18px;
+          line-height: 23px; } }
+    .landing .landing-content .first-chapter-cta {
+      margin: 50px auto; }
+      .landing .landing-content .first-chapter-cta h2 {
+        font-size: 45px;
+        line-height: 48px; }
+        @media only screen and (max-width: 460px) {
+          .landing .landing-content .first-chapter-cta h2 {
+            font-size: 40px;
+            line-height: 43px; } }
     .landing .landing-content form#email-capture {
       width: 550px;
       margin: 25px auto; }
@@ -382,6 +414,27 @@ form#email-capture {
       font-size: 18px;
       padding-top: 15px; }
 
+.button-xlarge {
+  font-size: 25px;
+  padding: 10px 25px; }
+
+.button-red {
+  background-color: #E00000;
+  color: white; }
+  .button-red:hover {
+    background-color: #C70000;
+    color: white; }
+
+.button-white {
+  background-color: white;
+  color: black; }
+  .button-white:hover {
+    background-color: #EEE;
+    color: #111; }
+
+.button-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); }
+
 .button-ghost {
   background: none;
   border: white solid 1px;
@@ -400,38 +453,29 @@ form#email-capture {
   .button-ghost.button-ghost-black:focus * {
     color: white; }
 
-.button-return {
-  background-color: white;
-  color: black;
-  font-size: 25px;
-  padding: 10px 25px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); }
-  .button-return:hover {
-    background-color: #EEE;
-    color: #111; }
-
 #chapter-preview {
   margin-left: 0px;
-  margin-right: 25px; }
+  margin-right: 25px;
+  margin-bottom: 80px; }
   #chapter-preview .chapter-thumb {
     color: white;
     margin-top: 25px; }
-    #chapter-preview .chapter-thumb a:hover h5 {
-      color: #E00000;
+    #chapter-preview .chapter-thumb .bt-white-red {
+      border-top: white solid 2px; }
+    #chapter-preview .chapter-thumb:hover .bt-white-red {
       border-top-color: #E00000; }
     #chapter-preview .chapter-thumb h5 {
       display: inline-block;
       width: 100%;
-      border-top: white solid 2px;
-      padding-top: 15px;
+      font-size: 16px;
       margin-bottom: 5px;
-      min-height: 60px; }
+      margin-top: 15px; }
     #chapter-preview .chapter-thumb p {
       margin-top: 0px; }
   #chapter-preview .chapter-thumb.disabled * {
-    color: #6D6D6D; }
+    color: #6D6D6D !important; }
   #chapter-preview .chapter-thumb.disabled h5 {
-    border-color: #6D6D6D; }
+    border-color: #6D6D6D !important; }
 
 .content {
   max-width: 700px; }
@@ -555,13 +599,8 @@ form#email-capture {
   .post.chapter .post-content .chapter-content li, .post.subobject .post-content .chapter-content li, .post.page .post-content .chapter-content li {
     font-size: 18px; }
   .post.chapter .post-content .chapter-content hr, .post.subobject .post-content .chapter-content hr, .post.page .post-content .chapter-content hr {
-    display: block;
-    border: 0px;
-    height: 20px;
-    width: 20px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    background-image: url(../images/hr.svg); }
+    margin-top: 10px !important;
+    margin-bottom: 50px !important; }
   .post.chapter .post-content .chapter-content .slick-slider, .post.subobject .post-content .chapter-content .slick-slider, .post.page .post-content .chapter-content .slick-slider {
     margin-bottom: 40px; }
   .post.chapter .post-content .chapter-content div.audioplayer, .post.subobject .post-content .chapter-content div.audioplayer, .post.page .post-content .chapter-content div.audioplayer {
