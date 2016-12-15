@@ -568,18 +568,18 @@ form#email-capture {
   .chapter-thumb {
     color: white;
     margin-top: 25px;
-    a:hover {
-      .bt-white-red {
-        color: $red;
-        border-top-color:$red;
-      }
-    }
     .bt-white-red{
       border-top: white solid 2px;
+    }
+    &:hover {
+      .bt-white-red {
+        border-top-color:$red;
+      }
     }
     h5 {
       display: inline-block; // needed for pointer-events: none
       width: 100%;
+      font-size: 16px;
       margin-bottom: 5px;
       margin-top: 15px;
     }
@@ -592,7 +592,7 @@ form#email-capture {
       color: $dark-grey !important; 
     }
     h5 {
-      border-color: $dark-grey;
+      border-color: $dark-grey !important;
     }
   }
 }

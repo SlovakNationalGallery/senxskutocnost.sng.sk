@@ -39,7 +39,7 @@
           {% for p in page.collection %}
             <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if p.header.disabled%}disabled{% endif %}">
               <h5 class="bt-white-red padding-top-xs f-uni-grotesk-bold">{{p.header.chapterNumber}}.</h5>
-              <a href="{{p.url}}">
+              <a href="{{p.url}}" {% if p.header.disabled%}disabled{% endif %}>
                 <img src=
                 {% if p.header.disabled %}
                   "{{ p.media['thumb-chapter.jpg'].colorize(-100,-100,-100).url }}"

@@ -460,14 +460,14 @@ form#email-capture {
   #chapter-preview .chapter-thumb {
     color: white;
     margin-top: 25px; }
-    #chapter-preview .chapter-thumb a:hover .bt-white-red {
-      color: #E00000;
-      border-top-color: #E00000; }
     #chapter-preview .chapter-thumb .bt-white-red {
       border-top: white solid 2px; }
+    #chapter-preview .chapter-thumb:hover .bt-white-red {
+      border-top-color: #E00000; }
     #chapter-preview .chapter-thumb h5 {
       display: inline-block;
       width: 100%;
+      font-size: 16px;
       margin-bottom: 5px;
       margin-top: 15px; }
     #chapter-preview .chapter-thumb p {
@@ -475,7 +475,7 @@ form#email-capture {
   #chapter-preview .chapter-thumb.disabled * {
     color: #6D6D6D !important; }
   #chapter-preview .chapter-thumb.disabled h5 {
-    border-color: #6D6D6D; }
+    border-color: #6D6D6D !important; }
 
 .content {
   max-width: 700px; }
