@@ -2,3 +2,4 @@ enabled: true
 route: /sitemap
 ignores:
   - /chapters/4-Vytriezvenie-zo-sna
+  - /chapters/3-70000-obeti
