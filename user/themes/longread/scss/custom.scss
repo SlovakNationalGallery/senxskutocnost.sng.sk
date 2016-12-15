@@ -27,6 +27,10 @@ html,body
   background-color: $bg-color;
 }
 
+body.landing {
+  background-color: $dark-green;
+}
+
 body.uk-offcanvas-page {
   overflow-y: hidden;
 }

@@ -2,6 +2,9 @@ html, body {
   overflow-x: hidden;
   background-color: #f9f9f7; }
 
+body.landing {
+  background-color: #3F3C25; }
+
 body.uk-offcanvas-page {
   overflow-y: hidden; }
 

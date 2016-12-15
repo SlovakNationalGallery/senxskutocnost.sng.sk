@@ -1,7 +1,7 @@
 {% embed 'partials/base.html.twig' %}
 
 {% block body %}
-<body itemscope itemtype="http://schema.org/Article">
+<body class="landing" itemscope itemtype="http://schema.org/Article">
 {% endblock %}
 
 {% block content %}
@@ -62,19 +62,17 @@
           </div>
 
         </div>
-
-        {% include 'partials/footer.html.twig' with {
-          'sharingButtons': false,
-          'exhibitionLink': true,
-          'orgIcons':       true,
-          'copyright':      true,
-          'stylingClasses': 'c-grey'}
-        %}
-        
     </main>
-    
 {% endblock %}
 
-{% block footer %}{% endblock %}
+{% block footer %}
+  {% include 'partials/footer.html.twig' with {
+    'sharingButtons': false,
+    'exhibitionLink': true,
+    'orgIcons':       true,
+    'copyright':      true,
+    'stylingClasses': 'c-grey'}
+  %}
+{% endblock %}
 
 {% endembed %}
