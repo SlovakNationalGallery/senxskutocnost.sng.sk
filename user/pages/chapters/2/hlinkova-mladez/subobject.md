@@ -67,3 +67,4 @@ returnButtonText: 'Späť na 2. kapitolu'
 
 [![Neznámy autor - Vyslanec šéf Úradu propagandy Tido J. Gašpar a hlavný veliteľ Hlinkovej mládeže Alojz Macek navštívili tábory HM na Orave 23. – 24. 8. 1941., Slovenský národný archív, Bratislava – fond STK](SVK_TMP.160.jpeg "Neznámy autor - Vyslanec šéf Úradu propagandy Tido J. Gašpar a hlavný veliteľ Hlinkovej mládeže Alojz Macek navštívili tábory HM na Orave 23. – 24. 8. 1941.")](http://www.webumenia.sk/dielo/SVK:TMP.160?collection=83)
 
+[![Titulná strana časopisu Nová Mládež, 01.05.1939, Univerzitná knižnica v Bratislave](Nova_mladez.jpg "Titulná strana časopisu Nová Mládež, 01.05.1939")](http://digitalna.kniznica.info/zoom/31098/view?page=1&p=separate&view=0,0,2256,3314)
