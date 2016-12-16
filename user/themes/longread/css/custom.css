@@ -637,6 +637,8 @@ form#email-capture {
         margin-top: 0; } }
     .post.subobject .breadcrumbs a {
       text-decoration: underline; }
+    .post.subobject .breadcrumbs .breadcrumb {
+      padding: 5px; }
   .post.subobject .chapter-title {
     margin-top: 50px;
     margin-bottom: 50px;
