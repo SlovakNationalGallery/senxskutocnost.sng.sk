@@ -158,6 +158,18 @@ hr.white{
   }
 }
 
+.first-chapter-cta{
+  margin: 50px auto;
+  h2{
+    font-size: 45px !important;
+    line-height: 48px !important;
+    @include respond-to(460) {
+      font-size: 40px !important;
+      line-height: 43px !important;
+    }
+  }
+}
+
 nav.uk-navbar {
   position: relative;
   float: none;
@@ -449,17 +461,6 @@ div#side-nav-bar {
         @include respond-to(805) {
           font-size: 18px;
           line-height: 23px;
-        }
-      }
-      .first-chapter-cta{
-        margin: 50px auto;
-        h2{
-          font-size: 45px;
-          line-height: 48px;
-          @include respond-to(460) {
-            font-size: 40px;
-            line-height: 43px;
-          }
         }
       }
       form#email-capture {
