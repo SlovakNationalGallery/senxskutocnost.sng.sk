@@ -641,12 +641,15 @@ form#email-capture {
       padding: 5px; }
   .post.subobject .chapter-title {
     margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 0 20px; }
+    margin-bottom: 50px; }
     .post.subobject .chapter-title h1 {
       color: #000;
       font-size: 60px;
-      line-height: 60px; }
+      line-height: 60px;
+      padding: 0 40px; }
+      @media only screen and (max-width: 620px) {
+        .post.subobject .chapter-title h1 {
+          padding: 0 20px; } }
       @media only screen and (max-width: 620px) {
         .post.subobject .chapter-title h1 {
           font-size: 40px;
