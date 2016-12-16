@@ -8,6 +8,7 @@ $font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Aria
 $font-moyenage: "Moyenage14", "Linux Libertine";
 
 $red: #E00000;
+$dark-red: #C70000;
 $grey: #AEAEAE;
 $dark-grey: #6D6D6D;
 $dark-green: #3F3C25;
@@ -27,6 +28,10 @@ html,body
   background-color: $bg-color;
 }
 
+body.landing {
+  background-color: $dark-green;
+}
+
 body.uk-offcanvas-page {
   overflow-y: hidden;
 }
@@ -41,6 +46,10 @@ a {
 
 a, a:visited, a:hover, a:active {
   // color: inherit;
+}
+
+a[disabled] { // IE compatible (http://stackoverflow.com/questions/10276133/how-to-disable-html-links/10276157#10276157)
+    pointer-events: none;
 }
 
 @include selection {
@@ -99,6 +108,9 @@ button, .uk-button {
 }
 
 
+.margin-bottom-xs {
+  margin-bottom: 10px !important;
+}
 .margin-bottom-s {
   margin-bottom: 20px !important;
 }
@@ -122,6 +134,22 @@ button, .uk-button {
 }
 .padding-top-s {
   padding-top: 20px !important;
+}
+.padding-top-xs {
+  padding-top: 10px !important;
+}
+
+hr {
+  display:block !important;
+  border:0px !important;
+  height:20px !important;
+  width:20px !important;
+  margin: auto !important;
+  background-image:url(../images/hr.svg) !important;
+  background-repeat: no-repeat;
+}
+hr.white{
+  background-image:url(../images/hr-white.svg) !important;
 }
 
 .blank-list {
@@ -157,10 +185,16 @@ nav.uk-navbar {
       @include respond-to(1100) {
         height: 100%;
       }
+      @include respond-to(680) {
+        height: 80%;
+      }
     }
     span {
       @include respond-to(1100) {
         display: none;
+      }
+      @include respond-to(680) {
+        display: inline;
       }
     }
   }
@@ -337,7 +371,6 @@ div#side-nav-bar {
   * {
     z-index: 9;
   }
-  
   .landing-image {
     position: absolute;
     background-color: black;
@@ -377,7 +410,7 @@ div#side-nav-bar {
           font-size: 60px;
         }
         @include respond-to(460) {
-          font-size: 40px;
+          font-size: 45px;
         }
         img.headline-logo {
           height: 65px;
@@ -398,9 +431,6 @@ div#side-nav-bar {
           font-size: 20px;
           margin-top: 0px;
         }
-        @include respond-to(460) {
-          font-size: 18px;
-        }
       }
       h3 {
         font-size: 25px;
@@ -411,8 +441,25 @@ div#side-nav-bar {
           line-height: 25px;
           margin-top: 0px;
         }
-        @include respond-to(460) {
+      }
+      h4 {
+        font-size: 23px;
+        line-height: 26px;
+        text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+        @include respond-to(805) {
           font-size: 18px;
+          line-height: 23px;
+        }
+      }
+      .first-chapter-cta{
+        margin: 50px auto;
+        h2{
+          font-size: 45px;
+          line-height: 48px;
+          @include respond-to(460) {
+            font-size: 40px;
+            line-height: 43px;
+          }
         }
       }
       form#email-capture {
@@ -471,6 +518,29 @@ form#email-capture {
   }
 }
 
+.button-xlarge{
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.button-red {
+  background-color: $red;
+  color: white;
+  &:hover {
+    background-color: $dark-red;
+    color: white;
+  }
+}
+.button-white {
+  background-color: white;
+  color: black;
+  &:hover {
+    background-color: #EEE;
+    color: #111;
+  }
+}
+.button-shadow {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
 .button-ghost {
   background: none;
   border: white solid 1px;
@@ -490,37 +560,28 @@ form#email-capture {
     }
 }
 
-.button-return {
-  background-color: white;
-  color: black;
-  font-size: 25px;
-  padding: 10px 25px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
-  &:hover {
-    background-color: #EEE;
-    color: #111;
-  }
-}
-
-
 #chapter-preview {
   margin-left: 0px;
   margin-right: 25px;
+  margin-bottom: 80px;
 
   .chapter-thumb {
     color: white;
     margin-top: 25px;
-    a:hover {
-      h5 {
-        color: $red;
+    .bt-white-red{
+      border-top: white solid 2px;
+    }
+    &:hover {
+      .bt-white-red {
         border-top-color:$red;
       }
     }
     h5 {
-      border-top: white solid 2px;
-      padding-top: 15px;
+      display: inline-block; // needed for pointer-events: none
+      width: 100%;
+      font-size: 16px;
       margin-bottom: 5px;
-      min-height: 60px;
+      margin-top: 15px;
     }
     p {
       margin-top: 0px;
@@ -528,10 +589,10 @@ form#email-capture {
   }
   .chapter-thumb.disabled {
     * {
-      color: $dark-grey; 
+      color: $dark-grey !important; 
     }
     h5 {
-      border-color: $dark-grey;
+      border-color: $dark-grey !important;
     }
   }
 }
@@ -551,6 +612,18 @@ form#email-capture {
     .post-image-image.chapter-1 {
       background-position-x: 67%;
     }
+    .post-image-image.chapter-2 {
+      background-position-y: 15%;
+      background-position-x: 48%;
+    }
+    .article-image-gradient {
+      height: 100%;
+      background: 
+        linear-gradient(
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.8)
+        );
+    }
   }
 
   .drop-cap { 
@@ -567,7 +640,7 @@ form#email-capture {
   .post-content, {
     position: relative;
     width: inherit;
-    padding-top: 15px;
+    padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
     font-family: "Uni Grotesk Regular";
@@ -597,6 +670,10 @@ form#email-capture {
         color: white;
         font-size: 80px;
         margin-bottom: -30px;
+        @include respond-to(810) {
+          font-size: 65px;
+          margin-bottom: -25px;
+        }
         @include respond-to(620) {
           font-size: 45px;
           margin-bottom: -20px;
@@ -605,7 +682,6 @@ form#email-capture {
           font-size: 40px;
           margin-bottom: -15px;
         }
-
       }
       .post-reading {
         position: relative;
@@ -614,71 +690,74 @@ form#email-capture {
         text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
       }
     }
-    h1 {
-      font-size: 45px
-    }
-    h1, h2 {
-      letter-spacing: normal;
-    }
-    h2 {
-      margin-bottom: 4px;
-      padding-top: 0;
-    }
-    h3, h4, h5, h6 {
-      margin-bottom: 20px;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      color: $text-color;
-      font-family: $font-bold;
-    }
-    .title-date {
-      font-family: "Uni Grotesk Regular";
-      font-size: 18px;
-      font-weight: 100;
-    }
-    p {
-      color: $text-color;
-      font-size: 18px;
-      @include hyphens(none);
-      @include respond-to(600) {
-        line-height: 25px;
+    .chapter-content {
+      h1 {
+        font-size: 45px
       }
-    }
-    h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
-      margin-left: -20px;
-      margin-right: -20px;
-      @include respond-to(600) {
-        margin-left: 0;
-        margin-right: 0;
+      h1, h2 {
+        letter-spacing: normal;
       }
-    }
-    .fluid-width-video-wrapper {
-      margin-left: 0 !important;
-    }
-    div.highlight p {
-      font-family: $font-bold;
-      font-size: 25px;
-      line-height: 32px;
-    }
-    figcaption {
-      margin-top: 10px;
-      font-style: normal;
-      font-size: 14px;
-    }
-    li {
-      font-size: 18px;
-    }
-
-    hr {
-      display:block;
-      border:0px;
-      height:20px;
-      width:20px;
-      margin-top: 10px;
-      background-image:url(../images/hr.svg);
-    }
-    div.audioplayer {
-      margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
+      h2 {
+        margin-bottom: 4px;
+        padding-top: 0;
+      }
+      h3, h4, h5, h6 {
+        margin-bottom: 20px;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        color: $text-color;
+        font-family: $font-bold;
+      }
+      .title-date {
+        font-family: "Uni Grotesk Regular";
+        font-size: 18px;
+        font-weight: 100;
+      }
+      p {
+        color: $text-color;
+        font-size: 18px;
+        @include hyphens(none);
+        @include respond-to(600) {
+          line-height: 25px;
+        }
+      }
+      h2:first-child {
+        margin-top: 0;
+      }
+      h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
+        margin-left: -20px;
+        margin-right: -20px;
+        @include respond-to(600) {
+          margin-left: 0;
+          margin-right: 0;
+        }
+      }
+      .fluid-width-video-wrapper {
+        margin-left: 0 !important;
+      }
+      div.highlight p {
+        font-family: $font-bold;
+        font-size: 25px;
+        line-height: 32px;
+      }
+      figcaption {
+        margin-top: 10px;
+        font-style: normal;
+        font-size: 14px;
+      }
+      li {
+        font-size: 18px;
+      }
+      hr {
+        margin-top: 10px !important;
+        margin-bottom: 50px !important;
+      }
+      .slick-slider {
+        margin-bottom: 40px;
+      }
+      div.audioplayer {
+        margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
+      }
     }
   }
 }
@@ -698,15 +777,19 @@ form#email-capture {
   }
   .chapter-title {
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0 20px;
     h1 {
       color: $text-color;
       font-size: 60px;
+      line-height: 60px;
       @include respond-to(620) {
         font-size: 40px;
+        line-height: 40px;
       }
       @include respond-to(460) {
         font-size: 35px;
+        line-height: 35px;
       }
     }
     .title-date {
@@ -736,11 +819,17 @@ $button-height: 60px;
     margin-top: ($return-height - $button-height)/2;
   }
 }
-.return.chapter1 {
+.return.chapter-1 {
   background: 
-    url(../../../pages/chapters/1-na-polceste-k-slovenskemu-statu/tiso.jpg);
+    url(../../../pages/chapters/1/tiso.jpg);
   background-size: cover;
   background-position-y: 52%;
+}
+.return.chapter-2 {
+  background: 
+    url(../../../pages/chapters/2/teslik-oslavy.jpg);
+  background-size: cover;
+  background-position-y: 28%;
 }
 
 .post.page {
@@ -798,7 +887,11 @@ $button-height: 60px;
 }
 
 .subobject-overview {
-  .subobject {
+  margin-bottom: 20px;
+  .subobject-wrapper {
+    a {
+      text-decoration: none;
+    }
     figure{
       padding: 0;
       figcaption {
@@ -808,20 +901,21 @@ $button-height: 60px;
         padding: 20px;
       }
     }
-    .subobject-caption {
+    img.icon {
+      float: left;
+      width: 15%;
+    }
+    span.subobject-caption {
+      float: right;
+      width: 83%;
       text-decoration: none;
       font-size: 20px;
       font-weight: 900;
-      margin-left: 10px;
-      img.icon {
-        height: 25px;
-        margin-right: 10px;
-      }
     }
     @include respond-to(600) {
       border: 1px solid black;
-      margin-left: 25px;
       width: 93%;
+      margin-left: 25px;
       padding-left: 0;
       margin-top: 10px;
       margin-bottom: 10px;
@@ -831,6 +925,20 @@ $button-height: 60px;
           padding: 0 0;
           width: 25%;
         }
+      }
+      .subobject-content {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      img.icon {
+        float: none;
+        width: 6%;
+        min-width: 20px;
+        margin: 1%;
+      }
+      span.subobject-caption {
+        float: none;
+        width: 60%;
       }
     }
   }
