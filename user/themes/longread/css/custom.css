@@ -273,7 +273,7 @@ div#side-nav-bar {
   text-decoration: none;
   font-size: 16px; }
   .nav-about.c-white:hover {
-    color: #E1E1E1; }
+    color: #EFEFEF; }
 
 .landing {
   background-color: #3F3C25; }
@@ -592,6 +592,9 @@ form#email-capture {
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 25px;
     line-height: 32px; }
+  .post.chapter .post-content .chapter-content figure, .post.subobject .post-content .chapter-content figure, .post.page .post-content .chapter-content figure {
+    background-color: #EFEFEF;
+    padding: 10px; }
   .post.chapter .post-content .chapter-content figcaption, .post.subobject .post-content .chapter-content figcaption, .post.page .post-content .chapter-content figcaption {
     margin-top: 10px;
     font-style: normal;
@@ -705,7 +708,9 @@ form#email-capture {
   .subobject-overview .subobject-wrapper a {
     text-decoration: none; }
   .subobject-overview .subobject-wrapper figure {
-    padding: 0; }
+    padding: 0 !important;
+    margin-bottom: 0;
+    background: none !important; }
     .subobject-overview .subobject-wrapper figure figcaption {
       display: none; }
     .subobject-overview .subobject-wrapper figure img {
@@ -747,7 +752,7 @@ form#email-capture {
 #footer a:not(.uk-button) {
   color: white; }
   #footer a:not(.uk-button):hover {
-    color: #E1E1E1; }
+    color: #EFEFEF; }
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
@@ -756,7 +761,7 @@ form#email-capture {
   fill: white; }
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
-  fill: #E1E1E1 !important; }
+  fill: #EFEFEF !important; }
 #footer a svg.c-black #footericonsng,
 #footer a svg.c-black #footericonfb {
   fill: black; }
