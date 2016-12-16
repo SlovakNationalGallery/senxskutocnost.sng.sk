@@ -593,7 +593,7 @@ form#email-capture {
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 25px;
     line-height: 32px; }
-  .post.chapter .post-content .chapter-content figure, .post.subobject .post-content .chapter-content figure, .post.page .post-content .chapter-content figure {
+  .post.chapter .post-content .chapter-content figure.audio, .post.chapter .post-content .chapter-content figure.video, .post.chapter .post-content .chapter-content > p > a > figure.image, .post.subobject .post-content .chapter-content figure.audio, .post.subobject .post-content .chapter-content figure.video, .post.subobject .post-content .chapter-content > p > a > figure.image, .post.page .post-content .chapter-content figure.audio, .post.page .post-content .chapter-content figure.video, .post.page .post-content .chapter-content > p > a > figure.image {
     background-color: #EFEFEF;
     padding: 10px; }
   .post.chapter .post-content .chapter-content figcaption, .post.subobject .post-content .chapter-content figcaption, .post.page .post-content .chapter-content figcaption {

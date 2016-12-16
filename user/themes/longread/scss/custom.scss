@@ -741,7 +741,7 @@ form#email-capture {
         font-size: 25px;
         line-height: 32px;
       }
-      figure {
+      figure.audio, figure.video, > p > a > figure.image {
         background-color: $light-grey;
         padding: 10px;
       }
