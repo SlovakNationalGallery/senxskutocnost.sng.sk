@@ -643,6 +643,7 @@ form#email-capture {
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 20px;
     font-family: "Uni Grotesk Regular";
     background-color: white;
     color: $text-color;
@@ -740,7 +741,7 @@ form#email-capture {
         font-size: 25px;
         line-height: 32px;
       }
-      figure {
+      figure.audio, figure.video, > p > a > figure.image {
         background-color: $light-grey;
         padding: 10px;
       }
@@ -757,7 +758,7 @@ form#email-capture {
         margin-bottom: 50px !important;
       }
       .slick-slider {
-        margin-bottom: 40px;
+        margin-bottom: 70px;
       }
       div.audioplayer {
         margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag

@@ -510,6 +510,7 @@ form#email-capture {
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 20px;
   font-family: "Uni Grotesk Regular";
   background-color: white;
   color: #000;
@@ -592,7 +593,7 @@ form#email-capture {
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 25px;
     line-height: 32px; }
-  .post.chapter .post-content .chapter-content figure, .post.subobject .post-content .chapter-content figure, .post.page .post-content .chapter-content figure {
+  .post.chapter .post-content .chapter-content figure.audio, .post.chapter .post-content .chapter-content figure.video, .post.chapter .post-content .chapter-content > p > a > figure.image, .post.subobject .post-content .chapter-content figure.audio, .post.subobject .post-content .chapter-content figure.video, .post.subobject .post-content .chapter-content > p > a > figure.image, .post.page .post-content .chapter-content figure.audio, .post.page .post-content .chapter-content figure.video, .post.page .post-content .chapter-content > p > a > figure.image {
     background-color: #EFEFEF;
     padding: 10px; }
   .post.chapter .post-content .chapter-content figcaption, .post.subobject .post-content .chapter-content figcaption, .post.page .post-content .chapter-content figcaption {
@@ -605,7 +606,7 @@ form#email-capture {
     margin-top: 10px !important;
     margin-bottom: 50px !important; }
   .post.chapter .post-content .chapter-content .slick-slider, .post.subobject .post-content .chapter-content .slick-slider, .post.page .post-content .chapter-content .slick-slider {
-    margin-bottom: 40px; }
+    margin-bottom: 70px; }
   .post.chapter .post-content .chapter-content div.audioplayer, .post.subobject .post-content .chapter-content div.audioplayer, .post.page .post-content .chapter-content div.audioplayer {
     margin-bottom: -30px; }
 
