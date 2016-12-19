@@ -26,20 +26,27 @@
 
         </div>
         
-        <div id="chapter-preview" class="uk-grid centered c-white ">
+        <div id="chapter-preview" class="uk-grid hover-grid centered c-white ">
 
           {% for p in page.collection %}
             <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if p.header.disabled%}disabled{% endif %}">
-              <h5 class="bt-white-red padding-top-xs f-uni-grotesk-bold">{{p.header.chapterNumber}}.</h5>
-              <a href="{{p.url}}" {% if p.header.disabled%}disabled{% endif %}>
-                <img src=
-                {% if p.header.disabled %}
-                  "{{ p.media['thumb-chapter.jpg'].colorize(-100,-100,-100).url }}"
-                {% else %}
-                  "{{ p.media['thumb-chapter.jpg'].url }}"
-                {% endif %}
-                class="uk-hidden-small" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}">
-              </a>
+
+              {% if not p.header.disabled %}
+                <figure class="effect-honey">
+                  <img src="{{ p.media['thumb-chapter.jpg'].url }}" alt="img04"/>
+                  <figcaption>
+                    <h2>
+                      <span class="f-uni-grotesk-regular fs-half">{{p.header.chapterNumber}}. kapitola</span><br>
+                      {{p.header.titleStyled}}<i></i>
+                    </h2>
+                    <a href="{{p.url}}">View more</a>
+                  </figcaption>     
+                </figure>
+              {% else %}
+                <img src="{{ p.media['thumb-chapter.jpg'].url }}" class="uk-hidden-small" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}">
+              {% endif %}
+
+              
               <h5 class="f-uni-grotesk-bold">{{p.title}}</h5>
               <p class="f-uni-grotesk-regular">{{p.header.synopsis}}</p>
               {% if not p.header.disabled %}
