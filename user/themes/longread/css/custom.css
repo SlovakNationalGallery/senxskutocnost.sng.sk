@@ -5,6 +5,13 @@ html, body {
 body.landing {
   background-color: #3F3C25; }
 
+body.error {
+  height: 100vh; }
+  body.error .wrapper {
+    margin-top: 15vh; }
+    body.error .wrapper h1 {
+      font-size: 7em; }
+
 body.uk-offcanvas-page {
   overflow-y: hidden; }
 
@@ -67,6 +74,9 @@ button, .uk-button {
 .bg-dark-green {
   background-color: #3F3C25 !important; }
 
+.margin-bottom-0 {
+  margin-bottom: 0 !important; }
+
 .margin-bottom-xs {
   margin-bottom: 10px !important; }
 
@@ -80,7 +90,7 @@ button, .uk-button {
   margin-top: 0px !important; }
 
 .margin-top-xs {
-  margin-top: 5px !important; }
+  margin-top: 10px !important; }
 
 .margin-top-s {
   margin-top: 20px !important; }
@@ -91,11 +101,20 @@ button, .uk-button {
 .padding-top-0 {
   padding-top: 0px !important; }
 
+.padding-top-xs {
+  padding-top: 10px !important; }
+
 .padding-top-s {
   padding-top: 20px !important; }
 
-.padding-top-xs {
-  padding-top: 10px !important; }
+.padding-left-s {
+  padding-left: 20px !important; }
+
+.padding-right-s {
+  padding-right: 20px !important; }
+
+.padding-s {
+  padding: 20px !important; }
 
 hr {
   display: block !important;
@@ -111,6 +130,16 @@ hr.white {
 
 .blank-list ul {
   list-style-type: none; }
+
+.first-chapter-cta {
+  margin: 50px auto; }
+  .first-chapter-cta h2 {
+    font-size: 45px !important;
+    line-height: 48px !important; }
+    @media only screen and (max-width: 460px) {
+      .first-chapter-cta h2 {
+        font-size: 40px !important;
+        line-height: 43px !important; } }
 
 nav.uk-navbar {
   position: relative;
@@ -273,7 +302,7 @@ div#side-nav-bar {
   text-decoration: none;
   font-size: 16px; }
   .nav-about.c-white:hover {
-    color: #E1E1E1; }
+    color: #EFEFEF; }
 
 .landing {
   background-color: #3F3C25; }
@@ -354,15 +383,6 @@ div#side-nav-bar {
         .landing .landing-content h4 {
           font-size: 18px;
           line-height: 23px; } }
-    .landing .landing-content .first-chapter-cta {
-      margin: 50px auto; }
-      .landing .landing-content .first-chapter-cta h2 {
-        font-size: 45px;
-        line-height: 48px; }
-        @media only screen and (max-width: 460px) {
-          .landing .landing-content .first-chapter-cta h2 {
-            font-size: 40px;
-            line-height: 43px; } }
     .landing .landing-content form#email-capture {
       width: 550px;
       margin: 25px auto; }
@@ -510,6 +530,7 @@ form#email-capture {
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 20px;
   font-family: "Uni Grotesk Regular";
   background-color: white;
   color: #000;
@@ -590,8 +611,11 @@ form#email-capture {
     margin-left: 0 !important; }
   .post.chapter .post-content .chapter-content div.highlight p, .post.subobject .post-content .chapter-content div.highlight p, .post.page .post-content .chapter-content div.highlight p {
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 32px; }
+  .post.chapter .post-content .chapter-content figure.audio, .post.chapter .post-content .chapter-content figure.video, .post.chapter .post-content .chapter-content > p > a > figure.image, .post.subobject .post-content .chapter-content figure.audio, .post.subobject .post-content .chapter-content figure.video, .post.subobject .post-content .chapter-content > p > a > figure.image, .post.page .post-content .chapter-content figure.audio, .post.page .post-content .chapter-content figure.video, .post.page .post-content .chapter-content > p > a > figure.image {
+    background-color: #EFEFEF;
+    padding: 10px; }
   .post.chapter .post-content .chapter-content figcaption, .post.subobject .post-content .chapter-content figcaption, .post.page .post-content .chapter-content figcaption {
     margin-top: 10px;
     font-style: normal;
@@ -602,7 +626,7 @@ form#email-capture {
     margin-top: 10px !important;
     margin-bottom: 50px !important; }
   .post.chapter .post-content .chapter-content .slick-slider, .post.subobject .post-content .chapter-content .slick-slider, .post.page .post-content .chapter-content .slick-slider {
-    margin-bottom: 40px; }
+    margin-bottom: 70px; }
   .post.chapter .post-content .chapter-content div.audioplayer, .post.subobject .post-content .chapter-content div.audioplayer, .post.page .post-content .chapter-content div.audioplayer {
     margin-bottom: -30px; }
 
@@ -617,14 +641,19 @@ form#email-capture {
         margin-top: 0; } }
     .post.subobject .breadcrumbs a {
       text-decoration: underline; }
+    .post.subobject .breadcrumbs .breadcrumb-symbol {
+      padding: 5px; }
   .post.subobject .chapter-title {
     margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 0 20px; }
+    margin-bottom: 50px; }
     .post.subobject .chapter-title h1 {
       color: #000;
       font-size: 60px;
-      line-height: 60px; }
+      line-height: 60px;
+      padding: 0 40px; }
+      @media only screen and (max-width: 600px) {
+        .post.subobject .chapter-title h1 {
+          padding: 0 20px; } }
       @media only screen and (max-width: 620px) {
         .post.subobject .chapter-title h1 {
           font-size: 40px;
@@ -705,7 +734,9 @@ form#email-capture {
   .subobject-overview .subobject-wrapper a {
     text-decoration: none; }
   .subobject-overview .subobject-wrapper figure {
-    padding: 0; }
+    padding: 0 !important;
+    margin-bottom: 0;
+    background: none !important; }
     .subobject-overview .subobject-wrapper figure figcaption {
       display: none; }
     .subobject-overview .subobject-wrapper figure img {
@@ -747,7 +778,7 @@ form#email-capture {
 #footer a:not(.uk-button) {
   color: white; }
   #footer a:not(.uk-button):hover {
-    color: #E1E1E1; }
+    color: #EFEFEF; }
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
@@ -756,7 +787,7 @@ form#email-capture {
   fill: white; }
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
-  fill: #E1E1E1 !important; }
+  fill: #EFEFEF !important; }
 #footer a svg.c-black #footericonsng,
 #footer a svg.c-black #footericonfb {
   fill: black; }

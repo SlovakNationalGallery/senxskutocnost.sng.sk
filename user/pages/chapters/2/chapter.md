@@ -11,12 +11,9 @@ routes:
     aliases:
         - /chapters/2
 chapterNumber: 2
-titleStyled: '<span class=''f-uni-grotesk-bold''>Jeden</span> <span class=''f-moyenage''>národ, </span><span class=''f-uni-grotesk-bold''>jedna</span> <span class=''f-moyenage''>strana, </span><span class=''f-uni-grotesk-bold''>jeden</span> <span class=''f-moyenage''>vodca</span>'
+titleStyled: <span class='f-uni-grotesk-bold'>Jeden</span> <span class='f-moyenage'>národ, </span><span class=''f-uni-grotesk-bold''>jedna</span> <span class='f-moyenage'>strana, </span><span class='f-uni-grotesk-bold'>jeden</span> <span class='f-moyenage'>vodca</span>
 description: '2. kapitola: Jeden národ, jedna strana, jeden vodca'
 image: teslik-oslavy.jpg
-emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
-emailPlaceholder: 'e-mailová adresa'
-emailButton: 'informujte ma'
 ---
 
 <span class="drop-cap">P</span>odmienky, za ktorých vzniká samostatný "Slovenský štát", nedávajú informovaným občanom dôvod na optimizmus. Ľudácka propaganda preto kolaboráciu s Hitlerom a podriadenie sa jeho plánom ospravedlňuje masívne medializovanými tvrdeniami, že samostatná republika je zavŕšením „tisícročných snáh slovenského národa o vlastnú štátnosť“. 
@@ -91,7 +88,10 @@ Ako motív účasti v tomto ťažení po boku Nemecka je slovenskej verejnosti v
 
 Ústava z júla 1939 vymedzuje rozsiahle funkcie prezidentovi, ktorého Slovenská republika zatiaľ nemá. Volený má byť na sedem rokov, nezodpovedá sa vláde ani parlamentu, stíhať ho môže len Štátna rada, aj to len za vlastizradu. Je najvyšším veliteľom armády aj Hlinkovej gardy, menuje ministrov, vysokoškolských profesorov a sudcov. Má právo sa zúčastňovať zasadnutí vlády aj Štátnej rady, vyhlasuje stav brannej pohotovosti a so súhlasom snemu môže vypovedať vojnu či uzatvoriť mier. 
 
-![Audiokoláž z prejavov Jozefa Tisa](SXSwebtiso_mixdown.mp3)<figcaption>Audiokoláž z prejavov Jozefa Tisa</figcaption>
+<figure class="audio" markdown="1">
+![Audiokoláž z prejavov Jozefa Tisa](SXSwebtiso_mixdown.mp3)
+<figcaption>Audiokoláž z prejavov Jozefa Tisa</figcaption>
+</figure>
 
 Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva Jozef Tiso. Jeho doterajší post predsedu vlády preberá Vojtech Tuka. 
 

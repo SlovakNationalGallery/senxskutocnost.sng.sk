@@ -1,7 +1,7 @@
 {% do assets.add('jquery', 101) %}
 {% do assets.addJs('theme://js/jquery.fitvids.js') %}
 {% do assets.addJs('theme://js/index.js') %}
-{% do assets.addJs('theme://js/readingTime.min.js') %}
+{% do assets.addJs('theme://js/readingTime.js') %}
 {% do assets.addJs('theme://js/inline-svg.js') %}
 {% do assets.addJs('theme://js/audioplayer.min.js') %}
 {% do assets.addJs('theme://js/slick.js') %}
@@ -36,6 +36,8 @@
 
     // style audio player
     $( 'audio' ).audioPlayer({classPrefix: 'audioplayer'});
+    // remove empty paragraph that gets inserted during markdown conversion
+    $('figure.audio > p:empty').remove();
     
     $('a[href*=\\#]:not([href=\\#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')

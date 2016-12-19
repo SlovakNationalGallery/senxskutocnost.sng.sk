@@ -355,7 +355,7 @@ body {
     font-size: 22px;
     line-height: 30px;
     margin: 0;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     color: #333333;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
@@ -367,7 +367,6 @@ body {
     max-width: 100%;
     margin: 0 auto; }
   .post .post-content figure {
-    margin: 0;
     padding: 0 0 30px; }
   .post .post-content figcaption {
     font-weight: 400;
