@@ -302,7 +302,7 @@ div#side-nav-bar {
   text-decoration: none;
   font-size: 16px; }
   .nav-about.c-white:hover {
-    color: #E1E1E1; }
+    color: #EFEFEF; }
 
 .landing {
   background-color: #3F3C25; }
@@ -530,6 +530,7 @@ form#email-capture {
   padding-top: 40px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-bottom: 20px;
   font-family: "Uni Grotesk Regular";
   background-color: white;
   color: #000;
@@ -612,6 +613,9 @@ form#email-capture {
     font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 22px;
     line-height: 32px; }
+  .post.chapter .post-content .chapter-content figure.audio, .post.chapter .post-content .chapter-content figure.video, .post.chapter .post-content .chapter-content > p > a > figure.image, .post.subobject .post-content .chapter-content figure.audio, .post.subobject .post-content .chapter-content figure.video, .post.subobject .post-content .chapter-content > p > a > figure.image, .post.page .post-content .chapter-content figure.audio, .post.page .post-content .chapter-content figure.video, .post.page .post-content .chapter-content > p > a > figure.image {
+    background-color: #EFEFEF;
+    padding: 10px; }
   .post.chapter .post-content .chapter-content figcaption, .post.subobject .post-content .chapter-content figcaption, .post.page .post-content .chapter-content figcaption {
     margin-top: 10px;
     font-style: normal;
@@ -622,7 +626,7 @@ form#email-capture {
     margin-top: 10px !important;
     margin-bottom: 50px !important; }
   .post.chapter .post-content .chapter-content .slick-slider, .post.subobject .post-content .chapter-content .slick-slider, .post.page .post-content .chapter-content .slick-slider {
-    margin-bottom: 40px; }
+    margin-bottom: 70px; }
   .post.chapter .post-content .chapter-content div.audioplayer, .post.subobject .post-content .chapter-content div.audioplayer, .post.page .post-content .chapter-content div.audioplayer {
     margin-bottom: -30px; }
 
@@ -730,7 +734,9 @@ form#email-capture {
   .subobject-overview .subobject-wrapper a {
     text-decoration: none; }
   .subobject-overview .subobject-wrapper figure {
-    padding: 0; }
+    padding: 0 !important;
+    margin-bottom: 0;
+    background: none !important; }
     .subobject-overview .subobject-wrapper figure figcaption {
       display: none; }
     .subobject-overview .subobject-wrapper figure img {
@@ -772,7 +778,7 @@ form#email-capture {
 #footer a:not(.uk-button) {
   color: white; }
   #footer a:not(.uk-button):hover {
-    color: #E1E1E1; }
+    color: #EFEFEF; }
 #footer .footer-icon {
   width: 25px;
   margin: auto 12px; }
@@ -781,7 +787,7 @@ form#email-capture {
   fill: white; }
 #footer a svg:hover #footericonsng,
 #footer a svg:hover #footericonfb {
-  fill: #E1E1E1 !important; }
+  fill: #EFEFEF !important; }
 #footer a svg.c-black #footericonsng,
 #footer a svg.c-black #footericonfb {
   fill: black; }

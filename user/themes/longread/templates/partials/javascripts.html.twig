@@ -36,6 +36,8 @@
 
     // style audio player
     $( 'audio' ).audioPlayer({classPrefix: 'audioplayer'});
+    // remove empty paragraph that gets inserted during markdown conversion
+    $('figure.audio > p:empty').remove();
     
     $('a[href*=\\#]:not([href=\\#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')

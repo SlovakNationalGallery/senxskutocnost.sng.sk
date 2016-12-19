@@ -88,7 +88,10 @@ Ako motív účasti v tomto ťažení po boku Nemecka je slovenskej verejnosti v
 
 Ústava z júla 1939 vymedzuje rozsiahle funkcie prezidentovi, ktorého Slovenská republika zatiaľ nemá. Volený má byť na sedem rokov, nezodpovedá sa vláde ani parlamentu, stíhať ho môže len Štátna rada, aj to len za vlastizradu. Je najvyšším veliteľom armády aj Hlinkovej gardy, menuje ministrov, vysokoškolských profesorov a sudcov. Má právo sa zúčastňovať zasadnutí vlády aj Štátnej rady, vyhlasuje stav brannej pohotovosti a so súhlasom snemu môže vypovedať vojnu či uzatvoriť mier. 
 
-![Audiokoláž z prejavov Jozefa Tisa](SXSwebtiso_mixdown.mp3)<figcaption>Audiokoláž z prejavov Jozefa Tisa</figcaption>
+<figure class="audio" markdown="1">
+![Audiokoláž z prejavov Jozefa Tisa](SXSwebtiso_mixdown.mp3)
+<figcaption>Audiokoláž z prejavov Jozefa Tisa</figcaption>
+</figure>
 
 Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva Jozef Tiso. Jeho doterajší post predsedu vlády preberá Vojtech Tuka. 
 
