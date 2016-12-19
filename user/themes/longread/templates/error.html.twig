@@ -1,12 +1,16 @@
 {% extends 'partials/base.html.twig' %}
 
+{% block body %}
+<body class="error bg-dark-green">
+{% endblock %}
+
 {% block content %}
     <div class="page-content">
-        <div class="wrapper">
-            <h1>Error {{ page.header.http_response_code }}</h1>
-            <p>
-                {{ page.content }}
-            </p>
+        <div class="wrapper c-white centered f-uni-grotesk-regular padding-left-s padding-right-s">
+            <h1 class="f-moyenage">{{ page.header.http_response_code }}</h1>
+            {# {{ page.content }} #}
+            <p>Nenašli ste, čo ste hľadali? Skúste úvodnú stránku.</p>
+            {% include 'partials/first-chapter-cta.html.twig' %}
         </div>
     </div>
 {% endblock %}

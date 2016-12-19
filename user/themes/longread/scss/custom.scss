@@ -32,6 +32,16 @@ body.landing {
   background-color: $dark-green;
 }
 
+body.error {
+  height: 100vh;
+  .wrapper {
+    margin-top: 15vh;
+    h1 {
+      font-size: 7em;
+    }
+  }
+}
+
 body.uk-offcanvas-page {
   overflow-y: hidden;
 }
@@ -108,6 +118,9 @@ button, .uk-button {
 }
 
 
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
 .margin-bottom-xs {
   margin-bottom: 10px !important;
 }
@@ -121,7 +134,7 @@ button, .uk-button {
   margin-top: 0px !important;
 }
 .margin-top-xs {
-  margin-top: 5px !important;
+  margin-top: 10px !important;
 }
 .margin-top-s {
   margin-top: 20px !important;
@@ -132,11 +145,20 @@ button, .uk-button {
 .padding-top-0 {
   padding-top: 0px !important;
 }
+.padding-top-xs {
+  padding-top: 10px !important;
+}
 .padding-top-s {
   padding-top: 20px !important;
 }
-.padding-top-xs {
-  padding-top: 10px !important;
+.padding-left-s {
+  padding-left: 20px !important;
+}
+.padding-right-s {
+  padding-right: 20px !important;
+}
+.padding-s {
+  padding: 20px !important;
 }
 
 hr {
@@ -155,6 +177,18 @@ hr.white{
 .blank-list {
   ul {
     list-style-type: none;
+  }
+}
+
+.first-chapter-cta{
+  margin: 50px auto;
+  h2{
+    font-size: 45px !important;
+    line-height: 48px !important;
+    @include respond-to(460) {
+      font-size: 40px !important;
+      line-height: 43px !important;
+    }
   }
 }
 
@@ -451,17 +485,6 @@ div#side-nav-bar {
           line-height: 23px;
         }
       }
-      .first-chapter-cta{
-        margin: 50px auto;
-        h2{
-          font-size: 45px;
-          line-height: 48px;
-          @include respond-to(460) {
-            font-size: 40px;
-            line-height: 43px;
-          }
-        }
-      }
       form#email-capture {
         width: 550px;
         margin: 25px auto;
@@ -738,7 +761,7 @@ form#email-capture {
       }
       div.highlight p {
         font-family: $font-bold;
-        font-size: 25px;
+        font-size: 22px;
         line-height: 32px;
       }
       figure.audio, figure.video, > p > a > figure.image {
@@ -779,15 +802,21 @@ form#email-capture {
     a {
       text-decoration: underline;
     }
+    .breadcrumb-symbol {
+      padding: 5px;
+    }
   }
   .chapter-title {
     margin-top: 50px;
     margin-bottom: 50px;
-    padding: 0 20px;
     h1 {
       color: $text-color;
       font-size: 60px;
       line-height: 60px;
+      padding: 0 40px;
+      @include respond-to(600) {
+        padding: 0 20px;
+      }
       @include respond-to(620) {
         font-size: 40px;
         line-height: 40px;

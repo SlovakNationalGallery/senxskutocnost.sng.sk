@@ -14,9 +14,6 @@ chapterNumber: 2
 titleStyled: '<span class=''f-uni-grotesk-bold''>Jeden</span> <span class=''f-moyenage''>národ, </span><span class=''f-uni-grotesk-bold''>jedna</span> <span class=''f-moyenage''>strana, </span><span class=''f-uni-grotesk-bold''>jeden</span> <span class=''f-moyenage''>vodca</span>'
 description: '2. kapitola: Jeden národ, jedna strana, jeden vodca'
 image: teslik-oslavy.jpg
-emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
-emailPlaceholder: 'e-mailová adresa'
-emailButton: 'informujte ma'
 ---
 
 <span class="drop-cap">P</span>odmienky, za ktorých vzniká samostatný "Slovenský štát", nedávajú informovaným občanom dôvod na optimizmus. Ľudácka propaganda preto kolaboráciu s Hitlerom a podriadenie sa jeho plánom ospravedlňuje masívne medializovanými tvrdeniami, že samostatná republika je zavŕšením „tisícročných snáh slovenského národa o vlastnú štátnosť“. 

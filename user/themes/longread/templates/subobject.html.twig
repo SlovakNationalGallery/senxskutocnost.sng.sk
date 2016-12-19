@@ -13,8 +13,11 @@
     <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
       <article class="post subobject">
         <div class="breadcrumbs f-uni-grotesk-regular">
-          <a href="{{page.header.chapterHref}}">{{page.header.chapter}}</a>
-           &middot; {{page.title}}
+          <a href="{{page.parent.parent.url}}">sen × skutočnosť</a>
+          <span class="breadcrumb-symbol">></span>
+          <a href="{{page.parent.url}}">kapitola {{page.parent.header.chapterNumber}}</a>
+          <span class="breadcrumb-symbol">></span>
+          <span>{{page.title}}</span>
         </div>
         <div class="chapter-title subobject-title f-uni-grotesk-bold">
           <h1 class="f-uni-grotesk-bold">
