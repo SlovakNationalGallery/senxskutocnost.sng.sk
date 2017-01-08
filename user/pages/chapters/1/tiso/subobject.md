@@ -11,9 +11,6 @@ routes:
         - /chapters/1/tiso
 content:
     items: '@self.parent'
-emailCTA: 'Chcem vedieť o nasledujúcich udalostiach.'
-emailPlaceholder: 'e-mailová adresa'
-emailButton: 'informujte ma'
 returnButtonText: 'Späť na 1. kapitolu'
 ---
 

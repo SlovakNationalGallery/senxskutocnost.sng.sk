@@ -1,0 +1,9 @@
+<div class="first-chapter-cta c-white">
+  <h4 class="chapter-number f-uni-grotesk-regular margin-bottom-0">
+    {{page.find('/chapters/1').header.chapterNumber}}. kapitola
+  </h4>
+  <h2 class="chapter-title margin-top-xs">
+    {{page.find('/chapters/1').header.titleStyled|regex_replace(['/<br>/'], [' '])}}
+  </h2>
+  <a href="{{page.find('/chapters/1').url}}" class="uk-button uk-button-large button-xlarge button-red button-shadow">Prejsť na kapitolu</a>
+</div>
