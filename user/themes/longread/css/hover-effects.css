@@ -52,17 +52,17 @@
 /***** Honey *****/
 /*---------------*/
 figure.effect-honey {
-  background-color: rgba(199, 0, 0, 0.1);
-  background-image: -webkit-linear-gradient(top, rgba(199, 0, 0, 0.1), #C70000);
-  background-image: linear-gradient(to bottom,rgba(199, 0, 0, 0.1), #C70000); }
+  background-color: #1e0000;
+  background-image: -webkit-linear-gradient(top, #1e0000, #C70000);
+  background-image: linear-gradient(to bottom,#1e0000, #C70000); }
 
 figure.effect-honey img {
-  opacity: 0.9;
+  opacity: 1;
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s; }
 
-figure.effect-honey:hover img {
-  opacity: 0.5; }
+figure.effect-honey:hover:not(.disabled) img {
+  opacity: 0.4; }
 
 figure.effect-honey figcaption::before {
   position: absolute;
@@ -79,29 +79,20 @@ figure.effect-honey h2 {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 20px 30px;
-  font-size: 36px !important;
-  line-height: 36px !important;
+  padding: 10px 15px;
+  font-size: 36px;
+  line-height: 36px;
   text-align: left;
-  -webkit-transform: translateY(-30px);
-  transform: translateY(-30px); }
-
-figure.effect-honey h2 i {
-  font-style: normal;
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translateY(-30px);
-  transform: translateY(-30px); }
+  -webkit-transform: translateY(-15px);
+  transform: translateY(-15px); }
 
 figure.effect-honey figcaption::before,
 figure.effect-honey h2 {
   -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s; }
 
-figure.effect-honey:hover figcaption::before,
-figure.effect-honey:hover h2,
-figure.effect-honey:hover h2 i {
+figure.effect-honey:hover:not(.disabled) figcaption::before,
+figure.effect-honey:hover:not(.disabled) h2 {
   opacity: 1;
   -webkit-transform: translateY(0);
   transform: translateY(0); }

@@ -116,8 +116,14 @@ button, .uk-button {
 .padding-s {
   padding: 20px !important; }
 
-.fs-half {
+.fs-50 {
   font-size: 50%; }
+
+.fs-60 {
+  font-size: 60%; }
+
+.fs-70 {
+  font-size: 70%; }
 
 hr {
   display: block !important;
@@ -492,8 +498,19 @@ form#email-capture {
       font-size: 16px;
       margin-bottom: 5px;
       margin-top: 15px; }
+    @media only screen and (max-width: 960px) {
+      #chapter-preview .chapter-thumb h5.chapter-title {
+        font-size: 22px;
+        line-height: 22px; } }
     #chapter-preview .chapter-thumb p {
       margin-top: 0px; }
+    #chapter-preview .chapter-thumb figure figcaption h2 {
+      font-size: 25px;
+      line-height: 25px; }
+      @media only screen and (max-width: 960px) {
+        #chapter-preview .chapter-thumb figure figcaption h2 {
+          font-size: 36px;
+          line-height: 36px; } }
   #chapter-preview .chapter-thumb.disabled * {
     color: #6D6D6D !important; }
   #chapter-preview .chapter-thumb.disabled h5 {
