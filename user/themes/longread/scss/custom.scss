@@ -161,6 +161,16 @@ button, .uk-button {
   padding: 20px !important;
 }
 
+.fs-50 {
+  font-size: 50%;
+}
+.fs-60 {
+  font-size: 60%;
+}
+.fs-70 {
+  font-size: 70%;
+}
+
 hr {
   display:block !important;
   border:0px !important;
@@ -458,7 +468,6 @@ div#side-nav-bar {
         }
       }
       h2 {
-        font-weight: bold;
         font-size: 23px;
         letter-spacing: 0.45px;
         @include respond-to(805) {
@@ -606,8 +615,26 @@ form#email-capture {
       margin-bottom: 5px;
       margin-top: 15px;
     }
+    h5.chapter-title {
+      @include respond-to(960) {
+        font-size: 22px;
+        line-height: 22px;
+      }
+    }
     p {
       margin-top: 0px;
+    }
+    figure {
+      figcaption {
+        h2 {
+          font-size: 25px;
+          line-height: 25px;
+          @include respond-to(960) {
+            font-size: 36px;
+            line-height: 36px;
+          }
+        }
+      }
     }
   }
   .chapter-thumb.disabled {
