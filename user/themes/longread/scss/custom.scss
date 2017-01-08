@@ -12,7 +12,7 @@ $dark-red: #C70000;
 $grey: #AEAEAE;
 $dark-grey: #6D6D6D;
 $dark-green: #3F3C25;
-$light-grey: #E1E1E1;
+$light-grey: #EFEFEF;
 $text-color: #000;
 $bg-color: #f9f9f7;
 
@@ -669,6 +669,7 @@ form#email-capture {
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-bottom: 20px;
     font-family: "Uni Grotesk Regular";
     background-color: white;
     color: $text-color;
@@ -766,6 +767,10 @@ form#email-capture {
         font-size: 22px;
         line-height: 32px;
       }
+      figure.audio, figure.video, > p > a > figure.image {
+        background-color: $light-grey;
+        padding: 10px;
+      }
       figcaption {
         margin-top: 10px;
         font-style: normal;
@@ -779,7 +784,7 @@ form#email-capture {
         margin-bottom: 50px !important;
       }
       .slick-slider {
-        margin-bottom: 40px;
+        margin-bottom: 70px;
       }
       div.audioplayer {
         margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
@@ -925,7 +930,9 @@ $button-height: 60px;
       text-decoration: none;
     }
     figure{
-      padding: 0;
+      padding: 0 !important;
+      margin-bottom: 0;
+      background: none !important;
       figcaption {
         display: none;
       }
