@@ -5,6 +5,7 @@
 {% do assets.addJs('theme://js/inline-svg.js') %}
 {% do assets.addJs('theme://js/audioplayer.min.js') %}
 {% do assets.addJs('theme://js/slick.js') %}
+{% do assets.addJs('theme://js/magnific-popup.js') %}
 
 {{ assets.js() }}
 
@@ -60,9 +61,33 @@
       centerPadding: '60px',
       variableWidth: true,
       prevArrow:"<img class='a-left control-c prev slick-prev' src='/user/themes/longread/images/slick/left.svg'>",
-       nextArrow:"<img class='a-right control-c next slick-next' src='/user/themes/longread/images/slick/right.svg'>"
-      
+      nextArrow:"<img class='a-right control-c next slick-next' src='/user/themes/longread/images/slick/right.svg'>"
     });
+
+    $('a').has('figure.image').magnificPopup({
+      type: 'iframe',
+      iframe: {
+        patterns: {
+          webumenia: {
+            
+            index: 'webumenia.sk',
+            
+            id: function(url) {        
+                var m = url.match(/^.+webumenia.sk\/dielo\/([^?]+)[.]*/);
+                if (m !== null) {
+                    return m[1];
+                }
+                return null;
+            },
+            
+            src: 'http://www.webumenia.sk/dielo/%id%/zoom'
+            
+          }
+        }
+      }
+    });
+
+
 
   });
 }(jQuery));
