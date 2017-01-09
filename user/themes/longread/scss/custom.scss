@@ -639,6 +639,10 @@ form#email-capture {
       background-position-y: 15%;
       background-position-x: 48%;
     }
+    .post-image-image.chapter-3 {
+      background-position-y: -10%;
+      background-position-x: 55%;
+    }
     .article-image-gradient {
       height: 100%;
       background: 
@@ -649,18 +653,7 @@ form#email-capture {
     }
   }
 
-  .drop-cap { 
-    float: left;
-    color: black;
-    font-size: 125px;
-    line-height: 70px;
-    padding-top: 43px;
-    padding-right: 15px;
-    padding-left: 3px;
-    font-family: Moyenage14;
-  }
-
-  .post-content, {
+  .post-content {
     position: relative;
     width: inherit;
     padding-top: 40px;
@@ -677,115 +670,132 @@ form#email-capture {
       padding-right: 20px;
     }
 
-    .chapter-title {
+    .chapter-title-wrapper {
       position: absolute;
-      top: -280px;
-      margin-left: 0px;
-      margin-right: 20px;
-      color: white;
-      text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
-      @include respond-to(620) {
-        top: -230px;
-      }
-      .chapter-number {
-        font-size: 16px;
-      }
-      h1 {
-        color: white;
-        font-size: 80px;
-        margin-bottom: -30px;
-        @include respond-to(810) {
-          font-size: 65px;
-          margin-bottom: -25px;
-        }
-        @include respond-to(620) {
-          font-size: 45px;
-          margin-bottom: -20px;
-        }
-        @include respond-to(460) {
-          font-size: 40px;
-          margin-bottom: -15px;
-        }
-      }
-      .post-reading {
-        position: relative;
-        right: 0px;
-        font-size: 16px;
-        text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
-      }
-    }
-    .chapter-content {
-      h1 {
-        font-size: 45px
-      }
-      h1, h2 {
-        letter-spacing: normal;
-      }
-      h2 {
-        margin-bottom: 4px;
-        padding-top: 0;
-      }
-      h3, h4, h5, h6 {
-        margin-bottom: 20px;
-      }
-      h1, h2, h3, h4, h5, h6 {
-        color: $text-color;
-        font-family: $font-bold;
-      }
-      .title-date {
-        font-family: "Uni Grotesk Regular";
-        font-size: 18px;
-        font-weight: 100;
-      }
-      p {
-        color: $text-color;
-        font-size: 18px;
-        @include hyphens(none);
-        @include respond-to(600) {
-          line-height: 25px;
-        }
-      }
-      h2:first-child {
-        margin-top: 0;
-      }
-      h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
+      width: 100%;
+      height: 70vh;
+      top: -70vh;
+      .chapter-title {
+        position: absolute;
+        bottom: 5vh;
         margin-left: -20px;
-        margin-right: -20px;
+        margin-right: 20px;
+        color: white;
+        text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
         @include respond-to(600) {
           margin-left: 0;
-          margin-right: 0;
+        }
+        .chapter-number {
+          font-size: 16px;
+        }
+        h1 {
+          color: white;
+          font-size: 80px;
+          margin-bottom: -30px;
+          @include respond-to(810) {
+            font-size: 65px;
+            margin-bottom: -25px;
+          }
+          @include respond-to(620) {
+            font-size: 45px;
+            margin-bottom: -20px;
+          }
+          @include respond-to(460) {
+            font-size: 40px;
+            margin-bottom: -15px;
+          }
+        }
+        .post-reading {
+          position: relative;
+          right: 0px;
+          font-size: 16px;
+          text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
         }
       }
-      .fluid-width-video-wrapper {
-        margin-left: 0 !important;
+    }
+
+    .drop-cap { 
+      float: left;
+      color: black;
+      font-size: 125px;
+      line-height: 70px;
+      padding-top: 43px;
+      padding-right: 15px;
+      padding-left: 3px;
+      font-family: Moyenage14;
+    }
+
+    figure.audio, figure.video, p > a > figure.image {
+      background-color: $light-grey;
+      padding: 10px;
+    }
+    figcaption {
+      margin-top: 10px;
+      font-style: normal;
+      font-size: 14px;
+    }
+    p {
+      color: $text-color;
+      font-size: 18px;
+      @include hyphens(none);
+      @include respond-to(600) {
+        line-height: 25px;
       }
-      div.highlight p {
-        font-family: $font-bold;
-        font-size: 22px;
-        line-height: 32px;
+    }
+
+    h1 {
+      font-size: 45px
+    }
+    h1, h2 {
+      letter-spacing: normal;
+    }
+    h2 {
+      margin-bottom: 15px;
+      padding-top: 0;
+    }
+    h3, h4, h5, h6 {
+      margin-bottom: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: $text-color;
+      font-family: $font-bold;
+    }
+    .title-date {
+      font-family: "Uni Grotesk Regular";
+      font-size: 18px;
+      font-weight: 100;
+    }
+    h2:first-child {
+      margin-top: 0;
+    }
+    h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
+      margin-left: -20px;
+      margin-right: -20px;
+      @include respond-to(600) {
+        margin-left: 0;
+        margin-right: 0;
       }
-      figure.audio, figure.video, > p > a > figure.image {
-        background-color: $light-grey;
-        padding: 10px;
-      }
-      figcaption {
-        margin-top: 10px;
-        font-style: normal;
-        font-size: 14px;
-      }
-      li {
-        font-size: 18px;
-      }
-      hr {
-        margin-top: 10px !important;
-        margin-bottom: 50px !important;
-      }
-      .slick-slider {
-        margin-bottom: 70px;
-      }
-      div.audioplayer {
-        margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
-      }
+    }
+    .fluid-width-video-wrapper {
+      margin-left: 0 !important;
+    }
+    div.highlight p {
+      font-family: $font-bold;
+      font-size: 22px;
+      line-height: 32px;
+    }
+    li {
+      font-size: 18px;
+    }
+    hr {
+      margin-top: 10px !important;
+      margin-bottom: 50px !important;
+    }
+    .slick-slider {
+      margin-bottom: 70px;
+    }
+    div.audioplayer {
+      margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
     }
   }
 }
@@ -793,11 +803,12 @@ form#email-capture {
 .post.subobject {
   color: $text-color;
   .breadcrumbs {
-    padding: 0 20px;
+    padding: 0 40px;
     margin-top: -25px;
     margin-bottom: 25px;
-    @include respond-to(805) {
+    @include respond-to(600) {
       margin-top: 0;
+      padding: 0 20px;
     }
     a {
       text-decoration: underline;
@@ -807,16 +818,14 @@ form#email-capture {
     }
   }
   .chapter-title {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 40px;
+    @include respond-to(600) {
+      margin: 50px 20px;
+    }
     h1 {
       color: $text-color;
       font-size: 60px;
       line-height: 60px;
-      padding: 0 40px;
-      @include respond-to(600) {
-        padding: 0 20px;
-      }
       @include respond-to(620) {
         font-size: 40px;
         line-height: 40px;
@@ -830,6 +839,7 @@ form#email-capture {
       font-family: "Uni Grotesk Regular";
       font-size: 18px;
       font-weight: 100;
+      margin: 0;
     }
   }
   .post-reading {
@@ -864,6 +874,12 @@ $button-height: 60px;
     url(../../../pages/chapters/2/teslik-oslavy.jpg);
   background-size: cover;
   background-position-y: 28%;
+}
+.return.chapter-3 {
+  background: 
+    url(../../../pages/chapters/3/Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg);
+  background-size: cover;
+  background-position-y: 10%;
 }
 
 .post.page {
