@@ -653,18 +653,7 @@ form#email-capture {
     }
   }
 
-  .drop-cap { 
-    float: left;
-    color: black;
-    font-size: 125px;
-    line-height: 70px;
-    padding-top: 43px;
-    padding-right: 15px;
-    padding-left: 3px;
-    font-family: Moyenage14;
-  }
-
-  .post-content, {
+  .post-content {
     position: relative;
     width: inherit;
     padding-top: 40px;
@@ -725,78 +714,88 @@ form#email-capture {
       }
     }
 
-    .chapter-content {
-      h1 {
-        font-size: 45px
+    .drop-cap { 
+      float: left;
+      color: black;
+      font-size: 125px;
+      line-height: 70px;
+      padding-top: 43px;
+      padding-right: 15px;
+      padding-left: 3px;
+      font-family: Moyenage14;
+    }
+
+    figure.audio, figure.video, p > a > figure.image {
+      background-color: $light-grey;
+      padding: 10px;
+    }
+    figcaption {
+      margin-top: 10px;
+      font-style: normal;
+      font-size: 14px;
+    }
+    p {
+      color: $text-color;
+      font-size: 18px;
+      @include hyphens(none);
+      @include respond-to(600) {
+        line-height: 25px;
       }
-      h1, h2 {
-        letter-spacing: normal;
+    }
+
+    h1 {
+      font-size: 45px
+    }
+    h1, h2 {
+      letter-spacing: normal;
+    }
+    h2 {
+      margin-bottom: 5px;
+      padding-top: 0;
+    }
+    h3, h4, h5, h6 {
+      margin-bottom: 20px;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: $text-color;
+      font-family: $font-bold;
+    }
+    .title-date {
+      font-family: "Uni Grotesk Regular";
+      font-size: 18px;
+      font-weight: 100;
+    }
+    h2:first-child {
+      margin-top: 0;
+    }
+    h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
+      margin-left: -20px;
+      margin-right: -20px;
+      @include respond-to(600) {
+        margin-left: 0;
+        margin-right: 0;
       }
-      h2 {
-        margin-bottom: 4px;
-        padding-top: 0;
-      }
-      h3, h4, h5, h6 {
-        margin-bottom: 20px;
-      }
-      h1, h2, h3, h4, h5, h6 {
-        color: $text-color;
-        font-family: $font-bold;
-      }
-      .title-date {
-        font-family: "Uni Grotesk Regular";
-        font-size: 18px;
-        font-weight: 100;
-      }
-      p {
-        color: $text-color;
-        font-size: 18px;
-        @include hyphens(none);
-        @include respond-to(600) {
-          line-height: 25px;
-        }
-      }
-      h2:first-child {
-        margin-top: 0;
-      }
-      h1, h2, h3, h4, h5, h6, figure, .post-content > iframe, .post-content > div:not(.not-extended), div.highlight, div.chapter-number, div.post-reading {
-        margin-left: -20px;
-        margin-right: -20px;
-        @include respond-to(600) {
-          margin-left: 0;
-          margin-right: 0;
-        }
-      }
-      .fluid-width-video-wrapper {
-        margin-left: 0 !important;
-      }
-      div.highlight p {
-        font-family: $font-bold;
-        font-size: 22px;
-        line-height: 32px;
-      }
-      figure.audio, figure.video, > p > a > figure.image {
-        background-color: $light-grey;
-        padding: 10px;
-      }
-      figcaption {
-        margin-top: 10px;
-        font-style: normal;
-        font-size: 14px;
-      }
-      li {
-        font-size: 18px;
-      }
-      hr {
-        margin-top: 10px !important;
-        margin-bottom: 50px !important;
-      }
-      .slick-slider {
-        margin-bottom: 70px;
-      }
-      div.audioplayer {
-        margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
-      }
+    }
+    .fluid-width-video-wrapper {
+      margin-left: 0 !important;
+    }
+    div.highlight p {
+      font-family: $font-bold;
+      font-size: 22px;
+      line-height: 32px;
+    }
+    li {
+      font-size: 18px;
+    }
+    hr {
+      margin-top: 10px !important;
+      margin-bottom: 50px !important;
+    }
+    .slick-slider {
+      margin-bottom: 70px;
+    }
+    div.audioplayer {
+      margin-bottom: -30px; // compensate for padding bottom of encapsulating p tag
     }
   }
 }
