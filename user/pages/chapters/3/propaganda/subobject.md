@@ -35,13 +35,13 @@ returnButtonText: 'Späť na 3. kapitolu'
     ]
 }%}
 
-Usmerňovanie informačných kanálov je úlohou špecializovaného Úradu propagandy, vytvoreného podľa nemeckého vzoru a fungujúceho pod dozorom nemeckých poradcov. Jedným zo základných nástrojov propagandy je vytváranie obrazu nepriateľa. V prípade Slovenského štátu k hlavným motívom patrí tzv. „večný“ Žid, ktorý sa „nikdy nezmení“ a neustále spriada sprisahanie, ktorým chce ovládnuť svet. 
+Usmerňovanie informačných kanálov je úlohou špecializovaného Úradu propagandy, vytvoreného podľa nemeckého vzoru a fungujúceho pod dozorom nemeckých poradcov. Jedným zo základných nástrojov propagandy je vytváranie obrazu nepriateľa. V prípade slovenského štátu k hlavným motívom patrí tzv. „večný“ Žid, ktorý sa „nikdy nezmení“ a neustále spriada sprisahanie, ktorým chce ovládnuť svet. 
 
 [![Ladislav Roller - Výkladné skrine pred Úradom propagandy v Bratislave, 1941, Slovenský národný archív, Bratislava – fond STK](Vykladne_skrine--1941--SNA-fondSTK.jpg "Ladislav Roller - Výkladné skrine pred Úradom propagandy v Bratislave")](http://www.webumenia.sk/dielo/SVK:TMP.236?collection=86)
 
 [![Jozef Cincík - Slovenská propaganda na východe, 1941, Slovenský národný archív, Bratislava – fond STK](Slovenska_propaganda_na_v%C3%BDchode-Jozef%20Cinc%C3%ADk-1941--SNA_Bratislava%E2%80%93fondSTK.jpg "Jozef Cincík - Slovenská propaganda na východe")](http://www.webumenia.sk/dielo/SVK:TMP.235?collection=86)
 
-Protižidovská propaganda, ktorou Hitler prekrýva vlastnú agresívnu politiku, je slovenskému národu v časoch deportácií servírovaná v najrôznejších podobách a na dennej báze – prostredníctvom tlače, rozhlasu, kinožurnálov premietaných pred filmami v kinách, plagátov, letákov, ale aj nálepiek na baleniach múky či cukru. V závislosti od aktuálneho vývoja geopolitickej situácie k židovskému nepriateľovi priebežne pribúda a odbúda niekoľko ďalších stereotypizovaných nepriateľov (Čech, boľševik, zbohatlík, rozvratník...)
+Protižidovská propaganda, ktorou Hitler prekrýva vlastnú agresívnu politiku, je slovenskému národu v časoch deportácií servírovaná v najrôznejších podobách a na dennej báze – prostredníctvom tlače, rozhlasu, kinožurnálov premietaných pred filmami v kinách, plagátov, letákov, ale aj nálepiek na baleniach múky či cukru. V závislosti od aktuálneho vývoja geopolitickej situácie k židovskému nepriateľovi priebežne pribúda a odbúda niekoľko ďalších stereotypných nepriateľov (Čech, boľševik, zbohatlík, rozvratník...)
 
 **Karikatúry z nástenných Ľudových novín:**
 {% include 'partials/carousel.html.twig' with {
@@ -91,7 +91,9 @@ Protižidovská propaganda, ktorou Hitler prekrýva vlastnú agresívnu politiku
 
 [![Neznámy autor - Dvojstránka z časopisu Náš boj, 	1942, ](dvojstranka_z_casopisu--Nas_boj--1942.jpg "Neznámy autor - Dvojstránka z časopisu Náš boj")](http://www.webumenia.sk/dielo/SVK:TMP.219?collection=86)
 
-Alternatívnymi cestami, ktorými sa šíria správy nekorešpondujúce s oficiálnou verziou skutočnosti, sú zahraničné rozhlasové stanice (najmä Londýn a Moskva), letáky a tzv. šuškaná propaganda. Za podozrenie zo šírenia takýchto správ sa človek ľahko dostane rovno do Ilavy. 
+Alternatívnymi cestami, ktorými sa šíria správy nekorešpondujúce s oficiálnou verziou skutočnosti, sú zahraničné rozhlasové stanice (najmä Londýn a Moskva), letáky a tzv. šuškaná propaganda. Za podozrenie zo šírenia takýchto správ sa človek ľahko dostane rovno do Ilavy.
+
+(zdroj: zborník k výstave Sen x skutočnosť, text Petry Hanákovej: Umenie – štát – propaganda, s. 51) 
 
 **Šuškaná propaganda:**
 {% include 'partials/carousel.html.twig' with {

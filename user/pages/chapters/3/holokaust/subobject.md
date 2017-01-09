@@ -13,7 +13,9 @@ content:
 returnButtonText: 'Späť na 3. kapitolu'
 ---
 
-<span class="drop-cap">H</span>olokaust (z gréc. holokauston - zápalná obeť) je všeobecný termín pre systematické, štátom-organizované prenasledovanie a zavraždenie šiestich miliónov Židov, vykonané nacistickým režimom a jeho kolaborantmi. Obeťou nacistických genocídnych plánov sa stali i ďalšie skupiny obyvateľstva, ktoré táto ideológia považovala za „podľudí“ – telesne a duševne postihnutí, homosexuáli, Rómovia, a v miliónových počtoch aj Slovania. 
+<span class="drop-cap">H</span>olokaust (z gréc. holokauston - zápalná obeť) je všeobecný termín pre systematické, štátom-organizované prenasledovanie a zavraždenie šiestich miliónov Židov, vykonané nacistickým režimom a jeho kolaborantmi. Obeťou nacistických genocídnych plánov sa stali i ďalšie skupiny obyvateľstva, ktoré táto ideológia považovala za „podľudí“ – telesne a duševne postihnutí, homosexuáli, Rómovia a v miliónových počtoch aj Slovania. 
+
+(zdroj: [INTRODUCTION TO THE HOLOCAUST](https://www.ushmm.org/wlc/en/article.php?ModuleId=10005143), United States Holocaust Memorial Museum, )
 
 [![Neznámy autor - Po oslobodení koncentračného tábora Auschwitz – Birkenau v Osvienčime. V popredí Ľudovít Feld – v okuliaroch, 1945, 	Štátne múzeum Auschwitz – Birkenau v Osvienčime v Poľsku](Neznamy-Auschwitz--Osviencim--Statne_muzeum_Auschwitz-Polsko.jpg "Neznámy autor - Po oslobodení koncentračného tábora Auschwitz – Birkenau v Osvienčime. V popredí Ľudovít Feld – v okuliaroch")](http://www.webumenia.sk/dielo/SVK:TMP.239?collection=86)
 
