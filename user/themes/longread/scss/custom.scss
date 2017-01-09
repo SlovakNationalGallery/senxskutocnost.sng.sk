@@ -687,6 +687,9 @@ form#email-capture {
       @include respond-to(620) {
         top: -230px;
       }
+      @include respond-to(600) {
+        margin-left: 0;
+      }
       .chapter-number {
         font-size: 16px;
       }
@@ -793,11 +796,12 @@ form#email-capture {
 .post.subobject {
   color: $text-color;
   .breadcrumbs {
-    padding: 0 20px;
+    padding: 0 40px;
     margin-top: -25px;
     margin-bottom: 25px;
-    @include respond-to(805) {
+    @include respond-to(600) {
       margin-top: 0;
+      padding: 0 20px;
     }
     a {
       text-decoration: underline;
@@ -807,16 +811,14 @@ form#email-capture {
     }
   }
   .chapter-title {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 40px;
+    @include respond-to(600) {
+      margin: 50px 20px;
+    }
     h1 {
       color: $text-color;
       font-size: 60px;
       line-height: 60px;
-      padding: 0 40px;
-      @include respond-to(600) {
-        padding: 0 20px;
-      }
       @include respond-to(620) {
         font-size: 40px;
         line-height: 40px;
@@ -830,6 +832,7 @@ form#email-capture {
       font-family: "Uni Grotesk Regular";
       font-size: 18px;
       font-weight: 100;
+      margin: 0;
     }
   }
   .post-reading {

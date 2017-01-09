@@ -549,6 +549,9 @@ form#email-capture {
     @media only screen and (max-width: 620px) {
       .post.chapter .post-content .chapter-title, .post.subobject .post-content .chapter-title, .post.page .post-content .chapter-title {
         top: -230px; } }
+    @media only screen and (max-width: 600px) {
+      .post.chapter .post-content .chapter-title, .post.subobject .post-content .chapter-title, .post.page .post-content .chapter-title {
+        margin-left: 0; } }
     .post.chapter .post-content .chapter-title .chapter-number, .post.subobject .post-content .chapter-title .chapter-number, .post.page .post-content .chapter-title .chapter-number {
       font-size: 16px; }
     .post.chapter .post-content .chapter-title h1, .post.subobject .post-content .chapter-title h1, .post.page .post-content .chapter-title h1 {
@@ -633,27 +636,26 @@ form#email-capture {
 .post.subobject {
   color: #000; }
   .post.subobject .breadcrumbs {
-    padding: 0 20px;
+    padding: 0 40px;
     margin-top: -25px;
     margin-bottom: 25px; }
-    @media only screen and (max-width: 805px) {
+    @media only screen and (max-width: 600px) {
       .post.subobject .breadcrumbs {
-        margin-top: 0; } }
+        margin-top: 0;
+        padding: 0 20px; } }
     .post.subobject .breadcrumbs a {
       text-decoration: underline; }
     .post.subobject .breadcrumbs .breadcrumb-symbol {
       padding: 5px; }
   .post.subobject .chapter-title {
-    margin-top: 50px;
-    margin-bottom: 50px; }
+    margin: 50px 40px; }
+    @media only screen and (max-width: 600px) {
+      .post.subobject .chapter-title {
+        margin: 50px 20px; } }
     .post.subobject .chapter-title h1 {
       color: #000;
       font-size: 60px;
-      line-height: 60px;
-      padding: 0 40px; }
-      @media only screen and (max-width: 600px) {
-        .post.subobject .chapter-title h1 {
-          padding: 0 20px; } }
+      line-height: 60px; }
       @media only screen and (max-width: 620px) {
         .post.subobject .chapter-title h1 {
           font-size: 40px;
@@ -665,7 +667,8 @@ form#email-capture {
     .post.subobject .chapter-title .title-date {
       font-family: "Uni Grotesk Regular";
       font-size: 18px;
-      font-weight: 100; }
+      font-weight: 100;
+      margin: 0; }
   .post.subobject .post-reading {
     top: -48px; }
 
