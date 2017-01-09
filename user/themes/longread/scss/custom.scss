@@ -677,46 +677,50 @@ form#email-capture {
       padding-right: 20px;
     }
 
-    .chapter-title {
+    .chapter-title-wrapper {
       position: absolute;
-      top: -280px;
-      margin-left: -20px;
-      margin-right: 20px;
-      color: white;
-      text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
-      @include respond-to(620) {
-        top: -230px;
-      }
-      @include respond-to(600) {
-        margin-left: 0;
-      }
-      .chapter-number {
-        font-size: 16px;
-      }
-      h1 {
+      width: 100%;
+      height: 70vh;
+      top: -70vh;
+      .chapter-title {
+        position: absolute;
+        bottom: 5vh;
+        margin-left: -20px;
+        margin-right: 20px;
         color: white;
-        font-size: 80px;
-        margin-bottom: -30px;
-        @include respond-to(810) {
-          font-size: 65px;
-          margin-bottom: -25px;
+        text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5);
+        @include respond-to(600) {
+          margin-left: 0;
         }
-        @include respond-to(620) {
-          font-size: 45px;
-          margin-bottom: -20px;
+        .chapter-number {
+          font-size: 16px;
         }
-        @include respond-to(460) {
-          font-size: 40px;
-          margin-bottom: -15px;
+        h1 {
+          color: white;
+          font-size: 80px;
+          margin-bottom: -30px;
+          @include respond-to(810) {
+            font-size: 65px;
+            margin-bottom: -25px;
+          }
+          @include respond-to(620) {
+            font-size: 45px;
+            margin-bottom: -20px;
+          }
+          @include respond-to(460) {
+            font-size: 40px;
+            margin-bottom: -15px;
+          }
         }
-      }
-      .post-reading {
-        position: relative;
-        right: 0px;
-        font-size: 16px;
-        text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
+        .post-reading {
+          position: relative;
+          right: 0px;
+          font-size: 16px;
+          text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
+        }
       }
     }
+
     .chapter-content {
       h1 {
         font-size: 45px
