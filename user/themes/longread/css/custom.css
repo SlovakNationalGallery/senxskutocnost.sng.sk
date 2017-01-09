@@ -692,6 +692,11 @@ form#email-capture {
   background-size: cover;
   background-position-y: 28%; }
 
+.return.chapter-3 {
+  background: url(../../../pages/chapters/3/Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg);
+  background-size: cover;
+  background-position-y: 10%; }
+
 @media only screen and (max-width: 600px) {
   .post.page {
     padding-bottom: 0; } }
