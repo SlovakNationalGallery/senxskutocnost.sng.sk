@@ -212,6 +212,7 @@ nav.uk-navbar {
     }
     @include respond-to(680) {
       line-height: 55px;
+      padding: 0 5px;
     }
     img.navbar-icon {
       height: 80%;
@@ -285,6 +286,26 @@ nav.uk-navbar {
     }
     @include respond-to(680) {
       display: none;
+    }
+  }
+  .timeline-toggle {
+    float: left;
+    background-image: url(../images/timeline-clock-darkgreen.svg);
+    &:hover {
+      background-image: url(../images/timeline-clock-white.svg);
+    }
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    @include respond-to(800) {
+      margin-top: 26px;
+    }
+    @include respond-to(680) {
+      width: 25px;
+      height: 25px;
+      margin-top: 20px;
     }
   }
   .nav-toggle {
