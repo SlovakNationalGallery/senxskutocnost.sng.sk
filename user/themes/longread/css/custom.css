@@ -216,6 +216,8 @@ nav.uk-navbar {
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav.active a {
         pointer-events: none;
         cursor: default; }
+  nav.uk-navbar .nav-about:hover {
+    color: #6D6D6D; }
   @media only screen and (max-width: 800px) {
     nav.uk-navbar .nav-about {
       line-height: 45px; } }
@@ -224,14 +226,14 @@ nav.uk-navbar {
       display: none; } }
   nav.uk-navbar .timeline-toggle {
     float: left;
-    background-image: url(../images/timeline-clock-darkgreen.svg);
+    background-image: url(../images/timeline-clock-black.svg);
     background-repeat: no-repeat;
     margin-top: 20px;
     margin-left: 20px;
     width: 30px;
     height: 30px; }
     nav.uk-navbar .timeline-toggle:hover {
-      background-image: url(../images/timeline-clock-white.svg); }
+      background-image: url(../images/timeline-clock-darkgrey.svg); }
     @media only screen and (max-width: 800px) {
       nav.uk-navbar .timeline-toggle {
         margin-top: 26px; } }
@@ -256,6 +258,15 @@ nav.uk-navbar {
     @media only screen and (max-width: 680px) {
       nav.uk-navbar .nav-toggle {
         display: block; } }
+
+#side-timeline .uk-offcanvas-bar {
+  top: 60px; }
+  #side-timeline .uk-offcanvas-bar li img.icon-timeline-pointer {
+    position: absolute;
+    width: 15px;
+    left: 8%; }
+  #side-timeline .uk-offcanvas-bar li h2 {
+    font-size: 16px; }
 
 div#side-nav-bar {
   color: white; }
