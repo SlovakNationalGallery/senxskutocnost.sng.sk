@@ -69,6 +69,12 @@
       mainClass: 'mfp-with-zoom',
 
       iframe: {
+        markup: '<div class="mfp-iframe-scaler">'+
+                    '<div class="mfp-close"></div>'+
+                    '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                    '<div class="mfp-title"></div>'+
+                  '</div>', // HTML markup of popup, `mfp-close` will be replaced by the close button
+
         patterns: {
           webumenia: {
             
@@ -102,7 +108,13 @@
           // you don't need to add "opener" option if this code matches your needs, it's defailt one.
           return openerElement.is('img') ? openerElement : openerElement.find('img');
         }
-      }
+      },
+
+      callbacks: {
+          markupParse: function(template, values, item) {
+            values.title = item.el.find('img').attr('alt');
+          }
+        }
 
     });
 
