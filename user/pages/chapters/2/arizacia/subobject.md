@@ -27,7 +27,7 @@ V rámci tzv. arizácie sú židovskému obyvateľstvu na Slovensku odobraté v�
 </div>
 
 
-**Protižidovské karikatúry z humoristického časopisu Kocúr:**
+**Protižidovské karikatúry z humoristického časopisu Kocúr**
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
@@ -63,5 +63,3 @@ V rámci tzv. arizácie sú židovskému obyvateľstvu na Slovensku odobraté v�
 [![Neznámy autor - Nebuď služobníkom Žida, 1940 - 1942, Slovenské národné múzeum - archív SNM, Bratislava](SVK_TMP.192.jpeg "Neznámy autor - Nebuď služobníkom Žida")](http://www.webumenia.sk/dielo/SVK:TMP.192?collection=83)
 
 [![Neznámy autor - Protižidovská karikatúra z publikácie: Ctibor Pokorný - Židovstvo na Slovensku, 1940, Univerzitná knižnica v Bratislave](SVK_TMP.195.jpeg "Neznámy autor - Protižidovská karikatúra z publikácie: Ctibor Pokorný - Židovstvo na Slovensku")](http://www.webumenia.sk/dielo/SVK:TMP.195?collection=83)
-
-[![Neznámy autor - Protižidovská karikatúra z publikácie: Ctibor Pokorny´ - Židovstvo na Slovensku, 1940, Univerzitná knižnica v Bratislave](SVK_TMP.194.jpeg "Neznámy autor - Protižidovská karikatúra z publikácie: Ctibor Pokorny´ - Židovstvo na Slovensku")](http://www.webumenia.sk/dielo/SVK:TMP.194?collection=83)

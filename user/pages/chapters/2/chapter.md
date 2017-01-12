@@ -1,17 +1,17 @@
 ---
 title: 'Jeden národ, jedna strana, jeden vodca'
-synopsis: V začiatkoch jeho existencie musí samostatný slovenský štát sformovať svoje vládne štruktúry, vysporiadať sa s vplyvom nedávnych udalostí na svoje hospodárstvo a zaujať miesto v Európe, ktorá smeruje k vojenskému konfliktu
 published: true
-announce_date: 'Zverejnené 6. decembra'
 date: '05-12-2016 13:00'
 slug: chapter-2
+synopsis: 'V začiatkoch jeho existencie musí samostatný slovenský štát sformovať svoje vládne štruktúry, vysporiadať sa s vplyvom nedávnych udalostí na svoje hospodárstvo a zaujať miesto v Európe, ktorá smeruje k vojenskému konfliktu'
+announce_date: 'Zverejnené 6. decembra'
 routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
     canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca
     aliases:
         - /chapters/2
 chapterNumber: 2
-titleStyled: <span class='f-uni-grotesk-bold'>Jeden</span> <span class='f-moyenage'>národ, </span><span class='f-uni-grotesk-bold'>jedna</span> <span class='f-moyenage'>strana, </span><span class='f-uni-grotesk-bold'>jeden</span> <span class='f-moyenage'>vodca</span>
+titleStyled: '<span class=''f-uni-grotesk-bold''>Jeden</span> <span class=''f-moyenage''>národ, </span><span class=''f-uni-grotesk-bold''>jedna</span> <span class=''f-moyenage''>strana, </span><span class=''f-uni-grotesk-bold''>jeden</span> <span class=''f-moyenage''>vodca</span>'
 description: '2. kapitola: Jeden národ, jedna strana, jeden vodca'
 image: teslik-oslavy.jpg
 ---
@@ -96,7 +96,7 @@ Ako motív účasti v tomto ťažení po boku Nemecka je slovenskej verejnosti v
 Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva Jozef Tiso. Jeho doterajší post predsedu vlády preberá Vojtech Tuka. 
 
 
-**Podobizne Jozefa Tisa s titulom prvý prezident Slovenskej republiky:**
+**Podobizne Jozefa Tisa s titulom prvý prezident Slovenskej republiky**
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
@@ -179,7 +179,7 @@ Po salzburských rokovaniach sa aj v slovenskom umení začína presadzovať ná
 
 Program budovania národno-socialistickej kultúry sa vyznačuje najmä návratom k tzv. svojrázu, pretláčaniu ľudových, folklórnych motívov, s cieľom posilniť národný charakter slovenského umenia a ilúziu naplnených tisícročných snáh Slovákov o samostatnosť. 
 
-**Martin Benka - Séria strážcovia a ochrankyne Slovenska (1940 - 1942):**
+**Martin Benka - Séria strážcovia a ochrankyne Slovenska (1940 - 1942)**
 {% include 'partials/carousel.html.twig' with {
    'images': [
        {
@@ -247,7 +247,7 @@ Program budovania národno-socialistickej kultúry sa vyznačuje najmä návrato
 
 Pseudoromantický, idealistický výklad národného mýtu vedie k idylickému návratu k predkom a k výberovému vytváraniu martýria hrdinov minulosti (Pribina, Svätopluk, staroslovanská a cyrilo-metodská tradícia). Zdôrazňuje sa starobylosť národa, zrodeného z „prastarého ducha ľudu“ a nemennosť spôsobu života, pretrvávajúceho stáročia.
 
-**Diela zobrazujúce ikony národnej pospolitosti a slovenský "svojráz":**
+**Diela zobrazujúce ikony národnej pospolitosti a slovenský "svojráz"**
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
@@ -287,7 +287,7 @@ Aj vďaka tomu, že oficiálne predstavy o tom, aké má byť umenie v „novýc
 
 Diela týchto autorov sa často vyznačovali básnickou invenciou a imagináciou, poetickosťou, fragmentárnosťou (náčrtkovitosťou), inotajnými náznakmi „nevysloveného obsahu" a námetmi, ktoré umožnili, aby „sa výtvarné dielo cítilo ako znak skutočnosti“, „prevrátený symbol doby“. Non-konformný postoj k oficiálnym umeleckým požiadavkam zaujali aj autori, zachovávajúci kontinuitu moderny ako [M. A. Bazovský](http://www.webumenia.sk/autor/582), alebo [A. P. Weisz-Kubínčan](http://www.webumenia.sk/autor/11709), ktorého židovský pôvod bol dôvodom neustáleho prenasledovania s tragickým koncom.
 
-**Príklady diel autorov neoficiálneho umenia:**
+**Príklady diel autorov neoficiálneho umenia**
 
 {% include 'partials/carousel.html.twig' with {
    'images': [
@@ -390,6 +390,11 @@ Diela týchto autorov sa často vyznačovali básnickou invenciou a imagináciou
            'title':'Eugen Nevan - Medúza', 
            'src': 'http://www.webumenia.sk/images/diela/SNG/65/SVK_SNG.O_3549/SVK_SNG.O_3549.jpeg',
            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_3549'
+       },
+       {
+           'title':'Eugen Nevan - Übermensch', 
+           'src': 'http://www.webumenia.sk/images/diela/SNG/50/SVK_SNG.K_6833/SVK_SNG.K_6833.jpeg',
+           'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_6833'
        }
    ]
 }%}
@@ -502,7 +507,7 @@ Svojou ochotou bojovať po boku Tretej ríše súperia aj o nemeckú priazeň s 
 
 [![Jozef Teslík - „Haemistky“ podávajú vojakom na slovenských staniciach čaj. Odchod vojakov na východný front, 1941, Slovenský národný archív, Bratislava – fond STK](SVK_TMP.202.jpeg "Jozef Teslík - „Haemistky“ podávajú vojakom na slovenských staniciach čaj. Odchod vojakov na východný front,")](http://www.webumenia.sk/dielo/SVK:TMP.202?collection=83)
 
-**Ukážky z časopisu Nový svet (august 1941) o slovákoch na východnom fronte:**
+**Ukážky z časopisu Nový svet (august 1941) o slovákoch na východnom fronte**
 
 {% include 'partials/carousel.html.twig' with {
     'images': [
