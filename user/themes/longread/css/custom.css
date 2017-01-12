@@ -520,7 +520,9 @@ form#email-capture {
           font-size: 36px;
           line-height: 36px; } }
   #chapter-preview .chapter-thumb.disabled * {
-    color: #6D6D6D !important; }
+    color: #6D6D6D; }
+    #chapter-preview .chapter-thumb.disabled * figcaption h2, #chapter-preview .chapter-thumb.disabled * figcaption h2 * {
+      color: white; }
   #chapter-preview .chapter-thumb.disabled h5 {
     border-color: #6D6D6D !important; }
 

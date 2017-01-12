@@ -642,7 +642,12 @@ form#email-capture {
   }
   .chapter-thumb.disabled {
     * {
-      color: $dark-grey !important; 
+      color: $dark-grey; 
+      figcaption {
+        h2, h2 * {
+          color: white;
+        }
+      }
     }
     h5 {
       border-color: $dark-grey !important;
