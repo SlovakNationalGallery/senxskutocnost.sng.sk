@@ -25,7 +25,7 @@ returnButtonText: 'Späť na 2. kapitolu'
 </div>
 
 
-**Deň Hlinkovej mládeže v Bánovciach nad Bebravou, 1941:**
+**Deň Hlinkovej mládeže v Bánovciach nad Bebravou, 1941**
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
