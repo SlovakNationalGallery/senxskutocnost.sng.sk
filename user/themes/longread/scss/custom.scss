@@ -16,6 +16,10 @@ $dark-grey: #6D6D6D;
 $text-color: #000;
 $bg-color: #f9f9f7;
 
+$navbar-height: 65px;
+$navbar-height-800: 80px;
+$navbar-height-680: 60px;
+
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
     @content;
@@ -204,14 +208,14 @@ hr.white{
 nav.uk-navbar {
   position: relative;
   float: none;
-  height: 65px;
+  height: $navbar-height;
   margin-top: -20px;
   z-index: 9;
   @include respond-to(800) {
-    height: 80px;
+    height: $navbar-height-800;
   }
   @include respond-to(680) {
-    height: 60px;
+    height: $navbar-height-680;
   }
   .uk-navbar-brand {
     line-height: 62px;
@@ -347,7 +351,13 @@ nav.uk-navbar {
 
 #side-timeline {
   .uk-offcanvas-bar {
-    top: 60px;
+    top: $navbar-height;
+    @include respond-to(800) {
+      top: $navbar-height-800;
+    }
+    @include respond-to(680) {
+      top: $navbar-height-680;
+    }
     li {
       h2 {
         font-size: 16px;

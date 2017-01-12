@@ -277,7 +277,13 @@ nav.uk-navbar {
         display: block; } }
 
 #side-timeline .uk-offcanvas-bar {
-  top: 60px; }
+  top: 65px; }
+  @media only screen and (max-width: 800px) {
+    #side-timeline .uk-offcanvas-bar {
+      top: 80px; } }
+  @media only screen and (max-width: 680px) {
+    #side-timeline .uk-offcanvas-bar {
+      top: 60px; } }
   #side-timeline .uk-offcanvas-bar li h2 {
     font-size: 16px; }
 
