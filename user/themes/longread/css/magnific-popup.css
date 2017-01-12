@@ -352,6 +352,9 @@ img.mfp-img {
     padding-right: 6px; } }
 
 /*custom*/
+.mfp-title {
+  padding-top: 5px;
+}
 .mfp-title a { 
   border-bottom: 1px solid #F3F3F3; 
   -webkit-transition: all .2s ease-in-out;
@@ -359,3 +362,10 @@ img.mfp-img {
   transition: all .2s ease-in-out;
 }
 .mfp-title a:hover { border-bottom: 1px solid transparent; }
+
+.mfp-iframe-big {
+  height: 85%;
+  margin: auto;
+  max-height: 780px;
+  padding: 70% 0 0 0 !important;
+}
