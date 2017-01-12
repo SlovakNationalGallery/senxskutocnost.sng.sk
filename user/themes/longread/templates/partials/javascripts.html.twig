@@ -64,7 +64,7 @@
       nextArrow:"<img class='a-right control-c next slick-next' src='/user/themes/longread/images/slick/right.svg'>"
     });
 
-    $('a').has('figure.image').magnificPopup({
+    $('a[href^="http://www.webumenia"]').has('figure.image').magnificPopup({
       type: 'iframe',
       mainClass: 'mfp-with-zoom',
 
@@ -100,19 +100,14 @@
         duration: 300,
         easing: 'ease-in-out', 
 
-        // The "opener" function should return the element from which popup will be zoomed in
-        // and to which popup will be scaled down
-        // By defailt it looks for an image tag:
         opener: function(openerElement) {
-          // openerElement is the element on which popup was initialized, in this case its <a> tag
-          // you don't need to add "opener" option if this code matches your needs, it's defailt one.
           return openerElement.is('img') ? openerElement : openerElement.find('img');
         }
       },
 
       callbacks: {
           markupParse: function(template, values, item) {
-            values.title = item.el.find('img').attr('alt');
+            values.title = item.el.find('img').attr('alt') + ' (<a href="'+item.el.attr('href')+'" target="_blank">webumenia.sk</a>)';
           }
         }
 

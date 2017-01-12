@@ -350,3 +350,12 @@ img.mfp-img {
   .mfp-container {
     padding-left: 6px;
     padding-right: 6px; } }
+
+/*custom*/
+.mfp-title a { 
+  border-bottom: 1px solid #F3F3F3; 
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+.mfp-title a:hover { border-bottom: 1px solid transparent; }
