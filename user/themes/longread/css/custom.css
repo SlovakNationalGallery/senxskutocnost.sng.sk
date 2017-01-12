@@ -495,7 +495,10 @@ form#email-capture {
   margin-bottom: 80px; }
   #chapter-preview .chapter-thumb {
     color: white;
-    margin-top: 25px; }
+    max-width: 500px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto; }
     #chapter-preview .chapter-thumb .bt-white-red {
       border-top: white solid 2px; }
     #chapter-preview .chapter-thumb:hover .bt-white-red {
@@ -509,13 +512,19 @@ form#email-capture {
       margin-top: 15px; }
     #chapter-preview .chapter-thumb p {
       margin-top: 0px; }
-    #chapter-preview .chapter-thumb figure figcaption h2 {
-      font-size: 25px;
-      line-height: 25px; }
-      @media only screen and (max-width: 959px) {
-        #chapter-preview .chapter-thumb figure figcaption h2 {
-          font-size: 36px;
-          line-height: 36px; } }
+    #chapter-preview .chapter-thumb figure {
+      max-width: 500px; }
+      #chapter-preview .chapter-thumb figure figcaption h2 {
+        font-size: 25px;
+        line-height: 25px; }
+        @media only screen and (max-width: 959px) {
+          #chapter-preview .chapter-thumb figure figcaption h2 {
+            font-size: 36px;
+            line-height: 36px; } }
+        @media only screen and (max-width: 400px) {
+          #chapter-preview .chapter-thumb figure figcaption h2 {
+            font-size: 29px;
+            line-height: 29px; } }
   #chapter-preview .chapter-thumb.disabled * {
     color: #6D6D6D; }
     #chapter-preview .chapter-thumb.disabled * figcaption h2, #chapter-preview .chapter-thumb.disabled * figcaption h2 * {
