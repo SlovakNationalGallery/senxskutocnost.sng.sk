@@ -614,15 +614,10 @@ form#email-capture {
     h5 {
       display: inline-block; // needed for pointer-events: none
       width: 100%;
-      font-size: 16px;
+      font-size: 22px;
+      line-height: 22px;
       margin-bottom: 5px;
       margin-top: 15px;
-    }
-    h5.chapter-title {
-      @include respond-to(960) {
-        font-size: 22px;
-        line-height: 22px;
-      }
     }
     p {
       margin-top: 0px;

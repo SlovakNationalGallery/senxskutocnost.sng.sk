@@ -503,13 +503,10 @@ form#email-capture {
     #chapter-preview .chapter-thumb h5 {
       display: inline-block;
       width: 100%;
-      font-size: 16px;
+      font-size: 22px;
+      line-height: 22px;
       margin-bottom: 5px;
       margin-top: 15px; }
-    @media only screen and (max-width: 960px) {
-      #chapter-preview .chapter-thumb h5.chapter-title {
-        font-size: 22px;
-        line-height: 22px; } }
     #chapter-preview .chapter-thumb p {
       margin-top: 0px; }
     #chapter-preview .chapter-thumb figure figcaption h2 {
