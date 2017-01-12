@@ -41,8 +41,8 @@
               {% endif %}
                 <figcaption>
                   <h2>
-                    <span class="f-uni-grotesk-regular fs-60">{{p.header.chapterNumber}}. kapitola</span><br>
-                    {{p.header.titleStyled}}
+                    <span class="f-uni-grotesk-regular fs-70">{{p.header.chapterNumber}}. kapitola</span><br>
+                    {{p.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
                   </h2>
                   {% if not p.header.disabled %}
                     <a href="{{p.url}}">View more</a>
