@@ -13,9 +13,19 @@ content:
 returnButtonText: 'Späť na 3. kapitolu'
 ---
 
-<span class="drop-cap">Ú</span>ryvok zo správy Alfreda Wetzlera a Rudolfa Vrbu, dvojice slovenských Židov, ktorým sa v apríli 1944 podarilo utiecť z vyhladzovacieho tábora Osvienčim-Birkenau a informovať o tamojšom dianí: 
+<span class="drop-cap">A</span>lfred Wetzler a Rudolf Vrba boli dvaja slovenskí Židia, ktorým sa v apríli 1944 podarilo utiecť z vyhladzovacieho tábora Osvienčim-Brzezinka (nem. Auschwitz-Birkenau) a informovať o tamojšom dianí.</br></br>
 
-„(...) Plynovanie sa uskutočňuje tak, že ľudí dopravia do haly B, kde im stráže povedia, že sa pôjdu okúpať. Musia sa vyzliecť, a aby nemali pochybnosti, že naozaj sa pôjdu okúpať, od dvoch mužov oblečených v bielych plášťoch každý dostane uterák a kúsok mydla. Nato ich natlačia do plynovej komory C. 2000 ľudí naplní túto komoru tak, že môžu stáť iba vzpriamene. Stráže zavše vystrelia do vzduchu, aby sa tí, čo už sú v komore, trocha potlačili, a tým umožnili aj ostatným dostať sa dnu. Len čo sú všetci dnu, stráže zatvoria ťažké dvere. Vzápätí sa chvíľu čaká, zrejme preto, aby v komore stúpla teplota na určitý stupeň. Potom esesáci s plynovými maskami na tvári vystúpia na strechu, otvoria okná a nasypú do komory z plechoviek istý prostriedok v prášku. Na plechovkách je napísané „Zyklon“, určený na „ničenie škodcov“, vyrába ho istá hamburská továreň. Predpokladáme, že ide o kyanidový preparát, ktorý sa pri istej teplote mení na plyn. Po troch minútach sú v komore všetci mŕtvi. Dosiaľ sa ani raz nestalo, že by sa pri otvorení komory dali postrehnúť nejaké známky života, čo pri primitívnom splynovaní v Brezovom lese nebolo zvláštnosťou. Potom komoru otvoria, vyvetrajú a Sonderkomando vyvezie mŕtvoly na plošinových vozňoch k peciam na spaľovanie (...).“ 
+[![Rudolf Vrba; Alfred Wetzler - War Refugee Board Auschwitz Report, str.4, 1944, Internet Archive](4strana.jpg "Rudolf Vrba; Alfred Wetzler - War Refugee Board Auschwitz Report")](https://archive.org/details/WarRefugeeBoardAuschwitzReport)
+
+Úryvok z ich správy:</br>
+„(...) Plynovanie sa uskutočňuje tak, že ľudí dopravia do haly B, kde im stráže povedia, že sa pôjdu okúpať. Musia sa vyzliecť, a aby nemali pochybnosti, že naozaj sa pôjdu okúpať, od dvoch mužov oblečených v bielych plášťoch každý dostane uterák a kúsok mydla. Nato ich natlačia do plynovej komory C. 2000 ľudí naplní túto komoru tak, že môžu stáť iba vzpriamene. Stráže zavše vystrelia do vzduchu, aby sa tí, čo už sú v komore, trocha potlačili, a tým umožnili aj ostatným dostať sa dnu. 
+
+[![Rudolf Vrba; Alfred Wetzler - War Refugee Board Auschwitz Report, str.3, 1944, Internet Archive](3strana.jpg "Rudolf Vrba; Alfred Wetzler - War Refugee Board Auschwitz Report")](https://archive.org/details/WarRefugeeBoardAuschwitzReport)
+
+Len čo sú všetci dnu, stráže zatvoria ťažké dvere. Vzápätí sa chvíľu čaká, zrejme preto, aby v komore stúpla teplota na určitý stupeň. Potom esesáci s plynovými maskami na tvári vystúpia na strechu, otvoria okná a nasypú do komory z plechoviek istý prostriedok v prášku. Na plechovkách je napísané „Zyklon“, určený na „ničenie škodcov“, vyrába ho istá hamburská továreň. Predpokladáme, že ide o kyanidový preparát, ktorý sa pri istej teplote mení na plyn. Po troch minútach sú v komore všetci mŕtvi. Dosiaľ sa ani raz nestalo, že by sa pri otvorení komory dali postrehnúť nejaké známky života, čo pri primitívnom splynovaní v Brezovom lese nebolo zvláštnosťou. Potom komoru otvoria, vyvetrajú a Sonderkomando vyvezie mŕtvoly na plošinových vozňoch k peciam na spaľovanie (...).“ 
+
+[![Rudolf Vrba; Alfred Wetzler - War Refugee Board Auschwitz Report, str.40, 1944, Internet Archive](40strana.jpg "Rudolf Vrba; Alfred Wetzler - War Refugee Board Auschwitz Report")](https://archive.org/details/WarRefugeeBoardAuschwitzReport)
+
 
 **Jozef Fedora: Kresby z koncentračného tábora (1944—1945):**
 {% include 'partials/carousel.html.twig' with {
@@ -36,14 +46,14 @@ returnButtonText: 'Späť na 3. kapitolu'
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2318?collection=86'
         },
         {
-        'title':'Vysilený - zadná strana (administratívny lístok)', 
-            'src': 'http://www.webumenia.sk/images/diela/TMP/38/SVK_TMP.267/SVK_TMP.267.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.267?collection=86'
-            },
-        {
         'title':'Vysilený', 
             'src': 'http://www.webumenia.sk/images/diela/SNG/65/SVK_SNG.K_13667/SVK_SNG.K_13667.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_13667?collection=86'
+            },
+        {
+        'title':'Vysilený - zadná strana (administratívny lístok)', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/38/SVK_TMP.267/SVK_TMP.267.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.267?collection=86'
             },
         {
         'title':'Dvaja muži sediaci na lavici v koncentračnom tábore', 
@@ -71,11 +81,6 @@ returnButtonText: 'Späť na 3. kapitolu'
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2320?collection=86'
                  },
         {
-        'title':'Spomienky na domov - zadná strana (administratívny lístok)', 
-            'src': 'http://www.webumenia.sk/images/diela/TMP/37/SVK_TMP.266/SVK_TMP.266.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.266?collection=86'
-                 },
-        {
         'title':'Mŕtvy za ostnatým drôtom v koncentračnom tábore', 
             'src': 'http://www.webumenia.sk/images/diela/SNG/10/SVK_SNG.K_2305/SVK_SNG.K_2305.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2305?collection=86'
@@ -84,6 +89,11 @@ returnButtonText: 'Späť na 3. kapitolu'
         'title':'Spomienky na domov', 
             'src': 'http://www.webumenia.sk/images/diela/SNG/7/SVK_SNG.K_2308/SVK_SNG.K_2308.jpeg',
             'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2308?collection=86'
+        },
+                {
+        'title':'Spomienky na domov - zadná strana (administratívny lístok)', 
+            'src': 'http://www.webumenia.sk/images/diela/TMP/37/SVK_TMP.266/SVK_TMP.266.jpeg',
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.266?collection=86'
         }
     ]
 }%}
