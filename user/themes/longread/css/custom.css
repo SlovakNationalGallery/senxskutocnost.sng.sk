@@ -515,7 +515,7 @@ form#email-capture {
     #chapter-preview .chapter-thumb figure figcaption h2 {
       font-size: 25px;
       line-height: 25px; }
-      @media only screen and (max-width: 960px) {
+      @media only screen and (max-width: 959px) {
         #chapter-preview .chapter-thumb figure figcaption h2 {
           font-size: 36px;
           line-height: 36px; } }

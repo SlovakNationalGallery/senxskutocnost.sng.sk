@@ -632,7 +632,7 @@ form#email-capture {
         h2 {
           font-size: 25px;
           line-height: 25px;
-          @include respond-to(960) {
+          @include respond-to(959) {
             font-size: 36px;
             line-height: 36px;
           }
