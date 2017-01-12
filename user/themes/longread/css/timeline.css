@@ -1,31 +1,30 @@
-.cbp_tmtimeline {
+.cbp_tm-timeline {
   margin: 30px 0 0 0;
   padding: 0;
   list-style: none;
   position: relative; }
+  .cbp_tm-timeline li {
+    position: relative;
+    font-size: 16px; }
+    .cbp_tm-timeline li .cbp_tm-icon-timeline-pointer {
+      position: absolute;
+      width: 15px;
+      left: 8%;
+      margin-top: 5px; }
+    .cbp_tm-timeline li .cbp_tm-text {
+      margin-left: 25%; }
+      .cbp_tm-timeline li .cbp_tm-text .cbp_tm-label {
+        margin-top: 0; }
 
 /* The line */
-.cbp_tmtimeline:before {
+.cbp_tm-timeline:before {
   content: '';
   position: absolute;
-  top: 0;
+  top: 6px;
   bottom: 0;
   width: 1px;
   background: white;
   left: 14%;
   margin-left: -10px; }
-
-.cbp_tmtimeline > li {
-  position: relative;
-  font-size: 16px; }
-
-/* The date/time */
-.cbp_tmtimeline > li .cbp_tmtime {
-  display: block;
-  margin-left: 25%; }
-
-/* Right content */
-.cbp_tmtimeline > li .cbp_tmlabel {
-  margin: 0 0 15px 25%; }
 
 /*# sourceMappingURL=timeline.css.map */

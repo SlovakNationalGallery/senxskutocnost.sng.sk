@@ -278,10 +278,6 @@ nav.uk-navbar {
 
 #side-timeline .uk-offcanvas-bar {
   top: 60px; }
-  #side-timeline .uk-offcanvas-bar li img.icon-timeline-pointer {
-    position: absolute;
-    width: 15px;
-    left: 8%; }
   #side-timeline .uk-offcanvas-bar li h2 {
     font-size: 16px; }
 
