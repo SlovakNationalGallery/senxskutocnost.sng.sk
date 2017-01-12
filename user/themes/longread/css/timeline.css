@@ -1,19 +1,20 @@
-.cbp_tm-timeline {
+/* list of items */
+ul.cbp_tm-timeline {
   margin: 30px 0 0 0;
   padding: 0;
   list-style: none;
   position: relative; }
-  .cbp_tm-timeline li {
+  ul.cbp_tm-timeline li {
     position: relative;
     font-size: 16px; }
-    .cbp_tm-timeline li .cbp_tm-icon-timeline-pointer {
+    ul.cbp_tm-timeline li .cbp_tm-icon-timeline-pointer {
       position: absolute;
       width: 15px;
       left: 8%;
       margin-top: 5px; }
-    .cbp_tm-timeline li .cbp_tm-text {
+    ul.cbp_tm-timeline li .cbp_tm-text {
       margin-left: 25%; }
-      .cbp_tm-timeline li .cbp_tm-text .cbp_tm-label {
+      ul.cbp_tm-timeline li .cbp_tm-text .cbp_tm-label {
         margin-top: 0; }
 
 /* The line */
