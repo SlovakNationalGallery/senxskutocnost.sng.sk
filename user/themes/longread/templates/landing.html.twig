@@ -37,7 +37,7 @@
               {% if not p.header.disabled%}
                 <img src="{{ p.media['thumb-chapter.jpg'].url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
               {% else %}
-                <img src="{{ p.media['thumb-chapter.jpg'].colorize(-0,-0,-0).url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
+                <img src="{{ p.media['thumb-chapter.jpg'].brightness(-30).url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
               {% endif %}
                 <figcaption>
                   <h2>
