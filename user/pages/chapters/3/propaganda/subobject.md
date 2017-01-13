@@ -35,15 +35,23 @@ returnButtonText: 'Späť na 3. kapitolu'
     ]
 }%}
 
-Usmerňovanie informačných kanálov je úlohou špecializovaného Úradu propagandy, vytvoreného podľa nemeckého vzoru a fungujúceho pod dozorom nemeckých poradcov. Jedným zo základných nástrojov propagandy je vytváranie obrazu nepriateľa. V prípade Slovenského štátu k hlavným motívom patrí tzv. „večný“ Žid, ktorý sa „nikdy nezmení“ a neustále spriada sprisahanie, ktorým chce ovládnuť svet. 
+Usmerňovanie informačných kanálov je úlohou špecializovaného Úradu propagandy, vytvoreného podľa nemeckého vzoru a fungujúceho pod dozorom nemeckých poradcov. Jedným zo základných nástrojov propagandy je vytváranie obrazu nepriateľa. V prípade slovenského štátu k hlavným motívom patrí tzv. „večný“ Žid, ktorý sa „nikdy nezmení“ a neustále spriada sprisahanie, ktorým chce ovládnuť svet. 
 
 [![Ladislav Roller - Výkladné skrine pred Úradom propagandy v Bratislave, 1941, Slovenský národný archív, Bratislava – fond STK](Vykladne_skrine--1941--SNA-fondSTK.jpg "Ladislav Roller - Výkladné skrine pred Úradom propagandy v Bratislave")](http://www.webumenia.sk/dielo/SVK:TMP.236?collection=86)
 
 [![Jozef Cincík - Slovenská propaganda na východe, 1941, Slovenský národný archív, Bratislava – fond STK](Slovenska_propaganda_na_v%C3%BDchode-Jozef%20Cinc%C3%ADk-1941--SNA_Bratislava%E2%80%93fondSTK.jpg "Jozef Cincík - Slovenská propaganda na východe")](http://www.webumenia.sk/dielo/SVK:TMP.235?collection=86)
 
-Protižidovská propaganda, ktorou Hitler prekrýva vlastnú agresívnu politiku, je slovenskému národu v časoch deportácií servírovaná v najrôznejších podobách a na dennej báze – prostredníctvom tlače, rozhlasu, kinožurnálov premietaných pred filmami v kinách, plagátov, letákov, ale aj nálepiek na baleniach múky či cukru. V závislosti od aktuálneho vývoja geopolitickej situácie k židovskému nepriateľovi priebežne pribúda a odbúda niekoľko ďalších stereotypizovaných nepriateľov (Čech, boľševik, zbohatlík, rozvratník...)
+Protižidovská propaganda, ktorou Hitler prekrýva vlastnú agresívnu politiku, je slovenskému národu v časoch deportácií servírovaná v najrôznejších podobách a na dennej báze – prostredníctvom tlače, rozhlasu, kinožurnálov premietaných pred filmami v kinách, plagátov, letákov, ale aj nálepiek na baleniach múky či cukru. 
 
-**Karikatúry z nástenných Ľudových novín:**
+[![Neznámy autor - Dvojstránka z časopisu Náš boj, 	1942, ](dvojstranka_z_casopisu--Nas_boj--1942.jpg "Neznámy autor - Dvojstránka z časopisu Náš boj")](http://www.webumenia.sk/dielo/SVK:TMP.219?collection=86)
+
+<div class="highlight">
+<p>
+V závislosti od aktuálneho vývoja geopolitickej situácie k židovskému nepriateľovi priebežne pribúda a odbúda niekoľko ďalších stereotypných nepriateľov (Čech, boľševik, zbohatlík, rozvratník...).
+</p>
+</div>
+
+**Karikatúry z nástenných Ľudových novín**
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
@@ -89,23 +97,10 @@ Protižidovská propaganda, ktorou Hitler prekrýva vlastnú agresívnu politiku
     ]
 }%}
 
-[![Neznámy autor - Dvojstránka z časopisu Náš boj, 	1942, ](dvojstranka_z_casopisu--Nas_boj--1942.jpg "Neznámy autor - Dvojstránka z časopisu Náš boj")](http://www.webumenia.sk/dielo/SVK:TMP.219?collection=86)
+Alternatívnymi cestami, ktorými sa šíria správy nekorešpondujúce s oficiálnou verziou skutočnosti, sú zahraničné rozhlasové stanice (najmä Londýn a Moskva), letáky a tzv. šuškaná propaganda. Za podozrenie zo šírenia takýchto správ sa človek ľahko dostane rovno do Ilavy.
 
-Alternatívnymi cestami, ktorými sa šíria správy nekorešpondujúce s oficiálnou verziou skutočnosti, sú zahraničné rozhlasové stanice (najmä Londýn a Moskva), letáky a tzv. šuškaná propaganda. Za podozrenie zo šírenia takýchto správ sa človek ľahko dostane rovno do Ilavy. 
+[![pravdepodobne Andrej Kováčik - Nedaj sa pomýliť šuškanou propagandou!, 1939, Slovenské národné múzeum - múzeum Slovenských národných rád v Myjave](Nedaj_sa_pomylit--pravdepod_Kovacik--1939--SNM-muzeumSNR_Myjavaopravene.jpg "pravdepodobne Andrej Kováčik - Nedaj sa pomýliť šuškanou propagandou!")](http://www.webumenia.sk/dielo/SVK:TMP.232)
 
-**Šuškaná propaganda:**
-{% include 'partials/carousel.html.twig' with {
-    'images': [
-        {
-            'title':'Nedaj sa pomýliť šuškanou propagandou!', 
-            'src': 'http://www.webumenia.sk/images/diela/TMP/40/SVK_TMP.232/SVK_TMP.232.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.232?collection=86'
-        },
-		{ 
-            'title':'Jedna pani povedala (JPP)', 
-			'src': 'http://www.webumenia.sk/images/diela/TMP/7/SVK_TMP.220/SVK_TMP.220.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.220?collection=86'
-        }
-    ]
-}%}
+[![pravdepodobne Martin Hollý st. - Jedna pani povedala (JPP), 1940 – 1943, Ministerstvo vnútra SR - Štátny archív v Banskej Bystrici](Jedna_pani_povedala-autor_pravdepod_Holly--1940-43--SABB.jpg "pravdepodobne Martin Hollý st. - Jedna pani povedala (JPP)")](http://www.webumenia.sk/dielo/SVK:TMP.220?collection=86)
 
+(zdroj informácií: zborník k výstave Sen x skutočnosť, text Petry Hanákovej: Umenie – štát – propaganda, s. 51)

@@ -31,28 +31,23 @@
           {% for p in page.collection %}
             <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if p.header.disabled%}disabled{% endif %}">
 
-              
-              <figure class="effect-honey uk-hidden-small {% if p.header.disabled%}disabled{% endif %}">
+              <figure class="effect-honey {% if p.header.disabled%}disabled{% endif %}">
 
               {% if not p.header.disabled%}
-                <img src="{{ p.media['thumb-chapter.jpg'].colorize(-60,-60,-60).url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
+                <img src="{{ p.media['thumb-chapter-gradient.jpg'].url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
               {% else %}
-                <img src="{{ p.media['thumb-chapter.jpg'].colorize(-130,-130,-130).url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
+                <img src="{{ p.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
               {% endif %}
                 <figcaption>
                   <h2>
-                    <span class="f-uni-grotesk-regular fs-60">{{p.header.chapterNumber}}. kapitola</span><br>
-                    {{p.header.titleStyled}}
+                    <span class="f-uni-grotesk-regular fs-70">{{p.header.chapterNumber}}. kapitola</span><br>
+                    {{p.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
                   </h2>
                   {% if not p.header.disabled %}
                     <a href="{{p.url}}">View more</a>
                   {% endif %}
                 </figcaption>     
               </figure>
-              <div class="uk-visible-small">
-                <h5 class="chapter-number bt-white-red padding-top-xs f-uni-grotesk-bold">{{p.header.chapterNumber}}.</h5>
-                <h5 class="chapter-title f-uni-grotesk-bold">{{p.header.titleStyled|regex_replace(['/<br>/'], [' '])}}</h5>
-              </div>
               
               <p class="f-uni-grotesk-regular">{{p.header.synopsis}}</p>
               {% if not p.header.disabled %}

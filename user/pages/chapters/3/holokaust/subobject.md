@@ -2,7 +2,7 @@
 title: Holokaust
 slug: holokaust
 chapter: '3. 70 000 obetí'
-chapterHref: /chapters/3-holokaust
+chapterHref: /chapters/3-70000-obeti
 routes:
     default: /chapters/3-70000-obeti/holokaust
     canonical: /chapters/3-70000-obeti/holokaust
@@ -13,11 +13,11 @@ content:
 returnButtonText: 'Späť na 3. kapitolu'
 ---
 
-<span class="drop-cap">H</span>olokaust (z gréc. holokauston - zápalná obeť) je všeobecný termín pre systematické, štátom-organizované prenasledovanie a zavraždenie šiestich miliónov Židov, vykonané nacistickým režimom a jeho kolaborantmi. Obeťou nacistických genocídnych plánov sa stali i ďalšie skupiny obyvateľstva, ktoré táto ideológia považovala za „podľudí“ – telesne a duševne postihnutí, homosexuáli, Rómovia, a v miliónových počtoch aj Slovania. 
+<span class="drop-cap">H</span>olokaust (z gréc. holokauston - zápalná obeť) je všeobecný termín pre systematické, štátom-organizované prenasledovanie a zavraždenie šiestich miliónov Židov, vykonané nacistickým režimom a jeho kolaborantmi. Obeťou nacistických genocídnych plánov sa stali i ďalšie skupiny obyvateľstva, ktoré táto ideológia považovala za „podľudí“ – telesne a duševne postihnutí, homosexuáli, [Rómovia](http://senxskutocnost.sng.sk/chapters/3-70000-obeti/romovia) a v miliónových počtoch aj Slovania. 
 
-[![Neznámy autor - Po oslobodení koncentračného tábora Auschwitz – Birkenau v Osvienčime. V popredí Ľudovít Feld – v okuliaroch, 1945, 	Štátne múzeum Auschwitz – Birkenau v Osvienčime v Poľsku](Neznamy-Auschwitz--Osviencim--Statne_muzeum_Auschwitz-Polsko.jpg "Neznámy autor - Po oslobodení koncentračného tábora Auschwitz – Birkenau v Osvienčime. V popredí Ľudovít Feld – v okuliaroch")](http://www.webumenia.sk/dielo/SVK:TMP.239?collection=86)
+[![Ľudovít Varga - Výjav z koncentráku, 1944, Slovenská národná galéria](SVK_SNG.O_977.jpeg "Ľudovít Varga - Výjav z koncentráku, 1944")](http://www.webumenia.sk/dielo/SVK:SNG.O_977)
 
-**Viliam Malík - Z cyklu repatrianti.:**
+**Viliam Malík - Z cyklu repatrianti**
 {% include 'partials/carousel.html.twig' with {
     'images': [
         {
@@ -35,5 +35,4 @@ returnButtonText: 'Späť na 3. kapitolu'
     ]
 }%}
 
-
-[![Karol Kállay - Chlapec na voze, 40. roky 20. storočia., Súkromný majetok](Kallay-chlapec_na_voze.jpg "Karol Kállay - Chlapec na voze")](http://www.webumenia.sk/dielo/SVK:TMP.237?collection=86)
+(zdroj informácií: [Introduction To Holocaust](https://www.ushmm.org/wlc/en/article.php?ModuleId=10005143), United States Holocaust Memorial Museum)
