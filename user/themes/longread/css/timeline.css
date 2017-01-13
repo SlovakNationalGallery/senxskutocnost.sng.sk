@@ -13,7 +13,8 @@ ul.cbp_tm-timeline {
       left: 8%;
       margin-top: 5px; }
     ul.cbp_tm-timeline li .cbp_tm-text {
-      margin-left: 25%; }
+      margin-left: 14%;
+      padding: 0 20px; }
       ul.cbp_tm-timeline li .cbp_tm-text .cbp_tm-label {
         margin-top: 0; }
 
