@@ -206,10 +206,12 @@ hr.white{
 }
 
 nav.uk-navbar {
-  position: relative;
+  position: fixed;
   float: none;
+  width: 100%;
   height: $navbar-height;
-  margin-top: -20px;
+  // margin-top: -20px;
+  top: 0;
   z-index: 9;
   @include respond-to(800) {
     height: $navbar-height-800;
@@ -349,6 +351,10 @@ nav.uk-navbar {
   }
 }
 
+.uk-offcanvas {
+  background: none;
+}
+
 #side-timeline {
   .uk-offcanvas-bar {
     top: $navbar-height;
@@ -372,6 +378,13 @@ div#side-nav-bar {
     text-decoration: none;
   }
   .uk-offcanvas-bar {
+    top: $navbar-height;
+    @include respond-to(800) {
+      top: $navbar-height-800;
+    }
+    @include respond-to(680) {
+      top: $navbar-height-680;
+    }
     ul.uk-nav {
       .chapter-nav {
         padding: 20px;

@@ -3168,7 +3168,8 @@
             bar.attr('mode', options.mode);
             element.addClass('uk-active');
 
-            $body.css({width: window.innerWidth - scrollbarwidth, height: window.innerHeight}).addClass('uk-offcanvas-page');
+            // fix the rest of the page and prevent scrolling
+            // $body.css({width: window.innerWidth - scrollbarwidth, height: window.innerHeight}).addClass('uk-offcanvas-page');
 
             if (options.mode == 'push' || options.mode == 'reveal') {
                 $body.css((rtl ? 'margin-right' : 'margin-left'), (rtl ? -1 : 1) * (bar.outerWidth() * dir));
@@ -3178,7 +3179,8 @@
                 bar.css('clip', 'rect(0, '+bar.outerWidth()+'px, 100vh, 0)');
             }
 
-            $html.css('margin-top', scrollpos.y * -1).width(); // .width() - force redraw
+            // $html.css('margin-top', scrollpos.y * -1).width(); // .width() - force redraw
+            $html.width(); // .width() - force redraw
 
 
             bar.addClass('uk-offcanvas-bar-show');
@@ -3203,7 +3205,7 @@
 
                     bar.removeClass('uk-offcanvas-bar-show');
                     $html.css('margin-top', '');
-                    window.scrollTo(scrollpos.x, scrollpos.y);
+                    // window.scrollTo(scrollpos.x, scrollpos.y); // commented out to prevent scrolling back to previous after on page navigation triggered from offcanvas nav bar
                     bar.trigger('hide.uk.offcanvas', [panel, bar]);
 
                     // Update ARIA
