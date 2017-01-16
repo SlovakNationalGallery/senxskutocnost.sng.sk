@@ -241,6 +241,9 @@ nav.uk-navbar {
   @include respond-to(750) {
     height: $navbar-height-750;
   }
+  a {
+    z-index: 9;
+  }
   .uk-navbar-brand {
     line-height: 62px;
     font-size: 30px;
@@ -339,6 +342,7 @@ nav.uk-navbar {
     }
   }
   .timeline-toggle {
+    position: relative;
     float: left;
     background-image: url(../images/timeline-clock-black.svg);
     &:hover {
@@ -364,8 +368,8 @@ nav.uk-navbar {
     background-image: url(../images/timeline-clock-white.svg);
   }
   .nav-toggle {
+    position: relative;
     display: none;
-    position: absolute;
     right: 0px;
 
     background-image: url(../images/hamburger-black.svg);
@@ -497,7 +501,7 @@ div#side-nav-bar {
 }
 
 .nav-about {
-  position: absolute;
+  position: relative;
   top: 18px;
   right: 19px;
   z-index: 99;

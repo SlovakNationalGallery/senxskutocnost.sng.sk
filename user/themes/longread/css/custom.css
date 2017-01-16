@@ -187,6 +187,8 @@ nav.uk-navbar {
   @media only screen and (max-width: 750px) {
     nav.uk-navbar {
       height: 60px; } }
+  nav.uk-navbar a {
+    z-index: 9; }
   nav.uk-navbar .uk-navbar-brand {
     line-height: 62px;
     font-size: 30px;
@@ -269,6 +271,7 @@ nav.uk-navbar {
     nav.uk-navbar .nav-about {
       display: none; } }
   nav.uk-navbar .timeline-toggle {
+    position: relative;
     float: left;
     background-image: url(../images/timeline-clock-black.svg);
     background-repeat: no-repeat;
@@ -291,8 +294,8 @@ nav.uk-navbar {
     background-color: #3F3C25;
     background-image: url(../images/timeline-clock-white.svg); }
   nav.uk-navbar .nav-toggle {
+    position: relative;
     display: none;
-    position: absolute;
     right: 0px;
     background-image: url(../images/hamburger-black.svg);
     background-repeat: no-repeat;
@@ -388,7 +391,7 @@ div#side-nav-bar {
   background-image: url(../images/logo-sng-black.svg); }
 
 .nav-about {
-  position: absolute;
+  position: relative;
   top: 18px;
   right: 19px;
   z-index: 99;
