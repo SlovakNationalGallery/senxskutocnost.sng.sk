@@ -250,12 +250,18 @@ nav.uk-navbar {
     }
     @include respond-to(750) {
       line-height: 55px;
+      position: inherit;
+      width: 100%;
+      text-align: center;
     }
     img.navbar-icon {
       height: 80%;
       padding: 5px 0;
       @include respond-to(1175) {
         height: 100%;
+      }
+      @include respond-to(860) {
+        height: 120%;
       }
       @include respond-to(750) {
         height: 80%;

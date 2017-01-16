@@ -1,10 +1,12 @@
 <nav class="uk-navbar ">
     <a href="#side-timeline" class="timeline-toggle offcanvas-toggle" data-uk-offcanvas></a>
-    <a href="/" class="uk-navbar-brand">
-        <span class="f-uni-grotesk-bold c-black">sen</span>
-        <img class="navbar-icon" src="{{ base_url_relative }}/user/themes/longread/images/headline-logo-black.svg" alt="×">
-        <span class="f-moyenage c-black">skutočnosť</span>
-    </a>
+    <div class="uk-navbar-brand">
+        <a href="/">
+            <span class="f-uni-grotesk-bold c-black">sen</span>
+            <img class="navbar-icon" src="{{ base_url_relative }}/user/themes/longread/images/headline-logo-black.svg" alt="×">
+            <span class="f-moyenage c-black">skutočnosť</span>
+        </a>
+    </div>
     <ul class="uk-navbar-nav uk-navbar-center">
         <li>
             <div class="chapter-nav {% if page.header.chapterNumber == 1 %}active{% endif %} {% if page.find('/chapters/1').header.disabled == true %}disabled{% endif %}">
