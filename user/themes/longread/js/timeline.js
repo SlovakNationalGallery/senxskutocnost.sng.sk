@@ -7,8 +7,11 @@ $sectionHeaders.each(function (index, element) {
         if ($(element).next('.title-date')) {
             htmlString += "<time class='cbp_tm-time' datetime='1938-10-06'>"+ $(element).next('.title-date').text() +"</time>"
         }
-        htmlString += "<h2 class='cbp_tm-label f-uni-grotesk-bold'><a href='#"+$(element).attr('id')+"' data-uk-smooth-scroll='{offset: 90}'>"+$(element).text()+"</a></h2>"
+        htmlString += "<h2 class='cbp_tm-label f-uni-grotesk-bold'><a href='#"+$(element).attr('id')+"'>"+$(element).text()+"</a></h2>"
         htmlString += "</div></li>"
         return htmlString;
     });
-})
+});
+
+// insert class to headings that need vertival offset to account for fixed pos nav bar
+$('h1, h2, h3, h4').addClass('offset-link');

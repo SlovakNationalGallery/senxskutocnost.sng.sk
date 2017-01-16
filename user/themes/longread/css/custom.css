@@ -144,6 +144,22 @@ hr.white {
 .blank-list ul {
   list-style-type: none; }
 
+/* add offset to on page link to account for fixed pos nav bar */
+.offset-link:before {
+  display: block;
+  content: " ";
+  margin-top: -65px;
+  height: 65px;
+  visibility: hidden; }
+  @media only screen and (max-width: 800px) {
+    .offset-link:before {
+      margin-top: -80px;
+      height: 80px; } }
+  @media only screen and (max-width: 680px) {
+    .offset-link:before {
+      margin-top: -60px;
+      height: 60px; } }
+
 .first-chapter-cta {
   margin: 50px auto; }
   .first-chapter-cta h2 {

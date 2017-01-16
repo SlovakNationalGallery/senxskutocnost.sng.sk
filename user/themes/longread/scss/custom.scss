@@ -193,6 +193,23 @@ hr.white{
   }
 }
 
+/* add offset to on page link to account for fixed pos nav bar */
+.offset-link:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -1 * $navbar-height; 
+  height: $navbar-height;
+  @include respond-to(800) {
+    margin-top: -1 * $navbar-height-800; 
+    height: $navbar-height-800;
+  }
+  @include respond-to(680) {
+    margin-top: -1 * $navbar-height-680; 
+    height: $navbar-height-680;
+  }
+  visibility: hidden; 
+}
+
 .first-chapter-cta{
   margin: 50px auto;
   h2{
