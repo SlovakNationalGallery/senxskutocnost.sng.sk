@@ -185,14 +185,14 @@ nav.uk-navbar {
       height: 60px; } }
   nav.uk-navbar .uk-navbar-brand {
     line-height: 62px;
-    font-size: 30px; }
+    font-size: 30px;
+    padding: 0; }
     @media only screen and (max-width: 800px) {
       nav.uk-navbar .uk-navbar-brand {
         line-height: 75px; } }
     @media only screen and (max-width: 680px) {
       nav.uk-navbar .uk-navbar-brand {
-        line-height: 55px;
-        padding: 0 5px; } }
+        line-height: 55px; } }
     nav.uk-navbar .uk-navbar-brand img.navbar-icon {
       height: 80%;
       padding: 5px 0; }
@@ -262,20 +262,24 @@ nav.uk-navbar {
     float: left;
     background-image: url(../images/timeline-clock-black.svg);
     background-repeat: no-repeat;
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 30px;
-    height: 30px; }
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 65px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 35%; }
     nav.uk-navbar .timeline-toggle:hover {
       background-image: url(../images/timeline-clock-darkgrey.svg); }
     @media only screen and (max-width: 800px) {
       nav.uk-navbar .timeline-toggle {
-        margin-top: 26px; } }
+        width: 80px; } }
     @media only screen and (max-width: 680px) {
       nav.uk-navbar .timeline-toggle {
-        width: 25px;
-        height: 25px;
-        margin-top: 20px; } }
+        width: 60px; } }
+  nav.uk-navbar .timeline-toggle.active {
+    background-color: #3F3C25;
+    background-image: url(../images/timeline-clock-white.svg); }
   nav.uk-navbar .nav-toggle {
     display: none;
     background-image: url(../images/hamburger_default.svg);

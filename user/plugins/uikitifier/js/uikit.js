@@ -3232,6 +3232,10 @@
             } else {
                 finalize();
             }
+            Offcanvas.onHide();
+        },
+        onHide: function () {
+            // placeholder to be overwritten by custom function
         },
 
         _initElement: function(element) {

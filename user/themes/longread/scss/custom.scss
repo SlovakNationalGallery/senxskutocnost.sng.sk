@@ -239,12 +239,12 @@ nav.uk-navbar {
   .uk-navbar-brand {
     line-height: 62px;
     font-size: 30px;
+    padding: 0;
     @include respond-to(800) {
       line-height: 75px;
     }
     @include respond-to(680) {
       line-height: 55px;
-      padding: 0 5px;
     }
     img.navbar-icon {
       height: 80%;
@@ -334,18 +334,23 @@ nav.uk-navbar {
       background-image: url(../images/timeline-clock-darkgrey.svg);
     }
     background-repeat: no-repeat;
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 30px;
-    height: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 65px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 35%;
     @include respond-to(800) {
-      margin-top: 26px;
+      width: $navbar-height-800;
     }
     @include respond-to(680) {
-      width: 25px;
-      height: 25px;
-      margin-top: 20px;
+      width: $navbar-height-680;
     }
+  }
+  .timeline-toggle.active {
+    background-color: $dark-green;
+    background-image: url(../images/timeline-clock-white.svg);
   }
   .nav-toggle {
     display: none;
