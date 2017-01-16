@@ -355,21 +355,24 @@ nav.uk-navbar {
   .nav-toggle {
     display: none;
 
-    background-image: url(../images/hamburger_default.svg);
+    background-image: url(../images/hamburger-black.svg);
     background-repeat: no-repeat;
-    width: 26px;
-    height: 24px;
-    position: absolute;
-    top: 18px;
-    color: black;
-    right: 20px;
-    font-size: 25px;
+    height: 100%;
+    width: $navbar-height;
+    background-size: 50%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
     &:hover {
-      background-image: url(../images/hamburger_hover.svg);
+      background-image: url(../images/hamburger-dark-grey.svg);
     }
     @include respond-to(680) {
       display: block;
     }
+  }
+  .nav-toggle.active {
+    background-color: $dark-green;
+    background-image: url(../images/hamburger-white.svg)
   }
 }
 

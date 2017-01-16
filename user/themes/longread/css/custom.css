@@ -282,20 +282,21 @@ nav.uk-navbar {
     background-image: url(../images/timeline-clock-white.svg); }
   nav.uk-navbar .nav-toggle {
     display: none;
-    background-image: url(../images/hamburger_default.svg);
+    background-image: url(../images/hamburger-black.svg);
     background-repeat: no-repeat;
-    width: 26px;
-    height: 24px;
-    position: absolute;
-    top: 18px;
-    color: black;
-    right: 20px;
-    font-size: 25px; }
+    height: 100%;
+    width: 65px;
+    background-size: 50%;
+    background-position-x: 50%;
+    background-position-y: 50%; }
     nav.uk-navbar .nav-toggle:hover {
-      background-image: url(../images/hamburger_hover.svg); }
+      background-image: url(../images/hamburger-dark-grey.svg); }
     @media only screen and (max-width: 680px) {
       nav.uk-navbar .nav-toggle {
         display: block; } }
+  nav.uk-navbar .nav-toggle.active {
+    background-color: #3F3C25;
+    background-image: url(../images/hamburger-white.svg); }
 
 .uk-offcanvas {
   background: none; }

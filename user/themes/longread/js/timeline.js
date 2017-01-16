@@ -16,13 +16,4 @@ $( document ).ready(function() {
 
     // insert class to headings that need vertival offset to account for fixed pos nav bar
     $('.post-content h1, .post-content h2, .post-content h3, .post-content h4').addClass('offset-link');
-
-
-    // update bg-color on timeline-toggle button state change
-    $('a.timeline-toggle').click(function (event) {
-        $(this).addClass('active');
-    })
-    UIkit.offcanvas.onHide = function () {
-        $('a.timeline-toggle').removeClass('active');
-    }
 });
