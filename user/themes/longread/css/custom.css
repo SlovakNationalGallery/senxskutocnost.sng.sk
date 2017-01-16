@@ -144,6 +144,22 @@ hr.white {
 .blank-list ul {
   list-style-type: none; }
 
+/* add offset to on page link to account for fixed pos nav bar */
+.offset-link:before {
+  display: block;
+  content: " ";
+  margin-top: -78px;
+  height: 78px;
+  visibility: hidden; }
+  @media only screen and (max-width: 860px) {
+    .offset-link:before {
+      margin-top: -96px;
+      height: 96px; } }
+  @media only screen and (max-width: 750px) {
+    .offset-link:before {
+      margin-top: -72px;
+      height: 72px; } }
+
 .first-chapter-cta {
   margin: 50px auto; }
   .first-chapter-cta h2 {
@@ -154,49 +170,63 @@ hr.white {
         font-size: 40px !important;
         line-height: 43px !important; } }
 
+/* prevent default UIkit styling */
+.uk-navbar-brand:before {
+  content: none; }
+
 nav.uk-navbar {
-  position: relative;
+  position: fixed;
   float: none;
+  width: 100%;
   height: 65px;
-  margin-top: -20px;
+  top: 0;
   z-index: 9; }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 860px) {
     nav.uk-navbar {
       height: 80px; } }
-  @media only screen and (max-width: 680px) {
+  @media only screen and (max-width: 750px) {
     nav.uk-navbar {
       height: 60px; } }
+  nav.uk-navbar a {
+    z-index: 9; }
   nav.uk-navbar .uk-navbar-brand {
     line-height: 62px;
-    font-size: 30px; }
-    @media only screen and (max-width: 800px) {
+    font-size: 30px;
+    padding: 0; }
+    @media only screen and (max-width: 860px) {
       nav.uk-navbar .uk-navbar-brand {
         line-height: 75px; } }
-    @media only screen and (max-width: 680px) {
+    @media only screen and (max-width: 750px) {
       nav.uk-navbar .uk-navbar-brand {
-        line-height: 55px; } }
+        line-height: 55px;
+        position: inherit;
+        width: 100%;
+        text-align: center; } }
     nav.uk-navbar .uk-navbar-brand img.navbar-icon {
       height: 80%;
       padding: 5px 0; }
-      @media only screen and (max-width: 1100px) {
+      @media only screen and (max-width: 1175px) {
         nav.uk-navbar .uk-navbar-brand img.navbar-icon {
           height: 100%; } }
-      @media only screen and (max-width: 680px) {
+      @media only screen and (max-width: 860px) {
+        nav.uk-navbar .uk-navbar-brand img.navbar-icon {
+          height: 120%; } }
+      @media only screen and (max-width: 750px) {
         nav.uk-navbar .uk-navbar-brand img.navbar-icon {
           height: 80%; } }
-    @media only screen and (max-width: 1100px) {
+    @media only screen and (max-width: 1175px) {
       nav.uk-navbar .uk-navbar-brand span {
         display: none; } }
-    @media only screen and (max-width: 680px) {
+    @media only screen and (max-width: 750px) {
       nav.uk-navbar .uk-navbar-brand span {
         display: inline; } }
   nav.uk-navbar ul.uk-navbar-nav {
     max-width: none;
     width: 600px; }
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 860px) {
       nav.uk-navbar ul.uk-navbar-nav {
         width: 460px; } }
-    @media only screen and (max-width: 680px) {
+    @media only screen and (max-width: 750px) {
       nav.uk-navbar ul.uk-navbar-nav {
         display: none; } }
     nav.uk-navbar ul.uk-navbar-nav .chapter-nav {
@@ -216,7 +246,7 @@ nav.uk-navbar {
           color: #E00000;
           -webkit-transition: color 0.35s;
           transition: color 0.35s; }
-      @media only screen and (max-width: 800px) {
+      @media only screen and (max-width: 860px) {
         nav.uk-navbar ul.uk-navbar-nav .chapter-nav {
           width: 95px;
           line-height: 18px; } }
@@ -232,61 +262,111 @@ nav.uk-navbar {
       nav.uk-navbar ul.uk-navbar-nav .chapter-nav.active a {
         pointer-events: none;
         cursor: default; }
-  @media only screen and (max-width: 800px) {
+  nav.uk-navbar .nav-about:hover {
+    color: #6D6D6D; }
+  @media only screen and (max-width: 860px) {
     nav.uk-navbar .nav-about {
       line-height: 45px; } }
-  @media only screen and (max-width: 680px) {
+  @media only screen and (max-width: 750px) {
     nav.uk-navbar .nav-about {
       display: none; } }
-  nav.uk-navbar .nav-toggle {
-    display: none;
-    background-image: url(../images/hamburger_default.svg);
+  nav.uk-navbar .timeline-toggle {
+    position: relative;
+    float: left;
+    background-image: url(../images/timeline-clock-black.svg);
     background-repeat: no-repeat;
-    width: 26px;
-    height: 24px;
-    position: absolute;
-    top: 18px;
-    color: black;
-    right: 20px;
-    font-size: 25px; }
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 65px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 35%; }
+    nav.uk-navbar .timeline-toggle:hover {
+      background-image: url(../images/timeline-clock-darkgrey.svg); }
+    @media only screen and (max-width: 860px) {
+      nav.uk-navbar .timeline-toggle {
+        width: 80px; } }
+    @media only screen and (max-width: 750px) {
+      nav.uk-navbar .timeline-toggle {
+        width: 60px; } }
+  nav.uk-navbar .timeline-toggle.active {
+    background-color: #3F3C25;
+    background-image: url(../images/timeline-clock-white.svg); }
+  nav.uk-navbar .nav-toggle {
+    position: relative;
+    display: none;
+    right: 0px;
+    background-image: url(../images/hamburger-black.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 65px;
+    background-size: 40%;
+    background-position-x: 50%;
+    background-position-y: 50%; }
     nav.uk-navbar .nav-toggle:hover {
-      background-image: url(../images/hamburger_hover.svg); }
-    @media only screen and (max-width: 680px) {
+      background-image: url(../images/hamburger-dark-grey.svg); }
+    @media only screen and (max-width: 750px) {
       nav.uk-navbar .nav-toggle {
         display: block; } }
+  nav.uk-navbar .nav-toggle.active {
+    background-color: #3F3C25;
+    background-image: url(../images/hamburger-white.svg); }
+
+.uk-offcanvas {
+  background: none; }
+
+#side-timeline .uk-offcanvas-bar {
+  top: 65px; }
+  @media only screen and (max-width: 860px) {
+    #side-timeline .uk-offcanvas-bar {
+      top: 80px; } }
+  @media only screen and (max-width: 750px) {
+    #side-timeline .uk-offcanvas-bar {
+      top: 60px; } }
+  #side-timeline .uk-offcanvas-bar li h2 {
+    font-size: 16px; }
 
 div#side-nav-bar {
   color: white; }
   div#side-nav-bar a {
     text-decoration: none; }
-  div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav {
-    padding: 20px;
-    border-bottom: solid 1px #6D6D6D; }
-    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav div.nav-state-bar {
-      width: 50px;
-      height: 5px;
-      margin-top: -20px;
-      margin-bottom: 20px;
-      background-color: #6D6D6D; }
-    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav span.chapter-title {
-      font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
-    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav a:hover {
-      color: #E00000 !important; }
-  div#side-nav-bar .uk-offcanvas-bar ul.uk-nav li:first-of-type div.nav-state-bar {
-    height: 6px; }
-  div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav.disabled {
-    color: #6D6D6D; }
-    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav.disabled a {
+  div#side-nav-bar .uk-offcanvas-bar {
+    top: 65px; }
+    @media only screen and (max-width: 860px) {
+      div#side-nav-bar .uk-offcanvas-bar {
+        top: 80px; } }
+    @media only screen and (max-width: 750px) {
+      div#side-nav-bar .uk-offcanvas-bar {
+        top: 60px; } }
+    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav {
+      padding: 20px;
+      border-bottom: solid 1px #6D6D6D; }
+      div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav div.nav-state-bar {
+        width: 50px;
+        height: 5px;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        background-color: #6D6D6D; }
+      div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav span.chapter-title {
+        font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
+      div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav a:hover {
+        color: #E00000 !important; }
+    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav li:first-of-type div.nav-state-bar {
+      height: 6px; }
+    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav.disabled {
+      color: #6D6D6D; }
+      div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav.disabled a {
+        pointer-events: none;
+        cursor: default; }
+    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav.active div.nav-state-bar {
+      background-color: #E00000; }
+    div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav.active a {
       pointer-events: none;
       cursor: default; }
-  div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav.active div.nav-state-bar {
-    background-color: #E00000; }
-  div#side-nav-bar .uk-offcanvas-bar ul.uk-nav .chapter-nav.active a {
-    pointer-events: none;
-    cursor: default; }
-  div#side-nav-bar .uk-offcanvas-bar .button-about {
-    margin-top: 20px;
-    font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
+    div#side-nav-bar .uk-offcanvas-bar .button-about {
+      margin-top: 20px;
+      font-family: "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif; }
 
 .logo-sng {
   position: absolute;
@@ -311,7 +391,7 @@ div#side-nav-bar {
   background-image: url(../images/logo-sng-black.svg); }
 
 .nav-about {
-  position: absolute;
+  position: relative;
   top: 18px;
   right: 19px;
   z-index: 99;
@@ -743,7 +823,7 @@ form#email-capture {
   margin-bottom: 20px; }
   .post.page .page-title h1 {
     font-size: 95px; }
-    @media only screen and (max-width: 680px) {
+    @media only screen and (max-width: 750px) {
       .post.page .page-title h1 {
         font-size: 70px; } }
     @media only screen and (max-width: 460px) {
@@ -751,7 +831,7 @@ form#email-capture {
         font-size: 45px; } }
   .post.page .page-title img.headline-logo {
     height: 60px; }
-    @media only screen and (max-width: 680px) {
+    @media only screen and (max-width: 750px) {
       .post.page .page-title img.headline-logo {
         height: 45px; } }
     @media only screen and (max-width: 460px) {
