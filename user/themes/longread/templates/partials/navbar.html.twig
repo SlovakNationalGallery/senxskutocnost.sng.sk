@@ -1,9 +1,12 @@
 <nav class="uk-navbar ">
-    <a href="/" class="uk-navbar-brand">
-        <span class="f-uni-grotesk-bold c-black">sen</span>
-        <img class="navbar-icon" src="{{ base_url_relative }}/user/themes/longread/images/headline-logo-black.svg" alt="×">
-        <span class="f-moyenage c-black">skutočnosť</span>
-    </a>
+    <a href="#side-timeline" class="timeline-toggle offcanvas-toggle" data-uk-offcanvas></a>
+    <div class="uk-navbar-brand">
+        <a href="/">
+            <span class="f-uni-grotesk-bold c-black">sen</span>
+            <img class="navbar-icon" src="{{ base_url_relative }}/user/themes/longread/images/headline-logo-black.svg" alt="×">
+            <span class="f-moyenage c-black">skutočnosť</span>
+        </a>
+    </div>
     <ul class="uk-navbar-nav uk-navbar-center">
         <li>
             <div class="chapter-nav {% if page.header.chapterNumber == 1 %}active{% endif %} {% if page.find('/chapters/1').header.disabled == true %}disabled{% endif %}">
@@ -38,9 +41,21 @@
             </div>
         </li>
     </ul>
-    <a href="#side-nav-bar" class="uk-navbar-flip nav-toggle" data-uk-offcanvas></a>
+    <a href="#side-nav-bar" class="uk-navbar-flip nav-toggle offcanvas-toggle" data-uk-offcanvas></a>
     <a href="/about" class="uk-navbar-flip nav-about c-black f-uni-grotesk-bold">O Projekte</a>
 </nav>
+<div id="side-timeline" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar f-uni-grotesk-regular bg-dark-green c-white">
+        <ul class="cbp_tm-timeline uk-nav uk-nav-offcanvas" data-uk-nav></ul>
+        {% if not page.isLast() %}
+            <div class="centered">
+                <a class="button-next-chapter uk-button button-ghost f-uni-grotesk-bold margin-bottom-m" href="/about">
+                    Pokračovať na {{ page.adjacentSibling(-1).header.chapterNumber }}. kapitolu
+                </a>
+            </div>
+        {% endif %}
+    </div>
+</div>
 <div id="side-nav-bar" class="uk-offcanvas">
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip f-uni-grotesk-regular bg-dark-green">
         <ul class="uk-nav uk-nav-offcanvas" data-uk-nav>

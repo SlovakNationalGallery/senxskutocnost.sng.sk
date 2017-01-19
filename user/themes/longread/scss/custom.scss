@@ -9,12 +9,16 @@ $font-moyenage: "Moyenage14", "Linux Libertine";
 
 $red: #E00000;
 $dark-red: #C70000;
-$grey: #AEAEAE;
-$dark-grey: #6D6D6D;
 $dark-green: #3F3C25;
 $light-grey: #EFEFEF;
+$grey: #AEAEAE;
+$dark-grey: #6D6D6D;
 $text-color: #000;
 $bg-color: #f9f9f7;
+
+$navbar-height: 65px;
+$navbar-height-860: 80px;
+$navbar-height-750: 60px;
 
 @mixin respond-to($breakpoint) {
   @media only screen and (max-width: $breakpoint + px) {
@@ -189,6 +193,23 @@ hr.white{
   }
 }
 
+/* add offset to on page link to account for fixed pos nav bar */
+.offset-link:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -1.2 * $navbar-height; 
+  height: 1.2 * $navbar-height;
+  @include respond-to(860) {
+    margin-top: -1.2 * $navbar-height-860; 
+    height: 1.2 * $navbar-height-860;
+  }
+  @include respond-to(750) {
+    margin-top: -1.2 * $navbar-height-750; 
+    height: 1.2 * $navbar-height-750;
+  }
+  visibility: hidden; 
+}
+
 .first-chapter-cta{
   margin: 50px auto;
   h2{
@@ -201,42 +222,61 @@ hr.white{
   }
 }
 
+/* prevent default UIkit styling */
+.uk-navbar-brand:before {
+  content: none;
+}
+
 nav.uk-navbar {
-  position: relative;
+  position: fixed;
   float: none;
-  height: 65px;
-  margin-top: -20px;
+  width: 100%;
+  height: $navbar-height;
+  // margin-top: -20px;
+  top: 0;
   z-index: 9;
-  @include respond-to(800) {
-    height: 80px;
+  @include respond-to(860) {
+    height: $navbar-height-860;
   }
-  @include respond-to(680) {
-    height: 60px;
+  @include respond-to(750) {
+    height: $navbar-height-750;
+  }
+  a {
+    z-index: 9;
   }
   .uk-navbar-brand {
     line-height: 62px;
     font-size: 30px;
-    @include respond-to(800) {
+    padding: 0;
+    margin-left: 15px;
+    @include respond-to(860) {
       line-height: 75px;
     }
-    @include respond-to(680) {
+    @include respond-to(750) {
+      margin-left: 0;
       line-height: 55px;
+      position: inherit;
+      width: 100%;
+      text-align: center;
     }
     img.navbar-icon {
       height: 80%;
       padding: 5px 0;
-      @include respond-to(1100) {
+      @include respond-to(1175) {
         height: 100%;
       }
-      @include respond-to(680) {
+      @include respond-to(860) {
+        height: 120%;
+      }
+      @include respond-to(750) {
         height: 80%;
       }
     }
     span {
-      @include respond-to(1100) {
+      @include respond-to(1175) {
         display: none;
       }
-      @include respond-to(680) {
+      @include respond-to(750) {
         display: inline;
       }
     }
@@ -244,10 +284,10 @@ nav.uk-navbar {
   ul.uk-navbar-nav {
     max-width: none;
     width: 600px;
-    @include respond-to(800) {
+    @include respond-to(860) {
       width: 460px;
     }
-    @include respond-to(680) {
+    @include respond-to(750) {
       display: none;
     }
     .chapter-nav{
@@ -270,7 +310,7 @@ nav.uk-navbar {
           transition: color 0.35s;
         }
       }
-      @include respond-to(800) {
+      @include respond-to(860) {
         width: 95px;
         line-height: 18px;
       }
@@ -293,30 +333,85 @@ nav.uk-navbar {
     }
   }
   .nav-about {
-    @include respond-to(800) {
+    &:hover {
+      color: $dark-grey;
+    }
+    @include respond-to(860) {
       line-height: 45px;
     }
-    @include respond-to(680) {
+    @include respond-to(750) {
       display: none;
     }
   }
-  .nav-toggle {
-    display: none;
-
-    background-image: url(../images/hamburger_default.svg);
-    background-repeat: no-repeat;
-    width: 26px;
-    height: 24px;
-    position: absolute;
-    top: 18px;
-    color: black;
-    right: 20px;
-    font-size: 25px;
+  .timeline-toggle {
+    position: relative;
+    float: left;
+    background-image: url(../images/timeline-clock-black.svg);
     &:hover {
-      background-image: url(../images/hamburger_hover.svg);
+      background-image: url(../images/timeline-clock-darkgrey.svg);
     }
-    @include respond-to(680) {
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 100%;
+    width: 65px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: 35%;
+    @include respond-to(860) {
+      width: $navbar-height-860;
+    }
+    @include respond-to(750) {
+      width: $navbar-height-750;
+    }
+  }
+  .timeline-toggle.active {
+    background-color: $dark-green;
+    background-image: url(../images/timeline-clock-white.svg);
+  }
+  .nav-toggle {
+    position: relative;
+    display: none;
+    right: 0px;
+
+    background-image: url(../images/hamburger-black.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: $navbar-height;
+    background-size: 40%;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    
+    &:hover {
+      background-image: url(../images/hamburger-dark-grey.svg);
+    }
+    @include respond-to(750) {
       display: block;
+    }
+  }
+  .nav-toggle.active {
+    background-color: $dark-green;
+    background-image: url(../images/hamburger-white.svg)
+  }
+}
+
+.uk-offcanvas {
+  background: none;
+}
+
+#side-timeline {
+  .uk-offcanvas-bar {
+    top: $navbar-height;
+    @include respond-to(860) {
+      top: $navbar-height-860;
+    }
+    @include respond-to(750) {
+      top: $navbar-height-750;
+    }
+    li {
+      h2 {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -327,6 +422,13 @@ div#side-nav-bar {
     text-decoration: none;
   }
   .uk-offcanvas-bar {
+    top: $navbar-height;
+    @include respond-to(860) {
+      top: $navbar-height-860;
+    }
+    @include respond-to(750) {
+      top: $navbar-height-750;
+    }
     ul.uk-nav {
       .chapter-nav {
         padding: 20px;
@@ -401,7 +503,7 @@ div#side-nav-bar {
 }
 
 .nav-about {
-  position: absolute;
+  position: relative;
   top: 18px;
   right: 19px;
   z-index: 99;
@@ -929,7 +1031,7 @@ $button-height: 60px;
     margin-bottom: 20px;
     h1 {
       font-size: 95px;
-      @include respond-to(680) {
+      @include respond-to(750) {
         font-size: 70px;
       }
       @include respond-to(460) {
@@ -938,7 +1040,7 @@ $button-height: 60px;
     }
     img.headline-logo {
       height: 60px;
-      @include respond-to(680) {
+      @include respond-to(750) {
         height: 45px;
       }
       @include respond-to(460) {
