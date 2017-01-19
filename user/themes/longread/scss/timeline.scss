@@ -1,3 +1,5 @@
+$grey: #AEAEAE;
+
 /* list of items */
 ul.cbp_tm-timeline {
   margin: 30px 0 0 0;
@@ -8,6 +10,7 @@ ul.cbp_tm-timeline {
   li {
     position: relative;
     font-size: 16px;
+    margin-bottom: 35px;
     .cbp_tm-icon-timeline-pointer {
       position: absolute;
       width: 15px;
@@ -19,13 +22,18 @@ ul.cbp_tm-timeline {
       padding: 0 20px;
       .cbp_tm-label {
         margin-top: 0;
+        margin-bottom: 1px;
+        line-height: 20px;
+        &:hover {
+          color: $grey;
+        }
       }
     }
   }
 } 
 
 /* The line */
-.cbp_tm-timeline:before {
+.cbp_tm-timeline::before {
   content: '';
   position: absolute;
   top: 6px;
