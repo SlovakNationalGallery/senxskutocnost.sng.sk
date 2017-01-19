@@ -248,10 +248,12 @@ nav.uk-navbar {
     line-height: 62px;
     font-size: 30px;
     padding: 0;
+    margin-left: 15px;
     @include respond-to(860) {
       line-height: 75px;
     }
     @include respond-to(750) {
+      margin-left: 0;
       line-height: 55px;
       position: inherit;
       width: 100%;
