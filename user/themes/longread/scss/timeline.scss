@@ -27,7 +27,7 @@ ul.cbp_tm-timeline {
 } 
 
 /* The line */
-.cbp_tm-timeline:before {
+.cbp_tm-timeline::before {
   content: '';
   position: absolute;
   top: 6px;

@@ -3191,6 +3191,12 @@
 
             // Update ARIA
             element.attr('aria-hidden', 'false');
+
+            // added lifecycle method
+            Offcanvas.onShow();
+        },
+        onShow: function () {
+            // placeholder to be overwritten by custom function
         },
 
         hide: function(force) {

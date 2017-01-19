@@ -16,4 +16,13 @@ $( document ).ready(function() {
 
     // insert class to headings that need vertival offset to account for fixed pos nav bar
     $('.post-content h1, .post-content h2, .post-content h3, .post-content h4').addClass('offset-link');
+    
+    UIkit.offcanvas.onShow = function () {
+        setTimelineBottom();
+    }
+    function setTimelineBottom() {
+        // shorten vertical line to stop at last icon
+        var lastHeight = 6 + $(".cbp_tm-label").last().outerHeight();
+        document.styleSheets[0].addRule('.cbp_tm-timeline::before','bottom: '+lastHeight+'px !important');
+    }
 });

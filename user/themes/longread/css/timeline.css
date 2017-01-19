@@ -21,7 +21,7 @@ ul.cbp_tm-timeline {
         line-height: 20px; }
 
 /* The line */
-.cbp_tm-timeline:before {
+.cbp_tm-timeline::before {
   content: '';
   position: absolute;
   top: 6px;
