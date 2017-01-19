@@ -5,10 +5,10 @@ $( document ).ready(function() {
         $('ul.cbp_tm-timeline').append(function (index, html) {
             var htmlString = "";
             htmlString += "<li><img class='cbp_tm-icon-timeline-pointer' src='/user/themes/longread/images/timeline-pointer-white.svg' alt=''><div class='cbp_tm-text'>"
+            htmlString += "<h2 class='cbp_tm-label f-uni-grotesk-bold'><a href='#"+$(element).attr('id')+"'>"+$(element).text()+"</a></h2>"
             if ($(element).next('.title-date')) {
                 htmlString += "<time class='cbp_tm-time' datetime='1938-10-06'>"+ $(element).next('.title-date').text() +"</time>"
             }
-            htmlString += "<h2 class='cbp_tm-label f-uni-grotesk-bold'><a href='#"+$(element).attr('id')+"'>"+$(element).text()+"</a></h2>"
             htmlString += "</div></li>"
             return htmlString;
         });
@@ -22,7 +22,7 @@ $( document ).ready(function() {
     }
     function setTimelineBottom() {
         // shorten vertical line to stop at last icon
-        var lastHeight = 6 + $(".cbp_tm-label").last().outerHeight();
+        var lastHeight = $(".cbp_tm-text").last().outerHeight() - 10;
         document.styleSheets[0].addRule('.cbp_tm-timeline::before','bottom: '+lastHeight+'px !important');
     }
 });
