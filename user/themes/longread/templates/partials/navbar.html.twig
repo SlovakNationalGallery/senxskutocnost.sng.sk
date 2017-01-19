@@ -48,11 +48,13 @@
     <div class="uk-offcanvas-bar f-uni-grotesk-regular bg-dark-green c-white">
         <ul class="cbp_tm-timeline uk-nav uk-nav-offcanvas" data-uk-nav></ul>
         {% if not page.isLast() %}
-            <div class="centered">
-                <a class="button-next-chapter uk-button button-ghost f-uni-grotesk-bold margin-bottom-m" href="/about">
-                    Pokračovať na {{ page.adjacentSibling(-1).header.chapterNumber }}. kapitolu
-                </a>
-            </div>
+            {% if not page.adjacentSibling(-1).header.disabled %}
+                <div class="centered">
+                    <a class="button-next-chapter uk-button button-ghost f-uni-grotesk-bold margin-bottom-m" href="{{ page.adjacentSibling(-1).url }}">
+                        Pokračovať na {{ page.adjacentSibling(-1).header.chapterNumber }}. kapitolu
+                    </a>
+                </div>
+            {% endif %}
         {% endif %}
     </div>
 </div>
