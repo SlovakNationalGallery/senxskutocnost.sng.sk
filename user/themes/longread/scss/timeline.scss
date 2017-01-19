@@ -8,6 +8,7 @@ ul.cbp_tm-timeline {
   li {
     position: relative;
     font-size: 16px;
+    margin-bottom: 35px;
     .cbp_tm-icon-timeline-pointer {
       position: absolute;
       width: 15px;
@@ -19,6 +20,7 @@ ul.cbp_tm-timeline {
       padding: 0 20px;
       .cbp_tm-label {
         margin-top: 0;
+        line-height: 20px;
       }
     }
   }

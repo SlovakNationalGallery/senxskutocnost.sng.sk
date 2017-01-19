@@ -6,7 +6,8 @@ ul.cbp_tm-timeline {
   position: relative; }
   ul.cbp_tm-timeline li {
     position: relative;
-    font-size: 16px; }
+    font-size: 16px;
+    margin-bottom: 35px; }
     ul.cbp_tm-timeline li .cbp_tm-icon-timeline-pointer {
       position: absolute;
       width: 15px;
@@ -16,7 +17,8 @@ ul.cbp_tm-timeline {
       margin-left: 14%;
       padding: 0 20px; }
       ul.cbp_tm-timeline li .cbp_tm-text .cbp_tm-label {
-        margin-top: 0; }
+        margin-top: 0;
+        line-height: 20px; }
 
 /* The line */
 .cbp_tm-timeline:before {
