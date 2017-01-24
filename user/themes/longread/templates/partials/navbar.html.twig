@@ -1,7 +1,7 @@
 <nav class="uk-navbar ">
     <a href="#side-timeline" class="timeline-toggle offcanvas-toggle" data-uk-offcanvas></a>
     <div class="uk-navbar-brand">
-        <a href="/">
+        <a href="/" title="Domov">
             <span class="f-uni-grotesk-bold c-black">sen</span>
             <img class="navbar-icon" src="{{ base_url_relative }}/user/themes/longread/images/headline-logo-black.svg" alt="×">
             <span class="f-moyenage c-black">skutočnosť</span>
@@ -48,11 +48,13 @@
     <div class="uk-offcanvas-bar f-uni-grotesk-regular bg-dark-green c-white">
         <ul class="cbp_tm-timeline uk-nav uk-nav-offcanvas" data-uk-nav></ul>
         {% if not page.isLast() %}
-            <div class="centered">
-                <a class="button-next-chapter uk-button button-ghost f-uni-grotesk-bold margin-bottom-m" href="/about">
-                    Pokračovať na {{ page.adjacentSibling(-1).header.chapterNumber }}. kapitolu
-                </a>
-            </div>
+            {% if not page.adjacentSibling(-1).header.disabled %}
+                <div class="centered">
+                    <a class="button-next-chapter uk-button button-ghost f-uni-grotesk-bold margin-bottom-m" href="{{ page.adjacentSibling(-1).url }}">
+                        Pokračovať na {{ page.adjacentSibling(-1).header.chapterNumber }}. kapitolu
+                    </a>
+                </div>
+            {% endif %}
         {% endif %}
     </div>
 </div>

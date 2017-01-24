@@ -15,7 +15,8 @@ returnButtonText: 'Späť na 2. kapitolu'
 ---
 
 <span class="drop-cap">B</span>udovaná podľa nacistického vzoru, polovojenská organizácia Hlinkova garda je najdôležitejšou politicko-mocenskou oporou režimu a súčasťou jeho represívno-bezpečnostného aparátu. Od pôvodne uzákoneného povinného členstva pre všetkých mužov od 6 do 60 rokov sa v dôsledku negatívnej reakcie verejnosti ustúpilo. Hrdo znejúci „výkon služby na ochranu vlasti“ zahŕňa aj udávanie a internovanie politických oponentov, aktívne šírenie protižidovských a protičeských nálad, a nezriedka i brutálne zákroky porušujúce existujúce zákony. 
-[![Andrej Kováčik - 14. marec. Deň Hlinkovej gardy, 1935 – 1939, Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.151.jpeg "Andrej Kováčik - 14. marec. Deň Hlinkovej gardy")](http://www.webumenia.sk/dielo/SVK:TMP.151?collection=83)
+
+[![Andrej Kováčik - 14. marec. Deň Hlinkovej gardy, 1935 – 1939, Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.151.jpg "Andrej Kováčik - 14. marec. Deň Hlinkovej gardy")](http://www.webumenia.sk/dielo/SVK:TMP.151?collection=83)
 
 Po vzniku slovenského štátu bol jej hlavným veliteľom najdlhšie obdobie Alexander Mach. Najvyšším veliteľom HG bol ako vodca strany Jozef Tiso. Hlinkova garda zohrá dôležitú úlohu v prenasledovaní Židov a protipovstaleckom boji počas Slovenského národného povstania. Bude sa podieľať aj na masovom vraždení židovského obyvateľstva v rokoch 1944 a 1945.  
 

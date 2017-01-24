@@ -18,7 +18,7 @@ ul.cbp_tm-timeline {
       padding: 0 20px; }
       ul.cbp_tm-timeline li .cbp_tm-text .cbp_tm-label {
         margin-top: 0;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
         line-height: 20px; }
         ul.cbp_tm-timeline li .cbp_tm-text .cbp_tm-label:hover {
           color: #AEAEAE; }
