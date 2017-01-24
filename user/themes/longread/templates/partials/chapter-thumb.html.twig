@@ -1,25 +1,31 @@
-<div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if page.header.disabled%}disabled{% endif %}">
-  <figure class="effect-honey {% if page.header.disabled%}disabled{% endif %}">
+<div class="chapter-thumb {% if chapterPage.header.disabled%}disabled{% endif %}">
+  {% if showHeadline %}
+    <h2 class="f-uni-grotesk-bold {{textStylingClasses}}">{{headlineText}}</h2>
+  {% endif %}
+  <figure class="effect-honey {% if chapterPage.header.disabled%}disabled{% endif %}">
 
-  {% if not page.header.disabled%}
-    <img src="{{ page.media['thumb-chapter-gradient.jpg'].url }}" alt="sen x skutočnosť {{page.header.chapterNumber}}. kapitola: {{page.title}}"/>
+  {% if not chapterPage.header.disabled%}
+    <img src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].url }}" alt="sen x skutočnosť {{chapterPage.header.chapterNumber}}. kapitola: {{chapterPage.title}}"/>
   {% else %}
-    <img src="{{ page.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}" alt="sen x skutočnosť {{page.header.chapterNumber}}. kapitola: {{page.title}}"/>
+    <img src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}" alt="sen x skutočnosť {{chapterPage.header.chapterNumber}}. kapitola: {{chapterPage.title}}"/>
   {% endif %}
     <figcaption>
-      <h2>
-        <span class="f-uni-grotesk-regular fs-70">{{page.header.chapterNumber}}. kapitola</span><br>
-        {{page.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
+      <h2 class="c-white">
+        <span class="f-uni-grotesk-regular fs-70 c-white">{{chapterPage.header.chapterNumber}}. kapitola</span><br>
+        {{chapterPage.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
       </h2>
-      {% if not page.header.disabled %}
-        <a href="{{page.url}}">View more</a>
+      {% if not chapterPage.header.disabled %}
+        <a href="{{chapterPage.url}}">View more</a>
       {% endif %}
     </figcaption>     
   </figure>
-  
-  <p class="f-uni-grotesk-regular">{{page.header.synopsis}}</p>
-  {% if not page.header.disabled %}
-    <a href="{{page.url}}" class="uk-button button-ghost margin-bottom-xs">Prejsť na kapitolu</a>
-  {% endif %}
-  <p class="f-uni-grotesk-regular c-grey">{{page.header.announce_date}}</p>
+  <div class="chapter-thumb-text {{textStylingClasses}}">
+    <p class="f-uni-grotesk-regular">{{chapterPage.header.synopsis}}</p>
+    {% if not chapterPage.header.disabled %}
+      <a href="{{chapterPage.url}}" class="uk-button button-ghost margin-bottom-xs {{buttonStylingClasses}}">{{buttonText}}</a>
+    {% endif %}
+    {% if showAnnounceDate %}
+      <p class="f-uni-grotesk-regular c-grey">{{chapterPage.header.announce_date}}</p>
+    {% endif %}
+  </div>
 </div>

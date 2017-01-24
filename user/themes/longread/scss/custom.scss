@@ -99,13 +99,13 @@ button, .uk-button {
   }
 }
 .c-white {
-  color: white;
+  color: white !important;
   * {
     color: white;
   }
 }
 .c-black {
-  color: black;
+  color: black !important;
   * {
     color: black;
   }
@@ -708,7 +708,7 @@ form#email-capture {
     }
 }
 
-#chapter-preview {
+.chapter-preview {
   margin-left: 0px;
   margin-right: 25px;
   margin-bottom: 80px;

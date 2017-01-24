@@ -32,15 +32,17 @@
 
         </div>
         
-        <div id="chapter-preview" class="uk-grid hover-grid centered c-white ">
-
-          {% for page in page.collection %}
-            {% include 'partials/chapter-thumb.html.twig' with {
-              'page': page
-            }
-            %}
+        <div class="chapter-preview uk-grid hover-grid centered c-white">
+          {% for p in page.collection %}
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4">
+              {% include 'partials/chapter-thumb.html.twig' with {
+                'chapterPage': p,
+                'showAnnounceDate': true,
+                'buttonText': 'Prejsť na kapitolu'
+              }
+              %}
+            </div>
           {% endfor %}
-
         </div>
         
         <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
