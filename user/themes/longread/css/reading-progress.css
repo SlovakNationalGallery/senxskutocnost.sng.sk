@@ -1,0 +1,28 @@
+#reading-progress {
+  margin: 0 -20px;
+  margin-top: -40px; }
+  #reading-progress progress {
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* Dimensions */
+    width: 100%;
+    height: 5px;
+    /* Reset the appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* Get rid of the default border in Firefox/Opera. */
+    border: none;
+    /* Progress bar container for Firefox/IE10+ */
+    background-color: transparent;
+    /* Progress bar value for IE10+ */
+    color: #E00000; }
+  #reading-progress progress::-webkit-progress-bar {
+    background-color: transparent; }
+  #reading-progress progress::-webkit-progress-value {
+    background-color: #E00000; }
+  #reading-progress progress::-moz-progress-bar {
+    background-color: #E00000; }
+
+/*# sourceMappingURL=reading-progress.css.map */
