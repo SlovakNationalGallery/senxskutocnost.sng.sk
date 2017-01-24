@@ -1,0 +1,25 @@
+<div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if page.header.disabled%}disabled{% endif %}">
+  <figure class="effect-honey {% if page.header.disabled%}disabled{% endif %}">
+
+  {% if not page.header.disabled%}
+    <img src="{{ page.media['thumb-chapter-gradient.jpg'].url }}" alt="sen x skutočnosť {{page.header.chapterNumber}}. kapitola: {{page.title}}"/>
+  {% else %}
+    <img src="{{ page.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}" alt="sen x skutočnosť {{page.header.chapterNumber}}. kapitola: {{page.title}}"/>
+  {% endif %}
+    <figcaption>
+      <h2>
+        <span class="f-uni-grotesk-regular fs-70">{{page.header.chapterNumber}}. kapitola</span><br>
+        {{page.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
+      </h2>
+      {% if not page.header.disabled %}
+        <a href="{{page.url}}">View more</a>
+      {% endif %}
+    </figcaption>     
+  </figure>
+  
+  <p class="f-uni-grotesk-regular">{{page.header.synopsis}}</p>
+  {% if not page.header.disabled %}
+    <a href="{{page.url}}" class="uk-button button-ghost margin-bottom-xs">Prejsť na kapitolu</a>
+  {% endif %}
+  <p class="f-uni-grotesk-regular c-grey">{{page.header.announce_date}}</p>
+</div>
