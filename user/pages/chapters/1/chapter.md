@@ -1,17 +1,17 @@
 ---
 title: 'Na polceste k slovenskému štátu'
-synopsis: 'V roku 1938 je Slovenská krajina súčasťou Československej republiky, no v národe silnejú tendencie osamostatniť sa. Svoju úlohu v nich majú zohrať snahy Hlinkovej slovenskej ľudovej strany o autonómiu v rámci Československa a Hitlerove mocenské plány, ktorým by rozdelenie republiky hralo do karát.'
 published: true
-announce_date: 'Zverejnené 7. novembra'
 date: '07-11-2016 06:00'
 slug: chapter-1
+synopsis: 'V roku 1938 je Slovenská krajina súčasťou Československej republiky, no v národe silnejú tendencie osamostatniť sa. Svoju úlohu v nich majú zohrať snahy Hlinkovej slovenskej ľudovej strany o autonómiu v rámci Československa a Hitlerove mocenské plány, ktorým by rozdelenie republiky hralo do karát.'
+announce_date: 'Zverejnené 7. novembra'
 routes:
     default: /chapters/1-na-polceste-k-slovenskemu-statu
     canonical: /chapters/1-na-polceste-k-slovenskemu-statu
     aliases:
         - /chapters/1
 chapterNumber: 1
-titleStyled: <span class='f-uni-grotesk-bold'>Na polceste<br>k</span> <span class='f-moyenage'>slovenskému štátu</span>
+titleStyled: '<span class=''f-uni-grotesk-bold''>Na polceste<br>k</span> <span class=''f-moyenage''>slovenskému štátu</span>'
 description: '1. kapitola: Na polceste k slovenskému štátu'
 image: tiso.jpg
 ---
