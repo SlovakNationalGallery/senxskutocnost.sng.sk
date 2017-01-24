@@ -4,13 +4,6 @@
 <body itemscope itemtype="http://schema.org/Article">
 {% endblock %}
 
-{% block header %}
-    <a href="/" class="nav-home logo-sng logo-sxs-black"><span class="logo"></span></a>
-    {% if page.slug != 'about' %}
-      <a href="/about" class="nav-about c-black f-uni-grotesk-bold">O Projekte</a>
-    {% endif %}
-{% endblock %}
-
 {% block content %}
     <main class="content {{ page.header.image ? 'tag-articleimage' : '' }}" role="main">
       <article class="post page">

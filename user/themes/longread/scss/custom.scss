@@ -483,7 +483,7 @@ div#side-nav-bar {
   width: $rs * 3;
   height: $rs * 3;
   overflow: hidden;
-  z-index: 99;
+  z-index: 99 !important;
   .logo {
     background-image: url(../images/logo-sng.svg);
     display: block;
@@ -506,13 +506,18 @@ div#side-nav-bar {
     background-image: url(../images/headline-logo-black.svg);
   }
 }
+.logo-sxs-white {
+  .logo {
+    background-image: url(../images/headline-logo-white.svg);
+  }
+}
 
 .nav-about {
   position: relative;
   float: right;
   top: 18px;
   right: 19px;
-  z-index: 99;
+  z-index: 99 !important;
   line-height: 32px;
   text-decoration: none;
   font-size: 16px;
