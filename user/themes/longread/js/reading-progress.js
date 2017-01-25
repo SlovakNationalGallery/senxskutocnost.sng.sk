@@ -1,42 +1,72 @@
-$(document).on('ready', function() {  
-  var winHeight = $(window).height(), 
-    docHeight = $('.chapter').height(),
-    progressBar = $('#reading-progress > progress'),
-    max, value;
+/* 
+Reading progress bar
+Based on Reading Position Indicator @ CCS Tricks https://css-tricks.com/reading-position-indicator/
+*/
 
-  /* Set the max scrollable area */
-  max = docHeight - winHeight;
-  progressBar.attr('max', max);
+$(document).ready(function() {
+  /* configuration */
+  var elementToReadSelector  = '.chapter';
+  var progressBarSelector    = '#reading-progress progress';
+  var progressActiveSelector = '#reading-progress progress.uk-active';
+  var fallbackBarSelector    = '.progress-bar';
+  var getOffsetFromSelector  = '.chapter';
+    
+  var getMax = function(){
+    return $(elementToReadSelector).height() - $(window).height();
+  }
+    
+  var getValue = function(){
+    return $(window).scrollTop();
+  }
 
-  /* position active reading progress based on chapter offset */
+  var setReadingProgressOffset = function(){
+    var offsetLeft = $(getOffsetFromSelector).offset().left;
+    document.styleSheets[0].addRule(progressActiveSelector,'left: '+offsetLeft+'px !important');
+  }
+
   setReadingProgressOffset();
+    
+  if ('max' in document.createElement('progress')) {
+    // Browser supports progress element
+    var progressBar = $(progressBarSelector);
+        
+    // Set the Max attr for the first time
+    progressBar.attr({ max: getMax() });
 
-  /* update progress value on scroll */
-  $(document).on('scroll', function(){
-    updateProgressValue();  
-  });
+    $(document).on('scroll', function(){
+      // On scroll only Value attr needs to be calculated
+      progressBar.attr({ value: getValue() });
+    });
+      
+    $(window).resize(function(){
+      // On resize, both Max/Value attr needs to be calculated
+      progressBar.attr({ max: getMax(), value: getValue() });
+      setReadingProgressOffset();
+    }); 
+  
+  } else {
 
-  /* update on window resize */
-  $(window).on('resize', function() {
-    updateProgressMax();
-    updateProgressValue();
-    setReadingProgressOffset();
-  });
-
-  function updateProgressValue() {
-    value =  $(window).scrollTop();
-    progressBar.attr('value', value);
-  }
-  function updateProgressMax() {
-    winHeight = $(window).height(),
-    docHeight = $(document).height();
-
-    max = docHeight - winHeight;
-    progressBar.attr('max', max);
-  }
-  function setReadingProgressOffset() {
-    var chapterOffsetLeft = $('.chapter').offset().left;
-    console.log(chapterOffsetLeft);
-    document.styleSheets[0].addRule('#reading-progress progress.uk-active','left: '+chapterOffsetLeft+'px !important');
+    var progressBar = $(fallbackBarSelector), 
+        max = getMax(), 
+        value, width;
+        
+    var getWidth = function() {
+      // Calculate width in percentage
+      value = getValue();            
+      width = (value/max) * 100;
+      width = width + '%';
+      return width;
+    }
+        
+    var setWidth = function(){
+      progressBar.css({ width: getWidth() });
+    }
+        
+    $(document).on('scroll', setWidth);
+    $(window).on('resize', function(){
+      // Need to reset the Max attr
+      max = getMax();
+      setWidth();
+    });
   }
 });
