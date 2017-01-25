@@ -5,11 +5,22 @@ Based on Reading Position Indicator @ CCS Tricks https://css-tricks.com/reading-
 
 $(document).ready(function() {
   /* configuration */
-  var elementToReadSelector  = '.chapter';
-  var progressBarSelector    = '#reading-progress progress';
-  var progressActiveSelector = '#reading-progress progress.uk-active';
-  var fallbackBarSelector    = '.progress-bar';
-  var getOffsetFromSelector  = '.chapter';
+  var elementToReadSelector      = '.chapter';
+  var progressBarSelector        = '#reading-progress progress';
+  var progressActiveSelector     = '#reading-progress progress.uk-active';
+  var fallbackBarSelector        = '.progress-bar';
+  var getWidthFromSelector       = '.chapter';
+  var getOffsetLeftFromSelector  = '.chapter';
+  var getOffsetTopFromSelector   = 'nav.uk-navbar';
+  var sticky;
+
+  var initSticky = function(){
+    var progressElement = $(progressBarSelector)[0];
+    sticky = UIkit.sticky(progressElement, {
+      top: $(getOffsetTopFromSelector).outerHeight(),
+      getWidthFrom: getWidthFromSelector
+    });
+  }
     
   var getMax = function(){
     return $(elementToReadSelector).height() - $(window).height();
@@ -19,12 +30,22 @@ $(document).ready(function() {
     return $(window).scrollTop();
   }
 
-  var setReadingProgressOffset = function(){
-    var offsetLeft = $(getOffsetFromSelector).offset().left;
+  var setReadingProgressOffsetLeft = function(){
+    var offsetLeft = $(getOffsetLeftFromSelector).offset().left;
     document.styleSheets[0].addRule(progressActiveSelector,'left: '+offsetLeft+'px !important');
   }
 
-  setReadingProgressOffset();
+  var setReadingProgressOffsetTop = function(){
+    var offsetTop = $(getOffsetTopFromSelector).outerHeight();
+    if (sticky.options.top !== offsetTop) {
+      sticky.options.top = offsetTop;
+      $(progressActiveSelector).css('top', offsetTop+'px');
+    }
+  }
+  
+  initSticky();
+  setReadingProgressOffsetLeft();
+  setReadingProgressOffsetTop();
     
   if ('max' in document.createElement('progress')) {
     // Browser supports progress element
@@ -41,7 +62,8 @@ $(document).ready(function() {
     $(window).resize(function(){
       // On resize, both Max/Value attr needs to be calculated
       progressBar.attr({ max: getMax(), value: getValue() });
-      setReadingProgressOffset();
+      setReadingProgressOffsetLeft();
+      setReadingProgressOffsetTop();
     }); 
   
   } else {
