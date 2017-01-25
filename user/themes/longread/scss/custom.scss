@@ -1,4 +1,5 @@
 @import "vendor/bourbon/bourbon";
+@import "colors";
 
 $rs: 16px;
 $font-serif:    Linux Libertine;
@@ -6,15 +7,6 @@ $font-sans:     "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
 $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
 $font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
 $font-moyenage: "Moyenage14", "Linux Libertine";
-
-$red: #E00000;
-$dark-red: #C70000;
-$dark-green: #3F3C25;
-$light-grey: #EFEFEF;
-$grey: #AEAEAE;
-$dark-grey: #6D6D6D;
-$text-color: #000;
-$bg-color: #f9f9f7;
 
 $navbar-height: 65px;
 $navbar-height-860: 80px;

@@ -1,10 +1,5 @@
-$dark-green:     #3F3C25;
-$light-grey:     #EFEFEF;
-$dark-grey:      #7B7B7B;
+@import "colors";
 $font-sans:      "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
-$red:            #E00000;
-$caption:        #666665;
-$semi-dark-grey: #CCC;
 
 .audioplayer { 
   height: 2.5em; /* 40 */
