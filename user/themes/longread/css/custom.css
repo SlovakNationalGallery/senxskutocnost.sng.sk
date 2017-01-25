@@ -60,12 +60,12 @@ button, .uk-button {
     color: #AEAEAE; }
 
 .c-white {
-  color: white; }
+  color: white !important; }
   .c-white * {
     color: white; }
 
 .c-black {
-  color: black; }
+  color: black !important; }
   .c-black * {
     color: black; }
 
@@ -543,6 +543,10 @@ form#email-capture {
   font-size: 25px;
   padding: 10px 25px; }
 
+.button-large {
+  font-size: 16px;
+  padding: 8px 16px; }
+
 .button-red {
   background-color: #E00000;
   color: white; }
@@ -578,47 +582,47 @@ form#email-capture {
   .button-ghost.button-ghost-black:focus * {
     color: white; }
 
-#chapter-preview {
+.chapter-preview {
   margin-left: 0px;
   margin-right: 25px;
   margin-bottom: 80px; }
-  #chapter-preview .chapter-thumb {
+  .chapter-preview .chapter-thumb {
     color: white;
     max-width: 500px;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto; }
-    #chapter-preview .chapter-thumb .bt-white-red {
+    .chapter-preview .chapter-thumb .bt-white-red {
       border-top: white solid 2px; }
-    #chapter-preview .chapter-thumb:hover .bt-white-red {
+    .chapter-preview .chapter-thumb:hover .bt-white-red {
       border-top-color: #E00000; }
-    #chapter-preview .chapter-thumb h5 {
+    .chapter-preview .chapter-thumb h5 {
       display: inline-block;
       width: 100%;
       font-size: 22px;
       line-height: 22px;
       margin-bottom: 5px;
       margin-top: 15px; }
-    #chapter-preview .chapter-thumb p {
+    .chapter-preview .chapter-thumb p {
       margin-top: 0px; }
-    #chapter-preview .chapter-thumb figure {
+    .chapter-preview .chapter-thumb figure {
       max-width: 500px; }
-      #chapter-preview .chapter-thumb figure figcaption h2 {
+      .chapter-preview .chapter-thumb figure figcaption h2 {
         font-size: 25px;
         line-height: 25px; }
         @media only screen and (max-width: 959px) {
-          #chapter-preview .chapter-thumb figure figcaption h2 {
+          .chapter-preview .chapter-thumb figure figcaption h2 {
             font-size: 36px;
             line-height: 36px; } }
         @media only screen and (max-width: 400px) {
-          #chapter-preview .chapter-thumb figure figcaption h2 {
+          .chapter-preview .chapter-thumb figure figcaption h2 {
             font-size: 29px;
             line-height: 29px; } }
-  #chapter-preview .chapter-thumb.disabled * {
+  .chapter-preview .chapter-thumb.disabled * {
     color: #6D6D6D; }
-    #chapter-preview .chapter-thumb.disabled * figcaption h2, #chapter-preview .chapter-thumb.disabled * figcaption h2 * {
+    .chapter-preview .chapter-thumb.disabled * figcaption h2, .chapter-preview .chapter-thumb.disabled * figcaption h2 * {
       color: white; }
-  #chapter-preview .chapter-thumb.disabled h5 {
+  .chapter-preview .chapter-thumb.disabled h5 {
     border-color: #6D6D6D !important; }
 
 .content {
@@ -626,6 +630,9 @@ form#email-capture {
   @media only screen and (max-width: 600px) {
     .content {
       padding: 0 0; } }
+  .content article {
+    border: none;
+    padding-bottom: 15px; }
 
 .post.chapter .article-image, .post.subobject .article-image, .post.page .article-image {
   bottom: 10vh; }
@@ -861,7 +868,7 @@ form#email-capture {
       margin-left: 0; } }
 
 .sharing button, .sharing a {
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px 10px;
   padding-top: 5px;
   padding-bottom: 5px; }

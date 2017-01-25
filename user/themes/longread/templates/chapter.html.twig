@@ -38,6 +38,33 @@
         </section>
 
       </article>
+      <div class="chapter-preview uk-grid hover-grid centered">
+        <div class="uk-width-1-1">
+          {% if not page.isLast() %}
+            {% if not page.adjacentSibling(-1).header.disabled %}
+              {% include 'partials/chapter-thumb.html.twig' with {
+                'chapterPage': page.adjacentSibling(-1),
+                'textStylingClasses': 'c-black',
+                'showHeadline': true,
+                'headlineText': 'Pokračovať na ďalšiu kapitolu',
+                'showAnnounceDate': false,
+                'buttonStylingClasses': 'button-ghost-black button-large',
+                'buttonText': "Pokračovať na #{page.adjacentSibling(-1).header.chapterNumber}. kapitolu"
+              }
+              %}
+            {% else %}
+              {% include 'partials/chapter-thumb.html.twig' with {
+                'chapterPage': page.adjacentSibling(-1),
+                'textStylingClasses': 'c-black',
+                'showHeadline': true,
+                'headlineText': 'ďalšia kapitola bude čoskoro zverejnená',
+                'showAnnounceDate': false
+              }
+              %}
+            {% endif %}
+          {% endif %}
+        </div>
+      </div>
     </main>
 {% endblock %}
 
