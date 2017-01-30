@@ -58,8 +58,9 @@ $(document).ready(function() {
     progressBar.attr({ max: getMax() });
 
     $(document).on('scroll', function(){
-      // On scroll only Value attr needs to be calculated
-      progressBar.attr({ value: getValue() });
+      // set value
+      // edit: also set max to ensure accurate scroll ratio
+      progressBar.attr({ max: getMax(), value: getValue() });
     });
       
     $(window).resize(function(){
