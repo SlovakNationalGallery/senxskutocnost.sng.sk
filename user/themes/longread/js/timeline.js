@@ -19,10 +19,21 @@ $( document ).ready(function() {
     
     UIkit.offcanvas.onShow = function () {
         setTimelineBottom();
-    }
+    };
+
+    // shorten vertical line to stop at last icon
     function setTimelineBottom() {
-        // shorten vertical line to stop at last icon
         var lastHeight = $(".cbp_tm-text").last().outerHeight() - 10;
-        document.styleSheets[0].addRule('.cbp_tm-timeline::before','bottom: '+lastHeight+'px !important');
+        // add to last styleSheet which is on the same domain, so it gives no SecurityError
+        addCSSRule(document.styleSheets[document.styleSheets.length-1], '.cbp_tm-timeline::before', 'bottom: '+lastHeight+'px !important', 0);
     }
 });
+
+function addCSSRule(sheet, selector, rules, index) {
+    if("insertRule" in sheet) {
+        sheet.insertRule(selector + "{" + rules + "}", index);
+    }
+    else if("addRule" in sheet) {
+        sheet.addRule(selector, rules, index);
+    }
+}
