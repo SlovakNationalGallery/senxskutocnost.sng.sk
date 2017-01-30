@@ -17,7 +17,7 @@ $(document).ready(function() {
   var initSticky = function(){
     var progressElement = $(progressBarSelector)[0];
     sticky = UIkit.sticky(progressElement, {
-      top: $(getOffsetTopFromSelector).outerHeight(),
+      top: getOffsetTop(),
       getWidthFrom: getWidthFromSelector
     });
   }
@@ -35,8 +35,12 @@ $(document).ready(function() {
     $(progressActiveSelector).css('left', offsetLeft+'px');
   }
 
+  var getOffsetTop = function (){
+    return $(getOffsetTopFromSelector).outerHeight() -1; // move up 1 px to counter 1px gap on Safari
+  }
+
   var setReadingProgressOffsetTop = function(){
-    var offsetTop = $(getOffsetTopFromSelector).outerHeight();
+    var offsetTop = getOffsetTop();
     if (sticky.options.top !== offsetTop) {
       sticky.options.top = offsetTop;
       $(progressActiveSelector).css('top', offsetTop+'px');
