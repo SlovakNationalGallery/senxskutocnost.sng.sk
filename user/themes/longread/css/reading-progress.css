@@ -1,6 +1,10 @@
 #reading-progress {
-  margin: 0 -20px;
-  margin-top: -40px; }
+  position: relative;
+  top: -40px;
+  left: -40px; }
+  @media only screen and (max-width: 600px) {
+    #reading-progress {
+      left: -20px; } }
   #reading-progress progress {
     position: absolute;
     left: 0;
