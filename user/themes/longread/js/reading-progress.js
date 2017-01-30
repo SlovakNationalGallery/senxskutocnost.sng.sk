@@ -32,7 +32,7 @@ $(document).ready(function() {
 
   var setReadingProgressOffsetLeft = function(){
     var offsetLeft = $(getOffsetLeftFromSelector).offset().left;
-    document.styleSheets[0].addRule(progressActiveSelector,'left: '+offsetLeft+'px !important');
+    $(progressActiveSelector).css('left', offsetLeft+'px');
   }
 
   var setReadingProgressOffsetTop = function(){
@@ -44,8 +44,11 @@ $(document).ready(function() {
   }
   
   initSticky();
-  setReadingProgressOffsetLeft();
   setReadingProgressOffsetTop();
+
+  $(document).on('active.uk.sticky', function () {  
+    setReadingProgressOffsetLeft();
+  });
     
   if ('max' in document.createElement('progress')) {
     // Browser supports progress element
