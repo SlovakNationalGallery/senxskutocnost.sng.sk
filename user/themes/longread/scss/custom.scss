@@ -1,4 +1,6 @@
 @import "vendor/bourbon/bourbon";
+@import "colors";
+@import "mixins";
 
 $rs: 16px;
 $font-serif:    Linux Libertine;
@@ -7,24 +9,9 @@ $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
 $font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
 $font-moyenage: "Moyenage14", "Linux Libertine";
 
-$red: #E00000;
-$dark-red: #C70000;
-$dark-green: #3F3C25;
-$light-grey: #EFEFEF;
-$grey: #AEAEAE;
-$dark-grey: #6D6D6D;
-$text-color: #000;
-$bg-color: #f9f9f7;
-
-$navbar-height: 65px;
+$navbar-height: 68px;
 $navbar-height-860: 80px;
 $navbar-height-750: 60px;
-
-@mixin respond-to($breakpoint) {
-  @media only screen and (max-width: $breakpoint + px) {
-    @content;
-  }
-}
 
 html,body
 {
@@ -99,13 +86,13 @@ button, .uk-button {
   }
 }
 .c-white {
-  color: white;
+  color: white !important;
   * {
     color: white;
   }
 }
 .c-black {
-  color: black;
+  color: black !important;
   * {
     color: black;
   }
@@ -483,7 +470,7 @@ div#side-nav-bar {
   width: $rs * 3;
   height: $rs * 3;
   overflow: hidden;
-  z-index: 99;
+  z-index: 99 !important;
   .logo {
     background-image: url(../images/logo-sng.svg);
     display: block;
@@ -501,13 +488,23 @@ div#side-nav-bar {
     background-image: url(../images/logo-sng-black.svg);
   }
 }
+.logo-sxs-black {
+  .logo {
+    background-image: url(../images/headline-logo-black.svg);
+  }
+}
+.logo-sxs-white {
+  .logo {
+    background-image: url(../images/headline-logo-white.svg);
+  }
+}
 
 .nav-about {
   position: relative;
   float: right;
   top: 18px;
   right: 19px;
-  z-index: 99;
+  z-index: 99 !important;
   line-height: 32px;
   text-decoration: none;
   font-size: 16px;
@@ -660,6 +657,10 @@ form#email-capture {
   font-size: 25px;
   padding: 10px 25px;
 }
+.button-large{
+  font-size: 16px;
+  padding: 8px 16px;
+}
 .button-red {
   background-color: $red;
   color: white;
@@ -698,7 +699,7 @@ form#email-capture {
     }
 }
 
-#chapter-preview {
+.chapter-preview {
   margin-left: 0px;
   margin-right: 25px;
   margin-bottom: 80px;
@@ -764,6 +765,10 @@ form#email-capture {
   max-width: 700px;
   @include respond-to(600) {
     padding: 0 0;
+  }
+  article {
+    border: none;
+    padding-bottom: 15px;
   }
 }
 
@@ -1071,7 +1076,7 @@ $button-height: 60px;
 }
 
 .sharing button, .sharing a {
-  font-size: 16px;
+  font-size: 14px;
   margin: 10px 10px;
   padding-top: 5px;
   padding-bottom: 5px;

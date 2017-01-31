@@ -1,8 +1,6 @@
 /* https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/ */
 @import "vendor/bourbon/bourbon";
-
-$red: #E00000;
-$dark-red: #C70000;
+@import "colors";
 
 /* Common style */
 .hover-grid figure {

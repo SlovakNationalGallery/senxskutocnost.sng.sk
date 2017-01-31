@@ -1,4 +1,10 @@
 {% embed 'partials/base.html.twig' %}
+
+  {% block header %}
+      <a href="/" class="nav-home logo-sng logo-sxs-white" title="Domov"><span class="logo"></span></a>
+      <a href="/about" class="nav-about c-white f-uni-grotesk-bold">O Projekte</a>
+  {% endblock %}
+
   {% block body %}
     <body class="landing" itemscope itemtype="http://schema.org/Article">
   {% endblock %}
@@ -26,37 +32,17 @@
 
         </div>
         
-        <div id="chapter-preview" class="uk-grid hover-grid centered c-white ">
-
+        <div class="chapter-preview uk-grid hover-grid centered c-white">
           {% for p in page.collection %}
-            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4 chapter-thumb {% if p.header.disabled%}disabled{% endif %}">
-
-              <figure class="effect-honey {% if p.header.disabled%}disabled{% endif %}">
-
-              {% if not p.header.disabled%}
-                <img src="{{ p.media['thumb-chapter-gradient.jpg'].url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
-              {% else %}
-                <img src="{{ p.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}" alt="sen x skutočnosť {{p.header.chapterNumber}}. kapitola: {{p.title}}"/>
-              {% endif %}
-                <figcaption>
-                  <h2>
-                    <span class="f-uni-grotesk-regular fs-70">{{p.header.chapterNumber}}. kapitola</span><br>
-                    {{p.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
-                  </h2>
-                  {% if not p.header.disabled %}
-                    <a href="{{p.url}}">View more</a>
-                  {% endif %}
-                </figcaption>     
-              </figure>
-              
-              <p class="f-uni-grotesk-regular">{{p.header.synopsis}}</p>
-              {% if not p.header.disabled %}
-                <a href="{{p.url}}" class="uk-button button-ghost margin-bottom-xs">Prejsť na kapitolu</a>
-              {% endif %}
-              <p class="f-uni-grotesk-regular c-grey">{{p.header.announce_date}}</p>
+            <div class="uk-width-1-1 uk-width-medium-1-2 uk-width-large-1-4">
+              {% include 'partials/chapter-thumb.html.twig' with {
+                'chapterPage': p,
+                'showAnnounceDate': true,
+                'buttonText': 'Prejsť na kapitolu'
+              }
+              %}
             </div>
           {% endfor %}
-
         </div>
         
         <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
