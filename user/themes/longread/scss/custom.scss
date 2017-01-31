@@ -1,5 +1,6 @@
 @import "vendor/bourbon/bourbon";
 @import "colors";
+@import "mixins";
 
 $rs: 16px;
 $font-serif:    Linux Libertine;
@@ -8,15 +9,9 @@ $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
 $font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
 $font-moyenage: "Moyenage14", "Linux Libertine";
 
-$navbar-height: 65px;
+$navbar-height: 68px;
 $navbar-height-860: 80px;
 $navbar-height-750: 60px;
-
-@mixin respond-to($breakpoint) {
-  @media only screen and (max-width: $breakpoint + px) {
-    @content;
-  }
-}
 
 html,body
 {

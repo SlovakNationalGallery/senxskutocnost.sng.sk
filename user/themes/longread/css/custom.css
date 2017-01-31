@@ -148,8 +148,8 @@ hr.white {
 .offset-link:before {
   display: block;
   content: " ";
-  margin-top: -78px;
-  height: 78px;
+  margin-top: -81.6px;
+  height: 81.6px;
   visibility: hidden; }
   @media only screen and (max-width: 860px) {
     .offset-link:before {
@@ -178,7 +178,7 @@ nav.uk-navbar {
   position: fixed;
   float: none;
   width: 100%;
-  height: 65px;
+  height: 68px;
   top: 0;
   z-index: 9; }
   @media only screen and (max-width: 860px) {
@@ -302,7 +302,7 @@ nav.uk-navbar {
     background-image: url(../images/hamburger-black.svg);
     background-repeat: no-repeat;
     height: 100%;
-    width: 65px;
+    width: 68px;
     background-size: 40%;
     background-position-x: 50%;
     background-position-y: 50%; }
@@ -319,7 +319,7 @@ nav.uk-navbar {
   background: none; }
 
 #side-timeline .uk-offcanvas-bar {
-  top: 65px; }
+  top: 68px; }
   @media only screen and (max-width: 860px) {
     #side-timeline .uk-offcanvas-bar {
       top: 80px; } }
@@ -334,7 +334,7 @@ div#side-nav-bar {
   div#side-nav-bar a {
     text-decoration: none; }
   div#side-nav-bar .uk-offcanvas-bar {
-    top: 65px; }
+    top: 68px; }
     @media only screen and (max-width: 860px) {
       div#side-nav-bar .uk-offcanvas-bar {
         top: 80px; } }
