@@ -20,24 +20,24 @@ $(document).ready(function() {
       top: getOffsetTop(),
       getWidthFrom: getWidthFromSelector
     });
-  }
+  };
     
   var getMax = function(){
     return $(elementToReadSelector).height() - $(window).height();
-  }
+  };
     
   var getValue = function(){
     return $(window).scrollTop();
-  }
+  };
 
   var setReadingProgressOffsetLeft = function(){
     var offsetLeft = $(getOffsetLeftFromSelector).offset().left;
     $(progressActiveSelector).css('left', offsetLeft+'px');
-  }
+  };
 
   var getOffsetTop = function (){
     return $(getOffsetTopFromSelector).outerHeight() -1; // move up 1 px to counter 1px gap on Safari
-  }
+  };
 
   var setReadingProgressOffsetTop = function(){
     var offsetTop = getOffsetTop();
@@ -45,7 +45,7 @@ $(document).ready(function() {
       sticky.options.top = offsetTop;
       $(progressActiveSelector).css('top', offsetTop+'px');
     }
-  }
+  };
   
   initSticky();
   setReadingProgressOffsetTop();
@@ -90,7 +90,7 @@ $(document).ready(function() {
         
     var setWidth = function(){
       progressBar.css({ width: getWidth() });
-    }
+    };
         
     $(document).on('scroll', setWidth);
     $(window).on('resize', function(){
