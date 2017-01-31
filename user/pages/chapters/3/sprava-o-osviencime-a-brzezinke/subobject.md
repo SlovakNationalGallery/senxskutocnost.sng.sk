@@ -26,6 +26,8 @@ Len čo sú všetci dnu, stráže zatvoria ťažké dvere. Vzápätí sa chvíľ
 
 [![Rudolf Vrba; Alfred Wetzler - War Refugee Board Auschwitz Report, str.40, 1944, Internet Archive](40strana.jpg "Rudolf Vrba; Alfred Wetzler - War Refugee Board Auschwitz Report")](https://archive.org/details/WarRefugeeBoardAuschwitzReport)
 
+**Vrba Wetzler Memorial**</br>
+[Projekt Vrba Wetzler Memorial](http://www.vrbawetzler.eu/) vznikol ako pripomienka úteku Alfréda Wetzlera a Rudolfa Vrbu a spočíva v pešom pochode z Osvienčimu do Žiliny. </br>
 
 **Jozef Fedora: Kresby z koncentračného tábora (1944—1945):**
 {% include 'partials/carousel.html.twig' with {

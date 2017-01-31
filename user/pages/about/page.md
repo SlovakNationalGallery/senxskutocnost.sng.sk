@@ -23,12 +23,12 @@ subTitle: 'Udalosti slovenského štátu v 4 kapitolách'
 <hr>
 
 ## Použitá literatúra
-* Katarína Bajcurová – Petra Hánaková – Bohunka Koklesová a kol: _sen x skutočnosť. Umenie a propaganda 1939 – 1945_. Bratislava : Slovenská národná galéria, 2016 
-* Martina Fiamová – Ján Hlavinka – Michal Schvarc a kol.: _Kapitoly z dejín Slovenskej republiky 1939 – 1945_. Bratislava: Historický ústav SAV vo Prodama s.r.o. 2014
-* Martina Fiamová - Ján Hlavinka - Michal Schvarc a kol.: _Slovenský štát 1939 – 1945: predstavy a realita_. Bratislava : Historický ústav SAV, 2014
-* Martina Fiamová – Ján Hlavinka: _Kapitoly z dejín holokaustu na Slovensku_. Bratislava : Historický ústav SAV vo vydavateľstve VEDA, 2015
-* Dušan Kováč: _Dejiny Slovenska_. Praha : Nakladatelství Lidové noviny, 2007 
-* Róbert Letz: _Slovenské dejiny V: 1938 - 1945_. Bratislava : Literárne informačné centrum, 2012
+* Katarína Bajcurová – Petra Hánaková – Bohunka Koklesová a kol: sen x skutočnosť. Umenie a propaganda 1939 – 1945. Bratislava : Slovenská národná galéria, 2016 
+* Martina Fiamová – Ján Hlavinka – Michal Schvarc a kol.: Kapitoly z dejín Slovenskej republiky 1939 – 1945. Bratislava: Historický ústav SAV vo Prodama s.r.o. 2014
+* Martina Fiamová - Ján Hlavinka - Michal Schvarc a kol.: Slovenský štát 1939 – 1945: predstavy a realita. Bratislava : Historický ústav SAV, 2014
+* Martina Fiamová – Ján Hlavinka: Kapitoly z dejín holokaustu na Slovensku. Bratislava : Historický ústav SAV vo vydavateľstve VEDA, 2015
+* Dušan Kováč: Dejiny Slovenska. Praha : Nakladatelství Lidové noviny, 2007 
+* Róbert Letz: Slovenské dejiny V: 1938 - 1945. Bratislava : Literárne informačné centrum, 2012
 
 <hr>
 
@@ -49,6 +49,8 @@ Realizáciu digitálnych reprodukcií umožnil národný projekt Digitálna gal�
 
 ## O výstave
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XDqNJbLbIdY" frameborder="0" allowfullscreen></iframe>
+<br>
 sen × skutočnosť. Umenie & propaganda 1939—1945 <br>
 Slovenská národná galéria Bratislava <br>
 19\. október 2016 — 26. február 2017 <br>
