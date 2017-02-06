@@ -463,8 +463,10 @@ V rámci retribučného súdnictva je do konca roku 1948 na Slovensku súdených
 
 [![Karol Kállay - Nový život po vojne, 1945, Súkromný majetok](novy_zivot_515_male.jpg "Karol Kállay - Nový život po vojne")](http://www.webumenia.sk/dielo/SVK:TMP.326)
 
-Slovenská republika je dnes vďaka Slovenskému národnému povstaniu vnímaná ako súčasť víťaznej strany vojny. Slovenský štát ostáva smutným mementom hrozby nacionalizmu, fašizmu, systematického rozkladu demokracie a potláčania ľudských práv. Napriek tomu sú doteraz zločiny ľudáckeho režimu mnohými relativizované, vojnové udalosti zabudnuté, ignorované či popierané. Nedovoľme, aby sa história v tomto prípade opakovala.
+Vďaka Slovenskému národnému povstaniu je Slovensko v povojnovej Európe vnímané ako plnohodnotná súčasť víťaznej protihitlerovskej koalície. Slovenský štát ostáva smutným mementom hrozby nacionalizmu, fašizmu, systematického rozkladu demokracie a potláčania ľudských práv. Napriek tomu sú doteraz zločiny ľudáckeho režimu mnohými relativizované, vojnové udalosti zabudnuté, ignorované či popierané. 
 
-![Antifašistická mobilizácia 2017](antifasisti.jpg "Antifašistická mobilizácia 2017")
+Nedovoľme, aby sa história v tomto prípade opakovala.
+
+[![Antifašistická mobilizácia 2017](antifasisti.jpg "Antifašistická mobilizácia 2017")](https://www.facebook.com/events/1192224494165546/)
 
 **Diela a fotografie z tejto kapitoly nájdete aj v kolekcii na Webe umenia: [Vytriezvenie zo sna](http://www.webumenia.sk/kolekcia/88 "Kolekcia Vytriezvenie zo sna")**

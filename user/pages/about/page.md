@@ -23,12 +23,14 @@ subTitle: 'Udalosti slovenského štátu v 4 kapitolách'
 <hr>
 
 ## Použitá literatúra
-* Katarína Bajcurová – Petra Hánaková – Bohunka Koklesová a kol: sen x skutočnosť. Umenie a propaganda 1939 – 1945. Bratislava : Slovenská národná galéria, 2016 
+* <a href="http://www.sng.sk/sk/e-shop/105_sen-utf215-skutocnost-umenie-propaganda-1939-1945">Katarína Bajcurová – Petra Hánaková – Bohunka Koklesová a kol: sen x skutočnosť. Umenie a propaganda 1939 – 1945</a>. Bratislava : Slovenská národná galéria, 2016 
 * Martina Fiamová – Ján Hlavinka – Michal Schvarc a kol.: Kapitoly z dejín Slovenskej republiky 1939 – 1945. Bratislava: Historický ústav SAV vo Prodama s.r.o. 2014
 * Martina Fiamová - Ján Hlavinka - Michal Schvarc a kol.: Slovenský štát 1939 – 1945: predstavy a realita. Bratislava : Historický ústav SAV, 2014
 * Martina Fiamová – Ján Hlavinka: Kapitoly z dejín holokaustu na Slovensku. Bratislava : Historický ústav SAV vo vydavateľstve VEDA, 2015
 * Dušan Kováč: Dejiny Slovenska. Praha : Nakladatelství Lidové noviny, 2007 
 * Róbert Letz: Slovenské dejiny V: 1938 - 1945. Bratislava : Literárne informačné centrum, 2012
+* Martin Lacko: Slovenská republika 1939 - 1945. Bratislava: Ústav pamäti národa vo vydavateľstve Perfekt, 2008 
+* <a href="http://www.muzeumsnp.sk/engine/wp-content/uploads/2015/03/Slobodny_slovensky_vysielac.pdf">Jana Odrobináková: Slobodný slovenský vysielač. Povstalecký rozhlas v Banskej Bystrici</a>. In: História. Revue o dejinách spoločnosti. Bratislava : Spoločnosť Pro Historia, 2008 
 
 <hr>
 
