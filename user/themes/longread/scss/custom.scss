@@ -1027,6 +1027,12 @@ $button-height: 60px;
   background-size: cover;
   background-position-y: 10%;
 }
+.return.chapter-4 {
+  background: 
+    url(../../../pages/chapters/4/Telgart_vypalenie-cover.jpg);
+  background-size: cover;
+  background-position-y: 40%;
+}
 
 .post.page {
   @include respond-to(600) {
@@ -1102,6 +1108,7 @@ $button-height: 60px;
     img.icon {
       float: left;
       width: 15%;
+      margin-top: -2%;
     }
     span.subobject-caption {
       float: right;
@@ -1109,6 +1116,10 @@ $button-height: 60px;
       text-decoration: none;
       font-size: 20px;
       font-weight: 900;
+      transition: all 0.35s;
+    }
+    &:hover span.subobject-caption {
+      color: $red;
     }
     @include respond-to(600) {
       border: 1px solid black;

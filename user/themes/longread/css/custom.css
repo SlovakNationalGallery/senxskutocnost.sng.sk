@@ -831,6 +831,11 @@ form#email-capture {
   background-size: cover;
   background-position-y: 10%; }
 
+.return.chapter-4 {
+  background: url(../../../pages/chapters/4/Telgart_vypalenie-cover.jpg);
+  background-size: cover;
+  background-position-y: 40%; }
+
 @media only screen and (max-width: 600px) {
   .post.page {
     padding-bottom: 0; } }
@@ -887,13 +892,17 @@ form#email-capture {
       padding: 20px; }
   .subobject-overview .subobject-wrapper img.icon {
     float: left;
-    width: 15%; }
+    width: 15%;
+    margin-top: -2%; }
   .subobject-overview .subobject-wrapper span.subobject-caption {
     float: right;
     width: 83%;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 900; }
+    font-weight: 900;
+    transition: all 0.35s; }
+  .subobject-overview .subobject-wrapper:hover span.subobject-caption {
+    color: #E00000; }
   @media only screen and (max-width: 600px) {
     .subobject-overview .subobject-wrapper {
       border: 1px solid black;
