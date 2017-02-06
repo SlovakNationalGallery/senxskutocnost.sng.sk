@@ -1027,6 +1027,12 @@ $button-height: 60px;
   background-size: cover;
   background-position-y: 10%;
 }
+.return.chapter-4 {
+  background: 
+    url(../../../pages/chapters/4/Telgart_vypalenie-cover.jpg);
+  background-size: cover;
+  background-position-y: 40%;
+}
 
 .post.page {
   @include respond-to(600) {

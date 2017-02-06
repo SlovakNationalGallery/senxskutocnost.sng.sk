@@ -831,6 +831,11 @@ form#email-capture {
   background-size: cover;
   background-position-y: 10%; }
 
+.return.chapter-4 {
+  background: url(../../../pages/chapters/4/Telgart_vypalenie-cover.jpg);
+  background-size: cover;
+  background-position-y: 40%; }
+
 @media only screen and (max-width: 600px) {
   .post.page {
     padding-bottom: 0; } }
