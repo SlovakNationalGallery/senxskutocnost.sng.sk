@@ -62,3 +62,17 @@ Slovenská národná galéria Bratislava <br>
 - Vizuál katalógu: Boris Meluš <br>
 - Vizuál výstavy: Boris Meluš × Martin Šichman = oximoron <br>
 </div>
+
+<hr>
+
+## Príbehy 20. storočia
+
+Na webstránke sú použité audio záznamy z projektu <a href="https://www.postbellum.sk/co-robime/projekty/pribehy-20-storocia/">Príbehy 20. storočia</a>. Ide o dokumentaristický projekt neziskovej organizácie <a href="https://www.postbellum.sk/">Post Bellum SK</a>, v rámci ktorého sa nahrávajú rozhovory s pamätníkmi a svedkami dôležitých udalostí 20. storočia. Združuje stovky prevažne mladých ľudí, ktorí zbierajú spomienky pamätníkov. Nahrávajú rozhovory, digitalizujú fotografie, denníky, archívne materiály a ukladajú ich do medzinárodného archívu Pamäť národa.
+ 
+Ak aj vy máte tip na zaujímavého pamätníka, napíšte na <a href="mailto:pamatnici@postbellum.sk">pamatnici@postbellum.sk</a>
+
+Zapojte sa do <a href="http://www.pribehy20stoleti.cz/">súťaže Príbehy 20. storočia</a>. Nahrajte príbeh svojich starých rodičov a vyhrajte iPhone alebo 50 000 Kč.
+
+Post Bellum SK je nezávislou občianskou iniciatívou, ktorú financujú predovšetkým drobní darcovia. Pomôžte aj vy! Staňte sa členmi <a href=https://www.postbellum.sk/klub/>Klubu priateľov Príbehov 20. storočia</a> alebo pošlite jednorázový dar na účet SK12 0200 0000 0029 3529.
+
+Pridajte sa k nám! Čím viac nás bude, tým väčšie spomienkové dedičstvo zachováme pre naše deti.
