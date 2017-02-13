@@ -875,13 +875,20 @@ form#email-capture {
       background-color: $light-grey;
       padding: 10px;
     }
-    a[href^="http://www.webumenia"] figure.image .uk-overlay-panel {
+    p > a > figure.image .uk-overlay-panel {
       margin: 10px;
       background-color: rgba( $dark-green, .6 );
-      background-image: url(../images/icon-zoom-white.svg);
       background-size: 75%;
       background-repeat: no-repeat;
       background-position: center center;
+
+    }
+    p > a > figure.image .uk-overlay-panel.icon-zoom{
+      background-image: url(../images/icon-zoom-white.svg);
+    }
+    p > a > figure.image .uk-overlay-panel.icon-external{
+      background-image: url(../images/icon-link-external-white.svg);
+      background-size: 65%;
     }
     figcaption {
       margin-top: 10px;

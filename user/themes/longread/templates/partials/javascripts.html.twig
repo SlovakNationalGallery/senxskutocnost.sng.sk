@@ -121,7 +121,13 @@
     // add zoom icon to zoomable webumenia images
     $('a[href^="http://www.webumenia"] figure.image img')
       .wrap('<div class="uk-overlay uk-overlay-hover"></div>')
-      .parent().append('<span class="uk-overlay-panel uk-overlay-bottom uk-overlay-left uk-overlay-fade"></span>');
+      .parent().append('<span class="icon-zoom uk-overlay-panel uk-overlay-bottom uk-overlay-left uk-overlay-fade"></span>');
+
+    // add external link icon to external images
+    $('p > a:not([href^="http://www.webumenia"]) figure.image img')
+      .wrap('<div class="uk-overlay uk-overlay-hover"></div>')
+      .parent().append('<span class="icon-external uk-overlay-panel uk-overlay-bottom uk-overlay-left uk-overlay-fade"></span>');
+
   });
 }(jQuery));
 </script>
