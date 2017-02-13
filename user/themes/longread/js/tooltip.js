@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   $('.anchorjs-link').attr('data-tooltip', 'odkaz na túto sekciu').addClass('tooltip-right')
   
   // add margin right equal to tooltip width to anchorjs-link element to ensure it fits within line width
-  var tooltipWidth = '125px';
+  var tooltipWidth = '130px';
   $('.anchorjs-link').css('margin-right', tooltipWidth);
 });
