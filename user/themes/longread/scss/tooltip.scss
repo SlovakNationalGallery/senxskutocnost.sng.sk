@@ -59,7 +59,7 @@ $font-regular:  "Uni Grotesk Regular", Open Sans, MundoSans, "Helvetica Neue", A
 [data-tooltip]:after {
   z-index: 1000;
   padding: 8px;
-  width: 125px;
+  white-space: nowrap;
   background-color: #000;
   background-color: $dark-green;
   color: #fff;

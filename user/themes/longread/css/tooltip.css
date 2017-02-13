@@ -51,7 +51,7 @@
 [data-tooltip]:after {
   z-index: 1000;
   padding: 8px;
-  width: 125px;
+  white-space: nowrap;
   background-color: #000;
   background-color: #3F3C25;
   color: #fff;
