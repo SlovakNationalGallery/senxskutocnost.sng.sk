@@ -118,8 +118,10 @@
 
     });
 
-
-
+    // add zoom icon to zoomable webumenia images
+    $('a[href^="http://www.webumenia"] figure.image img')
+      .wrap('<div class="uk-overlay uk-overlay-hover"></div>')
+      .parent().append('<span class="uk-overlay-panel uk-overlay-bottom uk-overlay-left uk-overlay-fade"></span>');
   });
 }(jQuery));
 </script>

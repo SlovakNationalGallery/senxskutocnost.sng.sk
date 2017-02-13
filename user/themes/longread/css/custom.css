@@ -714,6 +714,13 @@ form#email-capture {
   .post.chapter .post-content figure.audio, .post.chapter .post-content figure.video, .post.chapter .post-content p > a > figure.image, .post.subobject .post-content figure.audio, .post.subobject .post-content figure.video, .post.subobject .post-content p > a > figure.image, .post.page .post-content figure.audio, .post.page .post-content figure.video, .post.page .post-content p > a > figure.image {
     background-color: #EFEFEF;
     padding: 10px; }
+  .post.chapter .post-content a[href^="http://www.webumenia"] figure.image .uk-overlay-panel, .post.subobject .post-content a[href^="http://www.webumenia"] figure.image .uk-overlay-panel, .post.page .post-content a[href^="http://www.webumenia"] figure.image .uk-overlay-panel {
+    margin: 10px;
+    background-color: rgba(63, 60, 37, 0.6);
+    background-image: url(../images/icon-zoom-white.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center center; }
   .post.chapter .post-content figcaption, .post.subobject .post-content figcaption, .post.page .post-content figcaption {
     margin-top: 10px;
     font-style: normal;
