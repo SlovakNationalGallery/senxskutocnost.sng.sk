@@ -1,16 +1,14 @@
 .anchorjs-link {
   display: inline-block;
-  background: url('../images/icon-link-darkgreen-semiopaque.svg') no-repeat;
+  background: url('../images/icon-link-darkgreen.svg') no-repeat;
+  opacity: 0.5 !important;
   margin-left: 0.25em;
   margin-top: 0.2em;
   width: 14px;
   height: 24px;
   transition: all 0.35s;
   text-decoration: none;
-  &:hover {
-    background: url('../images/icon-link-red.svg') no-repeat;
-  }  
 }
 *:hover > .anchorjs-link {
-  background: url('../images/icon-link-darkgreen.svg') no-repeat;
+  opacity: 1 !important;
 }
