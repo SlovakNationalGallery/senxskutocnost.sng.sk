@@ -1,6 +1,6 @@
 .anchorjs-link {
   display: inline-block;
-  background: url("../images/icon-link-darkgreen.svg") no-repeat;
+  background: url("../images/icon-link-darkgreen-semiopaque.svg") no-repeat;
   margin-left: 0.25em;
   margin-top: 0.2em;
   width: 14px;
@@ -11,6 +11,6 @@
     background: url("../images/icon-link-red.svg") no-repeat; }
 
 *:hover > .anchorjs-link {
-  margin-left: 0.5em !important; }
+  background: url("../images/icon-link-darkgreen.svg") no-repeat; }
 
 /*# sourceMappingURL=anchors.css.map */
