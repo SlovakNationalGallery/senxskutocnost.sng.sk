@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+document.addEventListener("DOMContentLoaded", function(event) {
     // fill timeline with section headers
     var $sectionHeaders = $('.post-content h2');
     $sectionHeaders.each(function (index, element) {
