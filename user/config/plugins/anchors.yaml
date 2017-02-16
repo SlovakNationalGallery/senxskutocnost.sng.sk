@@ -4,4 +4,4 @@ selectors: '.chapter-content h2'  # css elements to activate on.  Uses jQuery st
 placement: right                  # either "left" or "right"
 visible: always                   # Active on "touch" devices, "hover" or "always" visible
 icon: " "                         # default link or a specific character like: #, ¶, ❡, and §.
-class:                            # adds the provided class to the anchor html
+class: "sethash"                  # adds the provided class to the anchor html
