@@ -6,7 +6,6 @@ h4: Webstránka rozširuje výstavu "sen × skutočnosť. Umenie & propaganda 19
 slug: landing
 date: 10/19/2016
 image: sxs-bg.jpg
-emailNotice: 'Tretiu kapitolu zverejníme čoskoro.'
 content:
     items: '@self.children'
 ---
