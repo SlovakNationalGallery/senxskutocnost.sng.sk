@@ -4,8 +4,8 @@ published: true
 date: '18-11-2016 00:00'
 slug: chapter-4
 synopsis: 'Druhá svetová vojna má na slovenskú spoločnosť čoraz väčší dopad, aj preto v nej rastú opozičné nálady. Rozširuje sa partizánske hnutie a znepokojenie ľudáckych predstaviteľov narastá. Koniec vojny môže pre Slovensko znamenať aj koniec jeho samostatnosti.'
-disabled: true
-announce_date: 'Zverejníme onedlho'
+disabled: false
+announce_date: 'Zverejnené 6. februára'
 routes:
     default: /chapters/4-Vytriezvenie-zo-sna
     canonical: /chapters/4-Vytriezvenie-zo-sna
@@ -203,8 +203,8 @@ Presila je však príliš veľká. Keď v októbri začnú nemeckí okupanti gen
 Začiatkom novembra 1944 však padli po akcii nacistického Einsatzkommanda 14 do zajatia povstaleckí velitelia Rudolf Viest a Ján Golian so sprievodom.
 
 <figure class="audio" markdown="1">
-![Branislav Tvarožek (1925) - Golianova a Viestova ochranná divízia, Projekt: Príbehy 20. storočia, Post Bellum SK, Zdroj: http://www.memoryofnations.eu/witness/clip/id/5203/clip/14235](ochranna_divizia.mp3)
-<figcaption><a href="http://www.memoryofnations.eu/witness/clip/id/5203/clip/14235">Branislav Tvarožek (1925) - Golianova a Viestova ochranná divízia, Projekt: Príbehy 20. storočia, Post Bellum SK</a></figcaption>
+![Branislav Tvarožek (1925) - Golianova a Viestova ochranná divízia, Príbehy 20. storočia, Post Bellum SK, Zdroj: http://www.memoryofnations.eu/witness/clip/id/5203/clip/14235](ochranna_divizia.mp3)
+<figcaption><a href="http://www.memoryofnations.eu/witness/clip/id/5203/clip/14235">Branislav Tvarožek (1925) - Golianova a Viestova ochranná divízia, Príbehy 20. storočia, Post Bellum SK</a></figcaption>
 </figure>
 
 [![Neznámy autor - Generál Rudolf Viest a generál Ján Golian pri výsluchu v Bratislave, 1944, 	Vojenský historický ústav (VHÚ) - Vojenský historický archív, Bratislava](SZ-VIII-K-13--2016-08-26--1_1--LP_A4_2.jpg "Neznámy autor - Generál Rudolf Viest a generál Ján Golian pri výsluchu v Bratislave")](http://www.webumenia.sk/dielo/SVK:TMP.320)
@@ -221,7 +221,7 @@ Po vyšetrovaní gestapom sú postavení pred Mimoriadny súd SS a odsúdení na
         },
         {
             'name':'Slobodný vysielač', 
-            'thumbnail': page.media['bystrica-male.jpg'],
+            'thumbnail': page.media['vysielac-nahlad.jpg'],
             'href': '4-Vytriezvenie-zo-sna/slobodny-vysielac'
           }
     ]
@@ -297,11 +297,11 @@ V januári 1945 vypália spolu so slovenskými kolaborantmi obce Ostrý Grúň a
         },
 		{ 
 			'src': 'http://www.webumenia.sk/images/diela/TMP/41/SVK_TMP.314/SVK_TMP.314.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.313'
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.314'
         },
         {
             'src': 'http://www.webumenia.sk/images/diela/TMP/40/SVK_TMP.313/SVK_TMP.313.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.276?collection=88'
+            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.313?collection=91'
         },
         {
             'src': 'http://www.webumenia.sk/images/diela/TMP/39/SVK_TMP.312/SVK_TMP.312.jpeg',
@@ -376,7 +376,7 @@ Sovietska Červená armáda vstupuje na Slovensko z viacerých smerov. Jednotky 
 
 <figure class="audio" markdown="1">
 ![Josef Činčala (1921) - Dukliansky priesmyk,  Príbehy 20. storočia, Post Bellum SK, Zdroj: http://www.memoryofnations.eu/witness/clip/id/288/clip/4234](o_dukle.mp3)
-<figcaption><a href="http://www.memoryofnations.eu/witness/clip/id/288/clip/4234">Josef Činčala (1921) - Dukliansky priesmyk, Projekt: Príbehy 20. storočia, Post Bellum SK</a></figcaption>
+<figcaption><a href="http://www.memoryofnations.eu/witness/clip/id/288/clip/4234">Josef Činčala (1921) - Dukliansky priesmyk, Príbehy 20. storočia, Post Bellum SK</a></figcaption>
 </figure>
 
 [![Július Nemčík - Oheň, 1944, Slovenská národná galéria, SNG](SVK_SNG.O_1786.jpeg "Július Nemčík - Oheň")](http://www.webumenia.sk/dielo/SVK:SNG.O_1786?collection=88)
@@ -384,8 +384,8 @@ Sovietska Červená armáda vstupuje na Slovensko z viacerých smerov. Jednotky 
 Hornatý terén Slovenska, popretínaný riekami, sťažuje oslobodzovanie a nahráva ustupujúcim Nemcom. Boje na slovenskom území trvajú až do jari 1945. Väčšina územia je definitívne oslobodená vytlačením nacistických vojsk z Bratislavy 4. apríla 1945, no v niektorých oblastiach na severozápade sa Nemci držia až do začiatku mája. 
 
 <figure class="audio" markdown="1">
-![Vyslúžilí desiatnik Michal Hlavička (1923) - Oslobodenie Bratislavy,  Príbehy 20. storočia, Post Bellum SK, Zdroj: http://www.memoryofnations.eu/witness/clip/id/2864/clip/9394](oslobodenie.mp3)
-<figcaption><a href="http://www.memoryofnations.eu/witness/clip/id/2864/clip/9394">Vyslúžilí desiatnik Michal Hlavička (1923) - Oslobodenie Bratislavy, Projekt: Príbehy 20. storočia, Post Bellum SK</a></figcaption>
+![Michal Hlavička (1923) - Oslobodenie Bratislavy, Príbehy 20. storočia, Post Bellum SK, Zdroj: http://www.memoryofnations.eu/witness/clip/id/2864/clip/9394](oslobodenie.mp3)
+<figcaption><a href="http://www.memoryofnations.eu/witness/clip/id/2864/clip/9394">Michal Hlavička (1923) - Oslobodenie Bratislavy, Príbehy 20. storočia, Post Bellum SK</a></figcaption>
 </figure>
 
 [![Jozef Nový - Stavba pontónového mostu cez Dunaj vojakmi Červenej armády, 1945, Súkromný majetok](rusaci_bratislava_male.jpg "Jozef Nový - Stavba pontónového mostu cez Dunaj vojakmi Červenej armády")](http://www.webumenia.sk/dielo/SVK:TMP.326)
@@ -406,7 +406,7 @@ Posledným krokom ľudáckej reprezentácie zanikajúcej Slovenskej republiky je
 
 ## Osudy predstaviteľov slovenského štátu 
 
-Po skončení druhej svetovej vojny sa v Európe začína obdobie vyrovnávania s kolaboráciou s nacistickým Nemeckom, ako aj súdneho stíhania jednotlivých vojnových zločinov. Na lavicu obžalovaných sa dostávajú páchatelia tých najohavnejších zločinov, ktorých stíhanie je v kompetencii práve na tento účel vytvoreného retribučného súdnictva. 
+Po skončení druhej svetovej vojny sa v Európe začína obdobie vyrovnávania s kolaboráciou s nacistickým Nemeckom, ako aj súdneho stíhania jednotlivých vojnových zločincov. Na lavicu obžalovaných sa dostávajú páchatelia tých najohavnejších zločinov, ktorých stíhanie je v kompetencii práve na tento účel vytvoreného retribučného súdnictva. 
 
 {% include 'partials/carousel.html.twig' with {
     'images': [
@@ -457,14 +457,16 @@ V rámci retribučného súdnictva je do konca roku 1948 na Slovensku súdených
 </div>
 
 <figure class="audio" markdown="1">
-![Oto Šimko (1924) - Byť slobodný je ohromný pocit, Projekt Príbehy 20. storočia, Post Bellum SK, zdroj: http://www.memoryofnations.eu/witness/clip/id/3642/clip/16053](pocit_volnosti.mp3)
-<figcaption><a href="http://www.memoryofnations.eu/witness/clip/id/3642/clip/16053">Oto Šimko (1924) - Byť slobodný je ohromný pocit, Projekt: Príbehy 20. storočia, Post Bellum SK</a></figcaption>
+![Oto Šimko (1924) - Byť slobodný je ohromný pocit, Príbehy 20. storočia, Post Bellum SK, zdroj: http://www.memoryofnations.eu/witness/clip/id/3642/clip/16053](pocit_volnosti.mp3)
+<figcaption><a href="http://www.memoryofnations.eu/witness/clip/id/3642/clip/16053">Oto Šimko (1924) - Byť slobodný je ohromný pocit, Príbehy 20. storočia, Post Bellum SK</a></figcaption>
 </figure>
 
 [![Karol Kállay - Nový život po vojne, 1945, Súkromný majetok](novy_zivot_515_male.jpg "Karol Kállay - Nový život po vojne")](http://www.webumenia.sk/dielo/SVK:TMP.326)
 
-Slovenská republika je dnes vďaka Slovenskému národnému povstaniu vnímaná ako súčasť víťaznej strany vojny. Slovenský štát ostáva smutným mementom hrozby nacionalizmu, fašizmu, systematického rozkladu demokracie a potláčania ľudských práv. Napriek tomu sú doteraz zločiny ľudáckeho režimu mnohými relativizované, vojnové udalosti zabudnuté, ignorované či popierané. Nedovoľme, aby sa história v tomto prípade opakovala.
+Vďaka Slovenskému národnému povstaniu je Slovensko v povojnovej Európe vnímané ako plnohodnotná súčasť víťaznej protihitlerovskej koalície. Slovenský štát ostáva smutným mementom hrozby nacionalizmu, fašizmu, systematického rozkladu demokracie a potláčania ľudských práv. Napriek tomu sú doteraz zločiny ľudáckeho režimu mnohými relativizované, vojnové udalosti zabudnuté, ignorované či popierané. 
 
-![Antifašistická mobilizácia 2017](antifasisti.jpg "Antifašistická mobilizácia 2017")
+Nedovoľme, aby sa história násilia a fašistickej totality opakovala.
+
+[![Antifašistická mobilizácia 2017](antifasisti.jpg "Antifašistická mobilizácia 2017")](https://www.facebook.com/events/1192224494165546/)
 
 **Diela a fotografie z tejto kapitoly nájdete aj v kolekcii na Webe umenia: [Vytriezvenie zo sna](http://www.webumenia.sk/kolekcia/88 "Kolekcia Vytriezvenie zo sna")**
