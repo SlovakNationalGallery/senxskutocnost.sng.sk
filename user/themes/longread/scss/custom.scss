@@ -819,8 +819,8 @@ form#email-capture {
     .chapter-title-wrapper {
       position: absolute;
       width: 100%;
-      height: 70vh;
-      top: -70vh;
+      height: 60vh;
+      top: -60vh;
       .chapter-title {
         position: absolute;
         bottom: 5vh;
@@ -874,6 +874,21 @@ form#email-capture {
     figure.audio, figure.video, p > a > figure.image {
       background-color: $light-grey;
       padding: 10px;
+    }
+    p > a > figure.image .uk-overlay-panel {
+      margin: 10px;
+      background-color: rgba( $dark-green, .6 );
+      background-size: 75%;
+      background-repeat: no-repeat;
+      background-position: center center;
+
+    }
+    p > a > figure.image .uk-overlay-panel.icon-zoom{
+      background-image: url(../images/icon-zoom-white.svg);
+    }
+    p > a > figure.image .uk-overlay-panel.icon-external{
+      background-image: url(../images/icon-link-external-white.svg);
+      background-size: 65%;
     }
     figcaption {
       margin-top: 10px;
@@ -1112,7 +1127,7 @@ $button-height: 60px;
     }
     span.subobject-caption {
       float: right;
-      width: 83%;
+      width: 80%;
       text-decoration: none;
       font-size: 20px;
       font-weight: 900;
