@@ -2,7 +2,15 @@ sk:
   FIRST_CHAPTER_CTA:
     CHAPTER_NUMBER: 1. kapitola
     BUTTON_TEXT: Prejsť na kapitolu
+  SHARING:
+    SHARE_EMAIL: Poslať mailom
+    SHARE_FACEBOOK: Zdieľať
+    SHARE_TWITTER: Tweet
 en:
   FIRST_CHAPTER_CTA:
     CHAPTER_NUMBER: first chapter
     BUTTON_TEXT: Continue to chapter
+  SHARING:
+    SHARE_EMAIL: Send By Email
+    SHARE_FACEBOOK: Share
+    SHARE_TWITTER: Tweet
