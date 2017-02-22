@@ -10,6 +10,8 @@ sk:
     SHARE_TWITTER: Tweet
   CHAPTER_THUMB:
     BUTTON_TEXT: Prejsť na kapitolu
+  FOOTER:
+    EXHIBITION_INFO: Chcem vedieť viac o výstave v SNG
 en:
   VOCABULARY:
     CHAPTER: chapter
@@ -22,3 +24,5 @@ en:
     SHARE_TWITTER: Tweet
   CHAPTER_THUMB:
     BUTTON_TEXT: Continue to chapter
+  FOOTER:
+    EXHIBITION_INFO: I want to know more about the exhibition at SNG
