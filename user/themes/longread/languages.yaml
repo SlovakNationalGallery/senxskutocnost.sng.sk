@@ -8,6 +8,8 @@ sk:
     SHARE_EMAIL: Poslať mailom
     SHARE_FACEBOOK: Zdieľať
     SHARE_TWITTER: Tweet
+  CHAPTER_THUMB:
+    BUTTON_TEXT: Prejsť na kapitolu
 en:
   VOCABULARY:
     CHAPTER: chapter
@@ -18,3 +20,5 @@ en:
     SHARE_EMAIL: Send By Email
     SHARE_FACEBOOK: Share
     SHARE_TWITTER: Tweet
+  CHAPTER_THUMB:
+    BUTTON_TEXT: Continue to chapter
