@@ -1,4 +1,6 @@
 sk:
+  VOCABULARY:
+    CHAPTER: kapitola
   FIRST_CHAPTER_CTA:
     CHAPTER_NUMBER: 1. kapitola
     BUTTON_TEXT: Prejsť na kapitolu
@@ -7,6 +9,8 @@ sk:
     SHARE_FACEBOOK: Zdieľať
     SHARE_TWITTER: Tweet
 en:
+  VOCABULARY:
+    CHAPTER: chapter
   FIRST_CHAPTER_CTA:
     CHAPTER_NUMBER: first chapter
     BUTTON_TEXT: Continue to chapter
