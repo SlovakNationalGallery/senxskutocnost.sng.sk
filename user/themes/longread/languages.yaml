@@ -1,15 +1,20 @@
 sk:
   VOCABULARY:
     CHAPTER: kapitola
-  FIRST_CHAPTER_CTA:
-    CHAPTER_NUMBER: 1. kapitola
-    BUTTON_TEXT: Prejsť na kapitolu
+  LANDING:
+    FIRST_CHAPTER_CTA:
+      CHAPTER_NUMBER: 1. kapitola
+      BUTTON_TEXT: Prejsť na kapitolu
+    CHAPTER_THUMB:
+      BUTTON_TEXT: Prejsť na kapitolu
+  CHAPTER:
+    CHAPTER_THUMB:
+      HEADLINE_TEXT: Pokračovať na ďalšiu kapitolu
+      BUTTON_TEXT: Pokračovať na %d. kapitolu
   SHARING:
     SHARE_EMAIL: Poslať mailom
     SHARE_FACEBOOK: Zdieľať
     SHARE_TWITTER: Tweet
-  CHAPTER_THUMB:
-    BUTTON_TEXT: Prejsť na kapitolu
   FOOTER:
     EXHIBITION_INFO: Chcem vedieť viac o výstave v SNG
   EMAIL_CAPTURE:
@@ -25,15 +30,20 @@ sk:
 en:
   VOCABULARY:
     CHAPTER: chapter
-  FIRST_CHAPTER_CTA:
-    CHAPTER_NUMBER: first chapter
-    BUTTON_TEXT: Continue to chapter
+  LANDING:
+    FIRST_CHAPTER_CTA:
+      CHAPTER_NUMBER: first chapter
+      BUTTON_TEXT: Continue to chapter
+    CHAPTER_THUMB:
+      BUTTON_TEXT: Continue to chapter
+  CHAPTER:
+    CHAPTER_THUMB:
+      HEADLINE_TEXT: Continue to the next chapter
+      BUTTON_TEXT: Continue to chapter %d
   SHARING:
     SHARE_EMAIL: Send by Email
     SHARE_FACEBOOK: Share
     SHARE_TWITTER: Tweet
-  CHAPTER_THUMB:
-    BUTTON_TEXT: Continue to chapter
   FOOTER:
     EXHIBITION_INFO: I want to know more about the exhibition at SNG
   EMAIL_CAPTURE:

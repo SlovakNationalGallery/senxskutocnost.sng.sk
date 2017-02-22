@@ -47,10 +47,10 @@
                 'chapterPage': page.adjacentSibling(-1),
                 'textStylingClasses': 'c-black',
                 'showHeadline': true,
-                'headlineText': 'Pokračovať na ďalšiu kapitolu',
+                'headlineText': "CHAPTER.CHAPTER_THUMB.HEADLINE_TEXT"|t,
                 'showAnnounceDate': false,
                 'buttonStylingClasses': 'button-ghost-black button-large',
-                'buttonText': "Pokračovať na #{page.adjacentSibling(-1).header.chapterNumber}. kapitolu"
+                'buttonText': "CHAPTER.CHAPTER_THUMB.BUTTON_TEXT"|t(page.adjacentSibling(-1).header.chapterNumber)
               }
               %}
             {% else %}
