@@ -1,0 +1,8 @@
+sk:
+  FIRST_CHAPTER_CTA:
+    CHAPTER_NUMBER: 1. kapitola
+    BUTTON_TEXT: Prejsť na kapitolu
+en:
+  FIRST_CHAPTER_CTA:
+    CHAPTER_NUMBER: first chapter
+    BUTTON_TEXT: Continue to chapter
