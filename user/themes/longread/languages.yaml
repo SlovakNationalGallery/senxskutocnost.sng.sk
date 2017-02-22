@@ -12,13 +12,16 @@ sk:
     BUTTON_TEXT: Prejsť na kapitolu
   FOOTER:
     EXHIBITION_INFO: Chcem vedieť viac o výstave v SNG
-  HEADER:
-    ABOUT: O Projekte
-    HOME: Domov
   EMAIL_CAPTURE:
     DEFAULT_EMAIL_CTA: Chcem vedieť, keď pribudne nový obsah.
     DEFAULT_EMAIL_PLACEHOLDER: e-mailová adresa
     DEFAULT_EMAIL_BUTTON: informujte ma
+  NAVIGATION:
+    ABOUT: O Projekte
+    HOME: Domov
+    TIMELINE: Timeline
+    MENU: Menu
+    CONTINUE_TO: Pokračovať na
 en:
   VOCABULARY:
     CHAPTER: chapter
@@ -33,10 +36,13 @@ en:
     BUTTON_TEXT: Continue to chapter
   FOOTER:
     EXHIBITION_INFO: I want to know more about the exhibition at SNG
-  HEADER:
-    ABOUT: About
-    HOME: Home
   EMAIL_CAPTURE:
     DEFAULT_EMAIL_CTA: I'd like to be informed about updates
     DEFAULT_EMAIL_PLACEHOLDER: email address
     DEFAULT_EMAIL_BUTTON: keep me informed
+  NAVIGATION:
+    ABOUT: About
+    HOME: Home
+    TIMELINE: Timeline
+    MENU: Menu
+    CONTINUE_TO: Continue to
