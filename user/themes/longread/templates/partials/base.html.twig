@@ -78,9 +78,9 @@
 {% set home = pages.find(config.system.home.alias) %}
 
   {% block header %}
-    <a href="/" class="nav-home logo-sng logo-sxs-black" title="Domov"><span class="logo"></span></a>
+    <a href="/" class="nav-home logo-sng logo-sxs-black" title="{{"HEADER.HOME"|t}}"><span class="logo"></span></a>
     {% if page.slug != 'about' %}
-      <a href="/about" class="nav-about c-black f-uni-grotesk-bold">O Projekte</a>
+      <a href="/about" class="nav-about c-black f-uni-grotesk-bold">{{"HEADER.ABOUT"|t}}</a>
     {% endif %}
   {% endblock %}
 
