@@ -15,6 +15,10 @@ sk:
   HEADER:
     ABOUT: O Projekte
     HOME: Domov
+  EMAIL_CAPTURE:
+    DEFAULT_EMAIL_CTA: Chcem vedieť, keď pribudne nový obsah.
+    DEFAULT_EMAIL_PLACEHOLDER: e-mailová adresa
+    DEFAULT_EMAIL_BUTTON: informujte ma
 en:
   VOCABULARY:
     CHAPTER: chapter
@@ -32,3 +36,7 @@ en:
   HEADER:
     ABOUT: About
     HOME: Home
+  EMAIL_CAPTURE:
+    DEFAULT_EMAIL_CTA: I'd like to be informed about updates
+    DEFAULT_EMAIL_PLACEHOLDER: email address
+    DEFAULT_EMAIL_BUTTON: keep me informed
