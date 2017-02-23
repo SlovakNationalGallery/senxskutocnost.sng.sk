@@ -1,3 +1,4 @@
+{% import "macros.twig" as macros %}
 <div class="chapter-thumb {% if chapterPage.header.disabled%}disabled{% endif %}">
   {% if showHeadline %}
     <h2 class="f-uni-grotesk-bold {{textStylingClasses}}">{{headlineText}}</h2>
@@ -5,13 +6,21 @@
   <figure class="effect-honey {% if chapterPage.header.disabled%}disabled{% endif %}">
 
   {% if not chapterPage.header.disabled%}
-    <img src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].url }}" alt="sen x skutočnosť {{chapterPage.header.chapterNumber}}. kapitola: {{chapterPage.title}}"/>
+    <img 
+      src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].url }}" 
+      alt="sen x skutočnosť {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}: {{chapterPage.title}}"
+    />
   {% else %}
-    <img src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}" alt="sen x skutočnosť {{chapterPage.header.chapterNumber}}. kapitola: {{chapterPage.title}}"/>
+    <img 
+      src="{{ chapterPage.media['thumb-chapter-gradient.jpg'].brightness(-30).url }}" 
+      alt="sen x skutočnosť {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}: {{chapterPage.title}}"/>
   {% endif %}
     <figcaption>
       <h2 class="c-white">
-        <span class="f-uni-grotesk-regular fs-70 c-white">{{chapterPage.header.chapterNumber}}. kapitola</span><br>
+        <span class="f-uni-grotesk-regular fs-70 c-white">
+          {{ macros.translateOrdinalLanguageString(chapterPage.header.chapterNumber, "VOCABULARY.CHAPTER")}}
+        </span>
+        <br>
         {{chapterPage.header.titleStyled|regex_replace(['/<br>/'], [' '])}}
       </h2>
       {% if not chapterPage.header.disabled %}
