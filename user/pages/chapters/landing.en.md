@@ -8,4 +8,5 @@ date: 10/19/2016
 image: sxs-bg.jpg
 content:
     items: '@self.children'
+published: false
 ---

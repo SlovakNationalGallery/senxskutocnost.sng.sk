@@ -2,6 +2,7 @@
 title: 'About the project'
 superTitle: 'About the project'
 subTitle: 'Events of the slovak state in four chapters'
+published: false
 ---
 
 <span class="drop-cap">W</span>ebstránka tzv. "longform" textom rozširuje výstavu **"sen × skutočnosť. Umenie & propaganda 1939 – 1945 "** o historické súvislosti. S využitím obrazového materiálu z výstavy podáva informácie o kľúčových udalostiach slovenského štátu - vysvetľuje, za akých okolností došlo k osamostatneniu Slovenska, ako sa situácia v ňom vyvíjala počas druhej svetovej vojny a prečo bol po Hitlerovom páde nevyhnutný jeho zánik. Obsah je členený do 4 kapitol, ktoré budú postupne zverejňované.
