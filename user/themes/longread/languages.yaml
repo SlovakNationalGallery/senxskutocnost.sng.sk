@@ -27,6 +27,8 @@ sk:
     TIMELINE: Timeline
     MENU: Menu
     CONTINUE_TO: Pokračovať na
+  ERROR:
+    MESSAGE: Nenašli ste, čo ste hľadali? Skúste úvodnú stránku.
 en:
   VOCABULARY:
     CHAPTER: chapter
@@ -56,3 +58,5 @@ en:
     TIMELINE: Timeline
     MENU: Menu
     CONTINUE_TO: Continue to
+  ERROR:
+    MESSAGE: Can't find what you're looking for? Maybe you'd like to start at the first chapter...
