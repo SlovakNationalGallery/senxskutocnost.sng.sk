@@ -13,8 +13,7 @@
     <div class="page-content">
         <div class="wrapper c-white centered f-uni-grotesk-regular padding-left-s padding-right-s">
             <h1 class="f-moyenage">{{ page.header.http_response_code }}</h1>
-            {# {{ page.content }} #}
-            <p>Nenašli ste, čo ste hľadali? Skúste úvodnú stránku.</p>
+            <p>{{"ERROR.MESSAGE"|t}}</p>
             {% include 'partials/first-chapter-cta.html.twig' %}
         </div>
     </div>
