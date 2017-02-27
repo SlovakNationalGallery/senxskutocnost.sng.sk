@@ -151,7 +151,7 @@ hr.white {
   margin-top: -81.6px;
   height: 81.6px;
   visibility: hidden; }
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: 880px) {
     .offset-link:before {
       margin-top: -96px;
       height: 96px; } }
@@ -170,6 +170,9 @@ hr.white {
         font-size: 40px !important;
         line-height: 43px !important; } }
 
+.header {
+  height: 28px; }
+
 /* prevent default UIkit styling */
 .uk-navbar-brand:before {
   content: none; }
@@ -181,7 +184,7 @@ nav.uk-navbar {
   height: 68px;
   top: 0;
   z-index: 9; }
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: 880px) {
     nav.uk-navbar {
       height: 80px; } }
   @media only screen and (max-width: 750px) {
@@ -194,7 +197,7 @@ nav.uk-navbar {
     font-size: 30px;
     padding: 0;
     margin-left: 15px; }
-    @media only screen and (max-width: 860px) {
+    @media only screen and (max-width: 880px) {
       nav.uk-navbar .uk-navbar-brand {
         line-height: 75px; } }
     @media only screen and (max-width: 750px) {
@@ -210,7 +213,7 @@ nav.uk-navbar {
       @media only screen and (max-width: 1175px) {
         nav.uk-navbar .uk-navbar-brand img.navbar-icon {
           height: 100%; } }
-      @media only screen and (max-width: 860px) {
+      @media only screen and (max-width: 880px) {
         nav.uk-navbar .uk-navbar-brand img.navbar-icon {
           height: 120%; } }
       @media only screen and (max-width: 750px) {
@@ -225,7 +228,7 @@ nav.uk-navbar {
   nav.uk-navbar ul.uk-navbar-nav {
     max-width: none;
     width: 600px; }
-    @media only screen and (max-width: 860px) {
+    @media only screen and (max-width: 880px) {
       nav.uk-navbar ul.uk-navbar-nav {
         width: 460px; } }
     @media only screen and (max-width: 750px) {
@@ -248,7 +251,7 @@ nav.uk-navbar {
           color: #E00000;
           -webkit-transition: color 0.35s;
           transition: color 0.35s; }
-      @media only screen and (max-width: 860px) {
+      @media only screen and (max-width: 880px) {
         nav.uk-navbar ul.uk-navbar-nav .chapter-nav {
           width: 95px;
           line-height: 18px; } }
@@ -266,9 +269,6 @@ nav.uk-navbar {
         cursor: default; }
   nav.uk-navbar .nav-about:hover {
     color: #6D6D6D; }
-  @media only screen and (max-width: 860px) {
-    nav.uk-navbar .nav-about {
-      line-height: 45px; } }
   @media only screen and (max-width: 750px) {
     nav.uk-navbar .nav-about {
       display: none; } }
@@ -286,7 +286,7 @@ nav.uk-navbar {
     background-size: 35%; }
     nav.uk-navbar .timeline-toggle:hover {
       background-image: url(../images/timeline-clock-darkgrey.svg); }
-    @media only screen and (max-width: 860px) {
+    @media only screen and (max-width: 880px) {
       nav.uk-navbar .timeline-toggle {
         width: 80px; } }
     @media only screen and (max-width: 750px) {
@@ -299,6 +299,7 @@ nav.uk-navbar {
     position: relative;
     display: none;
     right: 0px;
+    margin-left: 1rem;
     background-image: url(../images/hamburger-black.svg);
     background-repeat: no-repeat;
     height: 100%;
@@ -320,7 +321,7 @@ nav.uk-navbar {
 
 #side-timeline .uk-offcanvas-bar {
   top: 68px; }
-  @media only screen and (max-width: 860px) {
+  @media only screen and (max-width: 880px) {
     #side-timeline .uk-offcanvas-bar {
       top: 80px; } }
   @media only screen and (max-width: 750px) {
@@ -335,7 +336,7 @@ div#side-nav-bar {
     text-decoration: none; }
   div#side-nav-bar .uk-offcanvas-bar {
     top: 68px; }
-    @media only screen and (max-width: 860px) {
+    @media only screen and (max-width: 880px) {
       div#side-nav-bar .uk-offcanvas-bar {
         top: 80px; } }
     @media only screen and (max-width: 750px) {
@@ -401,12 +402,17 @@ div#side-nav-bar {
 .nav-about {
   position: relative;
   float: right;
-  top: 18px;
-  right: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 2rem;
+  margin-right: 1rem;
   z-index: 99 !important;
-  line-height: 32px;
   text-decoration: none;
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 32px; }
+  @media only screen and (max-width: 920px) {
+    .nav-about {
+      margin-left: 1rem; } }
   .nav-about.c-white:hover {
     color: #EFEFEF; }
 

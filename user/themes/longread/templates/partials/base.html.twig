@@ -68,6 +68,7 @@
   {% do assets.addCss('theme://css/reading-progress.css') %}
   {% do assets.addCss('theme://css/anchors.css') %}
   {% do assets.addCss('theme://css/tooltip.css') %}
+  {% do assets.addCss('theme://css/langswitcher.css') %}
   {# {% do assets.addCss('theme://css/print.css') %} #}
   {{ assets.css() }}
 </head>
@@ -78,10 +79,12 @@
 {% set home = pages.find(config.system.home.alias) %}
 
   {% block header %}
-    <a href="{{base_url_relative}}" class="nav-home logo-sng logo-sxs-black" title="{{"NAVIGATION.HOME"|t}}"><span class="logo"></span></a>
-    {% if page.slug != 'about' %}
-      <a href="{{base_url_relative}}/about" class="nav-about c-black f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
-    {% endif %}
+    <div class="header">
+      <a href="{{base_url_relative}}" class="nav-home logo-sng logo-sxs-black" title="{{"NAVIGATION.HOME"|t}}"><span class="logo"></span></a>
+      {% if page.slug != 'about' %}
+        <a href="{{base_url_relative}}/about" class="nav-about c-black f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
+      {% endif %}
+    </div>
   {% endblock %}
 
   <!-- content start -->

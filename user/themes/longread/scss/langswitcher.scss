@@ -1,0 +1,66 @@
+@import "vendor/bourbon/bourbon";
+@import "mixins";
+@import "colors";
+
+.langswitcher {
+  padding-left: 0;
+  margin: 0;
+  margin-left: 0 !important;
+  li {
+    display: block;
+    margin: 0;
+    line-height: initial;
+    a.active {
+      text-decoration: none;
+    }
+  }
+}
+
+.uk-navbar {
+  .langswitcher {
+    float: right;
+    @include respond-to(750) {
+      display: none;
+    }
+    li {
+      span.large {
+        display: inline;
+        @include respond-to(1000) {
+          display: none;
+        }
+      }
+      span.not-large {
+        display: none;
+        @include respond-to(1000) {
+          display: inline;
+        }
+      }
+    }
+  }
+}
+
+#side-nav-bar {
+  .langswitcher-wrapper {
+    height: 50px;
+    text-align: left;
+    border-bottom: solid 1px $dark-grey;
+    .langswitcher {
+      padding: 20px;
+      li {
+        display: inline-block;
+        a {
+          padding: 5px;
+        }
+        a.active {
+          border-top: 2px solid $red;
+        }
+        span.large {
+          display: inline;
+        }
+        span.not-large {
+          display: none;
+        }
+      }
+    }
+  }
+}
