@@ -10,8 +10,15 @@
     display: block;
     margin: 0;
     line-height: initial;
+    a {
+      transition: color 0.35s
+    }
     a.active {
       text-decoration: none;
+      pointer-events: none;
+    }
+    a:not(.active):hover {
+      color: $red;
     }
   }
 }
@@ -19,40 +26,24 @@
 .uk-navbar {
   .langswitcher {
     float: right;
+    margin-right: 1em;
     @include respond-to(750) {
       display: none;
-    }
-    li {
-      span.large {
-        display: inline;
-        @include respond-to(1000) {
-          display: none;
-        }
-      }
-      span.not-large {
-        display: none;
-        @include respond-to(1000) {
-          display: inline;
-        }
-      }
     }
   }
 }
 
 #side-nav-bar {
   .langswitcher-wrapper {
-    height: 50px;
-    text-align: left;
+    height: 65px;
+    text-align: center;
     border-bottom: solid 1px $dark-grey;
     .langswitcher {
       padding: 20px;
       li {
         display: inline-block;
         a {
-          padding: 5px;
-        }
-        a.active {
-          border-top: 2px solid $red;
+          padding: 20px;
         }
         span.large {
           display: inline;

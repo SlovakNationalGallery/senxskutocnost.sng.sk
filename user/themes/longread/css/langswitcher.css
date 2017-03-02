@@ -6,37 +6,31 @@
     display: block;
     margin: 0;
     line-height: initial; }
+    .langswitcher li a {
+      transition: color 0.35s; }
     .langswitcher li a.active {
-      text-decoration: none; }
+      text-decoration: none;
+      pointer-events: none; }
+    .langswitcher li a:not(.active):hover {
+      color: #E00000; }
 
 .uk-navbar .langswitcher {
-  float: right; }
+  float: right;
+  margin-right: 1em; }
   @media only screen and (max-width: 750px) {
     .uk-navbar .langswitcher {
       display: none; } }
-  .uk-navbar .langswitcher li span.large {
-    display: inline; }
-    @media only screen and (max-width: 1000px) {
-      .uk-navbar .langswitcher li span.large {
-        display: none; } }
-  .uk-navbar .langswitcher li span.not-large {
-    display: none; }
-    @media only screen and (max-width: 1000px) {
-      .uk-navbar .langswitcher li span.not-large {
-        display: inline; } }
 
 #side-nav-bar .langswitcher-wrapper {
-  height: 50px;
-  text-align: left;
+  height: 65px;
+  text-align: center;
   border-bottom: solid 1px #6D6D6D; }
   #side-nav-bar .langswitcher-wrapper .langswitcher {
     padding: 20px; }
     #side-nav-bar .langswitcher-wrapper .langswitcher li {
       display: inline-block; }
       #side-nav-bar .langswitcher-wrapper .langswitcher li a {
-        padding: 5px; }
-      #side-nav-bar .langswitcher-wrapper .langswitcher li a.active {
-        border-top: 2px solid #E00000; }
+        padding: 20px; }
       #side-nav-bar .langswitcher-wrapper .langswitcher li span.large {
         display: inline; }
       #side-nav-bar .langswitcher-wrapper .langswitcher li span.not-large {
