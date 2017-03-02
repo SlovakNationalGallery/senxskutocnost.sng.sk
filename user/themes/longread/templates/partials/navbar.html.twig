@@ -9,38 +9,16 @@
         </a>
     </div>
     <ul class="uk-navbar-nav uk-navbar-center">
+        {% for p in page.parent.children %}
         <li>
-            <div class="chapter-nav {% if page.header.chapterNumber == 1 %}active{% endif %} {% if page.find('/chapters/1').header.disabled == true %}disabled{% endif %}">
-                <a href="{{page.find('/chapters/1').url}}">
-                    <span class="chapter-number">{{page.find('/chapters/1').header.chapterNumber}}.</span><br>
-                    <span class="chapter-title">{{page.find('/chapters/1').title}}</span>
+            <div class="chapter-nav {% if p.header.chapterNumber == page.header.chapterNumber %}active{% endif %} {% if p.header.disabled == true %}disabled{% endif %}">
+                <a href="{{p.url}}">
+                    <span class="chapter-number">{{p.header.chapterNumber}}.</span><br>
+                    <span class="chapter-title">{{p.title}}</span>
                 </a>
             </div>
         </li>
-        <li>
-            <div class="chapter-nav {% if page.header.chapterNumber == 2 %}active{% endif %} {% if page.find('/chapters/2').header.disabled == true %}disabled{% endif %}">
-                <a href="{{page.find('/chapters/2').url}}">
-                    <span class="chapter-number">{{page.find('/chapters/2').header.chapterNumber}}.</span><br>
-                    <span class="chapter-title">{{page.find('/chapters/2').title}}</span>
-                </a>
-            </div>
-        </li>
-        <li>
-            <div class="chapter-nav {% if page.header.chapterNumber == 3 %}active{% endif %} {% if page.find('/chapters/3').header.disabled == true %}disabled{% endif %}">
-                <a href="{{page.find('/chapters/3').url}}">
-                    <span class="chapter-number">{{page.find('/chapters/3').header.chapterNumber}}.</span><br>
-                    <span class="chapter-title">{{page.find('/chapters/3').title}}</span>
-                </a>
-            </div>
-        </li>
-        <li>
-            <div class="chapter-nav {% if page.header.chapterNumber == 4 %}active{% endif %} {% if page.find('/chapters/4').header.disabled == true %}disabled{% endif %}">
-                <a href="{{page.find('/chapters/4').url}}">
-                    <span class="chapter-number">{{page.find('/chapters/4').header.chapterNumber}}.</span><br>
-                    <span class="chapter-title">{{page.find('/chapters/4').title}}</span>
-                </a>
-            </div>
-        </li>
+        {% endfor %}
     </ul>
     <a href="#side-nav-bar" title="{{"NAVIGATION.MENU"|t}}" class="uk-navbar-flip nav-toggle offcanvas-toggle" data-uk-offcanvas></a>
     <a href="{{base_url_relative}}/about" class="uk-navbar-flip nav-about c-black f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
