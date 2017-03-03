@@ -84,7 +84,7 @@
       {% if page.slug != 'about' %}
         <a href="{{base_url_relative}}/about" class="nav-about c-black f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
       {% endif %}
-      {% if page.slug != 'materialy' %} {# don't include langswitcher on nontranslated page #}
+      {% if count(page.untranslatedLanguages) == 0 %} {# don't include langswitcher on nontranslated page #}
         {% include 'partials/langswitcher.html.twig' %}
       {% endif %}
     </div>
