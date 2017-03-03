@@ -14,6 +14,13 @@
     .langswitcher li a:not(.active):hover {
       color: #E00000; }
 
+.header .langswitcher {
+  float: right;
+  margin-right: 1rem; }
+
+.header.landing .langswitcher {
+  color: white; }
+
 .uk-navbar .langswitcher {
   float: right;
   margin-right: 1em; }
