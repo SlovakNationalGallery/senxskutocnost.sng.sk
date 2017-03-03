@@ -10,7 +10,7 @@ $font-bold:     "Uni Grotesk Bold", Open Sans, MundoSans, "Helvetica Neue", Aria
 $font-moyenage: "Moyenage14", "Linux Libertine";
 
 $navbar-height: 68px;
-$navbar-height-880: 80px;
+$navbar-height-905: 80px;
 $navbar-height-750: 60px;
 
 html,body
@@ -186,9 +186,9 @@ hr.white{
   content: " "; 
   margin-top: -1.2 * $navbar-height; 
   height: 1.2 * $navbar-height;
-  @include respond-to(880) {
-    margin-top: -1.2 * $navbar-height-880; 
-    height: 1.2 * $navbar-height-880;
+  @include respond-to(905) {
+    margin-top: -1.2 * $navbar-height-905; 
+    height: 1.2 * $navbar-height-905;
   }
   @include respond-to(750) {
     margin-top: -1.2 * $navbar-height-750; 
@@ -226,8 +226,8 @@ nav.uk-navbar {
   // margin-top: -20px;
   top: 0;
   z-index: 9;
-  @include respond-to(880) {
-    height: $navbar-height-880;
+  @include respond-to(905) {
+    height: $navbar-height-905;
   }
   @include respond-to(750) {
     height: $navbar-height-750;
@@ -240,7 +240,7 @@ nav.uk-navbar {
     font-size: 30px;
     padding: 0;
     margin-left: 15px;
-    @include respond-to(880) {
+    @include respond-to(905) {
       line-height: 75px;
     }
     @include respond-to(750) {
@@ -256,7 +256,7 @@ nav.uk-navbar {
       @include respond-to(1175) {
         height: 100%;
       }
-      @include respond-to(880) {
+      @include respond-to(905) {
         height: 120%;
       }
       @include respond-to(750) {
@@ -275,7 +275,7 @@ nav.uk-navbar {
   ul.uk-navbar-nav {
     max-width: none;
     width: 600px;
-    @include respond-to(880) {
+    @include respond-to(905) {
       width: 460px;
     }
     @include respond-to(750) {
@@ -301,9 +301,10 @@ nav.uk-navbar {
           transition: color 0.35s;
         }
       }
-      @include respond-to(880) {
+      @include respond-to(905) {
         width: 95px;
         line-height: 18px;
+        margin: auto 8px;
       }
     }
     .chapter-nav.disabled {
@@ -346,8 +347,8 @@ nav.uk-navbar {
     background-position-x: 50%;
     background-position-y: 50%;
     background-size: 35%;
-    @include respond-to(880) {
-      width: $navbar-height-880;
+    @include respond-to(905) {
+      width: $navbar-height-905;
     }
     @include respond-to(750) {
       width: $navbar-height-750;
@@ -391,8 +392,8 @@ nav.uk-navbar {
 #side-timeline {
   .uk-offcanvas-bar {
     top: $navbar-height;
-    @include respond-to(880) {
-      top: $navbar-height-880;
+    @include respond-to(905) {
+      top: $navbar-height-905;
     }
     @include respond-to(750) {
       top: $navbar-height-750;
@@ -412,8 +413,8 @@ div#side-nav-bar {
   }
   .uk-offcanvas-bar {
     top: $navbar-height;
-    @include respond-to(880) {
-      top: $navbar-height-880;
+    @include respond-to(905) {
+      top: $navbar-height-905;
     }
     @include respond-to(750) {
       top: $navbar-height-750;
@@ -506,7 +507,7 @@ div#side-nav-bar {
   float: right;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 2rem;
+  margin-left: 1rem;
   @include respond-to(920) {
     margin-left: 1rem;
   }
