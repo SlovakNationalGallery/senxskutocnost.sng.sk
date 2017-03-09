@@ -81,11 +81,11 @@
   {% block header %}
     <div class="header">
       <a href="{{ base_url }}" class="nav-home logo-sng logo-sxs-black" title="{{"NAVIGATION.HOME"|t}}"><span class="logo"></span></a>
-      {% if page.slug != 'about' %}
-        <a href="{{base_url_relative}}/about" class="nav-about c-black f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
-      {% endif %}
       {% if count(page.untranslatedLanguages) == 0 %} {# don't include langswitcher on nontranslated page #}
         {% include 'partials/langswitcher.html.twig' %}
+      {% endif %}
+      {% if page.slug != 'about' %}
+        <a href="{{base_url_relative}}/about" class="nav-about c-black f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
       {% endif %}
     </div>
   {% endblock %}
