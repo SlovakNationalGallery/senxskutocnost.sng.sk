@@ -12,6 +12,7 @@ sk:
       HEADLINE_TEXT: Pokračovať na ďalšiu kapitolu
       BUTTON_TEXT: Pokračovať na %d. kapitolu
   SHARING:
+    SHARE_PRINT: Vytlačiť kapitolu
     SHARE_EMAIL: Poslať mailom
     SHARE_FACEBOOK: Zdieľať
     SHARE_TWITTER: Tweet
@@ -43,6 +44,7 @@ en:
       HEADLINE_TEXT: Continue to the next chapter
       BUTTON_TEXT: Continue to chapter %d
   SHARING:
+    SHARE_PRINT: Print this chapter
     SHARE_EMAIL: Send by Email
     SHARE_FACEBOOK: Share
     SHARE_TWITTER: Tweet

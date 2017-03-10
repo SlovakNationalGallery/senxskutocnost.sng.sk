@@ -25,8 +25,8 @@
         });
 
         // Open links in external window if they target different domain
-        $(document.links).filter(function() {
-            return this.hostname != window.location.hostname;
+        $(document.links).filter(function() {            
+            return this.hostname != window.location.hostname & this.hostname != ""
         }).attr('target', '_blank');
 
         

@@ -55,6 +55,7 @@ a[disabled] { // IE compatible (http://stackoverflow.com/questions/10276133/how-
 
 button, .uk-button {
   border-radius: 3px;
+  text-shadow: none;
 }
 
 .f-moyenage { 
@@ -680,10 +681,10 @@ form#email-capture {
 }
 .button-white {
   background-color: white;
-  color: black;
+  color: #444 !important;
   &:hover {
     background-color: #EEE;
-    color: #111;
+    color: black !important;
   }
 }
 .button-shadow {
@@ -693,19 +694,32 @@ form#email-capture {
   background: none;
   border: white solid 1px;
   border-radius: 3px;
-  color: white;
+  color: white !important;
+  text-decoration: none !important;
+  text-shadow: none;
+}
+.button-ghost:hover {
+  background: white;  
+  color: #444 !important;
 }
 .button-ghost.button-ghost-black {
   border-color: black;
-  color: black;
+  color: black !important;
 }
 .button-ghost.button-ghost-black:hover, 
   .button-ghost.button-ghost-black:focus {
-    background-color: black;
-    color: white;
+    background-color: black !important;
+    color: white !important;
     * {
       color: white;
     }
+}
+
+// hide print button on mobile devices
+@media all and (max-width: 960px) {
+  a.button-print {
+    display: none;
+  }
 }
 
 .chapter-preview {
@@ -840,6 +854,10 @@ form#email-capture {
         @include respond-to(600) {
           margin-left: 0;
         }
+        a {
+          color: white;
+          text-decoration: none;
+        }
         .chapter-number {
           font-size: 16px;
         }
@@ -865,6 +883,9 @@ form#email-capture {
           right: 0px;
           font-size: 16px;
           text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
+        }
+        .sharing {
+          margin-left: -29px;
         }
       }
     }
