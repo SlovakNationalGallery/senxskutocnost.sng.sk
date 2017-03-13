@@ -1,7 +1,9 @@
-<div id="footer" class="centered padding-bottom-s padding-top-s {{stylingClasses}}">
+<footer id="footer" class="centered padding-bottom-s padding-top-s {{stylingClasses}}">
     {% if sharingButtons %}
         <div class="margin-top-xs">
-        {% include 'partials/sharing.html.twig' %}
+        {% include 'partials/sharing.html.twig' with {
+            sharingStylingClasses: 'button-ghost'
+        }%}
         </div>
     {% endif %}
     
@@ -25,4 +27,4 @@
             <a href="http://lab.sng.sk/">2016 &copy; lab.SNG</a>
         </p>
     {% endif %}
-</div>
+</footer>
