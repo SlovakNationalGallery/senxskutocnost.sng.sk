@@ -22,7 +22,7 @@ image: teslik-oslavy.jpg
 
 Realitu „samostatnosti“ vystihuje už Zmluva o ochrannom pomere, ktorú predstavitelia "Slovenského štátu" podpisujú s Treťou ríšou 18. a 23. marca 1939 vo Viedni a v Berlíne. V nej sa nacistické Nemecko zaväzuje chrániť integritu slovenského územia výmenou za podriadenosť zahraničnej politiky, za budovanie armády „v zhode s nemeckou brannou mocou“ a za zosúladenie hospodárskych záujmov Slovenska s nemeckými, vrátane poľnohospodárstva, priemyslu a výstavby dopravnej komunikačnej siete. Hoci verejnosť je o uzavretí zmluvy informovaná, sprievodné protokoly ostávajú tajné. Nemci preberajú priamu kontrolu nad slovenskými zbrojovkami na Považí, kde vytvárajú tzv. ochranné pásmo, Schutzzone.
 
-[![Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava, 1939, Súkromný majetok](Jozef%20Nov%C3%BD%20-%20Budovanie%20hran%C3%ADc%20medzi%20Slovenskou%20republikou%20a%20Protektor%C3%A1tom%20%C4%8Cechy%20a%20Morava,%201939.jpeg "Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
+[![Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava, 1939, Súkromný majetok](SVK_TMP.144.jpeg "Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
 [Adolf Hitler](http://www.webumenia.sk/dielo/SVK:TMP.209?collection=83) sa síce netají svojím opovržlivým postojom k slovanským národom, ktoré považuje za menejcenné, no pre ďalšie plánované expanzie zatiaľ uprednostňuje na území Slovenska zdržanlivý prístup. 
 
 <div class="highlight">
