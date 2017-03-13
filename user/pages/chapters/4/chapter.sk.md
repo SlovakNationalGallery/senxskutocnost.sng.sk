@@ -467,6 +467,4 @@ Vďaka Slovenskému národnému povstaniu je Slovensko v povojnovej Európe vní
 
 Nedovoľme, aby sa história násilia a fašistickej totality opakovala.
 
-[![Antifašistická mobilizácia 2017](antifasisti.jpg "Antifašistická mobilizácia 2017")](https://www.facebook.com/events/1192224494165546/)
-
 **Diela a fotografie z tejto kapitoly nájdete aj v kolekcii na Webe umenia: [Vytriezvenie zo sna](http://www.webumenia.sk/kolekcia/88 "Kolekcia Vytriezvenie zo sna")**
