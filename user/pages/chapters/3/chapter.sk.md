@@ -124,7 +124,7 @@ Kódex umožňuje prezidentovi udeliť výnimku spod protižidovských opatrení
 ## Začiatok deportácií slovenských Židov 
 ### 25. 3. 1942 {.title-date}
 
-V dôsledku protižidovských opatrení je väčšina Židov na konci roku 1941 neschopná žiť bez sociálnej podpory štátu. Riešením majú byť pracovné tábory, v ktorých by vyrábali nedostatkový tovar a tak sa živili. S ich výstavbou sa začína v Novákoch a Seredi, neskôr je tábor zriadený aj vo Vyhniach. Už v roku 1941 sa ukazuje že výstavba táborov je nákladná a zdĺhavá. 
+V dôsledku protižidovských opatrení je väčšina Židov na konci roku 1941 neschopná žiť bez sociálnej podpory štátu. Riešením majú byť <a href="http://www.minv.sk/?ZPT">pracovné tábory</a>, v ktorých by vyrábali nedostatkový tovar a tak sa živili. S ich výstavbou sa začína v Novákoch a <a href="http://www.muzeum.sk/?obj=muzeum&ix=mhol_mzk_snm">Seredi</a>, neskôr je tábor zriadený aj vo Vyhniach. Už v roku 1941 sa ukazuje že výstavba táborov je nákladná a zdĺhavá. 
 
 [![Neznámy autor - Pracovný tábor v Novákoch pre rasovo prenasledovaných občanov židovského obyvateľstva, 1941, Vojenský historický ústav (VHÚ) - Vojenský historický archív, Bratislava](pracovny_tabor_v_novakoch-VHA-VHU-BA.jpg "Neznámy autor - Pracovný tábor v Novákoch pre rasovo prenasledovaných občanov židovského obyvateľstva")](http://www.webumenia.sk/dielo/SVK:TMP.243?collection=86)
 
