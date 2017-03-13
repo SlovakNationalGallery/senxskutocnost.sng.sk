@@ -47,5 +47,5 @@ ako múry hradné.<br>
 Čierna zem pohltí toho,<br>
 kto odstúpi zradne!</p>
 
-## Ďalšie médiá
-[![Štefan Leonard Kostelníček. Hej Slováci. 1939 – 1945. Dekoratívny obraz. SNM – HM](Kostelnicek--Hej_Slovaci-dekorativny_obraz--SNG--HMSNM_14.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.118)
+## Other Media
+[![Štefan Leonard Kostelníček. Hey, Slovaks. 1939 – 1945. Decorative painting. SNM – HM](Kostelnicek--Hej_Slovaci-dekorativny_obraz--SNG--HMSNM_14.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.118)

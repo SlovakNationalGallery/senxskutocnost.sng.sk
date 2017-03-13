@@ -3,7 +3,7 @@ title: 'Jeden národ, jedna strana, jeden vodca'
 published: false
 date: '05-12-2016 13:00'
 slug: chapter-2
-synopsis: 'V začiatkoch jeho existencie musí samostatný slovenský štát sformovať svoje vládne štruktúry, vysporiadať sa s vplyvom nedávnych udalostí na svoje hospodárstvo a zaujať miesto v Európe, ktorá smeruje k vojenskému konfliktu'
+synopsis: 'V začiatkoch jeho existencie musí samostatný slovenský štát sformovať svoje vládne štruktúry, vysporiadať sa s vplyvom nedávnych udalostí na svoje hospodárstvo a zaujať miesto v Európe, ktorá smeruje k vojenskému konfliktu.'
 announce_date: 'Zverejnené 6. decembra'
 routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca

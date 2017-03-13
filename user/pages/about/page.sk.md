@@ -36,16 +36,16 @@ subTitle: 'Udalosti slovenského štátu v 4 kapitolách'
 
 ## Digitálne reprodukcie
 
-* Galéria mesta Bratislavy, Bratislava <br>
-* Malokarpatské múzeum v Pezinku, Pezinok <br>
-* Ministerstvo vnútra SR – Slovenský národný archív, Bratislava <br>
-* Múzeum mesta Bratislavy, Bratislava <br>
-* Slovenská národná galéria, Bratislava <br>
-* Slovenské národné múzeum – Historické múzeum, Bratislava <br>
-* Slovenské národné múzeum – Múzeum Slovenských národných rád, Myjava <br>
-* Stredoslovenská galéria, Banská Bystrica <br>
+* <a href="http://www.gmb.sk/">Galéria mesta Bratislavy, Bratislava</a> <br>
+* <a href="http://www.muzeumpezinok.sk/sk">Malokarpatské múzeum v Pezinku, Pezinok</a> <br>
+* <a href="http://www.minv.sk/?slovensky-narodny-archiv-1">Ministerstvo vnútra SR – Slovenský národný archív, Bratislava</a> <br>
+* <a href="http://www.muzeum.bratislava.sk/">Múzeum mesta Bratislavy, Bratislava</a> <br>
+* <a href="http://www.sng.sk/sk">Slovenská národná galéria, Bratislava</a> <br>
+* <a href="http://www.snm.sk/?historicke-muzeum-uvodna-stranka">Slovenské národné múzeum – Historické múzeum, Bratislava</a> <br>
+* <a href="http://www.snm.sk/?muzeum-snr-uvodna-stranka">Slovenské národné múzeum – Múzeum Slovenských národných rád, Myjava</a> <br>
+* <a href="http://www.ssgbb.sk/">Stredoslovenská galéria, Banská Bystrica</a> <br>
  
-Realizáciu digitálnych reprodukcií umožnil národný projekt Digitálna galéria, ktorý bol spolufinancovaný zo zdrojov Európskeho fondu regionálneho rozvoja v rámci Operačného programu Informatizácia spoločnosti.
+Realizáciu digitálnych reprodukcií umožnil národný projekt <a href="http://www.sng.sk/sk/vyskum/projekty/digitalna-galeria">Digitálna galéria</a>, ktorý bol spolufinancovaný zo zdrojov Európskeho fondu regionálneho rozvoja v rámci <a href="http://www.opis.gov.sk/">Operačného programu Informatizácia spoločnosti</a>.
 
 <hr>
 
@@ -58,11 +58,11 @@ Slovenská národná galéria Bratislava <br>
 19\. október 2016 — 26. február 2017 <br>
 
 <div class="blank-list" markdown='1'>
-- Kurátorky: Katarína Bajcurová (SNG), Petra Hanáková (SNG), Bohunka Koklesová (VŠVU) <br>
-- Kurátorská spolupráca: Miroslav Hrdina, Maroš Schmidt <br>
-- Odborná spolupráca: Alexandra Kusá, Aurel Hrabušický, Jana Švantnerová <br>
-- Vizuál katalógu: Boris Meluš <br>
-- Vizuál výstavy: Boris Meluš × Martin Šichman = oximoron <br>
+- Kurátorky: <a href="http://www.sng.sk/sk/kontakty/70033_bajcurova-katarina">Katarína Bajcurová (SNG)</a>, <a href="http://www.sng.sk/sk/kontakty/70036_hanakova-petra">Petra Hanáková (SNG)</a>, <a href="http://www.vsvu.sk/kontakt/zamestnanci/bohunka-koklesova/">Bohunka Koklesová (VŠVU)</a> <br>
+- Kurátorská spolupráca: Miroslav Hrdina, <a href="http://www.sdc.sk/?muzeum-dizajnu-aktualne&sprava=novym-veducim-slovenskeho-muzea-dizajnu-je-maros-schmidt">Maroš Schmidt</a> <br>
+- Odborná spolupráca: <a href="http://www.sng.sk/sk/kontakty/73342_kusa-alexandra">Alexandra Kusá</a>, <a href="http://www.sng.sk/sk/kontakty/70037_hrabusicky-aurel">Aurel Hrabušický</a>, <a href="http://www.sng.sk/sk/kontakty/70040_svantnerova-jana">Jana Švantnerová</a> <br>
+- Vizuál katalógu: <a href="http://boris.melus.sk/">Boris Meluš</a> <br> 
+- Vizuál výstavy: <a href="http://www.oximoron.sk/">Boris Meluš × Martin Šichman = oximoron</a> <br>
 </div>
 
 <hr>
@@ -78,3 +78,6 @@ Zapojte sa do <a href="http://www.pribehy20stoleti.cz/">súťaže Príbehy 20. s
 Post Bellum SK je nezávislou občianskou iniciatívou, ktorú financujú predovšetkým drobní darcovia. Pomôžte aj vy! Staňte sa členmi <a href=https://www.postbellum.sk/klub/>Klubu priateľov Príbehov 20. storočia</a> alebo pošlite jednorázový dar na účet SK12 0200 0000 0029 3529.
 
 Pridajte sa k nám! Čím viac nás bude, tým väčšie spomienkové dedičstvo zachováme pre naše deti.
+
+## Napísali o nás
+* <a href="http://www.moderni-dejiny.cz/clanek/web-venovany-historii-slovenskeho-statu/">Moderní dejiny</a> Vzdělávací portál pro učitele, studenty a žáky <br>
