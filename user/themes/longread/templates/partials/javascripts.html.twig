@@ -8,7 +8,9 @@
 {% do assets.addJs('theme://js/tooltip.js') %}
 {% do assets.addJs('theme://js/inline-svg.js') %}
 {% do assets.addJs('theme://js/audioplayer.js') %}
-{% do assets.addJs('theme://js/reading-progress.js') %}
+{% if page.template == "chapter" %}
+  {% do assets.addJs('theme://js/reading-progress.js') %}
+{% endif %}
 {% do assets.addJs('theme://js/slick.js') %}
 {% do assets.addJs('theme://js/magnific-popup.js') %}
 {% do assets.addJs('theme://js/smooth-scroll.js') %}
