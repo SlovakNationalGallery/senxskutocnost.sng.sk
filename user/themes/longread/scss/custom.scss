@@ -554,7 +554,7 @@ div#side-nav-bar {
 
       h1 {
         font-size: 105px;
-        @include respond-to(805) {
+        @include respond-to(825) {
           font-size: 60px;
         }
         @include respond-to(460) {
@@ -563,7 +563,7 @@ div#side-nav-bar {
         img.headline-logo {
           height: 65px;
           vertical-align: baseline;
-          @include respond-to(805) {
+          @include respond-to(825) {
             height: 35px;
           }
           @include respond-to(460) {
