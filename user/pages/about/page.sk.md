@@ -4,10 +4,17 @@ superTitle: 'O Projekte'
 subTitle: 'Udalosti slovenského štátu v 4 kapitolách'
 ---
 
-<span class="drop-cap">W</span>ebstránka tzv. "longform" textom rozširuje výstavu **"sen × skutočnosť. Umenie & propaganda 1939 – 1945 "** o historické súvislosti. S využitím obrazového materiálu z výstavy podáva informácie o kľúčových udalostiach slovenského štátu - vysvetľuje, za akých okolností došlo k osamostatneniu Slovenska, ako sa situácia v ňom vyvíjala počas druhej svetovej vojny a prečo bol po Hitlerovom páde nevyhnutný jeho zánik. Obsah je členený do 4 kapitol, ktoré budú postupne zverejňované.
+<span class="drop-cap">W</span>ebstránka v podobe "longform" textu rozširuje výstavu **"sen × skutočnosť. Umenie & propaganda 1939 – 1945 "** o historické súvislosti. S využitím obrazového materiálu z výstavy podáva informácie o kľúčových udalostiach slovenského štátu - vysvetľuje, za akých okolností došlo k osamostatneniu Slovenska, ako sa situácia v ňom vyvíjala počas druhej svetovej vojny a prečo bol po Hitlerovom páde nevyhnutný jeho zánik. Obsah je členený do 4 kapitol, ktoré budú postupne zverejňované.
 
 <hr>
+## Pracovné listy
+Oddelenie galerijnej pedagogiky SNG vytvorilo sériu pracovných a metodických listov a ich interaktívnou formou chce priblížiť vizuálnu kultúru a ideológiu obdobia slovenského štátu.
 
+****<a target="_blank" href="http://senxskutocnost.sng.sk/materialy"> <font color="#000">Pracovné a metodické listy o slovenskom štáte</font> </a>****
+
+<hr>
+## lab.SNG
+Webstránku pripravil lab.SNG a externí spolupracovníci. lab.SNG je platforma Slovenskej národnej galérie, ktorá skúma možnosti využitia digitálnych technológií v galerijnej a muzeálnej praxi.
 <div class="blank-list" markdown="1">
 - Texty: Peter Gašparík
 - Web dizajn: <a href="http://www.solcany.eu/">Matúš Solčány</a>, Philo van Kemenade
@@ -80,4 +87,8 @@ Post Bellum SK je nezávislou občianskou iniciatívou, ktorú financujú predov
 Pridajte sa k nám! Čím viac nás bude, tým väčšie spomienkové dedičstvo zachováme pre naše deti.
 
 ## Napísali o nás
-* <a href="http://www.moderni-dejiny.cz/clanek/web-venovany-historii-slovenskeho-statu/">Moderní dejiny</a> Vzdělávací portál pro učitele, studenty a žáky <br>
+* <a href="http://www.moderni-dejiny.cz/clanek/web-venovany-historii-slovenskeho-statu/">Moderní dejiny (CZ)</a> - vzdelávací portál pre učiteľov, študentov a žiakov. <br>
+* <a href="http://www.moderne-dejiny.sk/clanek/web-venovany-pribehu-slovenskeho-statu/">Moderné dejiny (SK)</a> - vzdelávací portál pre učiteľov, študentov a žiakov. <br>
+* <a href="http://www.historieblog.cz/2017/03/slovaci-maji-skvely-projekt-o-sve-kontroverzni-historii/">HistorieBlog.cz</a> - blog pre priaznivcov histórie. <br>
+* <a href="https://www.archinfo.sk/diskusia/sen-skutocnost-umenie-propaganda-1939-1945.html">ARCHINFO</a> - profesionálny architektonický portál mapujúci aj súvisiace technické a kultúrne oblasti. <br>
+* <a href="http://www.historickarevue.com/">Historická Revue</a> - slovenský magazín o histórii a archeológii. Ponúka zasvätený pohľad na vybranú tému zo svetových alebo slovenských dejín. Články pochádzajú od renomovaných slovenských aj zahraničných historikov a pomáhajú čitateľom zorientovať sa v súčasných udalostiach v historickom kontexte. Historická revue sa vo svojich článkoch venovala aj problematike slovenského štátu - **<a href="http://www.historickarevue.com/tag/slovensky%20stat"> viac o slovenskom štáte </a>** <br>
