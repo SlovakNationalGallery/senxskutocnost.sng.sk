@@ -72,7 +72,9 @@ button, .uk-button {
 .f-uppercase {
   text-transform : uppercase;
 }
-
+.tracked {
+  letter-spacing: 0.1em;
+}
 .centered {
   text-align: center;
 }
@@ -1010,6 +1012,7 @@ form#email-capture {
   }
   .chapter-title {
     margin: 50px 40px;
+    margin-bottom: 0;
     @include respond-to(600) {
       margin: 50px 20px;
     }
@@ -1032,9 +1035,12 @@ form#email-capture {
       font-weight: 100;
       margin: 0;
     }
+    .sharing {
+      margin-left: -10px;
+    }
   }
   .post-reading {
-    top: -48px;
+    top: -52px;
   }
 }
 
@@ -1131,6 +1137,9 @@ $button-height: 60px;
   margin: 10px 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.subobject .sharing button, .subobject .sharing a {
+  margin: 10px 6px;
 }
 
 .subobject-overview {

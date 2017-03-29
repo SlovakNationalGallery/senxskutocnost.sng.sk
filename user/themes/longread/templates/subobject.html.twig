@@ -25,6 +25,9 @@
           {% if page.header.titleDate %}
             <h3 class="title-date">{{ page.header.titleDate}}</h3>
           {% endif %}
+          {% include 'partials/sharing.html.twig' with {
+            sharingStylingClasses: "button-white"
+          }%}
         </div>
         <section class="post-content">
           <div class="post-reading">
