@@ -848,7 +848,7 @@ form#email-capture {
     .post.subobject .chapter-title .sharing {
       margin-left: -10px; }
   .post.subobject .post-reading {
-    top: -48px; }
+    top: -52px; }
 
 .return {
   height: 250px; }
@@ -919,6 +919,9 @@ form#email-capture {
   margin: 10px 10px;
   padding-top: 5px;
   padding-bottom: 5px; }
+
+.subobject .sharing button, .subobject .sharing a {
+  margin: 10px 6px; }
 
 .subobject-overview {
   margin-bottom: 20px; }

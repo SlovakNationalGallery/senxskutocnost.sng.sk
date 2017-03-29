@@ -1040,7 +1040,7 @@ form#email-capture {
     }
   }
   .post-reading {
-    top: -48px;
+    top: -52px;
   }
 }
 
@@ -1137,6 +1137,9 @@ $button-height: 60px;
   margin: 10px 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.subobject .sharing button, .subobject .sharing a {
+  margin: 10px 6px;
 }
 
 .subobject-overview {
