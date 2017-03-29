@@ -1012,6 +1012,7 @@ form#email-capture {
   }
   .chapter-title {
     margin: 50px 40px;
+    margin-bottom: 0;
     @include respond-to(600) {
       margin: 50px 20px;
     }
@@ -1033,6 +1034,9 @@ form#email-capture {
       font-size: 18px;
       font-weight: 100;
       margin: 0;
+    }
+    .sharing {
+      margin-left: -10px;
     }
   }
   .post-reading {
