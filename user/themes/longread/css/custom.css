@@ -51,6 +51,9 @@ button, .uk-button {
 .f-uppercase {
   text-transform: uppercase; }
 
+.tracked {
+  letter-spacing: 0.1em; }
+
 .centered {
   text-align: center; }
 
@@ -820,7 +823,8 @@ form#email-capture {
     .post.subobject .breadcrumbs .breadcrumb-symbol {
       padding: 5px; }
   .post.subobject .chapter-title {
-    margin: 50px 40px; }
+    margin: 50px 40px;
+    margin-bottom: 0; }
     @media only screen and (max-width: 600px) {
       .post.subobject .chapter-title {
         margin: 50px 20px; } }
@@ -841,8 +845,10 @@ form#email-capture {
       font-size: 18px;
       font-weight: 100;
       margin: 0; }
+    .post.subobject .chapter-title .sharing {
+      margin-left: -10px; }
   .post.subobject .post-reading {
-    top: -48px; }
+    top: -52px; }
 
 .return {
   height: 250px; }
@@ -913,6 +919,9 @@ form#email-capture {
   margin: 10px 10px;
   padding-top: 5px;
   padding-bottom: 5px; }
+
+.subobject .sharing button, .subobject .sharing a {
+  margin: 10px 6px; }
 
 .subobject-overview {
   margin-bottom: 20px; }

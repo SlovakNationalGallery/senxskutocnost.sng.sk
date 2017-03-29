@@ -164,7 +164,7 @@ Krátko po vyhlásení autonómie sa začínajú stupňovať verbálne útoky na
 [![Gejza Angyal: Dve zúfalé ženy. 1939. Stredoslovenská galéria, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Dve zúfalé ženy")](http://www.webumenia.sk/dielo/SVK:SGB.K_35)
 
 ---
-## Voľby do autonómneho Snemu Slovenskej krajiny
+## Vo<span class="tracked">ľ</span>by do autonómneho Snemu Slovenskej krajiny
 ### 18. 12. 1938 {.title-date}
 
 [![Ľudovít Križan: Sme jednotní! Náš cieľ: Nové Slovensko! 1938 – 1939. Plagát. SNM – Múzeum SNR](Krizan--Sme_jednotni--SNG--MSNRM_7.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.126?collection=82)
@@ -180,7 +180,7 @@ Krátko pred voľbami vydáva ministerstvo vnútra tajnú inštrukciu pre okresn
 
 <div class="highlight">
 <p>
-Vo voľbách, kde nemôžu vybrať politickú stranu, iba prijať, či odmietnuť predloženú kandidátnu listinu, odpovedá 97,3% voličov a voličiek kladne na sugestívnu otázku: „Chceš nové a šťastné Slovensko?“
+Vo vo<span class="tracked">ľ</span>bách, kde nemôžu vybrať politickú stranu, iba prijať, či odmietnuť predloženú kandidátnu listinu, odpovedá 97,3% voličov a voličiek kladne na sugestívnu otázku: „Chceš nové a šťastné Slovensko?“
 </p>
 </div>
 
