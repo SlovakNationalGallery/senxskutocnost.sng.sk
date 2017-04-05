@@ -190,11 +190,19 @@ class Response
     }
 
     /**
-     * Progress normalized for cURL and Fopen
-     * Accepts a vsariable length of arguments passed in by stream method
+     * Is this a remote file or not
      *
-     * @return array Normalized array with useful data.
-     *               Format: ['code' => int|false, 'filesize' => bytes, 'transferred' => bytes, 'percent' => int]
+     * @param $file
+     * @return bool
+     */
+    public static function isRemote($file)
+    {
+        return (bool) filter_var($file, FILTER_VALIDATE_URL);
+    }
+
+    /**
+     * Progress normalized for cURL and Fopen
+     * Accepts a variable length of arguments passed in by stream method
      */
     public static function progress()
     {
@@ -243,6 +251,8 @@ class Response
         if (self::isCurlAvailable()) {
             return self::getCurl(func_get_args());
         }
+
+        return null;
     }
 
     /**
@@ -291,7 +301,7 @@ class Response
                 case '401':
                     throw new \RuntimeException("Invalid LICENSE");
                 default:
-                    throw new \RuntimeException("Error while trying to download '$uri'\n");
+                    throw new \RuntimeException("Error while trying to download (code: $code): $uri \n");
             }
         }
 
@@ -327,7 +337,7 @@ class Response
                 case '401':
                     throw new \RuntimeException("Invalid LICENSE");
                 default:
-                    throw new \RuntimeException("Error while trying to download '$uri'\nMessage: $error_message");
+                    throw new \RuntimeException("Error while trying to download (code: $code): $uri \nMessage: $error_message");
             }
         }
 
