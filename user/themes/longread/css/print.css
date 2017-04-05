@@ -6,7 +6,7 @@
         page-break-after: avoid;
         break-after: avoid;
     }
-    h2:nth-child(n+2) {
+    .chapter-content h2:nth-child(n+2) {
         page-break-before: always;
     }
     .chapter-content > p:last-child {
@@ -20,7 +20,7 @@
     }
     .post-content, 
     .bottom-teaser.cf{
-        padding-top:0!important
+        padding-top:0!important;
     }
     .bottom-teaser.cf{
         margin:0
@@ -50,11 +50,22 @@
         content: "www.senxskutocnost.sng.sk";
         margin-left: -15px;
     }
+    .subobject-title {
+        margin-bottom: -100px !important;
+    }
+    .subobject-title:after {
+        margin-left: 0;
+    }
+    .subobject-title > h1 {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
     p a[href^="http://www.webumenia.sk/kolekcia/"]:after {
         content: " (" attr(href) ")";
         font-size: 60%;
     }
     nav,
+    .nav-about,
     #reading-progress,
     figure.audio,
     figure.video,
@@ -74,6 +85,8 @@
     .post-image-image,
     .bottom-closer,
     .share, 
+    .breadcrumbs,
+    .return,
     .home-template .post-meta .post-tags-set,
     .pagination,
     .author-image,
