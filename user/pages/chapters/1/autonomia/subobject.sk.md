@@ -11,7 +11,7 @@ routes:
         - /chapters/1/autonomia
 content:
     items: '@self.parent'
-returnButtonText: 'Back to Chapter 1'
+returnButtonText: 'Späť na 1. kapitolu'
 ---
 
 [![Ján Ladvenica: Boj o slobodu I. 1938. SNG](SVK_SNG.G_4161.jpeg)](http://www.webumenia.sk/katalog?related_work=Boj%20za%20slobodu&author=Ladvenica,%20J%C3%A1n)
