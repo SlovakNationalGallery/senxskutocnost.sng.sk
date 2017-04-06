@@ -85,7 +85,7 @@ Začiatkom októbra 1938 prevzala HSĽS iniciatívu pri riešení štátnoprávn
         },
                 {
             'name':'Alexander Mach', 
-            'thumbnail': page.media['Alexander_Mach.jpg'],
+            'thumbnail': page.media['mach_nahlad.jpg'],
             'href': '1/mach'
         }
     ]
@@ -136,6 +136,11 @@ Národné zhromaždenie 19. novembra 1938 potvrdzuje autonómiu ústavným záko
 
 [![Vincek Hochšteský. Na stráž!. 1939. Dekoratívny obraz. Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.116.jpeg "Na Stráž!")](http://www.webumenia.sk/dielo/SVK:TMP.116?collection=82)
 
+<figure class="audio" markdown="1">
+![Prejav predsedu slovenskej autonómnej vlády J.Tisa – 28.11.1938. RTVS](01-Tiso_prejav-slovenska_autonomna_vlada.mp3)
+<figcaption>Prejav predsedu slovenskej autonómnej vlády J.Tisa – 28.11.1938. RTVS</figcaption>
+</figure>
+
 Mníchovský diktát pripravil Československú republiku o územia obývané nemeckým obyvateľstvom a keďže dodatok k Mníchovskej dohode hovoril o vyriešení problému maďarskej a poľskej menšiny do 3 mesiacov, začína byť jasné, že nároky Maďarska na územie obývané príslušníkmi a príslušníčkami svojho národa na seba nenechajú dlho čakať. V hre je takmer pätina rozlohy Slovenska, vrátane oblasti Podkarpatskej Rusi, ktorá mu prináleží, 854 218 obyvateľov tohto územia, z nich 272 145 osôb slovenskej a českej národnosti.
 
 <div class="highlight">
@@ -151,6 +156,11 @@ V novonadobudnutej časti Maďarska sa slovenské obyvateľstvo, ktoré zostalo 
 
 Krátko po vyhlásení autonómie sa začínajú stupňovať verbálne útoky na židovské obvyvateľstvo a od 4. novembra ľudácky režim realizuje deportáciu vyše 7500 osôb zo Slovenska na arbitrážne územie. Začína sa i s prípravou protižidovských právnych noriem, ktorou vláda poveruje komisiu pod vedením Karola Sidora. 
 
+<figure class="audio" markdown="1">
+![Fragmenty prejavov A. Macha – 14.3.1939, 28.9.1942. RTVS](04-fragmenty_prejavov_A-Macha.mp3)
+<figcaption>Fragmenty prejavov A. Macha – 14.3.1939, 28.9.1942. RTVS</figcaption>
+</figure>
+
 [![Gejza Angyal: Dve zúfalé ženy. 1939. Stredoslovenská galéria, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Dve zúfalé ženy")](http://www.webumenia.sk/dielo/SVK:SGB.K_35)
 
 ---
@@ -158,6 +168,12 @@ Krátko po vyhlásení autonómie sa začínajú stupňovať verbálne útoky na
 ### 18. 12. 1938 {.title-date}
 
 [![Ľudovít Križan: Sme jednotní! Náš cieľ: Nové Slovensko! 1938 – 1939. Plagát. SNM – Múzeum SNR](Krizan--Sme_jednotni--SNG--MSNRM_7.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.126?collection=82)
+
+<figure class="audio" markdown="1">
+![Reportáž z volieb dr. J. Tisu za prezidenta Slovenskej republiky – 26.10.1939. RTVS](03-reportaz-z-volieb-Tisa.mp3)
+<figcaption>Reportáž z volieb dr. J. Tisu za prezidenta Slovenskej republiky – 26.10.1939. RTVS</figcaption>
+</figure>
+
 Autonómna vláda vyhlasuje voľby do Snemu novovzniknutej Slovenskej krajiny v sobotu 26. 11. 1938 s dátumom konania 18. 12. 1938. Kandidátne listiny je nevyhnutné podať 3 týždne pred dňom konania volieb, teda najneskôr v nedeľu 27. 11. 1938. HSĽS si tak poisťuje, že jedinou uznanou kandidátnou listinou bude listina HSĽS - Strany slovenskej národnej jednoty. Na kandidátke figurujú v malom počte tiež zástupcovia menších spojených strán a národnostných menšín, okrem nežiadúcej českej a židovskej minority. Na základe potreby „jednoty národa“ sa začína potláčať sloboda tlače a zhromažďovania.
 
 Krátko pred voľbami vydáva ministerstvo vnútra tajnú inštrukciu pre okresné úrady, podľa ktorej majú národnostne zmiešané územia vytvoriť osobitné volebné miestnosti pre rôzne národnosti, aby mohli jednoduchšie zistiť, ako volia ich príslušníci. 
@@ -177,6 +193,12 @@ Vo vo<span class="tracked">ľ</span>bách, kde nemôžu vybrať politickú stran
 ### 14. 3. 1939  {.title-date}
 [![ Neznámy autor. Apotéza vzniku SR. 1939. Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.121.jpeg)
 ](http://www.webumenia.sk/dielo/SVK:TMP.121?collection=82)
+
+<figure class="audio" markdown="1">
+![Vianočný rozhlasový príhovor J.Tisu – 24.12.1938. RTVS](02-Vianocny_prihovor_Tiso.mp3)
+<figcaption>Vianočný rozhlasový príhovor J.Tisu – 24.12.1938. RTVS</figcaption>
+</figure>
+
 Hoci stál Adolf Hitler v pozadí udalostí, ktoré sa na slovenskom území udiali v roku 1938, jeho konečným cieľom nebolo ani odtrhnutie českého pohraničia, ani slovenská autonómia. Ďalším krokom má byť rozdelenie Česko-Slovenska a pripojenie Čiech a Moravy k Veľkonemeckej ríši. Nemôže k nemu dôjsť násilnou cestou, keďže sa Nemecko Mníchovskou dohodou zaviazalo garantovať oklieštenému Česko-Slovensku bezpečnosť a celistvosť. Ak však Slovensko vyhlási samostatnosť a Česko-Slovenská republika prestane existovať, nebudú na ňu platiť podmienky dohody a Nemecko bude môcť vytúžené územia obsadiť bez toho, aby riskovalo konflikt s ostatnými mocnosťami. Pomôcť mu v tom má HSĽS...
 
 Radikálne krídlo HSĽS, zastúpené Tukom, Machom a Ferdinandom Ďurčanským, jedným z ministrov autonómnej vlády, sa na prelome rokov 1938 a 1939 viackrát stretá s nemeckými predstaviteľmi a bez vedomia slovenskej vlády prezentuje myšlienku vyhlásenia samostatnosti ako bezproblémovú.

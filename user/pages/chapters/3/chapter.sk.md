@@ -138,7 +138,7 @@ Za deportácie slovenská vláda nemeckej strane platí – v rámci tzv. osíd�
 
 [![Anton Baník - Deportácie židovského obyvateľstva v Nitre, 1942, 	Slovenský národný archív, Bratislava – fond STK](Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg "Anton Baník - Deportácie židovského obyvateľstva v Nitre")](http://www.webumenia.sk/dielo/SVK:TMP.237?collection=86)
 
-Informácie o masovom vraždení Židov Nemcami sa pritom vďaka vojakom z východného frontu na slovenské územie dostávajú už od leta 1941. Nacisti vraždia sovietskych Židov bez rozdielu veku či pohlavia. Protižidovským aktivitám slovenskej vlády ale nezabránia tieto informácie ani upozornenia z Vatikánu, že deportácie môžu viesť k smrti deportovaných. 
+Informácie o masovom vraždení Židov Nemcami sa pritom vďaka <a target="_blank" href="http://www.webumenia.sk/dielo/SVK:TMP.319">"vojakom z východného frontu"</a> na slovenské územie dostávajú už od leta 1941. Nacisti vraždia sovietskych Židov bez rozdielu veku či pohlavia. Protižidovským aktivitám slovenskej vlády ale nezabránia tieto informácie ani upozornenia z Vatikánu, že deportácie môžu viesť k smrti deportovaných. 
 
 **Inscenované fotografie židovského obyvateľstva v pracovných táboroch**
 {% include 'partials/carousel.html.twig' with {

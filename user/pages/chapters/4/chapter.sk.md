@@ -236,7 +236,7 @@ Na východné Slovensko prichádzajú príslušníci Komanda Zbv 27, podriadené
 
 [![Neznámy autor - Prezident Jozef Tiso vyznamenáva nemeckých vojakov za potlačenie SNP na námestí v Banskej Bystrici, 31. 11. 1944, Vojenský historický ústav (VHÚ) - Vojenský historický archív, Bratislava](SZ-VIII-K-6--2016-08-26--1_1--LP_A4male.jpg "Neznámy autor - Prezident Jozef Tiso vyznamenáva nemeckých vojakov za potlačenie SNP na námestí v Banskej Bystrici")](http://www.webumenia.sk/dielo/SVK:TMP.322)
 
-Po faktickom rozklade vlastnej armády ľudácky režim vytvára Pohotovostné oddiely Hlinkovej gardy (POHG) a poľné roty HG, ktoré sú poskytnuté k dispozícii veliteľom jednotlivých nemeckých kománd. Vznikajú tiež pohotovostné jednotky Hlinkovej mládeže.
+Po faktickom rozklade vlastnej armády ľudácky režim vytvára Pohotovostné oddiely <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/2/hlinkova-garda">"Hlinkovej gardy"</a> (POHG) a poľné roty HG, ktoré sú poskytnuté k dispozícii veliteľom jednotlivých nemeckých kománd. Vznikajú tiež pohotovostné jednotky <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/2/hlinkova-mladez">"Hlinkovej mládeže"</a>.
 
 [![Zreorganizovaná slovenská armáda opäť neochvejne na stráži svätých záujmov vlasti - Fotografia z časopisu NOVÁ MLÁDEŽ (časopis Hlinkovej mládeže), November 1944, ročník VII., číslo 3, Univerzitná knižnica v Bratislave](slovenski-vojaci.jpg "Zreorganizovaná slovenská armáda opäť neochvejne na stráži svätých záujmov vlasti - Fotografia z časopisu NOVÁ MLÁDEŽ (časopis Hlinkovej mládeže)")](http://digitalna.kniznica.info/zoom/31090/view?page=35&p=separate&view=0,0,1731,2635)
 
@@ -266,7 +266,7 @@ Po vojenskej porážke Slovenského národného povstania je civilné obyvateľs
 }%}
 
 
-Na pomoc slovenského obyvateľstva sú odkázaní aj Židia, ktorým už zostáva len posledná možnosť: ukryť sa v rôznych provizórnych úkrytoch. Každý, kto im pomáha, riskuje svoj život a neraz aj životy svojich blízkych. Židia, ktorí ešte v roku 1944 žijú na Slovensku a padnú do rúk nacistov a ich kolaborantov, sú buď deportovaní zo Slovenska, alebo popravení na jeho území. 
+Na pomoc slovenského obyvateľstva sú odkázaní aj <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/3/definicia-zida">"Židia"</a>, ktorým už zostáva len posledná možnosť: ukryť sa v rôznych provizórnych úkrytoch. Každý, kto im pomáha, riskuje svoj život a neraz aj životy svojich blízkych. Židia, ktorí ešte v roku 1944 žijú na Slovensku a padnú do rúk nacistov a ich kolaborantov, sú buď deportovaní zo Slovenska, alebo popravení na jeho území. 
 
 <div class="highlight">
 <p>
