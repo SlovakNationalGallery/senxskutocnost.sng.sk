@@ -101,6 +101,10 @@ Post Bellum SK je nezávislou občianskou iniciatívou, ktorú financujú predov
 
 Pridajte sa k nám! Čím viac nás bude, tým väčšie spomienkové dedičstvo zachováme pre naše deti.
 
+## Knihy znovunalezené
+<a href=http://www.knihyznovunalezene.eu/cs/>![](knihy_znovunalezene_cervena.png)</a><br><br>
+Projekt Národní knihovny České republiky a nórskeho Stiftelsen Arkivet. Zaoberá sa nebohemikálnymi knižnými fondami, ktoré sa dostali na územie Československa a následne do Národní knihovny ČR počas druhej svetovej vojne a krátko po nej. Jedným z výstupov je <a href=http://exhibition.knihyznovunalezene.eu/#/overview/cs>virtuálna výstava</a> - odporúčame!
+
 ## Napísali o nás
 * <a href="http://www.moderni-dejiny.cz/clanek/web-venovany-historii-slovenskeho-statu/">Moderní dejiny (CZ)</a> - vzdelávací portál pre učiteľov, študentov a žiakov. <br>
 * <a href="http://www.moderne-dejiny.sk/clanek/web-venovany-pribehu-slovenskeho-statu/">Moderné dejiny (SK)</a> - vzdelávací portál pre učiteľov, študentov a žiakov. <br>
