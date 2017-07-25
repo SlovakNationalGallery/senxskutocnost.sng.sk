@@ -1,6 +1,6 @@
 ---
 title: 'Halfway to the Slovak State'
-published: false
+published: true
 date: '07-11-2016 06:00'
 slug: chapter-1
 synopsis: 'In 1938, Slovakia was part of the Czechoslovak Republic, although there was a strong push towards autonomy among the people. Hlinka''s Slovak People''s Party''s pursuits of autonomy within Czechoslovakia and Hitler''s plans to divide the republic all had a role to play.'
@@ -19,17 +19,17 @@ image: tiso.jpg
 ## Munich Agreement
 ### 29. 9. 1938 {.title-date}
 
-<span class="drop-cap">T</span>he First World War changed the landscape of Europe. After the collapse of the Austro-Hungarian Empire, the First Czechoslovak Republic was established. Slovakia, as a part of the republic, was at first dealing with the fallout from the war and later from the Great Depression caused by the Wall Street Crash of 1929, which exacerbated the internal political conflicts on our continent. In 1933, Adolf Hitler won the general elections in Germany and became the new Reich Chancellor, controlling the course of European history for the next decade.
+<span class="drop-cap">T</span>he First World War changed the landscape of Europe. After the collapse of the Austro-Hungarian Empire, the First Czechoslovak Republic was established. Slovakia, as a part of the republic, first faced the aftermath of the war and later the Great Depression caused by the Wall Street Crash of 1929, which exacerbated the internal political conflicts on our continent. In 1933, Adolf Hitler won the German general elections and became the new Reich Chancellor, an event that would determine the course of European history for the next decade..
 
 <div class="highlight">
 <p>
-The year is 1938 and the Nazi Germany in the so-called Anschluss annexes Austria. Hitler doesn't hide his efforts to dispose of the neighbouring Czechoslovakia also.
+The year is 1938 and Nazi Germany in the so-called Anschluss annexes Austria. Hitler doesn't hide his intentions to seize the neighbouring Czechoslovakia.
 </p>
 </div>
 
 [![Štefan Bednár: He acquired a taste for it... 1935. SNG, Bratislava](stefan-bednar-s-jedlom-rastie-chut.jpg "Štefan Bednár: He acquired a taste for it...")](http://www.webumenia.sk/dielo/SVK:SNG.K_12859?collection=82)
 
-Hitler is trying to break up Czechoslovakia, which as a democratic country offered a refuge to the opponents of Nacism. Hitler was raising territory claims, willing to proceed through international political agitation or military action. He was definitely playing the German population card, Germans living and allegedly suffering from discrimination beyond the German boarders, similar excuse as he used in the annexation of Austria. It also suits him that the territory of Slovakia (relatively uninteresting country for Hitler at the time) was eyed by both Poland and Hungary. The Sudetenland and the boarder areas of Czechoslovakia, inhabited by mostly ethnic Germans, are at the stake now. 
+Hitler is trying to break up Czechoslovakia, which as a democratic country offered a refuge to the opponents of Nazism. Hitler was raising territory claims, willing to proceed through international political agitation or resort to military action. He was definitely playing the German population card - Germans living and allegedly suffering from discrimination beyond the German borders - a similar excuse as he used when he annexed Austria. It suited him that the territory of Slovakia (a relatively uninteresting country for Hitler at the time) was eyed by both Poland and Hungary. The Sudetenland and the border areas of Czechoslovakia, inhabited mostly by ethnic Germans, are at stake now.
 
 [![Chamberlain, Daladier, Hitler, Mussolini and Ciano pictured before signing the Munich Agreement. Bundesarchiv, Koblenz, Germany.](photo-staatschefs.jpg "Munich Agreement")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
 
@@ -38,7 +38,7 @@ Hitler is trying to break up Czechoslovakia, which as a democratic country offer
 <figcaption>Speech by Adolf Hitler to the Nazi Party Congress in Nuremberg on 12 September 1938, in which he sharply attacked Czechoslovakia and President Eduard Benes.</figcaption>
 </figure>
 
-Germany, Italy, Great Britain and France convened in Munich on 29 September 1938, where they would decide the fate of Czechoslovakia without their presence. The Republic must cede Sudeten territory to Germany. The Czechoslovak goverment was particularly surprised by the attitude of their allies, France and Great Britain, but does not have any other options. A day later, 30 September 1938, they accepted the decision, which went down in history as the Munich Agreement, but sometimes even called the Munich Dictate. It was one of the heralds of the coming war, before which, however, Slovakia goes through several drastic political changes. Hitler entered their history. 
+Germany, Italy, Great Britain and France convened in Munich on 29 September 1938, where they decided on the fate of Czechoslovakia without its presence at the table. The Republic must cede Sudeten territory to Germany. The Czechoslovak government was particularly surprised by the attitude of their allies, France and Great Britain, but did not have any other options. A day later, on 30 September 1938, they accepted the decision, which went down in history as the Munich Agreement, sometimes called the Munich Dictate. It was one of the heralds of the coming war, before which, however, Slovakia went through several drastic political changes. 
 
 <figure class="video">    
 <iframe src="https://player.vimeo.com/video/190295173?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -51,44 +51,45 @@ Germany, Italy, Great Britain and France convened in Munich on 29 September 1938
 
 [![Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property.](SVK_TMP.115.jpg "Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property")](http://www.webumenia.sk/dielo/SVK:TMP.115?collection=82)
 
-At the time of the Munich Agreement, the most influential political party in Slovakia was Hlinka's Slovak People's Party (HSPP), which in 1935 in coalition with the Slovak National Party won 30% of the votes in the elections. It was founded as Slovak People's Party in 1905, then restored by a Catholic priest and a nationalist, Andrej Hlinka. It was established on conservative Christian ideas and slowly but surely became obsessed by the idea of autonomy - independent Slovakia within the Czechoslovak Republic.   
+At the time of the Munich Agreement, the most influential political party in Slovakia was Hlinka's Slovak People's Party (HSPP), which in 1935 in coalition with the Slovak National Party won 30% of the votes in the elections. It was founded as Slovak People's Party in 1905, then restored by a Catholic priest and a nationalist, Andrej Hlinka. It was founded on conservative Christian values and slowly but surely became obsessed with the idea of autonomy - an independent Slovakia within the Czechoslovak Republic.   
 
 <div class="highlight">
 <p>
 The HSPP's gradual radicalisation was epitomised by their totalitarian motto: "One Nation, One Party, One Leader."  
 </p>
 </div>
-At the beginning of October 1938, the HSPP took the initiative to solve the issue of Slovakia within the Republic and pushed for autonomy. Within the party, there were two conflicting approaches, the so-called moderate wing (represented mainly by Jozef Tiso, Jozef Sivák and Martin Sokol) and the radical wing (led by Vojtech Tuka, Ferdinand Ďurčanský and Alexander Mach). They differed in their views of autonomy and they also disagreed on their approach to the antisemitic legislation. What was the approach of "one nation, one party and one leader", soon to be Jozef Tiso, to these burning questions?
+During October 1938, the HSPP strived to solve the issue of Slovakia within the Republic and pushed for autonomy. Within the party, there were two conflicting approaches, the so-called moderate wing (represented mainly by Jozef Tiso, Jozef Sivák and Martin Sokol) and the radical wing (led by Vojtech Tuka, Ferdinand Ďurčanský and Alexander Mach). They differed in their views on autonomy and disagreed on antisemitic legislation. What was the answer of "one nation, one party and one leader" - soon to be Jozef Tiso - to these burning questions?
+
 
 {% include 'partials/subobjects.html.twig' with {
-    'title': 'Find out more about the figures of the HSPP',
-    'subobjects': [
-        {
-            'name':'Andrej Hlinka', 
-            'thumbnail': page.media['Andrej_Hlinka.jpg'],
-            'href': '1/hlinka'
-        },
-        {
-            'name':'Jozef Tiso', 
-            'thumbnail': page.media['Jozef_Tiso.jpg'],
-            'href': '1/tiso'
-        },
-        {
-            'name':'Karol Sidor', 
-            'thumbnail': page.media['Karol_Sidor.jpg'],
-            'href': '1/sidor'
-        },
-                {
-            'name':'Vojtech Tuka', 
-            'thumbnail': page.media['Vojtech_Tuka.jpg'],
-            'href': '1/tuka'
-        },
-                {
-            'name':'Alexander Mach', 
-            'thumbnail': page.media['Alexander_Mach.jpg'],
-            'href': '1/mach'
-        }
-    ]
+	'title': 'Find out more about the figures of the HSPP',
+	'subobjects': [
+    	{
+        	'name':'Andrej Hlinka',
+        	'thumbnail': page.media['Andrej_Hlinka.jpg'],
+        	'href': '1/hlinka'
+    	},
+    	{
+        	'name':'Jozef Tiso',
+        	'thumbnail': page.media['Jozef_Tiso.jpg'],
+        	'href': '1/tiso'
+    	},
+    	{
+        	'name':'Karol Sidor',
+        	'thumbnail': page.media['Karol_Sidor.jpg'],
+        	'href': '1/sidor'
+    	},
+            	{
+        	'name':'Vojtech Tuka',
+        	'thumbnail': page.media['Vojtech_Tuka.jpg'],
+        	'href': '1/tuka'
+    	},
+            	{
+        	'name':'Alexander Mach',
+        	'thumbnail': page.media['Alexander_Mach.jpg'],
+        	'href': '1/mach'
+    	}
+	]
 }%}
 
 ---
