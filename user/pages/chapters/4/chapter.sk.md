@@ -60,7 +60,7 @@ Minister národnej obrany gen. Čatloš už na jar 1943 usiluje o stiahnutie slo
 
 [![Friedrich Zschäckel - Bitka pri Kursku - nemeckí vojaci na ústupe, jún 1943, Bundesarchiv, BArch](Bundesarchiv_Bild_101III-Zschaeckel-206-35,_Schlacht_um_Kursk,_Panzer_VI_(Tiger_I).jpg "Friedrich Zschäckel - Bitka pri Kursku - nemeckí vojaci na ústupe, jún 1943, Bundesarchiv, BArch")](https://upload.wikimedia.org/wikipedia/commons/a/a0/Bundesarchiv_Bild_101III-Zschaeckel-206-35%2C_Schlacht_um_Kursk%2C_Panzer_VI_%28Tiger_I%29.jpg)
 
-V júli 1943 sa uskutočňuje invázia západných spojencov na Sicílii. Po reorganizácii je od 1. augusta 1943 Rýchla divízia premenovaná na 1. pešiu divíziu a Zaisťovacia divízia zasa na 2. pešiu divíziu. Slovenská vláda sa márne dožaduje, aby o nasadení slovenských jednotiek na východnom fronte spolurozhodovalo slovenské ministerstvo národnej obrany. Aj pokusy presadiť, aby divízie plnili len zaisťovacie úlohy a boli pod jednotným velením, Nemci vnímajú ako príznak pochybností „ohľadom nemeckého konečného víťazstva.“ 
+V júli 1943 sa uskutočňuje invázia západných spojencov na Sicílii. Po reorganizácii je od 1. augusta 1943 Rýchla divízia premenovaná na 1. pešiu divíziu a Zaisťovacia divízia zasa na 2. pešiu divíziu. Slovenská vláda sa márne dožaduje, aby o nasadení slovenských jednotiek na východnom fronte spolurozhodovalo slovenské ministerstvo národnej obrany. Aj pokusy presadiť, aby divízie plnili len zaisťovacie úlohy a boli pod jednotným velením, Nemci vnímajú ako príznak pochybností ohľadom "nemeckého konečného víťazstva". 
 
 V októbri 1943 sú jednotky 2. pešej divízie reorganizované a presunuté do Talianska. Na konci mesiaca padlo pri ukrajinskom Melitopole do zajatia aj vyše 2 tisíc príslušníkov 1. pešej divízie, pričom časť z nich sama prešla na sovietsku stranu. Rozklad jednotky pokračuje aj v ďalších mesiacoch a 1. júna 1944 je napokon premenovaná na technickú divíziu a reorganizovaná do podoby pracovného útvaru. 
 
@@ -236,7 +236,7 @@ Na východné Slovensko prichádzajú príslušníci Komanda Zbv 27, podriadené
 
 [![Neznámy autor - Prezident Jozef Tiso vyznamenáva nemeckých vojakov za potlačenie SNP na námestí v Banskej Bystrici, 31. 11. 1944, Vojenský historický ústav (VHÚ) - Vojenský historický archív, Bratislava](SZ-VIII-K-6--2016-08-26--1_1--LP_A4male.jpg "Neznámy autor - Prezident Jozef Tiso vyznamenáva nemeckých vojakov za potlačenie SNP na námestí v Banskej Bystrici")](http://www.webumenia.sk/dielo/SVK:TMP.322)
 
-Po faktickom rozklade vlastnej armády ľudácky režim vytvára Pohotovostné oddiely Hlinkovej gardy (POHG) a poľné roty HG, ktoré sú poskytnuté k dispozícii veliteľom jednotlivých nemeckých kománd. Vznikajú tiež pohotovostné jednotky Hlinkovej mládeže.
+Po faktickom rozklade vlastnej armády ľudácky režim vytvára Pohotovostné oddiely <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/2/hlinkova-garda">"Hlinkovej gardy"</a> (POHG) a poľné roty HG, ktoré sú poskytnuté k dispozícii veliteľom jednotlivých nemeckých kománd. Vznikajú tiež pohotovostné jednotky <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/2/hlinkova-mladez">"Hlinkovej mládeže"</a>.
 
 [![Zreorganizovaná slovenská armáda opäť neochvejne na stráži svätých záujmov vlasti - Fotografia z časopisu NOVÁ MLÁDEŽ (časopis Hlinkovej mládeže), November 1944, ročník VII., číslo 3, Univerzitná knižnica v Bratislave](slovenski-vojaci.jpg "Zreorganizovaná slovenská armáda opäť neochvejne na stráži svätých záujmov vlasti - Fotografia z časopisu NOVÁ MLÁDEŽ (časopis Hlinkovej mládeže)")](http://digitalna.kniznica.info/zoom/31090/view?page=35&p=separate&view=0,0,1731,2635)
 
@@ -266,7 +266,7 @@ Po vojenskej porážke Slovenského národného povstania je civilné obyvateľs
 }%}
 
 
-Na pomoc slovenského obyvateľstva sú odkázaní aj Židia, ktorým už zostáva len posledná možnosť: ukryť sa v rôznych provizórnych úkrytoch. Každý, kto im pomáha, riskuje svoj život a neraz aj životy svojich blízkych. Židia, ktorí ešte v roku 1944 žijú na Slovensku a padnú do rúk nacistov a ich kolaborantov, sú buď deportovaní zo Slovenska, alebo popravení na jeho území. 
+Na pomoc slovenského obyvateľstva sú odkázaní aj <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/3/definicia-zida">"Židia"</a>, ktorým už zostáva len posledná možnosť: ukryť sa v rôznych provizórnych úkrytoch. Každý, kto im pomáha, riskuje svoj život a neraz aj životy svojich blízkych. Židia, ktorí ešte v roku 1944 žijú na Slovensku a padnú do rúk nacistov a ich kolaborantov, sú buď deportovaní zo Slovenska, alebo popravení na jeho území. 
 
 <div class="highlight">
 <p>
@@ -466,7 +466,5 @@ V rámci retribučného súdnictva je do konca roku 1948 na Slovensku súdených
 Vďaka Slovenskému národnému povstaniu je Slovensko v povojnovej Európe vnímané ako plnohodnotná súčasť víťaznej protihitlerovskej koalície. Slovenský štát ostáva smutným mementom hrozby nacionalizmu, fašizmu, systematického rozkladu demokracie a potláčania ľudských práv. Napriek tomu sú doteraz zločiny ľudáckeho režimu mnohými relativizované, vojnové udalosti zabudnuté, ignorované či popierané. 
 
 Nedovoľme, aby sa história násilia a fašistickej totality opakovala.
-
-[![Antifašistická mobilizácia 2017](antifasisti.jpg "Antifašistická mobilizácia 2017")](https://www.facebook.com/events/1192224494165546/)
 
 **Diela a fotografie z tejto kapitoly nájdete aj v kolekcii na Webe umenia: [Vytriezvenie zo sna](http://www.webumenia.sk/kolekcia/88 "Kolekcia Vytriezvenie zo sna")**

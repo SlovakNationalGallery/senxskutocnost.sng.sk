@@ -55,6 +55,7 @@ a[disabled] { // IE compatible (http://stackoverflow.com/questions/10276133/how-
 
 button, .uk-button {
   border-radius: 3px;
+  text-shadow: none;
 }
 
 .f-moyenage { 
@@ -71,7 +72,9 @@ button, .uk-button {
 .f-uppercase {
   text-transform : uppercase;
 }
-
+.tracked {
+  letter-spacing: 0.1em;
+}
 .centered {
   text-align: center;
 }
@@ -564,7 +567,7 @@ div#side-nav-bar {
 
       h1 {
         font-size: 105px;
-        @include respond-to(805) {
+        @include respond-to(825) {
           font-size: 60px;
         }
         @include respond-to(460) {
@@ -573,7 +576,7 @@ div#side-nav-bar {
         img.headline-logo {
           height: 65px;
           vertical-align: baseline;
-          @include respond-to(805) {
+          @include respond-to(825) {
             height: 35px;
           }
           @include respond-to(460) {
@@ -691,10 +694,10 @@ form#email-capture {
 }
 .button-white {
   background-color: white;
-  color: black;
+  color: #444 !important;
   &:hover {
     background-color: #EEE;
-    color: #111;
+    color: black !important;
   }
 }
 .button-shadow {
@@ -704,19 +707,32 @@ form#email-capture {
   background: none;
   border: white solid 1px;
   border-radius: 3px;
-  color: white;
+  color: white !important;
+  text-decoration: none !important;
+  text-shadow: none;
+}
+.button-ghost:hover {
+  background: white;  
+  color: #444 !important;
 }
 .button-ghost.button-ghost-black {
   border-color: black;
-  color: black;
+  color: black !important;
 }
 .button-ghost.button-ghost-black:hover, 
   .button-ghost.button-ghost-black:focus {
-    background-color: black;
-    color: white;
+    background-color: black !important;
+    color: white !important;
     * {
       color: white;
     }
+}
+
+// hide print button on mobile devices
+@media all and (max-width: 960px) {
+  a.button-print {
+    display: none;
+  }
 }
 
 .chapter-preview {
@@ -851,6 +867,10 @@ form#email-capture {
         @include respond-to(600) {
           margin-left: 0;
         }
+        a {
+          color: white;
+          text-decoration: none;
+        }
         .chapter-number {
           font-size: 16px;
         }
@@ -876,6 +896,9 @@ form#email-capture {
           right: 0px;
           font-size: 16px;
           text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 6px rgba(0, 0, 0, 0.8);
+        }
+        .sharing {
+          margin-left: -29px;
         }
       }
     }
@@ -1000,6 +1023,7 @@ form#email-capture {
   }
   .chapter-title {
     margin: 50px 40px;
+    margin-bottom: 0;
     @include respond-to(600) {
       margin: 50px 20px;
     }
@@ -1022,9 +1046,12 @@ form#email-capture {
       font-weight: 100;
       margin: 0;
     }
+    .sharing {
+      margin-left: -10px;
+    }
   }
   .post-reading {
-    top: -48px;
+    top: -52px;
   }
 }
 
@@ -1121,6 +1148,9 @@ $button-height: 60px;
   margin: 10px 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+.subobject .sharing button, .subobject .sharing a {
+  margin: 10px 6px;
 }
 
 .subobject-overview {

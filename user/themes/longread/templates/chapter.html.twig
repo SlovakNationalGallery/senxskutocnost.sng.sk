@@ -30,6 +30,9 @@
               <div class="post-reading">
                 Čas čítania: <span class="post-reading-time"></span>
               </div>
+              {% include 'partials/sharing.html.twig' with {
+                sharingStylingClasses: "button-white"
+              }%}
             </div>
           </div>
           {% include 'partials/reading-progress.html.twig' %}

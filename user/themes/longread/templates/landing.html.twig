@@ -27,9 +27,10 @@
             <h3 class="c-white f-uni-grotesk-regular">{{ page.header.h3 }}</h3>
           </div>
           
-          <div>
-            {% include 'partials/sharing.html.twig' %}
-          </div>
+          {% include 'partials/sharing.html.twig' with {
+            excludePrint: true,
+            sharingStylingClasses: 'button-ghost'
+          }%}
 
           {% include 'partials/first-chapter-cta.html.twig' %}
 

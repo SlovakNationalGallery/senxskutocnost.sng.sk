@@ -1,208 +1,208 @@
 ---
-title: 'Na polceste k slovenskému štátu'
-published: false
+title: 'Halfway to the Slovak State'
+published: true
 date: '07-11-2016 06:00'
 slug: chapter-1
-synopsis: 'V roku 1938 je Slovenská krajina súčasťou Československej republiky, no v národe silnejú tendencie osamostatniť sa. Svoju úlohu v nich majú zohrať snahy Hlinkovej slovenskej ľudovej strany o autonómiu v rámci Československa a Hitlerove mocenské plány, ktorým by rozdelenie republiky hralo do karát.'
-announce_date: 'Zverejnené 7. novembra'
+synopsis: 'In 1938, Slovakia was part of the Czechoslovak Republic, although there was a strong push towards autonomy among the people. Hlinka''''s Slovak People''''s Party''''s pursuits of autonomy within Czechoslovakia and Hitler''''s plans to divide the republic all had a role to play.'
+announce_date: 'Published on November 7'
 routes:
     default: /chapters/1-na-polceste-k-slovenskemu-statu
     canonical: /chapters/1-na-polceste-k-slovenskemu-statu
     aliases:
         - /chapters/1
 chapterNumber: 1
-titleStyled: '<span class=''f-uni-grotesk-bold''>Na polceste<br>k</span> <span class=''f-moyenage''>slovenskému štátu</span>'
-description: '1. kapitola: Na polceste k slovenskému štátu'
+titleStyled: '<span class=''f-uni-grotesk-bold''>Halfway<br>to</span> <span class=''f-moyenage''>the Slovak State</span>'
+description: 'Chapter 1: Halfway to the Slovak State'
 image: tiso.jpg
 ---
 
-## Mníchovská dohoda
+## Munich Agreement
 ### 29. 9. 1938 {.title-date}
 
-<span class="drop-cap">P</span>rvá svetová vojna zmenila usporiadanie Európy a po rozpade Rakúsko-Uhorska vznikla na našom území v roku 1918 prvá Československá republika. Slovensko sa ako jej súčasť zviechalo najprv z následkov vojny, neskôr aj z následkov svetovej hospodárskej krízy, ktorá začala pádom newyorskej burzy v roku 1929 a vyostrila vnútropolitické konflikty aj na našom kontinente. V roku 1933 sa aj vďaka nej dostala moc v Nemecku do rúk Adolfa Hitlera, novozvoleného ríšskeho kancelára, ktorý sa na niekoľko ďalších rokov stal ústredným hýbateľom európskych dejín.
+<span class="drop-cap">T</span>he First World War changed the landscape of Europe. After the collapse of the Austro-Hungarian Empire, the First Czechoslovak Republic was established. Slovakia, as a part of the republic, first faced the aftermath of the war and later the Great Depression caused by the Wall Street Crash of 1929, which exacerbated the internal political conflicts on our continent. In 1933, Adolf Hitler won the German general elections and became the new Reich Chancellor, an event that would determine the course of European history for the next decade..
 
 <div class="highlight">
 <p>
-Píše sa rok 1938, keď si nacistické Nemecko tzv. anšlusom násilne pripája Rakúsko. Hitler sa zároveň netají snahami zlikvidovať susedné Československo.
+The year is 1938 and Nazi Germany in the so-called Anschluss annexes Austria. Hitler doesn't hide his intentions to seize the neighbouring Czechoslovakia.
 </p>
 </div>
 
-[![Štefan Bednár: S jedlom rastie chuť... 1935. SNG, Bratislava](stefan-bednar-s-jedlom-rastie-chut.jpg "Štefan Bednár: S jedlom rastie chuť...")](http://www.webumenia.sk/dielo/SVK:SNG.K_12859?collection=82)
+[![Štefan Bednár: He acquired a taste for it... 1935. SNG, Bratislava](stefan-bednar-s-jedlom-rastie-chut.jpg "Štefan Bednár: He acquired a taste for it...")](http://www.webumenia.sk/dielo/SVK:SNG.K_12859?collection=82)
 
-Hitler sa snaží ČSR, ktoré ako demokratická krajina poskytovala útočisko odporcom nacizmu a voči ktorej vznášal územné nároky, rozbiť – či už medzinárodnopolitickou aktivitou alebo vojensky. Rozhodne sa preto „použiť kartu“ nemeckého obyvateľstva, žijúceho a údajnou diskrimináciou trpiaceho za hranicami Nemecka, teda podobnú zámienku, akú použil v prípade pripojenia Rakúska. Vyhovuje mu aj fakt, že na územie Slovenska (pre Hitlera v tom čase pomerne nezaujímavej krajiny) si robia „zálusk“ Maďarsko s Poľskom. V hre sú tentoraz Sudety, pohraničné československé oblasti, obývané v prevažnej miere etnickými Nemcami.
+Hitler is trying to break up Czechoslovakia, which as a democratic country offered a refuge to the opponents of Nazism. Hitler was raising territory claims, willing to proceed through international political agitation or resort to military action. He was definitely playing the German population card - Germans living and allegedly suffering from discrimination beyond the German borders - a similar excuse as he used when he annexed Austria. It suited him that the territory of Slovakia (a relatively uninteresting country for Hitler at the time) was eyed by both Poland and Hungary. The Sudetenland and the border areas of Czechoslovakia, inhabited mostly by ethnic Germans, are at stake now.
 
-[![Chamberlain, Daladier, Hitler, Mussolini a Ciano pred podpisom Mníchovskej dohody. Spolkový archív, Koblenz, Nemecko.](photo-staatschefs.jpg "Munich Agreement")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
+[![Chamberlain, Daladier, Hitler, Mussolini and Ciano pictured before signing the Munich Agreement. Bundesarchiv, Koblenz, Germany.](photo-staatschefs.jpg "Munich Agreement")](https://en.wikipedia.org/wiki/Munich_Agreement#/media/File:Bundesarchiv_Bild_183-R69173,_M%C3%BCnchener_Abkommen,_Staatschefs.jpg)
 
 <figure class="audio" markdown="1">
-![Prejav Adolfa Hitlera na zjazde NSDAP v Norimbergu 12.9.1938, kde ostro zaútočil na Československo a prezidenta Eduarda Beneša.](hitler_norimberg_12_9_1939.mp3)
-<figcaption>Prejav Adolfa Hitlera na zjazde NSDAP v Norimbergu 12.9.1938, kde ostro zaútočil na Československo a prezidenta Eduarda Beneša.</figcaption>
+![Speech by Adolf Hitler to the Nazi Party Congress in Nuremberg on 12 September 1938, in which he sharply attacked Czechoslovakia and President Eduard Benes.](hitler_norimberg_12_9_1939.mp3)
+<figcaption>Speech by Adolf Hitler to the Nazi Party Congress in Nuremberg on 12 September 1938, in which he sharply attacked Czechoslovakia and President Eduard Benes.</figcaption>
 </figure>
 
-Nemecko, Taliansko, Veľká Británia a Francúzsko zvolajú na 29. 9. 1938 konferenciu v Mníchove, na ktorej rozhodnú o ďalšom osude Československa bez jeho účasti. Republika má podľa ich rozhodnutia odstúpiť Nemecku sudetské pohraničie. Československá vláda je zaskočená najmä postojom svojich vtedajších spojencov, Francúzska a Veľkej Británie, možností však mnoho nemá. O deň neskôr, 30. 9. 1938 prijíma rozhodnutie, ktoré sa zapisuje do dejín ako Mníchovská dohoda, alebo aj explicitnejšie – mníchovský diktát. Je jednou z predzvestí blížiacej sa druhej svetovej vojny, pred ktorou však Slovensko čaká niekoľko výrazných politických zmien. Do dejín mu vstupuje Hitler. 
+Germany, Italy, Great Britain and France convened in Munich on 29 September 1938, where they decided on the fate of Czechoslovakia without its presence at the table. The Republic must cede Sudeten territory to Germany. The Czechoslovak government was particularly surprised by the attitude of their allies, France and Great Britain, but did not have any other options. A day later, on 30 September 1938, they accepted the decision, which went down in history as the Munich Agreement, sometimes called the Munich Dictate. It was one of the heralds of the coming war, before which, however, Slovakia went through several drastic political changes. 
 
 <figure class="video">    
 <iframe src="https://player.vimeo.com/video/190295173?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<figcaption><a href="http://www.webumenia.sk/dielo/SVK:TMP.114?collection=82">Imro Weiner-Kráľ: Bude vojna. 1938. GMB, Bratislava</a></figcaption>
+<figcaption><a href="http://www.webumenia.sk/dielo/SVK:TMP.114?collection=82">Imro Weiner-Kráľ: War Is Coming. 1938. GMB, Bratislava</a></figcaption>
 </figure>
 
 
 ---
-## Hlinkova slovenská ľudová strana
+## Hlinka's Slovak People's Party
 
-[![Neznámy autor. Verní sebe, svorne napred! 1939 – 1944. Príležitostná tlač. Súkromný majetok.](SVK_TMP.115.jpg "Neznámy autor. Verní sebe, svorne napred! 1939 – 1944. Príležitostná tlač. Súkromný majetok")](http://www.webumenia.sk/dielo/SVK:TMP.115?collection=82)
+[![Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property.](SVK_TMP.115.jpg "Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property")](http://www.webumenia.sk/dielo/SVK:TMP.115?collection=82)
 
-V čase podpisu Mníchovskej dohody je najsilnejšou politickou stranou na Slovensku Hlinkova slovenská ľudová strana, ktorá roku 1935 vo volebnej koalícii so SNS získala 30 %. Založená bola ako Slovenská ľudová strana v roku 1905, potom obnovená katolíckym kňazom a národovcom Andrejom Hlinkom. Stála na kresťanskom konzervatívnom základe a postupom času v nej čoraz silnejšie rezonovala myšlienka autonomizmu – samostatnejšieho postavenia Slovenska v rámci Československej republiky.  
+At the time of the Munich Agreement, the most influential political party in Slovakia was Hlinka's Slovak People's Party (HSPP), which in 1935 in coalition with the Slovak National Party won 30% of the votes in the elections. It was founded as Slovak People's Party in 1905, then restored by a Catholic priest and a nationalist, Andrej Hlinka. It was founded on conservative Christian values and slowly but surely became obsessed with the idea of autonomy - an independent Slovakia within the Czechoslovak Republic.   
 
 <div class="highlight">
 <p>
-Postupnou radikalizácou dospela HSĽS k totalitne znejúcemu heslu: „Jeden národ, jedna strana, jeden vodca.“ 
+The HSPP's gradual radicalisation was epitomised by their totalitarian motto: "One Nation, One Party, One Leader."  
 </p>
 </div>
-Začiatkom októbra 1938 prevzala HSĽS iniciatívu pri riešení štátnoprávneho postavenia Slovenska a prihlásila sa k jeho autonómii. Vo vnútri strany na seba narážajú dva prúdy – tzv. umiernené krídlo (reprezentované najmä Jozefom Tisom, Jozefom Sivákom a Martinom Sokolom) a krídlo radikálne (na čele s Vojtechom Tukom, Ferdinandom Ďurčanským a Alexandrom Machom). Líšia sa v náhľade na rýchlosť smerovania k samostatnosti a podobne rozdielne budú neskôr pristupovať aj k protižidovskej politike. Ako sa k naliehavým otázkam postaví „jeden národ, jedna strana a jeden vodca“, ktorým sa už onedlho má stať Jozef Tiso?
+During October 1938, the HSPP strived to solve the issue of Slovakia within the Republic and pushed for autonomy. Within the party, there were two conflicting approaches, the so-called moderate wing (represented mainly by Jozef Tiso, Jozef Sivák and Martin Sokol) and the radical wing (led by Vojtech Tuka, Ferdinand Ďurčanský and Alexander Mach). They differed in their views on autonomy and disagreed on antisemitic legislation. What was the answer of "one nation, one party and one leader" - soon to be Jozef Tiso - to these burning questions?
 
 {% include 'partials/subobjects.html.twig' with {
-    'title': 'Zistite viac o postavách HSĽS ',
-    'subobjects': [
-        {
-            'name':'Andrej Hlinka', 
-            'thumbnail': page.media['Andrej_Hlinka.jpg'],
-            'href': '1/hlinka'
-        },
-        {
-            'name':'Jozef Tiso', 
-            'thumbnail': page.media['Jozef_Tiso.jpg'],
-            'href': '1/tiso'
-        },
-        {
-            'name':'Karol Sidor', 
-            'thumbnail': page.media['Karol_Sidor.jpg'],
-            'href': '1/sidor'
-        },
-                {
-            'name':'Vojtech Tuka', 
-            'thumbnail': page.media['Vojtech_Tuka.jpg'],
-            'href': '1/tuka'
-        },
-                {
-            'name':'Alexander Mach', 
-            'thumbnail': page.media['Alexander_Mach.jpg'],
-            'href': '1/mach'
-        }
-    ]
+	'title': 'Find out more about the figures of the HSPP',
+	'subobjects': [
+    	{
+        	'name':'Andrej Hlinka',
+        	'thumbnail': page.media['Andrej_Hlinka.jpg'],
+        	'href': '1/hlinka'
+    	},
+    	{
+        	'name':'Jozef Tiso',
+        	'thumbnail': page.media['Jozef_Tiso.jpg'],
+        	'href': '1/tiso'
+    	},
+    	{
+        	'name':'Karol Sidor',
+        	'thumbnail': page.media['Karol_Sidor.jpg'],
+        	'href': '1/sidor'
+    	},
+            	{
+        	'name':'Vojtech Tuka',
+        	'thumbnail': page.media['Vojtech_Tuka.jpg'],
+        	'href': '1/tuka'
+    	},
+            	{
+        	'name':'Alexander Mach',
+        	'thumbnail': page.media['mach_nahlad.jpg'],
+        	'href': '1/mach'
+    	}
+	]
 }%}
 
 ---
-## Vyhlásenie autonómie Slovenska
+## Declaration of Slovakia’s Autonomy
 ### 6. 10. 1938 {.title-date}
 
-[![Neznámy autor. Manifestácia za Pittsburskú dohodu v Bratislave. Jozef Tiso pri prejave. 5. 6. 1938. SNA, Bratislava – fond STK](SVK_TMP.143.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.143?collection=82)
+[![Unknown Author. Pittsburgh Agreement Demonstration in Bratislava. Jozef Tiso Giving a Speech. 5. 6. 1938. SNA, Bratislava – Slovak Press Office](SVK_TMP.143.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.143?collection=82)
 
-Priamym následkom Mníchovskej dohody sú okamžité spoločensko-politické zmeny na území strednej a východnej Európy. Podľa nemeckej analýzy, ktorú si necháva ešte v októbri vypracovať Adolf Hitler, majú Slováci 4 možnosti: 
+The Munich Agreement had immediate social and political consequences for Central and Eastern Europe. According to German analysis, requested by Adolf Hitler in October, Slovak people had four options:
 
-- osamostatniť sa a založiť vlastný štát,
-- vyhlásiť autonómiu v rámci Československej republiky,
-- vyhlásiť autonómiu s orientáciou na Maďarsko a prípadným spojením so svojím južným susedom,
-- vyhlásiť autonómiu s orientáciou na svojho severného suseda, Poľsko. 
+- declaring independence and founding their own state,
+- declaring autonomy within the Czechoslovak Republic,
+- declaring autonomy with a focus on Hungary and a possible merger with their southern neighbour,
+- declaring autonomy with a focus on their northern neighbour, Poland.
 
-Dňa 6. októbra sa v Žiline stretnú predstavitelia HSĽS s predstaviteľmi menších politických strán, aby im predstavili svoj návrh autonómie Slovenska v rámci Československej republiky. V dokumentoch, ktoré na žilinskej konferencii HSĽS prezentuje, sa Slovensko hlási k „mierovému riešeniu sporov v duchu Mníchovskej dohody". V Manifeste strana privítala Mníchovskú dohodu a zároveň zdôraznila, že “vytrváme po boku národov bojujúcich proti marxisticko-židovskej ideológii rozvratu a násilia”. Žiadala tiež “okamžité prevzatie výkonnej a vládnej moci na Slovensku Slovákmi”, pričom skoro sa ukázalo, že v ponímaní politikov HSĽS bola Slovákov oprávnená reprezentovať len ich strana. 
+On 6 October 1938, HSPP officials met in Žilina with representatives of smaller political parties to introduce their proposal for Slovak autonomy within the Czechoslovak Republic. In the documents presented at the Žilina Conference, the HSPP claimed that Slovakia welcomes a "peaceful solution to the problem in the spirit of the Munich Agreement." In their manifesto, the party welcomed the Munich Agreement and emphasised their commitment to "stand by the side of nations fighting against the Marxist-Jewish ideology of disruption and violence." They also insisted on "immediate transfer of executive and governmental control to the Slovak people." It soon became clear that according to the HSPP politicians, they were the only legitimate representatives of the Slovak people.
 
 <div class="highlight">
 <p>
-7. októbra 1938 československá vláda prijíma návrh HSĽS. Jozefa Tisa vyhlasuje za predsedu vlády autonómnej Slovenskej krajiny.
+On 7 October 1938, the Czechoslovak government accepted the proposal by the HSPP. Jozef Tiso was declared the Prime Minister of the Autonomous Slovak Region.
 </p>
 </div>
 
-Národné zhromaždenie 19. novembra 1938 potvrdzuje autonómiu ústavným zákonom. Československu do názvu pribúda spojovník a oficiálne sa stáva Česko-Slovenskou republikou. V tom momente už štát čelí ďalšej významnej výzve – stupňujúcim sa požiadavkám zo strany Maďarska a Poľska. Na rokovaniach v Komárne sa česko-slovenská strana pod Tisovým vedením bez jasnej stratégie púšťa do rokovaní s Maďarskom. Tie vedú v novembri toho istého roku do tzv. Viedenskej arbitráže, ktorou Slovensko stráca časť svojho územia.
+The National Assembly met on 19 November 1938 and affirmed Slovak autonomy through a new constitutional law. Czechoslovakia gained a hyphen in its name and thus became the Czecho-Slovak Republic. From this moment, Slovakia is facing another challenge - rising demands from Hungary and Poland. At a meeting in Komárno, the Czecho-Slovak side, led by Tiso and without a clear strategy, started negotiations with Hungary. These negotiations lasted until November 1938 and resulted in the First Vienna Arbitration, in which Slovakia lost parts of its territory.
 
 {% include 'partials/subobjects.html.twig' with {
-    'title': 'Zistite viac o pojmoch',
-    'subobjects': [
-        {
-            'name':'Autonómia', 
-            'thumbnail': page.media['Autonomia.jpg'],
-            'href': '1/autonomia'
-        },
-        {
-            'name':'Národ', 
-            'thumbnail': page.media['Narod.jpg'],
-            'href': '1/narod'
-        }
-    ]
+	'title': 'Learn more about the terminology',
+	'subobjects': [
+    	{
+        	'name':'Autonomy',
+        	'thumbnail': page.media['Autonomia.jpg'],
+        	'href': '1/autonomia'
+    	},
+    	{
+        	'name':'Nation',
+        	'thumbnail': page.media['Narod.jpg'],
+        	'href': '1/narod'
+    	}
+	]
 }%}
 
 ---
-## Viedenská arbitráž
+## First Vienna Award
 ### 2. 11. 1938  {.title-date}
 
-[![Vincek Hochšteský. Na stráž!. 1939. Dekoratívny obraz. Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.116.jpeg "Na Stráž!")](http://www.webumenia.sk/dielo/SVK:TMP.116?collection=82)
+[![Vincek Hochšteský. On Guard!. 1939. Decorative Painting. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.116.jpeg "On Guard!")](http://www.webumenia.sk/dielo/SVK:TMP.116?collection=82)
 
-Mníchovský diktát pripravil Československú republiku o územia obývané nemeckým obyvateľstvom a keďže dodatok k Mníchovskej dohode hovoril o vyriešení problému maďarskej a poľskej menšiny do 3 mesiacov, začína byť jasné, že nároky Maďarska na územie obývané príslušníkmi a príslušníčkami svojho národa na seba nenechajú dlho čakať. V hre je takmer pätina rozlohy Slovenska, vrátane oblasti Podkarpatskej Rusi, ktorá mu prináleží, 854 218 obyvateľov tohto územia, z nich 272 145 osôb slovenskej a českej národnosti.
+The Munich Dictate cost the Czechoslovak Republic the territories occupied by the Germans. Because an appendix to the Munich Agreement spoke about solving the problem of Hungarian and Polish minorities within three months of signing, it became clear that Slovakia would have to address the Hungarian territorial claims very soon. On the table was a fifth of the territory of Slovakia, including Carpathian Ruthenia and 854,218 inhabitants of this region, including 272,145 Slovak and Czech nationals.
 
 <div class="highlight">
 <p>
-Oficiálne rokovania medzi česko-slovenskou a maďarskou stranou však nevedú k rozhodnutiu, obe krajiny sa obrátia na signatárov Mníchova a rozsiahle územia Slovenska si tzv. Viedenskou arbitrážou pripojí Maďarsko.
+The official negotiations between the Czecho-Slovak and Hungarian sides did not lead to a clear decision. Both countries turned to the signatories of the Munich Agreement and the large areas of Slovakia were annexed by Hungary in the First Vienna Award.
 </p>
 </div>
 
-Svoj kus zeme si však na základe mníchovského princípu nárokuje aj Poľsko, ku ktorému sú pripojené viaceré obce Oravy, Kysúc a Spiša.
-V novonadobudnutej časti Maďarska sa slovenské obyvateľstvo, ktoré zostalo obývať svoje domovy, stáva takmer okamžite obeťou prenasledovania, ponižovania, násilia či otvorených perzekúcií. Štát dokáže evakuovať a poskytnúť nové pôsobisko pre 50 000 Slovákov a Sloveniek. Z ďalších osôb, ktoré kvôli zlým podmienkam utekajú na slovenské územie, sa stávajú utečenci. Podľa niektorých odhadov je to v rokoch 1938 – 1943 až 100 000 osôb, ktoré sú po úteku z maďarského na slovenské územie odkázané na charitatívnu pomoc a nízke núdzové dávky od štátu. Počet vysťahovalcov zo Slovenska do Maďarska je výrazne nižší, keďže na zvyšku slovenského územia ich žijú len veľmi malé počty, dochádza však aj k takým prípadom. Na podnet HSĽS je po vyhlásení autonómie vysťahovaných z územia Slovenska aj vyše 9 000 českých štátnych zamestnancov a učiteľov, z veľkej časti tých, ktorí prišli svojho času pomôcť krajine, keď nemala dosť vlastných kapacít. 
+Based on the Munich precedent, Poland also claimed their piece of land, which included  several villages of Orava, Kysuce and Spiš. The Slovak population that remained in their homes in the newly acquired parts of Hungary immediately became a target of oppression, humiliation, violence and even open persecution. The state was able to evacuate and shelter 50,000 Slovaks. Other people fleeing to Slovakia due to the bad conditions became refugees. According to some estimates, up to 100,000 people took refuge in Slovakia during 1938 and 1943 and became dependent on charity and state benefits after fleeing from Hungary. The number of emigrants from Slovakia to Hungary was significantly lower, since there were very few Hungarian nationals living outside the contested territories. On the initiative of the HPSS, after the declaration of autonomy a further 9,000 Czech state employees and teachers were deported, including those who voluntarily came to help out a country which did not have sufficient resources by itself.
 
-[![Neznámy autor - Slováci doma a v cudzine, 1939, Slovenský národný archív](SVK_TMP.212.jpeg "Neznámy autor - Slováci doma a v cudzine, 1939")](http://www.webumenia.sk/dielo/SVK:TMP.212)
+[![Unknown Author - Slovaks at Home and Abroad, 1939, Slovak National Archive](SVK_TMP.212.jpeg "Unknown Author - Slovaks at Home and Abroad, 1939")](http://www.webumenia.sk/dielo/SVK:TMP.212)
 
-Krátko po vyhlásení autonómie sa začínajú stupňovať verbálne útoky na židovské obvyvateľstvo a od 4. novembra ľudácky režim realizuje deportáciu vyše 7500 osôb zo Slovenska na arbitrážne územie. Začína sa i s prípravou protižidovských právnych noriem, ktorou vláda poveruje komisiu pod vedením Karola Sidora. 
+Shortly after the declaration of autonomy, verbal attacks on Jewish minorities escalated and from 4 November, the populist regime organised the deportation of more than 7,500 people from Slovakia to the annexed territories. The government also started preparing of the anti-Semitic legislation, under the leadership of Karol Sidor.
 
-[![Gejza Angyal: Dve zúfalé ženy. 1939. Stredoslovenská galéria, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Dve zúfalé ženy")](http://www.webumenia.sk/dielo/SVK:SGB.K_35)
+[![Gejza Angyal: Two Desperate Women. 1939. Central Slovak Gallery, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Two Desperate Women")](http://www.webumenia.sk/dielo/SVK:SGB.K_35)
 
 ---
-## Voľby do autonómneho Snemu Slovenskej krajiny
+## Autonomous Slovak Diet Elections
 ### 18. 12. 1938 {.title-date}
 
-[![Ľudovít Križan: Sme jednotní! Náš cieľ: Nové Slovensko! 1938 – 1939. Plagát. SNM – Múzeum SNR](Krizan--Sme_jednotni--SNG--MSNRM_7.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.126?collection=82)
-Autonómna vláda vyhlasuje voľby do Snemu novovzniknutej Slovenskej krajiny v sobotu 26. 11. 1938 s dátumom konania 18. 12. 1938. Kandidátne listiny je nevyhnutné podať 3 týždne pred dňom konania volieb, teda najneskôr v nedeľu 27. 11. 1938. HSĽS si tak poisťuje, že jedinou uznanou kandidátnou listinou bude listina HSĽS - Strany slovenskej národnej jednoty. Na kandidátke figurujú v malom počte tiež zástupcovia menších spojených strán a národnostných menšín, okrem nežiadúcej českej a židovskej minority. Na základe potreby „jednoty národa“ sa začína potláčať sloboda tlače a zhromažďovania.
+[![Ľudovít Križan: We're United! Our Goal: New Slovakia! 1938 – 1939. Poster. SNM – Museum of the Slovak National Councils](Krizan--Sme_jednotni--SNG--MSNRM_7.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.126?collection=82)
+The autonomous government called for elections to the Diet of the newly created Slovak Region on Saturday, 26 November 1938, with the date of the election on 18 December 1938. Since the lists of candidates were required to be submitted three weeks before the election, the last day of submission was Sunday, 27 November 1938. This way, the HSPP ensured that the list of candidates of the Hlinka Slovak People’s Party - Party of Slovak National Unity would be the only one accepted. Their list of candidates included the representatives of affiliated parties and minorities, but excluded the unwanted Czech and Jewish minorities. Under the pretence of "national unity", they started suppressing the freedom of the press and the freedom of assembly.
 
-Krátko pred voľbami vydáva ministerstvo vnútra tajnú inštrukciu pre okresné úrady, podľa ktorej majú národnostne zmiešané územia vytvoriť osobitné volebné miestnosti pre rôzne národnosti, aby mohli jednoduchšie zistiť, ako volia ich príslušníci. 
+Shortly before the elections, the Ministry of Interior issued secret instructions, according to which regions with ethnically mixed population should create special polling stations for the various nationalities to more easily determine how each of them voted.
 
 <div class="highlight">
 <p>
-Vo voľbách, kde nemôžu vybrať politickú stranu, iba prijať, či odmietnuť predloženú kandidátnu listinu, odpovedá 97,3% voličov a voličiek kladne na sugestívnu otázku: „Chceš nové a šťastné Slovensko?“
+In elections, where one cannot choose a political party, but merely accept or reject the suggested list of candidates, 97,3% of voters replied positively to the suggestive question: "Do you want a new and happy Slovakia?"
 </p>
 </div>
 
-[![Neznámy autor: Slávnostné otvorenie slovenského autonómneho snemu v univerzitnej aule v Bratislave dňa 18. 1. 1939. SNA, Bratislava – fond STK ](SVK_TMP.130.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.130?collection=82)
+[![Unknown Author: Opening Ceremony of the Autonomous Slovak Diet in the University Auditorium in Bratislava, 18 January 1939. SNA, Bratislava – Slovak Press Office](SVK_TMP.130.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.130?collection=82)
 
-[![Fraňo Štefunko: Andrej Hlinka. Model sochy pre Snem SR. 1938—1939. SNM – HM, Bratislava](Stefunko--Hlinka-model_sochy--SNMHM_BA--Job_5639.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.117?collection=82)
+[![Fraňo Štefunko: Andrej Hlinka. Statue Model for the Slovak Diet. 1938—1939. SNM – HM, Bratislava](Stefunko--Hlinka-model_sochy--SNMHM_BA--Job_5639.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.117?collection=82)
 
 ---
-## Vznik slovenského štátu
+## Creation of the Slovak State
 ### 14. 3. 1939  {.title-date}
-[![ Neznámy autor. Apotéza vzniku SR. 1939. Slovenské národné múzeum - Historické múzeum, Bratislava](SVK_TMP.121.jpeg)
-](http://www.webumenia.sk/dielo/SVK:TMP.121?collection=82)
-Hoci stál Adolf Hitler v pozadí udalostí, ktoré sa na slovenskom území udiali v roku 1938, jeho konečným cieľom nebolo ani odtrhnutie českého pohraničia, ani slovenská autonómia. Ďalším krokom má byť rozdelenie Česko-Slovenska a pripojenie Čiech a Moravy k Veľkonemeckej ríši. Nemôže k nemu dôjsť násilnou cestou, keďže sa Nemecko Mníchovskou dohodou zaviazalo garantovať oklieštenému Česko-Slovensku bezpečnosť a celistvosť. Ak však Slovensko vyhlási samostatnosť a Česko-Slovenská republika prestane existovať, nebudú na ňu platiť podmienky dohody a Nemecko bude môcť vytúžené územia obsadiť bez toho, aby riskovalo konflikt s ostatnými mocnosťami. Pomôcť mu v tom má HSĽS...
 
-Radikálne krídlo HSĽS, zastúpené Tukom, Machom a Ferdinandom Ďurčanským, jedným z ministrov autonómnej vlády, sa na prelome rokov 1938 a 1939 viackrát stretá s nemeckými predstaviteľmi a bez vedomia slovenskej vlády prezentuje myšlienku vyhlásenia samostatnosti ako bezproblémovú.
+[![ Unknown Author. Glorification of the Creation of the Slovak State. 1939. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.121.jpeg)
+](http://www.webumenia.sk/dielo/SVK:TMP.121?collection=82)
+Although Adolf Hitler had a hand in the events that took place in the Slovak territory in 1938, his final goal wasn't annexation of Czech borderlands or Slovak autonomy. His next step was the division of Czecho-Slovakia and the annexation of Bohemia and Moravia to the German Reich. It could not happen through military occupation, since Germany promised to guarantee security and integrity of the shrunken Czechoslovakia in the Munich Agreement. If, however, Slovakia declared independence and Czecho-Slovakia ceased to exist, the former terms of agreement would no longer apply and Germany could occupy the desired territories without risking conflict with the other powers. The HSPP was going to help Hitler execute his plan...
+
+The radical wing of the HSPP, represented by Vojtech Tuka, Alexander Mach and Ferdinand Ďurčanský, met with the German diplomats several times at the turn of 1938 and 1939 without the knowledge of the Slovak government. They presented the idea of declaring independence as unproblematic.
 
 <div class="highlight">
 <p>
-Tuka počas návštevy u Hitlera otvorene vyhlasuje: „Môj vodca, osud svojho národa vkladám do vašich rúk. Môj národ od vás očakáva oslobodenie.“
+Tuka declared during a visit with Hitler: "My leader, I put the fate of my nation into your hands. My nation wants you to liberate them."
 </p>
 </div>
 
-Doma však vláda, snem i vedenie HSĽS odmieta návrhy radikálov a k samostatnému štátu chce naďalej dospieť vo vzdialenej budúcnosti prirodzeným vývojom, teda evolúciou namiesto revolúcie podľa Tukových predstáv. V súlade s Hitlerovým záujmom sa česko-slovenská vláda v Prahe dozvedá o slovenských tendenciách osamostatniť sa a 9. marca na ne reaguje vojensko-policajným zásahom. Na území Slovenska je po ňom vyhlásená vojenská diktatúra, Jozef Tiso je odvolaný z funkcie predsedu vlády a do tejto funkcie je menovaný Tisov stranícky kolega Karol Sidor.
+At home, the government, the Diet and the leadership of the HSPP rejected the proposition of the radicals since they envisioned the graduation to an independent state in the distant future through a natural revolution rather than Tuka’s revolution. In line with Hitler's interest, the Czecho-Slovak government in Prague found out about the Slovak desire for independence and responded by military action on 9 March 1939. They declared military dictatorship in Slovak, Jozef Tiso is dismissed from his post as the Prime Minister and Karol Sidor, Tiso's HSPP colleague, was named as his successor.  
 
-Po tom, čo Sidor odmietne na nátlak nacistov vyhlásiť samostatnosť, Hitler pozve do Berlína Jozefa Tisa, kde ho v podstate varuje, že ak Slovensko nevyhlási (v priebehu niekoľkých hodín) samostatnosť, „prenechá osud Slovenska napospas udalostiam“. Spomenutým osudom mohlo byť rozdelenie slovenského územia medzi trojicu susedov – Nemecko, Poľsko a Maďarsko, ktorého jednotky sa už údajne presúvajú k hraniciam. Hoci Jozef Tiso v tej chvíli nie je oficiálnym predstaviteľom Slovenska, vďaka Hitlerovej podpore môže požiadať prezidenta Emila Háchu o zvolanie snemu na 14. marca 1939. Snem Slovenskej krajiny na svojom zasadnutí vyhlási vytvorenie samostatného slovenského štátu a Hitlerove vojská hneď nasledujúci deň vstúpia na české územie, aby ho vyhlásili za Protektorát Čechy a Morava, začlenený do Nemeckej ríše. Novovzniknutý slovenský štát čaká 5 rokov existencie poznačenej druhou svetovou vojnou.
+After Sidor rejected the pressure from the Nazis to declare independence, Hitler invited Jozef Tiso to Berlin, where he threatened him that if Slovakia did not declare independence (in the next few hours), he would "abandon Slovakia to its fate". This fate might have been a division of the territory between its three neighbours - Germany, Poland and Hungary, whose troops were allegedly already moving to the borders. Despite the fact that Jozef Tiso was not an official representative of Slovakia at the moment, with Hitler's support he able to ask the president Emil Hácha to call the Diet on 14 March 1939. At the meeting, the Slovak Diet declared the creation of the Slovak State and Hitler's troops entered the Czech territories the next day, declaring the Protectorate of Bohemia and Moravia, within the German Reich. The newly created Slovak State was facing the five years of its existence, marked by the Second World War.
 
-[![Neznámy autor. Lepšia budúcnosť na slobodnom Slovensku. 1939. Pohľadnica. Súkromný majetok.](neznamy_autor--lepsia_buducnost_na_slobodnom_Slovensku-pohladnica--sukromny_majetok_2016-023_4.jpg "Neznámy autor, lepšia budúcnosť na slobodnom Slovensku, pohľadnica")](http://www.webumenia.sk/dielo/SVK:TMP.123?collection=82)
+[![Unknown Author. Brighter Future in an Independent Slovakia. 1939. Postcard. Private Property.](neznamy_autor--lepsia_buducnost_na_slobodnom_Slovensku-pohladnica--sukromny_majetok_2016-023_4.jpg "Unknown Author, Brighter Future in an Independent Slovakia, Postcard")](http://www.webumenia.sk/dielo/SVK:TMP.123?collection=82)
 
 {% include 'partials/subobjects.html.twig' with {
-    'title': 'Zistite viac o hymne',
-    'subobjects': [
-        {
-            'name':'Hej, Slováci', 
-            'thumbnail': page.media['Hej_slovaci.jpg'],
-            'href': '1/hej_slovaci'
-        }
-    ]
+	'title': 'Learn more about the anthem',
+	'subobjects': [
+    	{
+        	'name':'Hey, Slovaks!',
+        	'thumbnail': page.media['Hej_slovaci.jpg'],
+        	'href': '1/hej_slovaci'
+    	}
+	]
 }%}
 
 ---
-**Všetky diela v tejto kapitole nájdete aj v kolekcii na Webe umenia: [Na polceste k slovenskému štátu](http://www.webumenia.sk/kolekcia/82 "Na polceste k slovenskému štátu").**
+**All artworks in this chapter can also be found in the collection at the Web of Art: [Halfway to the Slovak State](http://www.webumenia.sk/kolekcia/82 "Halfway to the Slovak State").**

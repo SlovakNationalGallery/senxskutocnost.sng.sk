@@ -16,13 +16,13 @@ description: '2. kapitola: Jeden národ, jedna strana, jeden vodca'
 image: teslik-oslavy.jpg
 ---
 
-<span class="drop-cap">P</span>odmienky, za ktorých vzniká samostatný "Slovenský štát", nedávajú informovaným občanom dôvod na optimizmus. Ľudácka propaganda preto kolaboráciu s Hitlerom a podriadenie sa jeho plánom ospravedlňuje masívne medializovanými tvrdeniami, že samostatná republika je zavŕšením „tisícročných snáh slovenského národa o vlastnú štátnosť“. 
+<span class="drop-cap">P</span>odmienky, za ktorých vzniká samostatný <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1-na-polceste-k-slovenskemu-statu#vznik-slovenskho-ttu">"Slovenský štát"</a>, nedávajú informovaným občanom dôvod na optimizmus. Ľudácka propaganda preto kolaboráciu s Hitlerom a podriadenie sa jeho plánom ospravedlňuje masívne medializovanými tvrdeniami, že samostatná republika je zavŕšením „tisícročných snáh slovenského národa o vlastnú štátnosť“. 
 ## Ochranná zmluva
 ### 18. 3. 1939 {.title-date}
 
 Realitu „samostatnosti“ vystihuje už Zmluva o ochrannom pomere, ktorú predstavitelia "Slovenského štátu" podpisujú s Treťou ríšou 18. a 23. marca 1939 vo Viedni a v Berlíne. V nej sa nacistické Nemecko zaväzuje chrániť integritu slovenského územia výmenou za podriadenosť zahraničnej politiky, za budovanie armády „v zhode s nemeckou brannou mocou“ a za zosúladenie hospodárskych záujmov Slovenska s nemeckými, vrátane poľnohospodárstva, priemyslu a výstavby dopravnej komunikačnej siete. Hoci verejnosť je o uzavretí zmluvy informovaná, sprievodné protokoly ostávajú tajné. Nemci preberajú priamu kontrolu nad slovenskými zbrojovkami na Považí, kde vytvárajú tzv. ochranné pásmo, Schutzzone.
 
-[![Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava, 1939, Súkromný majetok](Jozef%20Nov%C3%BD%20-%20Budovanie%20hran%C3%ADc%20medzi%20Slovenskou%20republikou%20a%20Protektor%C3%A1tom%20%C4%8Cechy%20a%20Morava,%201939.jpeg "Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
+[![Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava, 1939, Súkromný majetok](SVK_TMP.144.jpeg "Jozef Nový - Budovanie hraníc medzi Slovenskou republikou a Protektorátom Čechy a Morava")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
 [Adolf Hitler](http://www.webumenia.sk/dielo/SVK:TMP.209?collection=83) sa síce netají svojím opovržlivým postojom k slovanským národom, ktoré považuje za menejcenné, no pre ďalšie plánované expanzie zatiaľ uprednostňuje na území Slovenska zdržanlivý prístup. 
 
 <div class="highlight">
@@ -38,7 +38,7 @@ Slovensko sa má stať príkladom pre krajiny juhovýchodnej Európy a má ukáz
 ## Prijatie Ústavy Slovenskej republiky
 ### 21. 7. 1939 {.title-date}
 
-Po decembrových voľbách 1938 Hlinkova slovenská ľudová strana - Strana slovenskej národnej jednoty (HSĽS-SSNJ) nielen stabilizuje svoje vládne pozície, ale agresívnym obsadzovaním postov v štátnej a vo verejnej správe priamo presadzuje svoj vplyv na hospodársky a spoločenský život v krajine. Likviduje napríklad voľby do obecných samospráv, obce majú riadiť menovaní „vládni komisári“. Toto vedúce postavenie jedinej politickej strany potvrdzuje aj ústava, ktorú snem prijíma 21. júla 1939. Podľa jej preambuly (predhovoru) vychádza všetka moc a právo od Boha, no jej text potvrdzuje autoritársku politickú prax HSĽS, ktorá otvorene odmieta demokratické zásady, na aké boli občania zvyknutí z medzivojnového obdobia.
+Po decembrových voľbách 1938 <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1-na-polceste-k-slovenskemu-statu#hlinkova-slovensk-udov-strana">"Hlinkova slovenská ľudová strana - Strana slovenskej národnej jednoty (HSĽS-SSNJ)"</a> nielen stabilizuje svoje vládne pozície, ale agresívnym obsadzovaním postov v štátnej a vo verejnej správe priamo presadzuje svoj vplyv na hospodársky a spoločenský život v krajine. Likviduje napríklad voľby do obecných samospráv, obce majú riadiť menovaní „vládni komisári“. Toto vedúce postavenie jedinej politickej strany potvrdzuje aj ústava, ktorú snem prijíma 21. júla 1939. Podľa jej preambuly (predhovoru) vychádza všetka moc a právo od Boha, no jej text potvrdzuje autoritársku politickú prax HSĽS, ktorá otvorene odmieta demokratické zásady, na aké boli občania zvyknutí z medzivojnového obdobia.
 <div class="highlight">
 <p>
 Z HSĽS sa stáva „štátostrana“ – prisvojuje si nárok ako jediná „zastupovať záujmy štátotvorného národa“ a naopak Slováci sa môžu zúčastňovať na politickej moci len „jej prostredníctvom“. 
@@ -93,7 +93,7 @@ Ako motív účasti v tomto ťažení po boku Nemecka je slovenskej verejnosti v
 <figcaption>Audiokoláž z prejavov Jozefa Tisa</figcaption>
 </figure>
 
-Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva Jozef Tiso. Jeho doterajší post predsedu vlády preberá Vojtech Tuka. 
+Dňa 26. októbra 1939 sa prezidentom Slovenskej republiky stáva <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1/tiso">"Jozef Tiso"</a>. Jeho doterajší post predsedu vlády preberá <a target="_blank" href="http://senxskutocnost.sng.sk/chapters/1/tuka">"Vojtech Tuka"</a>. 
 
 
 **Podobizne Jozefa Tisa s titulom prvý prezident Slovenskej republiky**

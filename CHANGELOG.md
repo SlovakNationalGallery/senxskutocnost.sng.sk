@@ -1,3 +1,76 @@
+# v1.2.0
+## 03/31/2017
+
+1. [](#new)
+    * Added file upload for user avatar in user/admin blueprint
+1. [](#improved)
+    * Analysis fixes
+    * Switched to stable composer lib versions
+
+# v1.2.0-rc.3
+## 03/22/2017
+
+1. [](#new)
+    * Refactored Page re-ordering to handle all siblings at once
+    * Added `language_codes` to Twig init to allow for easy language name/code/native-name lookup
+1. [](#improved)
+    * Added an _Admin Overrides_ section with option to choose the order of children in Pages Management
+1. [](#bugfix)
+    * Fixed loading issues with improperly named themes (use old broken method first) [#1373](https://github.com/getgrav/grav/issues/1373)
+    * Simplified modular/twig processing logic and fixed an issue with system process config [#1351](https://github.com/getgrav/grav/issues/1351)
+    * Cleanup package files via GPM install to make them more windows-friendly [#1361](https://github.com/getgrav/grav/pull/1361)
+    * Fix for page-level debugger override changing the option site-wide
+    * Allow `url()` twig function to pass-through external links
+
+# v1.2.0-rc.2
+## 03/17/2017
+
+1. [](#improved)
+    * Updated vendor libraries to latest
+    * Added the ability to disable debugger on a per-page basis with `debugger: false` in page frontmatter
+1. [](#bugfix)
+    * Fixed an issue with theme inheritance and hyphenated base themes [#1353](https://github.com/getgrav/grav/issues/1353)
+    * Fixed an issue when trying to use an `@2x` derivative on a non-image media file [#1341](https://github.com/getgrav/grav/issues/1341)
+
+# v1.2.0-rc.1
+## 03/13/2017
+
+1. [](#new)
+    * Added default setting to only allow `direct-installs` from official GPM.  Can be configured in `system.yaml`
+    * Added a new `Utils::isValidUrl()` method
+    * Added optional parameter to `|markdown(false)` filter to toggle block/line processing (default|true = `block`)
+    * Added new `Page::folderExists()` method
+1. [](#improved)
+    * `Twig::evaluate()` now takes current environment and context into account
+    * Genericized `direct-install` so it can be called via Admin plugin
+1. [](#bugfix)
+    * Fixed a minor bug in Number validation [#1329](https://github.com/getgrav/grav/issues/1329)
+    * Fixed exception when trying to find user account and there is no `user://accounts` folder
+    * Fixed issue when setting `Page::expires(0)` [Admin #1009](https://github.com/getgrav/grav-plugin-admin/issues/1009)
+    * Removed ID from `nonce_field()` Twig function causing validation errors [Form #115](https://github.com/getgrav/grav-plugin-form/issues/115)
+
+# v1.1.17
+## 02/17/2017
+
+1. [](#bugfix)
+    * Fix for double extensions getting added during some redirects [#1307](https://github.com/getgrav/grav/issues/1307)
+    * Fix syntax error in PHP 5.3. Move the version check before requiring the autoloaded deps
+    * Fix Whoops displaying error page if there is PHP core warning or error [Admin #980](https://github.com/getgrav/grav-plugin-admin/issues/980)
+
+# v1.1.16
+## 02/10/2017
+
+1. [](#new)
+    * Exposed the Pages cache ID for use by plugins (e.g. Form) via `Pages::getPagesCacheId()`
+    * Added `Languages::resetFallbackPageExtensions()` regarding [#1276](https://github.com/getgrav/grav/pull/1276)
+1. [](#improved)
+    * Allowed CLI to use non-volatile cache drivers for better integration with CLI and Web caches
+    * Added Gantry5-compatible query information to Caddy configuration
+    * Added some missing docblocks and type-hints
+    * Various code cleanups (return types, missing variables in doclbocks, etc.)
+1. [](#bugfix)
+    * Fix blueprints slug validation [https://github.com/getgrav/grav-plugin-admin/issues/955](https://github.com/getgrav/grav-plugin-admin/issues/955)
+
 # v1.1.15
 ## 01/30/2017
 
