@@ -1,6 +1,6 @@
 ---
 title: 'Alexander Mach'
-published: false
+published: true
 chapter: 'Chapter 1: Halfway to the Slovak State'
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu
 titleDate: '1902 – 1980'

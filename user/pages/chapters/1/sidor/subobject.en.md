@@ -1,6 +1,6 @@
 ---
 title: 'Karol Sidor'
-published: false
+published: true
 slug: sidor
 chapter: 'Chapter 1: Halfway to the Slovak State'
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu

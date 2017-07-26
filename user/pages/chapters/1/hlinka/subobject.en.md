@@ -1,6 +1,6 @@
 ---
 title: 'Andrej Hlinka'
-published: false
+published: true
 slug: hlinka
 chapter: 'Chapter 1: Halfway to the Slovak State'
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu

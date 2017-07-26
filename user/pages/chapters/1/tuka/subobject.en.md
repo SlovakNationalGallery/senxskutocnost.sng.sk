@@ -1,6 +1,6 @@
 ---
 title: 'Vojtech Tuka'
-published: false
+published: true
 chapter: '1. kaptiola - Na polceste k slovenskému štátu'
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu
 titleDate: '1880 – 1946'

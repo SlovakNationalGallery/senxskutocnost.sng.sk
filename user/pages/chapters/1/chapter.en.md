@@ -3,7 +3,7 @@ title: 'Halfway to the Slovak State'
 published: true
 date: '07-11-2016 06:00'
 slug: chapter-1
-synopsis: 'In 1938, Slovakia was part of the Czechoslovak Republic, although there was a strong push towards autonomy among the people. Hlinka''s Slovak People''s Party''s pursuits of autonomy within Czechoslovakia and Hitler''s plans to divide the republic all had a role to play.'
+synopsis: 'In 1938, Slovakia was part of the Czechoslovak Republic, although there was a strong push towards autonomy among the people. Hlinka''''s Slovak People''''s Party''''s pursuits of autonomy within Czechoslovakia and Hitler''''s plans to divide the republic all had a role to play.'
 announce_date: 'Published on November 7'
 routes:
     default: /chapters/1-na-polceste-k-slovenskemu-statu
@@ -60,7 +60,6 @@ The HSPP's gradual radicalisation was epitomised by their totalitarian motto: "O
 </div>
 During October 1938, the HSPP strived to solve the issue of Slovakia within the Republic and pushed for autonomy. Within the party, there were two conflicting approaches, the so-called moderate wing (represented mainly by Jozef Tiso, Jozef Sivák and Martin Sokol) and the radical wing (led by Vojtech Tuka, Ferdinand Ďurčanský and Alexander Mach). They differed in their views on autonomy and disagreed on antisemitic legislation. What was the answer of "one nation, one party and one leader" - soon to be Jozef Tiso - to these burning questions?
 
-
 {% include 'partials/subobjects.html.twig' with {
 	'title': 'Find out more about the figures of the HSPP',
 	'subobjects': [
@@ -86,71 +85,70 @@ During October 1938, the HSPP strived to solve the issue of Slovakia within the 
     	},
             	{
         	'name':'Alexander Mach',
-        	'thumbnail': page.media['Alexander_Mach.jpg'],
+        	'thumbnail': page.media['mach_nahlad.jpg'],
         	'href': '1/mach'
     	}
 	]
 }%}
 
 ---
-## Declaration of Slovak's Autonomy
+## Declaration of Slovakia’s Autonomy
 ### 6. 10. 1938 {.title-date}
 
 [![Unknown Author. Pittsburgh Agreement Demonstration in Bratislava. Jozef Tiso Giving a Speech. 5. 6. 1938. SNA, Bratislava – Slovak Press Office](SVK_TMP.143.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.143?collection=82)
 
-The direct consequence of the Munich Agreement were the immediate social and political changes in Central and Eastern Europe. According to the German analysis, requested by Adolf Hitler in October, Slovak people had four options:
+The Munich Agreement had immediate social and political consequences for Central and Eastern Europe. According to German analysis, requested by Adolf Hitler in October, Slovak people had four options:
 
-- declaring independence and founding their own state, 
-- declaring autonomy within the Czechoslovak Republic, 
+- declaring independence and founding their own state,
+- declaring autonomy within the Czechoslovak Republic,
 - declaring autonomy with a focus on Hungary and a possible merger with their southern neighbour,
-- declaring autonomy with a focus on their northern neighbour, Poland. 
+- declaring autonomy with a focus on their northern neighbour, Poland.
 
-On 6 October, the representives from the HSPP meet in Žilina with representatives of smaller political parties to introduce their proposal for Slovak autonomy within the Czechoslovak Republic. In the documents presented at the Žilina Conference, the HSPP claimed that Slovakia welcomes a "peaceful solution of the problem in the spirit of the Munich Agreement." In their manifesto, the party welcomed the Munich Agreement and emphasised their commitment to "stand by the side of nations fighting against the Marxist-Jewish ideology of disruption and violence." They also insisted on "immediate take-over of executive and governmental powers in Slovakia by the Slovak people." It soon became clear that in understanding of the HSPP politicians, they were the only legitimate representatives of the Slovak people. 
+On 6 October 1938, HSPP officials met in Žilina with representatives of smaller political parties to introduce their proposal for Slovak autonomy within the Czechoslovak Republic. In the documents presented at the Žilina Conference, the HSPP claimed that Slovakia welcomes a "peaceful solution to the problem in the spirit of the Munich Agreement." In their manifesto, the party welcomed the Munich Agreement and emphasised their commitment to "stand by the side of nations fighting against the Marxist-Jewish ideology of disruption and violence." They also insisted on "immediate transfer of executive and governmental control to the Slovak people." It soon became clear that according to the HSPP politicians, they were the only legitimate representatives of the Slovak people.
 
 <div class="highlight">
 <p>
-On 7 October 1938, the Czechoslovak government accepted the proposal by the HSPP. Jozef Tiso was declared the Prime Minister of the Autonomous Slovak Region. 
+On 7 October 1938, the Czechoslovak government accepted the proposal by the HSPP. Jozef Tiso was declared the Prime Minister of the Autonomous Slovak Region.
 </p>
 </div>
 
-The National Assembly of 19 November 1938 confirmed the autonomy by a constitutional law. Czechoslovakia gained a hyphen in a name and becomes the Czecho-Slovak Republic. From this moment, Slovakia is facing another challenge - rising demands from Hungary and Poland. At the meeting in Komárno, the Czecho-Slovak side, led by Tiso and without a clear strategy, started negotiations with Hungary. These negotiations lasted till November 1938 and resulted in the First Vienna Arbitration, in which Slovakia lost parts of its territory. 
+The National Assembly met on 19 November 1938 and affirmed Slovak autonomy through a new constitutional law. Czechoslovakia gained a hyphen in its name and thus became the Czecho-Slovak Republic. From this moment, Slovakia is facing another challenge - rising demands from Hungary and Poland. At a meeting in Komárno, the Czecho-Slovak side, led by Tiso and without a clear strategy, started negotiations with Hungary. These negotiations lasted until November 1938 and resulted in the First Vienna Arbitration, in which Slovakia lost parts of its territory.
 
 {% include 'partials/subobjects.html.twig' with {
-    'title': 'Learn more about the terminology',
-    'subobjects': [
-        {
-            'name':'Autonomy', 
-            'thumbnail': page.media['Autonomia.jpg'],
-            'href': '1/autonomia'
-        },
-        {
-            'name':'Nation', 
-            'thumbnail': page.media['Narod.jpg'],
-            'href': '1/narod'
-        }
-    ]
+	'title': 'Learn more about the terminology',
+	'subobjects': [
+    	{
+        	'name':'Autonomy',
+        	'thumbnail': page.media['Autonomia.jpg'],
+        	'href': '1/autonomia'
+    	},
+    	{
+        	'name':'Nation',
+        	'thumbnail': page.media['Narod.jpg'],
+        	'href': '1/narod'
+    	}
+	]
 }%}
 
 ---
-## Vienna Arbitration
+## First Vienna Award
 ### 2. 11. 1938  {.title-date}
 
 [![Vincek Hochšteský. On Guard!. 1939. Decorative Painting. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.116.jpeg "On Guard!")](http://www.webumenia.sk/dielo/SVK:TMP.116?collection=82)
 
-The Munich Dictate cost the Czechoslovak Republic the territories occupied by the Germans. Because the appendix to the Munich Agreement spoke about solving the problem of Hungarian and Polish minorities within three months of signing, it became very clear that Hungarian territorial claims will not wait long. They were talking about a fifth of the territory of Slovakia, including Carpathian Ruthenia and 854,218 inhabitants of this region, including 272,145 Slovak and Czech nationals. 
+The Munich Dictate cost the Czechoslovak Republic the territories occupied by the Germans. Because an appendix to the Munich Agreement spoke about solving the problem of Hungarian and Polish minorities within three months of signing, it became clear that Slovakia would have to address the Hungarian territorial claims very soon. On the table was a fifth of the territory of Slovakia, including Carpathian Ruthenia and 854,218 inhabitants of this region, including 272,145 Slovak and Czech nationals.
 
 <div class="highlight">
 <p>
-The official negotiations between the Czecho-Slovak and Hungarian sides did not lead to a clear decision. Both countries turned to the signatories of the Munich Agreement and the large areas of Slovakia were annexed by Hungary through the so-called Vienna Award.
+The official negotiations between the Czecho-Slovak and Hungarian sides did not lead to a clear decision. Both countries turned to the signatories of the Munich Agreement and the large areas of Slovakia were annexed by Hungary in the First Vienna Award.
 </p>
 </div>
 
-Poland also claimed their piece of land, based on the Munich precedent, including several villages of Orava, Kysuce and Spiš.
-In the newly acquired parts of Hungary, the Slovak population that remained in their homes became an immediate target of oppression, humiliation, violence or even open persecution. The state was able to evacuate and shelter 50,000 Slovaks. Other people feeling to Slovakia due to the bad conditions became refugees. According to some estimates, up to 100,000 people during 1938-1943 took refuge in Slovakia and became dependant on charity and state benefits after fleeing from Hungary. The number of emigrants from Slovakia to Hungary was significantly lower, since there were very few Hungarian nationals living outside the contested territories. At the initiative of the HPSS, after the declaration of autonomy further 9,000 Czech state employees and teachers were deported, including those who voluntarily came to help out a country which did not have their own sufficient resources.
+Based on the Munich precedent, Poland also claimed their piece of land, which included  several villages of Orava, Kysuce and Spiš. The Slovak population that remained in their homes in the newly acquired parts of Hungary immediately became a target of oppression, humiliation, violence and even open persecution. The state was able to evacuate and shelter 50,000 Slovaks. Other people fleeing to Slovakia due to the bad conditions became refugees. According to some estimates, up to 100,000 people took refuge in Slovakia during 1938 and 1943 and became dependent on charity and state benefits after fleeing from Hungary. The number of emigrants from Slovakia to Hungary was significantly lower, since there were very few Hungarian nationals living outside the contested territories. On the initiative of the HPSS, after the declaration of autonomy a further 9,000 Czech state employees and teachers were deported, including those who voluntarily came to help out a country which did not have sufficient resources by itself.
 
 [![Unknown Author - Slovaks at Home and Abroad, 1939, Slovak National Archive](SVK_TMP.212.jpeg "Unknown Author - Slovaks at Home and Abroad, 1939")](http://www.webumenia.sk/dielo/SVK:TMP.212)
 
-Shortly after the declaration of autonomy, the verbal attacks on the Jewish minority escalate and from 4 November, the populist regime organised a deportation of more than 7,500 people from Slovakia to the arbitration territories. The government also started with a preparation of the anti-Semitic legislation, under the leadership of Karol Sidor. 
+Shortly after the declaration of autonomy, verbal attacks on Jewish minorities escalated and from 4 November, the populist regime organised the deportation of more than 7,500 people from Slovakia to the annexed territories. The government also started preparing of the anti-Semitic legislation, under the leadership of Karol Sidor.
 
 [![Gejza Angyal: Two Desperate Women. 1939. Central Slovak Gallery, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Two Desperate Women")](http://www.webumenia.sk/dielo/SVK:SGB.K_35)
 
@@ -159,13 +157,13 @@ Shortly after the declaration of autonomy, the verbal attacks on the Jewish mino
 ### 18. 12. 1938 {.title-date}
 
 [![Ľudovít Križan: We're United! Our Goal: New Slovakia! 1938 – 1939. Poster. SNM – Museum of the Slovak National Councils](Krizan--Sme_jednotni--SNG--MSNRM_7.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.126?collection=82)
-The autonomous government called for elections to the Diet of the newly created Slovak Region on Saturday 26 November 1938 with the date of the election on 18 December 1938. Since the lists of candidates were required to be submitted three weeks before the election, the latest day of submission was Sunday 27 November 1938. The HSPP therefore ensured that the list of candidates of the HSPP - Party of Slovak National Unity would be the only one accepted. Their list of candidates also included the representatives of affiliated parties and minorities, except the unwanted Czech and Jewish minorities. Based on the needs of "unity of the nation", they started suppressing the freedom of the press and the freedom of assembly. 
+The autonomous government called for elections to the Diet of the newly created Slovak Region on Saturday, 26 November 1938, with the date of the election on 18 December 1938. Since the lists of candidates were required to be submitted three weeks before the election, the last day of submission was Sunday, 27 November 1938. This way, the HSPP ensured that the list of candidates of the Hlinka Slovak People’s Party - Party of Slovak National Unity would be the only one accepted. Their list of candidates included the representatives of affiliated parties and minorities, but excluded the unwanted Czech and Jewish minorities. Under the pretence of "national unity", they started suppressing the freedom of the press and the freedom of assembly.
 
-Shortly before the elections, the Ministry of Interior issued secret instructions, according to which the regions with ethnically mixed population should create a special polling stations for the various nationalities so it would be easier to detect how they voted. 
+Shortly before the elections, the Ministry of Interior issued secret instructions, according to which regions with ethnically mixed population should create special polling stations for the various nationalities to more easily determine how each of them voted.
 
 <div class="highlight">
 <p>
-In elections, where one cannot choose a political party, but only accept or reject the submitted list of candidates, 97,3% of voters replied positively to the suggestive question: "Do you want a new and happy Slovakia?"
+In elections, where one cannot choose a political party, but merely accept or reject the suggested list of candidates, 97,3% of voters replied positively to the suggestive question: "Do you want a new and happy Slovakia?"
 </p>
 </div>
 
@@ -179,31 +177,31 @@ In elections, where one cannot choose a political party, but only accept or reje
 
 [![ Unknown Author. Glorification of the Creation of the Slovak State. 1939. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.121.jpeg)
 ](http://www.webumenia.sk/dielo/SVK:TMP.121?collection=82)
-Although Adolf Hitler stood in the background of the events that took place in the Slovak territory in 1938, his final goal wasn't annexation of Czech borderlands nor Slovak autonomy. His next step was a division of Czecho-Slovakia and the annexation of Bohemia and Moravia to the German Reich. It could not happen through military occupation, since Germany promised to guarantee security and integrity of the shrunken Czechoslovakia in the Munich Agreement. If, however, Slovakia declared independence and Czecho-Slovakia ceased to exist, the former terms of agreement did not apply anymore and Germany could occupy the desired territories without risking conflict with the other powers. The HSPP was going to help Hitler with this...
+Although Adolf Hitler had a hand in the events that took place in the Slovak territory in 1938, his final goal wasn't annexation of Czech borderlands or Slovak autonomy. His next step was the division of Czecho-Slovakia and the annexation of Bohemia and Moravia to the German Reich. It could not happen through military occupation, since Germany promised to guarantee security and integrity of the shrunken Czechoslovakia in the Munich Agreement. If, however, Slovakia declared independence and Czecho-Slovakia ceased to exist, the former terms of agreement would no longer apply and Germany could occupy the desired territories without risking conflict with the other powers. The HSPP was going to help Hitler execute his plan...
 
-The radical wing of the HSPP, represented by Tuka, Mach and Ferdinand Ďurčanský, one of the ministers of the autonomous government, met with the German diplomats several times at the turn of 1938 and 1939 without the knowledge of the Slovak government. They presented the idea of declaring independence as unproblematic.
+The radical wing of the HSPP, represented by Vojtech Tuka, Alexander Mach and Ferdinand Ďurčanský, met with the German diplomats several times at the turn of 1938 and 1939 without the knowledge of the Slovak government. They presented the idea of declaring independence as unproblematic.
 
 <div class="highlight">
 <p>
-Tuka during a visit with Hitler declared: "My leader, I put the fate of my nation into your hands. My nation wants you to liberate them." 
+Tuka declared during a visit with Hitler: "My leader, I put the fate of my nation into your hands. My nation wants you to liberate them."
 </p>
 </div>
 
-At home, the government, the Diet and the leadership of the HSPP rejected the proposition of the radicals since they envisioned the graduation to an independent state in the distant future through a natural progression, meaning through an evolution and not Tuka's revolution. In accordance with Hitler's interest, the Czecho-Slovak government in Prague found out about the Slovak tendencies to independence and responded by military action on 9 March 1939. Military dictatorship was declared on the Slovak territory, Jozef Tiso is dismissed from his post as the Prime Minister and Karol Sidor, Tiso's colleague from the party, named into this function.  
+At home, the government, the Diet and the leadership of the HSPP rejected the proposition of the radicals since they envisioned the graduation to an independent state in the distant future through a natural revolution rather than Tuka’s revolution. In line with Hitler's interest, the Czecho-Slovak government in Prague found out about the Slovak desire for independence and responded by military action on 9 March 1939. They declared military dictatorship in Slovak, Jozef Tiso is dismissed from his post as the Prime Minister and Karol Sidor, Tiso's HSPP colleague, was named as his successor.  
 
-After Sidor rejected the pressure from the Nazis to declare independence, Hitler invited Jozef Tiso to Berlin, where he de facto threatened him that if Slovakia did not declare independence (in the next few hours), he would "abandon Slovakia to its fate." The said fate might have been a division of the territory between their three neighbours - Germany, Poland and Hungary, whose troops were allegedly already moving to the borders. Despite the fact that Jozef Tiso was not an official representative of Slovakia at the moment, thanks to Hitler's support he asked the president Emil Hácha to call the Diet on 14 March 1939. At the meeting, the Slovak Diet declared the creation of the Slovak State and Hitler's troops entered the Czech territories the next day, declaring the Protectorate of Bohemia and Moravia, within the German Reich. The newly created Slovak State was facing the five years of its existence, marked by the Second World War. 
+After Sidor rejected the pressure from the Nazis to declare independence, Hitler invited Jozef Tiso to Berlin, where he threatened him that if Slovakia did not declare independence (in the next few hours), he would "abandon Slovakia to its fate". This fate might have been a division of the territory between its three neighbours - Germany, Poland and Hungary, whose troops were allegedly already moving to the borders. Despite the fact that Jozef Tiso was not an official representative of Slovakia at the moment, with Hitler's support he able to ask the president Emil Hácha to call the Diet on 14 March 1939. At the meeting, the Slovak Diet declared the creation of the Slovak State and Hitler's troops entered the Czech territories the next day, declaring the Protectorate of Bohemia and Moravia, within the German Reich. The newly created Slovak State was facing the five years of its existence, marked by the Second World War.
 
 [![Unknown Author. Brighter Future in an Independent Slovakia. 1939. Postcard. Private Property.](neznamy_autor--lepsia_buducnost_na_slobodnom_Slovensku-pohladnica--sukromny_majetok_2016-023_4.jpg "Unknown Author, Brighter Future in an Independent Slovakia, Postcard")](http://www.webumenia.sk/dielo/SVK:TMP.123?collection=82)
 
 {% include 'partials/subobjects.html.twig' with {
-    'title': 'Learn more about the anthem',
-    'subobjects': [
-        {
-            'name':'Hey, Slovaks!', 
-            'thumbnail': page.media['Hej_slovaci.jpg'],
-            'href': '1/hej_slovaci'
-        }
-    ]
+	'title': 'Learn more about the anthem',
+	'subobjects': [
+    	{
+        	'name':'Hey, Slovaks!',
+        	'thumbnail': page.media['Hej_slovaci.jpg'],
+        	'href': '1/hej_slovaci'
+    	}
+	]
 }%}
 
 ---
