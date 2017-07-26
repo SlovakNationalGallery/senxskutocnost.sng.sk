@@ -23,7 +23,7 @@ image: teslik-oslavy.jpg
 
 The reality of Slovak "independence" was already clear in the Treaty of Protection (Schutzvertrag) that was signed by the representatives of the "Slovak State" with the Third Reich on 18 and 23 March 1939 in Vienna and Berlin. Nazi Germany pledged to protect the integrity of the Slovak territory in exchange for its subordination in the matters of foreign policy, building an army "in accordance with German forces" and aligning the economic policies with Germany, including agriculture, industry and infrastructure. Although the public was informed about the Treaty, the accompanying protocols remained secret. The Germans took direct control over the munition factories in Považie, creating the so-called “Schutzzone” or “protection zone”..
 
-[![Jozef Nový - Building Borders between the Slovak Republic and the Protectorate of Bohemia and Moravia, 1939, Private Property](Jozef%20Nov%C3%BD%20-%20Budovanie%20hran%C3%ADc%20medzi%20Slovenskou%20republikou%20a%20Protektor%C3%A1tom%20%C4%8Cechy%20a%20Morava,%201939.jpeg "Jozef Nový - Building Borders between the Slovak Republic and the Protectorate of Bohemia and Moravia")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
+[![Jozef Nový - Building Borders between the Slovak Republic and the Protectorate of Bohemia and Moravia, 1939, Private Property](SVK_TMP.144.jpeg "Jozef Nový - Building Borders between the Slovak Republic and the Protectorate of Bohemia and Moravia")](http://www.webumenia.sk/dielo/SVK:TMP.144?collection=83)
 [Adolf Hitler](http://www.webumenia.sk/dielo/SVK:TMP.209?collection=83)'s disdain towards the Slavic nations was no secret. He considered them inferior, but favoured a more restrained approach towards Slovakia.
 
 <div class="highlight">
