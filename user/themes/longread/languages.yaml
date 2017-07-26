@@ -1,6 +1,7 @@
 sk:
   VOCABULARY:
     CHAPTER: kapitola
+    READING_TIME: Čas čítania
   LANDING:
     FIRST_CHAPTER_CTA:
       CHAPTER_NUMBER: 1. kapitola
@@ -33,6 +34,7 @@ sk:
 en:
   VOCABULARY:
     CHAPTER: chapter
+    READING_TIME: Reading time
   LANDING:
     FIRST_CHAPTER_CTA:
       CHAPTER_NUMBER: first chapter
