@@ -23,7 +23,7 @@ After 1941, labour units for "asocial" individuals were created and "Gypsies wit
 </p>
 </div>
 
-[![Jozef Cincík - Report from the "Gypsy" Camps, 1941, Slovak National Archive](15499male.jpg "Jozef Cincík - Report from the "Gypsy" Camps")](http://www.webumenia.sk/dielo/SVK:TMP.270)
+[![Jozef Cincík - Report from the "Gypsy" Camps, 1941, Slovak National Archive](15499male.jpg "Jozef Cincík - Report from the „Gypsy“ Camps")](http://www.webumenia.sk/dielo/SVK:TMP.270)
 
 These units were initially temporary or seasonal, but from 1942 they were established as permanent. They were mostly created in Eastern Slovakia in towns such as Hanušovce nad Topľou, Bystré nad Topľou and Nižný Hrabovec. The Romani men made up roughly half of the 3000 prisoners. Further labour units were created in Dubnica nad Váhom, Ilava, Revúca and Ústie nad Oravou. Regardless of location, these units were ruled harshly.
 
