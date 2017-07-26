@@ -27,9 +27,7 @@
                   {{ page.header.title }}
                 {% endif %}
               </h1>
-              <div class="post-reading">
-                Čas čítania: <span class="post-reading-time"></span>
-              </div>
+              {% include 'partials/reading-time.html.twig' %}
               {% include 'partials/sharing.html.twig' with {
                 sharingStylingClasses: "button-white"
               }%}

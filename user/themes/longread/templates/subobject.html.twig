@@ -30,9 +30,7 @@
           }%}
         </div>
         <section class="post-content">
-          <div class="post-reading">
-            Čas čítania: <span class="post-reading-time"></span>
-          </div>
+          {% include 'partials/reading-time.html.twig' %}
           {{ content }}
         </section>
       </article>
