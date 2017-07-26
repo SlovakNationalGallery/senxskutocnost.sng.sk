@@ -1,6 +1,6 @@
 ---
 title: 'Jozef Tiso'
-published: false
+published: true
 slug: tiso
 chapter: 'Chapter 1: Halfway to the Slovak State'
 chapterHref: /chapters/1-na-polceste-k-slovenskemu-statu
