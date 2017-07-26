@@ -10,7 +10,14 @@
         <div class="breadcrumbs f-uni-grotesk-regular">
           <a href="{{page.parent.parent.url}}">sen × skutočnosť</a>
           <span class="breadcrumb-symbol">></span>
-          <a href="{{page.parent.url}}">kapitola {{page.parent.header.chapterNumber}}</a>
+          <a href="{{page.parent.url}}">
+            {% if langswitcher.current == "sk" %}
+              kapitola
+            {% else %}
+              chapter
+            {% endif %}
+            {{page.parent.header.chapterNumber}}
+          </a>
           <span class="breadcrumb-symbol">></span>
           <span>{{page.title}}</span>
         </div>
