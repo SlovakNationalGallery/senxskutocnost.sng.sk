@@ -21,7 +21,11 @@
           <div class="chapter-title-wrapper">
             <div class="chapter-title f-uni-grotesk-bold">
               <div class="chapter-number">
-                {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER")|title }}
+                {% if langswitcher.current == 'sk' %}
+                  {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER") }}
+                {% else %}
+                  {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER")|title }}
+                {% endif %}
               </div>
               <h1 class="margin-top-0 padding-top-0">
                 {% if page.header.titleStyled %}
