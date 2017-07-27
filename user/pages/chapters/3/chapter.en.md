@@ -4,7 +4,7 @@ published: true
 date: '18-11-2016 00:00'
 slug: chapter-3
 synopsis: 'The persecution of the Jewish minority in Slovakia by the government had already began during the days of autonomy, but after the creation of the independent state, anti-Semitic measures became a part of official legislation and regulations. This process of taking away the rights of the Jewish population culminated in the mass murder in concentration camps.'
-announce_date: 'Zverejnené 10. januára'
+announce_date: 'Published on 10 January'
 routes:
     default: /chapters/3-70000-obeti
     canonical: /chapters/3-70000-obeti
@@ -124,7 +124,7 @@ The Codex allowed the president to grant exemptions from the anti-Semitic measur
 ## Deportations of the Slovak Jews
 ### 25. 3. 1942 {.title-date}
 
-As a consequence of the anti-Semitic legislation, the vast majority of the Jews were unable to survive without social welfare system by the end of 1941. The solution was supposed to be the creation of labour camps where they could produce scarce goods. These camps were at first built in Nováky and Sereď, later in Vyhne. It soon became clear that the construction of these camps was costly and time-consuming.   
+As a consequence of the anti-Semitic legislation, the vast majority of the Jews were unable to survive without social welfare system by the end of 1941. The solution was supposed to be the creation of [labour camps](http://www.minv.sk/?ZPT) where they could produce scarce goods. These camps were at first built in Nováky and [Sereď](http://www.muzeum.sk/?obj=muzeum&ix=mhol_mzk_snm), later in Vyhne. It soon became clear that the construction of these camps was costly and time-consuming.   
 
 [![Unknown Author - Labour camp in Nováky for the racially persecuted citizens of the Jewish minority, 1941, Military History Institute - Military History Archive, Bratislava](pracovny_tabor_v_novakoch-VHA-VHU-BA.jpg "Unknown Author - Labour camp in Nováky for the racially persecuted citizens of the Jewish minority")](http://www.webumenia.sk/dielo/SVK:TMP.243?collection=86)
 
@@ -138,7 +138,7 @@ The Slovak Government paid the Nazis for the deportations - the settlement charg
 
 [![Anton Baník - Deportations of the Jewish Population in Nitra, 1942, Slovak National Archive, Bratislava - Slovak Press Office](Anton_banik--deportacia_zidovskeho_obyvatelstva-1942--SNA-fondSTK.jpg "Anton Baník - Deportations of the Jewish Population in Nitra")](http://www.webumenia.sk/dielo/SVK:TMP.237?collection=86)
 
-Already in the summer of 1941, word of the mass murder of Jews by the Germans was circulating in Slovakia, thanks to soldiers from the Eastern Front. The Nazis were murdering Soviet Jews irrespective of their age or gender. Neither this news, nor warnings from the Vatican that the deportations may end deadly, deterred the Slovak Government from carrying on.
+Already in the summer of 1941, word of the mass murder of Jews by the Germans was circulating in Slovakia, thanks to [soldiers from the Eastern Front](http://www.webumenia.sk/dielo/SVK:TMP.319). The Nazis were murdering Soviet Jews irrespective of their age or gender. Neither this news, nor warnings from the Vatican that the deportations may end deadly, deterred the Slovak Government from carrying on.
 
 **Staged Photography of the Jewish Population in Labour Camps**
 {% include 'partials/carousel.html.twig' with {
