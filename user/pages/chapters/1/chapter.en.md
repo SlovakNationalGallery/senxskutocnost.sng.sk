@@ -136,6 +136,11 @@ The National Assembly met on 19 November 1938 and affirmed Slovak autonomy throu
 
 [![Vincek Hochšteský. On Guard!. 1939. Decorative Painting. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.116.jpeg "On Guard!")](http://www.webumenia.sk/dielo/SVK:TMP.116?collection=82)
 
+<figure class="audio" markdown="1">
+![Jozef Tiso's speech from 28.11.1938. RTVS](01-Tiso_prejav-slovenska_autonomna_vlada.mp3)
+<figcaption>Jozef Tiso's speech from 28.11.1938. RTVS</figcaption>
+</figure>
+
 The Munich Dictate cost the Czechoslovak Republic the territories occupied by the Germans. Because an appendix to the Munich Agreement spoke about solving the problem of Hungarian and Polish minorities within three months of signing, it became clear that Slovakia would have to address the Hungarian territorial claims very soon. On the table was a fifth of the territory of Slovakia, including Carpathian Ruthenia and 854,218 inhabitants of this region, including 272,145 Slovak and Czech nationals.
 
 <div class="highlight">
@@ -150,6 +155,11 @@ Based on the Munich precedent, Poland also claimed their piece of land, which in
 
 Shortly after the declaration of autonomy, verbal attacks on Jewish minorities escalated and from 4 November, the populist regime organised the deportation of more than 7,500 people from Slovakia to the annexed territories. The government also started preparing of the anti-Semitic legislation, under the leadership of Karol Sidor.
 
+<figure class="audio" markdown="1">
+![Fragments of speeches by Alexander Mach from 14.3.1939 and 28.9.1942. RTVS](04-fragmenty_prejavov_A-Macha.mp3)
+<figcaption>Fragments of speeches by Alexander Mach from 14.3.1939 and 28.9.1942. RTVS</figcaption>
+</figure>
+
 [![Gejza Angyal: Two Desperate Women. 1939. Central Slovak Gallery, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Two Desperate Women")](http://www.webumenia.sk/dielo/SVK:SGB.K_35)
 
 ---
@@ -157,6 +167,12 @@ Shortly after the declaration of autonomy, verbal attacks on Jewish minorities e
 ### 18. 12. 1938 {.title-date}
 
 [![Ľudovít Križan: We're United! Our Goal: New Slovakia! 1938 – 1939. Poster. SNM – Museum of the Slovak National Councils](Krizan--Sme_jednotni--SNG--MSNRM_7.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.126?collection=82)
+
+<figure class="audio" markdown="1">
+![Report from the election of Jozef Tiso for president of Slovak republic - 26.10.1939. RTVS](03-reportaz-z-volieb-Tisa.mp3)
+<figcaption>Report from the election of Jozef Tiso for president of Slovak republic - 26.10.1939. RTVS</figcaption>
+</figure>
+
 The autonomous government called for elections to the Diet of the newly created Slovak Region on Saturday, 26 November 1938, with the date of the election on 18 December 1938. Since the lists of candidates were required to be submitted three weeks before the election, the last day of submission was Sunday, 27 November 1938. This way, the HSPP ensured that the list of candidates of the Hlinka Slovak People’s Party - Party of Slovak National Unity would be the only one accepted. Their list of candidates included the representatives of affiliated parties and minorities, but excluded the unwanted Czech and Jewish minorities. Under the pretence of "national unity", they started suppressing the freedom of the press and the freedom of assembly.
 
 Shortly before the elections, the Ministry of Interior issued secret instructions, according to which regions with ethnically mixed population should create special polling stations for the various nationalities to more easily determine how each of them voted.
@@ -177,6 +193,12 @@ In elections, where one cannot choose a political party, but merely accept or re
 
 [![ Unknown Author. Glorification of the Creation of the Slovak State. 1939. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.121.jpeg)
 ](http://www.webumenia.sk/dielo/SVK:TMP.121?collection=82)
+
+<figure class="audio" markdown="1">
+![Christmas radio address by Jozef Tiso - 26.12.1938. RTVS](02-Vianocny_prihovor_Tiso.mp3)
+<figcaption>Christmas radio address by Jozef Tiso - 26.12.1938. RTVS</figcaption>
+</figure>
+
 Although Adolf Hitler had a hand in the events that took place in the Slovak territory in 1938, his final goal wasn't annexation of Czech borderlands or Slovak autonomy. His next step was the division of Czecho-Slovakia and the annexation of Bohemia and Moravia to the German Reich. It could not happen through military occupation, since Germany promised to guarantee security and integrity of the shrunken Czechoslovakia in the Munich Agreement. If, however, Slovakia declared independence and Czecho-Slovakia ceased to exist, the former terms of agreement would no longer apply and Germany could occupy the desired territories without risking conflict with the other powers. The HSPP was going to help Hitler execute his plan...
 
 The radical wing of the HSPP, represented by Vojtech Tuka, Alexander Mach and Ferdinand Ďurčanský, met with the German diplomats several times at the turn of 1938 and 1939 without the knowledge of the Slovak government. They presented the idea of declaring independence as unproblematic.

@@ -11,8 +11,7 @@ routes:
     aliases:
         - /chapters/2
 chapterNumber: 2
-titleStyled: '<span class=''''f-uni-grotesk-bold''''>One</span> <span class=''''f-moyenage''''>Nation, </span><span class=''''f-uni-grotesk-bold''''>One</span> <span class=''''f-moyenage''''>Party, </span><span class=''''f-uni-grotesk-bold''''>One</span> <span class=''''f-moyenage''''>Leader</span>'
-description: 'Chapter 2: One Nation, One Party, One Leader'
+titleStyled: '<span class=''f-uni-grotesk-bold''>One</span> <span class=''f-moyenage''>Nation, </span><span class=''f-uni-grotesk-bold''>One</span> <span class=''f-moyenage''>Party, </span><span class=''f-uni-grotesk-bold''>One</span> <span class=''f-moyenage''>Leader</span>'
 image: teslik-oslavy.jpg
 ---
 
@@ -248,7 +247,42 @@ The program of building the National Socialist culture was characterised by the 
 
 The pseudo-Romantic, idealist interpretation of the national myth was based on the idea of a return to our ancestors and the selective creation of heroic martyrs from the past (Pribina, Svätopluk, Old Slavic and Constantine-Methodist traditions). It emphasised the antiquity of the nation, born of "ancient spirit of the people" and their unchanging lifestyle.
 
-NEFUNGUJE - carousel **Artworks depicting the icons of national unity and Slovak "peculiarity"**
+**Artworks depicting the icons of national unity and Slovak "peculiarity"**
+{% include 'partials/carousel.html.twig' with {
+	'images': [
+    	{
+   	 	'title':'Ján Ladvenica - King Svätopluk',
+        	'src': 'http://www.webumenia.sk/images/diela/GMB/89/SVK_GMB.A_3475/SVK_GMB.A_3475.jpeg',
+        	'href': 'http://www.webumenia.sk/dielo/SVK:GMB.A_3475?collection=83'
+    	},
+    	{
+   	 	'title':'Ján Ladvenica - King Svätopluk with Sons',
+        	'src': 'http://www.webumenia.sk/images/diela/GMB/91/SVK_GMB.A_3477/SVK_GMB.A_3477.jpeg',
+        	'href': 'http://www.webumenia.sk/dielo/SVK:GMB.A_3477?collection=83'
+    	},
+    	{
+        	'title':'Ján Ladvenica - From Ždiar',
+        	'src': 'http://www.webumenia.sk/images/diela/SNG/11/SVK_SNG.O_1978/SVK_SNG.O_1978.jpeg',
+        	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1978?collection=83'
+    	},
+   	 {
+        	'title':'Ján Ladvenica - Liberated Territory',
+        	'src': 'http://www.webumenia.sk/images/diela/SNG/12/SVK_SNG.O_1977/SVK_SNG.O_1977.jpeg',
+        	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.O_1977?collection=83'
+         },
+   	 {
+        	'title':'Štefan Bednár - Jánošík’s Death',
+        	'src': 'http://www.webumenia.sk/images/diela/TMP/76/SVK_TMP.166/SVK_TMP.166.jpeg',
+        	'href': 'http://www.webumenia.sk/dielo/SVK:TMP.166?collection=83'
+    	},
+   	 {
+        	'title':'Janko Alexy - Mojmír’s Death II.',
+        	'src': 'http://www.webumenia.sk/images/diela/SNG/39/SVK_SNG.K_3477/SVK_SNG.K_3477.jpeg',
+        	'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_3477?collection=83'
+       }
+	]
+}%}
+
 
 Because the official ideas about the arts under the new regime were unclear and contradictory, original artistic initiatives sometimes slipped through the net [„leaky totalitarianism“](https://sk.wikipedia.org/wiki/Vladim%C3%ADr_Clementis). The younger generation of artists managed to articulate anti-clerical, antifascist and anti-war ideas. The publication of several surrealist anthologies became the platform for new scientific, literary and artistic opinions: Yes and No (1938), Dream and Realist (1940), Day and Night (1941) and Greeting (1942). It was a meeting point for the artistic opinions of several members of the Generation 1909: ([C. Majerník](http://www.webumenia.sk/autor/6151), [J. Mudroch](http://www.webumenia.sk/autor/6948), [P. Matejka](http://www.webumenia.sk/autor/6393), [J. Kostka](http://www.webumenia.sk/autor/5187), [E. Nevan](http://www.webumenia.sk/autor/7258), [J. Želibský](http://www.webumenia.sk/autor/12214), [B. Hoffstädter](http://www.webumenia.sk/autor/3953) a i.), but also of younger artists, later called the Generation of the Second World War ([V. Hložník](http://www.webumenia.sk/autor/3886), [L. Guderna](http://www.webumenia.sk/autor/3380), [V. Chmel](http://www.webumenia.sk/autor/4278), [E. Semian](http://www.webumenia.sk/autor/8998), [O. Dubay](http://www.webumenia.sk/autor/2167), [E. Zmeták](http://www.webumenia.sk/autor/12162)).
 
