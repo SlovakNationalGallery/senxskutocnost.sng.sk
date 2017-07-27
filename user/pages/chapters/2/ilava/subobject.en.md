@@ -8,7 +8,7 @@ routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca/ilava
     canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca/ilava
     aliases:
-        - /chapters/2/arizacia
+        - /chapters/2/ilava
 content:
     items: '@self.parent'
 returnButtonText: 'Back to Chapter 2'
