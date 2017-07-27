@@ -8,7 +8,7 @@ routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca/slovensky-stat-vs-slovenska-republika
     canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca/slovensky-stat-vs-slovenska-republika
     aliases:
-        - /chapters/2/arizacia
+        - /chapters/2/slovensky-stat-vs-slovenska-republika
 content:
     items: '@self.parent'
 returnButtonText: 'Back to Chapter 2'

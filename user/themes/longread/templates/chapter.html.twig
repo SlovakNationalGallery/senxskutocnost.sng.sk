@@ -1,4 +1,5 @@
 {% embed 'partials/base.html.twig' %}
+{% import "macros.twig" as macros %}
 
 {% block body %}
 <body itemscope itemtype="http://schema.org/Article">
@@ -19,7 +20,13 @@
         <section class="post-content">
           <div class="chapter-title-wrapper">
             <div class="chapter-title f-uni-grotesk-bold">
-              <div class="chapter-number">{{page.header.chapterNumber}}. kapitola</div>
+              <div class="chapter-number">
+                {% if langswitcher.current == 'sk' %}
+                  {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER") }}
+                {% else %}
+                  {{ macros.translateOrdinalLanguageString(page.header.chapterNumber, "VOCABULARY.CHAPTER")|title }}
+                {% endif %}
+              </div>
               <h1 class="margin-top-0 padding-top-0">
                 {% if page.header.titleStyled %}
                   {{ page.header.titleStyled }}
@@ -27,9 +34,7 @@
                   {{ page.header.title }}
                 {% endif %}
               </h1>
-              <div class="post-reading">
-                Čas čítania: <span class="post-reading-time"></span>
-              </div>
+              {% include 'partials/reading-time.html.twig' %}
               {% include 'partials/sharing.html.twig' with {
                 sharingStylingClasses: "button-white"
               }%}

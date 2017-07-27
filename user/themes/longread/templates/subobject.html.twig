@@ -1,4 +1,5 @@
 {% embed 'partials/base.html.twig' %}
+{% import "macros.twig" as macros %}
 
 {% block body %}
 <body itemscope itemtype="http://schema.org/Article">
@@ -10,7 +11,9 @@
         <div class="breadcrumbs f-uni-grotesk-regular">
           <a href="{{page.parent.parent.url}}">sen × skutočnosť</a>
           <span class="breadcrumb-symbol">></span>
-          <a href="{{page.parent.url}}">kapitola {{page.parent.header.chapterNumber}}</a>
+          <a href="{{page.parent.url}}">
+            {{ macros.translateOrdinalLanguageString(page.parent.header.chapterNumber, "VOCABULARY.CHAPTER") }}
+          </a>
           <span class="breadcrumb-symbol">></span>
           <span>{{page.title}}</span>
         </div>
@@ -30,9 +33,7 @@
           }%}
         </div>
         <section class="post-content">
-          <div class="post-reading">
-            Čas čítania: <span class="post-reading-time"></span>
-          </div>
+          {% include 'partials/reading-time.html.twig' %}
           {{ content }}
         </section>
       </article>
