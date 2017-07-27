@@ -8,7 +8,7 @@ routes:
     default: /chapters/2-jeden-narod-jedna-strana-jeden-vodca/statna-rada
     canonical: /chapters/2-jeden-narod-jedna-strana-jeden-vodca/statna-rada
     aliases:
-        - /chapters/2/arizacia
+        - /chapters/2/statna-rada
 content:
     items: '@self.parent'
 returnButtonText: 'Back to Chapter 2'

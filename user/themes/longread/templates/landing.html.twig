@@ -1,8 +1,11 @@
 {% embed 'partials/base.html.twig' %}
 
   {% block header %}
+    <div class="header landing">
       <a href="{{base_url_relative}}" class="nav-home logo-sng logo-sxs-white" title="{{"NAVIGATION.HOME"|t}}"><span class="logo"></span></a>
+      {% include 'partials/langswitcher.html.twig' %}
       <a href="{{base_url_relative}}/about" class="nav-about c-white f-uni-grotesk-bold">{{"NAVIGATION.ABOUT"|t}}</a>
+    </div>
   {% endblock %}
 
   {% block body %}
