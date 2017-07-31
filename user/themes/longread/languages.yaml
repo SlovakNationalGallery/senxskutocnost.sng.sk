@@ -14,9 +14,12 @@ sk:
       BUTTON_TEXT: Pokračovať na %d. kapitolu
   SHARING:
     SHARE_PRINT: Vytlačiť kapitolu
-    SHARE_EMAIL: Poslať mailom
-    SHARE_FACEBOOK: Zdieľať
-    SHARE_TWITTER: Tweet
+    SHARE_EMAIL_TEXT: Poslať mailom
+    SHARE_EMAIL_HREF: "mailto:?subject=Neprehliadnite: sen × skutočnosť - udalosti slovenského štátu v 4 kapitolách&body=Na webstránke Slovenskej národnej galérie som objavil projekt, ktorý by Vás mohol zaujímať:%0D%0A%0D%0Asen × skutočnosť - udalosti slovenského štátu v 4 kapitolách%0D%0Ahttp://senxskutocnost.sng.sk/"
+    SHARE_FACEBOOK_TEXT: Zdieľať
+    SHARE_FACEBOOK_HREF: https://www.facebook.com/sharer/sharer.php?u=http%3A//senxskutocnost.sng.sk/
+    SHARE_TWITTER_TEXT: Tweet
+    SHARE_TWITTER_HREF: https://twitter.com/home?status=Novinku%20%40sng_gallery%20by%20ste%20ur%C4%8Dite%20nemali%20prehliadnu%C5%A5.%20Sen%20x%20skuto%C4%8Dnos%C5%A5%20-%20udalosti%20slovensk%C3%A9ho%20%C5%A1t%C3%A1tu%20v%204%20kapitol%C3%A1ch%3A%20http%3A//senxskutocnost.sng.sk/
   FOOTER:
     EXHIBITION_INFO: Chcem vedieť viac o výstave v SNG
   EMAIL_CAPTURE:
@@ -47,9 +50,12 @@ en:
       BUTTON_TEXT: Continue to chapter %d
   SHARING:
     SHARE_PRINT: Print this chapter
-    SHARE_EMAIL: Send by Email
-    SHARE_FACEBOOK: Share
-    SHARE_TWITTER: Tweet
+    SHARE_EMAIL_TEXT: Send by Email
+    SHARE_EMAIL_HREF: "mailto:?subject=Do not miss: sen x skutočnosť - events of the Slovak State in 4 chapters&body=I've found a project on the Slovak National Gallery website that might interest you:%0D%0A%0D%0Asen × skutočnosť - events of the slovak state in four chapters%0D%0Ahttp://senxskutocnost.sng.sk/en"
+    SHARE_FACEBOOK_TEXT: Share
+    SHARE_FACEBOOK_HREF: https://www.facebook.com/sharer/sharer.php?u=http%3A//senxskutocnost.sng.sk/en
+    SHARE_TWITTER_TEXT: Tweet
+    SHARE_TWITTER_HREF: https://twitter.com/home?status=Check%20out%20this%20project%20by%20%40sng_gallery%3A%20Sen%20x%20skuto%C4%8Dnos%C5%A5%20-%20events%20of%20the%20Slovak%20State%20in%204%20chapters%0Ahttp%3A%2F%2Fsenxskutocnost.sng.sk
   FOOTER:
     EXHIBITION_INFO: I want to know more about the exhibition at SNG
   EMAIL_CAPTURE:
