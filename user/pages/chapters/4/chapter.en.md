@@ -12,7 +12,7 @@ routes:
     aliases:
         - /chapters/4
 chapterNumber: 4
-titleStyled: '<span class=''f-uni-grotesk-bold''>Waking</span> <span class=''f-moyenage''>Up From A Dream</span>'
+titleStyled: '<span class=''f-uni-grotesk-bold''>Waking Up </span> <span class=''f-moyenage''>From a Dream</span>'
 description: 'Chapter 4: Waking Up From A Dream'
 image: Telgart_vypalenie-cover.jpg
 ---

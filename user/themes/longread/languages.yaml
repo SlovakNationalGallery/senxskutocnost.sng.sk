@@ -14,9 +14,11 @@ sk:
       BUTTON_TEXT: Pokračovať na %d. kapitolu
   SHARING:
     SHARE_PRINT: Vytlačiť kapitolu
-    SHARE_EMAIL: Poslať mailom
-    SHARE_FACEBOOK: Zdieľať
-    SHARE_TWITTER: Tweet
+    SHARE_EMAIL_TEXT: Poslať mailom
+    SHARE_EMAIL_HREF: "mailto:?subject=Neprehliadnite: sen × skutočnosť - udalosti slovenského štátu v 4 kapitolách&body=Na webstránke Slovenskej národnej galérie som objavil projekt, ktorý by Vás mohol zaujímať:%%0A%%0A%s%%0A%s"
+    SHARE_FACEBOOK_TEXT: Zdieľať
+    SHARE_TWITTER_TEXT: Tweet
+    SHARE_TWITTER_HREF: https://twitter.com/home?status=Ur%%C4%%8Dite%%20neprehliadnite%%20novinku%%20%%40sng_gallery%%0A%s%%0A%s
   FOOTER:
     EXHIBITION_INFO: Chcem vedieť viac o výstave v SNG
   EMAIL_CAPTURE:
@@ -47,9 +49,11 @@ en:
       BUTTON_TEXT: Continue to chapter %d
   SHARING:
     SHARE_PRINT: Print this chapter
-    SHARE_EMAIL: Send by Email
-    SHARE_FACEBOOK: Share
-    SHARE_TWITTER: Tweet
+    SHARE_EMAIL_TEXT: Send by Email
+    SHARE_EMAIL_HREF: "mailto:?subject=Do not miss: sen x skutočnosť - events of the Slovak State in 4 chapters&body=I've found a project on the Slovak National Gallery website that might interest you:%%0A%%0A%s%%0A%s"
+    SHARE_FACEBOOK_TEXT: Share
+    SHARE_TWITTER_TEXT: Tweet
+    SHARE_TWITTER_HREF: https://twitter.com/home?status=Check%%20out%%20this%%20project%%20by%%20%%40sng_gallery%%3A%%20%%0A%s%%0A%s
   FOOTER:
     EXHIBITION_INFO: I want to know more about the exhibition at SNG
   EMAIL_CAPTURE:
