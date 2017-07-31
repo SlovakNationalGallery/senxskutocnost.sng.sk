@@ -18,7 +18,7 @@ sk:
     SHARE_EMAIL_HREF: "mailto:?subject=Neprehliadnite: sen × skutočnosť - udalosti slovenského štátu v 4 kapitolách&body=Na webstránke Slovenskej národnej galérie som objavil projekt, ktorý by Vás mohol zaujímať:%%0A%%0A%s%%0A%s"
     SHARE_FACEBOOK_TEXT: Zdieľať
     SHARE_TWITTER_TEXT: Tweet
-    SHARE_TWITTER_HREF: https://twitter.com/home?status=Novinku%%20%%40sng_gallery%%20by%%20ste%%20ur%%C4%%8Dite%%20nemali%%20prehliadnu%%C5%%A5.%%20%%0A%s%%3A%%20%%0A%s
+    SHARE_TWITTER_HREF: https://twitter.com/home?status=Ur%%C4%%8Dite%%20neprehliadnite%%20novinku%%20%%40sng_gallery%%0A%s%%0A%s
   FOOTER:
     EXHIBITION_INFO: Chcem vedieť viac o výstave v SNG
   EMAIL_CAPTURE:
