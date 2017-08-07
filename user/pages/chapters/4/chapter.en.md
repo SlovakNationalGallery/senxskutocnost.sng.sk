@@ -68,7 +68,7 @@ Various sources with information about the real situation on the fronts reached 
 
 [![Koloman Cích - Celebrations of the Fourth Anniversary of Slovak Independence - Military Veterans from the Eastern Front, 1943, Slovak National Archive, Bratislava - Slovak Press Office](20333_male.jpg "Koloman Cích - Celebrations of the Fourth Anniversary of Slovak Independence - Military Veterans from the Eastern Front")](http://www.webumenia.sk/dielo/SVK:TMP.319)
 
-Slovak labourers in Germany had already experienced the air raids on industrial targets first hand. Via London and Moscow radio stations, the Allied representatives repeatedly affirmed their recognition of the Czechoslovak government-in-exile. It became widely known that Slovaks were part of the Czechoslovak units stationed in the Soviet Union and Great Britain. The surrender of Italy in September 1943 also resonated in the public consciousness.
+Slovak labourers in Germany had already experienced the air raids on industrial targets first hand. Via London and Moscow radio stations, the Allied representatives repeatedly affirmed their recognition of the [Czechoslovak government-in-exile](https://en.wikipedia.org/wiki/Czechoslovak_government-in-exile). It became widely known that Slovaks were part of the Czechoslovak units stationed in the Soviet Union and Great Britain. The surrender of Italy in September 1943 also resonated in the public consciousness.
 
 By the end of 1943, the populist regime faced a major internal crisis. It was clear that the coming defeat of the Third Reich would signal an end for them too. Many staff members of the security apparatus as well as members of the Slovak Army realized this. The most active and influential was a group of officers surrounding four commanders: Ján Golian, Mikuláš Ferjenčík, Mirko Vesel and Dezider Kišša-Kalina. They wanted to coordinate their insurgency with the leadership in exile - President Edvard Beneš and the Minister of National Defence in London. In February 1944, they sent an optimistic report on unification of resistance to London. President Beneš authorised Ján Golian as the supreme military leader.
 
@@ -367,7 +367,7 @@ Also some partisans attacked civilians, specifically German nationals, but also 
 
 [![Unknown Author - Nazi Germany Will Soon Be Defeated, 1945, The Ministry of Interior of the Slovak Republic - State Archive in Banská Bystrica](hitler-male.jpg "Unknown Author - Nazi Germany Will Soon Be Defeated")](http://www.webumenia.sk/dielo/SVK:TMP.324?collection=88)
 
-The Slovak State found itself totally isolated by the end of the war - the Allies (UK, US and USSR) recognised the Czechoslovak government-in-exile in London. The Red Army continued forcing the Germans and their collaborators to retreat and in July 1943, Mussolini's Fascist regime collapsed.
+The Slovak State found itself totally isolated by the end of the war - the Allies (UK, US and USSR) recognised the [Czechoslovak government-in-exile](https://en.wikipedia.org/wiki/Czechoslovak_government-in-exile) in London. The Red Army continued forcing the Germans and their collaborators to retreat and in July 1943, Mussolini's Fascist regime collapsed.
 
 The representatives of the populist regime who portrayed themselves as "diplomats" abroad, such as the Vatican ambassador Karol Sidor, made some attempts to preserve the notion of Slovak statehood, but these attempts were doomed to fail. The fate of these populists and their state was firmly tied to the fate of Hitler and his Reich.
 
