@@ -84,6 +84,9 @@ button, .uk-button {
 .underline {
   text-decoration: underline; }
 
+.underline-hover:hover {
+  text-decoration: underline; }
+
 .margin-bottom-0 {
   margin-bottom: 0 !important; }
 
@@ -504,7 +507,7 @@ div#side-nav-bar {
           font-size: 18px;
           line-height: 23px; } }
     .landing .landing-content h5 {
-      font-size: 20px;
+      font-size: 19px;
       line-height: 23px;
       text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75); }
       @media only screen and (max-width: 805px) {
@@ -680,7 +683,7 @@ form#email-capture {
     background-position-x: 55%; }
   .post.chapter .article-image .article-image-gradient, .post.subobject .article-image .article-image-gradient, .post.page .article-image .article-image-gradient {
     height: 100%;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8)); }
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)); }
 .post.chapter .post-content, .post.subobject .post-content, .post.page .post-content {
   position: relative;
   width: inherit;
