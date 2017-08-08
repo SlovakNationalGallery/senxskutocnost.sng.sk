@@ -17,6 +17,8 @@ html,body
 {
   overflow-x: hidden; 
   background-color: $bg-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body.landing {
@@ -108,6 +110,9 @@ button, .uk-button {
 }
 
 .underline {
+  text-decoration: underline;
+}
+.underline-hover:hover {
   text-decoration: underline;
 }
 
@@ -612,7 +617,7 @@ div#side-nav-bar {
         }
       }
       h5 {
-        font-size: 20px;
+        font-size: 19px;
         line-height: 23px;
         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
         @include respond-to(805) {

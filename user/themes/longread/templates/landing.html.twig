@@ -20,12 +20,12 @@
       </div> {# /div.landing-image #}
 
       <div class="landing-content">
-        <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
-          <div id="landing-titles">
-            <h1 class="c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="x" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
-            <h2 class="c-white f-uni-grotesk-bold f-uppercase">{{ page.header.h2 }}</h2>
-            <h3 class="c-white f-uni-grotesk-regular">{{ page.header.h3 }}</h3>
-          </div>
+          
+        <h1 class="centered c-white"><span class="f-uni-grotesk-bold">sen</span> <img src="{{ theme_url }}/images/headline-logo.svg" alt="x" class="headline-logo"> <span class="f-moyenage">skutočnosť</span></h1>
+        <h2 class="centered c-white f-uni-grotesk-bold f-uppercase">{{ page.header.h2 }}</h2>
+        
+        <div class="centered uk-container-center uk-width-9-10 uk-width-large-6-10">
+          <h3 class="c-white f-uni-grotesk-regular">{{ page.header.h3 }}</h3>
           
           {% include 'partials/sharing.html.twig' with {
             excludePrint: true,
@@ -33,6 +33,11 @@
           }%}
 
           {% include 'partials/first-chapter-cta.html.twig' %}
+
+          <hr class="white">
+          <h4 class="centered c-white f-uni-grotesk-regular">{{ page.header.h4}}</h4>
+          <h4 class="centered c-white f-uni-grotesk-regular">{{ page.header.panorama_text}}</h4>
+          <a href="{{page.header.panorama_url}}" class="uk-button button-ghost button-large margin-bottom-m margin-top-s" target="_blank">{{page.header.panorama_buttontext}}</a>
 
         </div>
         
@@ -49,13 +54,12 @@
           {% endfor %}
         </div>
         
-        <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
-          <hr class="white">
-          <h4 class="centered c-white f-uni-grotesk-regular">{{ page.header.h4}}</h4>
           {% if page.header.pEducational %}
-          <h5 class="centered c-white f-uni-grotesk-regular">{{ page.header.pEducational}}</h5>
+          <div class="centered uk-container-center uk-width-9-10 uk-width-small-8-10">
+            <hr class="white">
+            <h5 class="centered c-white f-uni-grotesk-regular">{{ page.header.pEducational}}</h5>
+          </div>
           {% endif %}
-        </div>
 
       </div>
     </main>
