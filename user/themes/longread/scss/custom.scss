@@ -17,6 +17,8 @@ html,body
 {
   overflow-x: hidden; 
   background-color: $bg-color;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body.landing {
