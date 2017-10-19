@@ -182,7 +182,8 @@ hr.white {
         line-height: 43px !important; } }
 
 .header {
-  height: 28px; }
+  height: 28px;
+  padding-top: 20px; }
   .header * {
     z-index: 10 !important; }
 
