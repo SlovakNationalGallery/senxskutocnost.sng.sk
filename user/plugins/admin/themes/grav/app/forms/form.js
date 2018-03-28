@@ -37,8 +37,10 @@ export default class Form {
             $(global).on('keydown', function(event) {
                 var key = String.fromCharCode(event.which).toLowerCase();
                 if (((event.ctrlKey && !event.altKey) || event.metaKey) && key === 's') {
-                    event.preventDefault();
-                    saveTask.click();
+                    if (!event.shiftKey) {
+                        event.preventDefault();
+                        saveTask.click();
+                    }
                 }
             });
         }
@@ -123,9 +125,15 @@ export default class Form {
 
     addedNodes(mutations) {
         mutations.forEach((mutation) => {
-            if (mutation.type !== 'childList' || !mutation.addedNodes) { return; }
+            if (mutation.type !== 'childList') { return; }
 
-            $('body').trigger('mutation._grav', mutation.target, mutation, this);
+            if (mutation.addedNodes) {
+                $('body').trigger('mutation._grav', mutation.target, mutation, this);
+            }
+
+            if (mutation.removedNodes) {
+                $('body').trigger('mutation_removed._grav', { target: mutation.target, mutation }, this);
+            }
         });
     }
 }

@@ -4,9 +4,18 @@
         height: 300px;
     }
 
+    .CodeMirror {
+        .CodeMirror-vscrollbar, .CodeMirror-hscrollbar {
+            z-index: 1;
+        }
+    }
+
     .CodeMirror-scroll {
-        margin-right: -36px;
-        padding-bottom: 36px;
+        //margin-right: -36px;
+        position: static;
+
+        // hide native scrollbar at the bottom
+        padding-bottom: 15px;
     }
 
     .grav-editor-resizer {
@@ -21,6 +30,9 @@
         background: Highlight;
     }
 
+    .CodeMirror-gutters {
+        height: 100%!important;
+    }
 }
 
 .grav-editor-fullscreen {
@@ -29,16 +41,38 @@
     left: 0;
     bottom: 0;
     right: 0;
-    z-index: 99999;
+    z-index: 3;
     padding: 0 !important;
     margin: 0 !important;
+    display: flex;
+    flex-direction: column;
+
+    .grav-editor-content {
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 0;
+
+        overflow-y: auto;
+    }
 
     .grav-editor-content, .CodeMirror-wrap, .grav-editor-preview {
         height: 100% !important;
     }
 
+    .grav-editor-toolbar {
+        flex: 0 0 auto;
+    }
+
     .grav-editor-toolbar, .grav-editor-toolbar ul li:first-child a, .grav-editor-toolbar-flip ul li:last-child a {
         border-radius: 0 !important;
+    }
+
+    .grav-editor-resizer {
+        display: none;
+    }
+
+    .grav-editor-content.is-active {
+        display: flex;
     }
 }
 
@@ -52,6 +86,7 @@
     }
     .grav-editor-modes {
         flex-shrink: 0;
+        margin-right: 2px;
         ul {
             float: right;
         }
@@ -125,16 +160,17 @@
 .grav-editor-content, .grav-editor-preview {
     @include clearfix;
     cursor: text;
+    display: none;
+
+    &.is-active {
+        display: block;
+    }
 }
 
 .grav-editor-content {
     /* PADDING */
     .CodeMirror-lines {
         padding: 10px 0; /* Vertical padding around content */
-    }
-
-    .CodeMirror pre {
-        padding: 0 15px; /* Horizontal padding of content */
     }
 }
 
@@ -187,7 +223,7 @@
     &.CodeMirror {
         color: $paper-fg;
         line-height: 1.4;
-        z-index: 1;
+        font-size: 16px;
     }
 
     .cm-link {color: #0082ba;}
