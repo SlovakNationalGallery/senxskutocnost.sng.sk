@@ -46,7 +46,7 @@ Dropzone.confirm = (question, accepted, rejected) => {
 };
 
 const DropzoneMediaConfig = {
-    createImageThumbnails: { },
+    timeout: 0,
     thumbnailWidth: 200,
     thumbnailHeight: 150,
     addRemoveLinks: false,
@@ -63,7 +63,9 @@ const DropzoneMediaConfig = {
           <div class="dz-success-mark"><span>✔</span></div>
           <div class="dz-error-mark"><span>✘</span></div>
           <div class="dz-error-message"><span data-dz-errormessage></span></div>
+          <a class="dz-unset" title="${translations.PLUGIN_ADMIN.UNSET}" href="#" data-dz-unset>${translations.PLUGIN_ADMIN.UNSET}</a>
           <a class="dz-remove" title="${translations.PLUGIN_ADMIN.DELETE}" href="javascript:undefined;" data-dz-remove>${translations.PLUGIN_ADMIN.DELETE}</a>
+          <a class="dz-metadata" title="${translations.PLUGIN_ADMIN.METADATA}" href="#" target="_blank" data-dz-metadata>${translations.PLUGIN_ADMIN.METADATA}</a>
           <a class="dz-view" title="${translations.PLUGIN_ADMIN.VIEW}" href="#" target="_blank" data-dz-view>${translations.PLUGIN_ADMIN.VIEW}</a>
         </div>`.trim()
 };
@@ -255,7 +257,7 @@ export function UriToMarkdown(uri) {
     uri = uri.replace(/\(/g, '%28');
     uri = uri.replace(/\)/g, '%29');
 
-    return uri.match(/\.(jpe?g|png|gif|svg)$/i) ? `![](${uri})` : `[${decodeURI(uri)}](${uri})`;
+    return uri.match(/\.(jpe?g|png|gif|svg|mp4|webm|ogv|mov)$/i) ? `![](${uri})` : `[${decodeURI(uri)}](${uri})`;
 }
 
 let instances = [];

@@ -27,6 +27,9 @@ class Gpm
     {
         if (!static::$GPM) {
             static::$GPM = new GravGPM();
+            if (method_exists('GravGPM', 'loadRemoteGrav')) {
+                static::$GPM->loadRemoteGrav();
+            }
         }
 
         return static::$GPM;
@@ -220,26 +223,34 @@ class Gpm
             $extracted  = Installer::unZip($zip, $tmp_source);
 
             if (!$extracted) {
+                Folder::delete($tmp_source);
+                Folder::delete($tmp_zip);
                 return Admin::translate('PLUGIN_ADMIN.PACKAGE_EXTRACTION_FAILED');
             }
 
             $type = GravGPM::getPackageType($extracted);
 
             if (!$type) {
+                Folder::delete($tmp_source);
+                Folder::delete($tmp_zip);
                 return Admin::translate('PLUGIN_ADMIN.NOT_VALID_GRAV_PACKAGE');
             }
 
             if ($type == 'grav') {
                 Installer::isValidDestination(GRAV_ROOT . '/system');
                 if (Installer::IS_LINK === Installer::lastErrorCode()) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
                     return Admin::translate('PLUGIN_ADMIN.CANNOT_OVERWRITE_SYMLINKS');
                 }
                 Installer::install($zip, GRAV_ROOT,
-                    ['sophisticated' => true, 'overwrite' => true, 'ignore_symlinks' => true], $extracted);
+                    ['sophisticated' => true, 'overwrite' => true, 'ignore_symlinks' => true, 'ignores' => ['tmp','user','vendor']], $extracted);
             } else {
                 $name = GravGPM::getPackageName($extracted);
 
                 if (!$name) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
                     return Admin::translate('PLUGIN_ADMIN.NAME_COULD_NOT_BE_DETERMINED');
                 }
 
@@ -248,6 +259,8 @@ class Gpm
 
                 Installer::isValidDestination(GRAV_ROOT . DS . $install_path);
                 if (Installer::lastErrorCode() == Installer::IS_LINK) {
+                    Folder::delete($tmp_source);
+                    Folder::delete($tmp_zip);
                     return Admin::translate('PLUGIN_ADMIN.CANNOT_OVERWRITE_SYMLINKS');
                 }
 
@@ -341,11 +354,13 @@ class Gpm
             return false;
         }
 
-        if (method_exists($upgrader, 'meetsRequirements') && !$upgrader->meetsRequirements()) {
+        if (method_exists($upgrader, 'meetsRequirements') &&
+            method_exists($upgrader, 'minPHPVersion') &&
+            !$upgrader->meetsRequirements()) {
             $error   = [];
             $error[] = '<p>Grav has increased the minimum PHP requirement.<br />';
-            $error[] = 'You are currently running PHP <strong>' . PHP_VERSION . '</strong>';
-            $error[] = ', but PHP <strong>' . GRAV_PHP_MIN . '</strong> is required.</p>';
+            $error[] = 'You are currently running PHP <strong>' . phpversion() . '</strong>';
+            $error[] = ', but PHP <strong>' . $upgrader->minPHPVersion() . '</strong> is required.</p>';
             $error[] = '<p><a href="http://getgrav.org/blog/changing-php-requirements-to-5.5" class="button button-small secondary">Additional information</a></p>';
 
             Installer::setError(implode("\n", $error));

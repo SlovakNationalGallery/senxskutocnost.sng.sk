@@ -461,6 +461,11 @@ class AdminController extends AdminBaseController
             /** @var Page $obj */
             $obj = $this->admin->page(true);
 
+            if (!isset($data['folder']) || !$data['folder']) {
+                $data['folder'] = $obj->slug();
+                $this->data['folder'] = $obj->slug();
+            }
+
             // Ensure route is prefixed with a forward slash.
             $route = '/' . ltrim($route, '/');
 
@@ -471,32 +476,16 @@ class AdminController extends AdminBaseController
                 return false;
             }
 
-            //Handle system.home.hide_in_urls
-            $hide_home_route = $config->get('system.home.hide_in_urls', false);
-            if ($hide_home_route) {
-                $home_route = $config->get('system.home.alias');
-                $topParent  = $obj->topParent();
-                if (isset($topParent)) {
-                    if ($topParent->route() == $home_route) {
-                        $baseRoute = (string)$topParent->route();
-                        if ($obj->parent() != $topParent) {
-                            $baseRoute .= $obj->parent()->route();
-                        }
-                        $route = isset($baseRoute) ? $baseRoute : null;
-                    }
-                }
-            }
 
-            $parent = $route && $route != '/' && $route != '.' ? $pages->dispatch($route, true) : $pages->root();
-
+            $parent = $route && $route != '/' && $route != '.' && $route != '/.' ? $pages->dispatch($route, true) : $pages->root();
             $original_order = intval(trim($obj->order(), '.'));
 
-            // Change parent if needed and initialize move (might be needed also on ordering/folder change).
-            $obj = $obj->move($parent);
-            $this->preparePage($obj, false, $obj->language());
-
             try {
+                // Change parent if needed and initialize move (might be needed also on ordering/folder change).
+                $obj = $obj->move($parent);
+                $this->preparePage($obj, false, $obj->language());
                 $obj->validate();
+
             } catch (\Exception $e) {
                 $this->admin->setMessage($e->getMessage(), 'error');
 
@@ -579,22 +568,7 @@ class AdminController extends AdminBaseController
             }
             $admin_route = $this->admin->base;
 
-            //Handle system.home.hide_in_urls
             $route           = $obj->rawRoute();
-            $hide_home_route = $config->get('system.home.hide_in_urls', false);
-            if ($hide_home_route) {
-                $home_route = $config->get('system.home.alias');
-                $topParent  = $obj->topParent();
-                if (isset($topParent)) {
-                    $top_parent_route = (string)$topParent->route();
-                    if ($top_parent_route == $home_route && substr($route, 0,
-                            strlen($top_parent_route) + 1) != ($top_parent_route . '/')
-                    ) {
-                        $route = $top_parent_route . $route;
-                    }
-                }
-            }
-
             $redirect_url = ($multilang ? '/' . $obj->language() : '') . $admin_route . '/' . $this->view . $route;
             $this->setRedirect($redirect_url);
         }
@@ -653,7 +627,12 @@ class AdminController extends AdminBaseController
         }
 
         $route  = $data['route'] != '/' ? $data['route'] : '';
-        $folder = ltrim($data['folder'], '_');
+        $folder = $data['folder'];
+        // Handle @slugify-{field} value, automatically slugifies the specified field
+        if (substr($folder, 0, 9) == '@slugify-') {
+            $folder = \Grav\Plugin\Admin\Utils::slug($data[substr($folder, 9)]);
+        }
+        $folder = ltrim($folder, '_');
         if (!empty($data['modular'])) {
             $folder = '_' . $folder;
         }
@@ -687,6 +666,24 @@ class AdminController extends AdminBaseController
         return true;
     }
 
+    protected function task2faverify()
+    {
+        $twofa = $this->admin->get2FA();
+        $user = $this->grav['user'];
+
+        $secret = isset($user->twofa_secret) ? $user->twofa_secret : null;
+
+        if (!(isset($this->data['2fa_code']) && $twofa->verifyCode($secret, $this->data['2fa_code']))) {
+            $this->admin->setMessage($this->admin->translate('PLUGIN_ADMIN.2FA_FAILED'), 'error');
+            return true;
+        }
+
+        $this->admin->setMessage($this->admin->translate('PLUGIN_ADMIN.LOGIN_LOGGED_IN'), 'info');
+
+        $user->authenticated = true;
+        $this->grav->redirect($this->post['redirect']);
+    }
+
     /**
      * Handle logout.
      *
@@ -694,10 +691,12 @@ class AdminController extends AdminBaseController
      */
     protected function taskLogout()
     {
-        $language = $this->grav['user']->authenticated ? $this->grav['user']->language : ($this->grav['language']->getLanguage() ?: 'en');
+        $message = $this->admin->translate('PLUGIN_ADMIN.LOGGED_OUT');
 
         $this->admin->session()->invalidate()->start();
-        $this->setRedirect('/logout/lang:' . $language);
+        $this->grav['session']->setFlashCookieObject(Admin::TMP_COOKIE_NAME, ['message' => $message, 'status' => 'info']);
+
+        $this->setRedirect('/');
 
         return true;
     }
@@ -1006,13 +1005,13 @@ class AdminController extends AdminBaseController
         if ($result) {
             $this->admin->json_response = [
                 'status'  => 'success',
-                'message' => $this->admin->translate(is_string($result) ? $result : sprintf($this->admin->translate($reinstall ? 'PLUGIN_ADMIN.PACKAGE_X_REINSTALLED_SUCCESSFULLY' : 'PLUGIN_ADMIN.PACKAGE_X_INSTALLED_SUCCESSFULLY',
+                'message' => $this->admin->translate(is_string($result) ? $result : sprintf($this->admin->translate($reinstall ?: 'PLUGIN_ADMIN.PACKAGE_X_REINSTALLED_SUCCESSFULLY',
                     null), $package))
             ];
         } else {
             $this->admin->json_response = [
                 'status'  => 'error',
-                'message' => $this->admin->translate($reinstall ? 'PLUGIN_ADMIN.REINSTALLATION_FAILED' : 'PLUGIN_ADMIN.INSTALLATION_FAILED')
+                'message' => $this->admin->translate($reinstall ?: 'PLUGIN_ADMIN.INSTALLATION_FAILED')
             ];
         }
 
@@ -1124,6 +1123,7 @@ class AdminController extends AdminBaseController
         $param_sep = $this->grav['config']->get('system.param_sep', ':');
         $post      = $this->post;
         $data      = $this->data;
+        $login     = $this->grav['login'];
 
         $username = isset($data['username']) ? strip_tags(strtolower($data['username'])) : '';
         $user     = !empty($username) ? User::load($username) : null;
@@ -1146,6 +1146,16 @@ class AdminController extends AdminBaseController
         if (empty($user->email)) {
             $this->admin->setMessage($this->admin->translate('PLUGIN_ADMIN.FORGOT_INSTRUCTIONS_SENT_VIA_EMAIL'),
                 'info');
+            $this->setRedirect($post['redirect']);
+
+            return true;
+        }
+
+        $count = $this->grav['config']->get('plugins.login.max_pw_resets_count', 0);
+        $interval =$this->grav['config']->get('plugins.login.max_pw_resets_interval', 2);
+
+        if ($login->isUserRateLimited($user, 'pw_resets', $count, $interval)) {
+            $this->admin->setMessage($this->admin->translate(['PLUGIN_LOGIN.FORGOT_CANNOT_RESET_IT_IS_BLOCKED', $user->email, $interval]), 'error');
             $this->setRedirect($post['redirect']);
 
             return true;
@@ -1361,7 +1371,8 @@ class AdminController extends AdminBaseController
         }
 
         $this->admin->json_response = [
-            'status'  => 'error',
+            'status'  => 'success',
+            'child_type' => '',
             'message' => $this->admin->translate('PLUGIN_ADMIN.NO_CHILD_TYPE')
         ];
 
@@ -1466,6 +1477,7 @@ class AdminController extends AdminBaseController
                 foreach ($queries as $query) {
                     $query = trim($query);
                     if (stripos($page->getRawContent(), $query) === false && stripos($page->title(),
+                            $query) === false && stripos($page->slug(), \Grav\Plugin\Admin\Utils::slug($query)) === false && stripos($page->folder(),
                             $query) === false
                     ) {
                         $collection->remove($page);
@@ -1513,8 +1525,19 @@ class AdminController extends AdminBaseController
         $media      = new Media($page->path());
 
         foreach ($media->all() as $name => $medium) {
-            $media_list[$name] = ['url' => $medium->cropZoom(200, 150)->url(), 'size' => $medium->get('size')];
+
+            $metadata = [];
+            $img_metadata = $medium->metadata();
+            if ($img_metadata) {
+                $metadata = $img_metadata;
+            }
+
+            // Get original name
+            $source = $medium->higherQualityAlternative();
+
+            $media_list[$name] = ['url' => $medium->display($medium->get('extension') === 'svg' ? 'source' : 'thumbnail')->cropZoom(400, 300)->url(), 'size' => $medium->get('size'), 'metadata' => $metadata, 'original' => $source->get('filename')];
         }
+
         $this->admin->json_response = ['status' => 'success', 'results' => $media_list];
 
         return true;
@@ -1622,11 +1645,29 @@ class AdminController extends AdminBaseController
             return false;
         }
 
+        // reinitialize media to trigger availability
+        $media = $page->media();
+
+        // Add metadata if needed
+        $include_metadata = Grav::instance()['config']->get('system.media.auto_metadata_exif', false);
+        $filename = $fileParts['basename'];
+        $filename = str_replace(['@3x', '@2x'], '', $filename);
+
+        $metadata = [];
+
+        if ($include_metadata && isset($media[$filename])) {
+            $img_metadata = $media[$filename]->metadata();
+            if ($img_metadata) {
+                $metadata = $img_metadata;
+            }
+        }
+
         $this->grav->fireEvent('onAdminAfterAddMedia', new Event(['page' => $page]));
 
         $this->admin->json_response = [
             'status'  => 'success',
-            'message' => $this->admin->translate('PLUGIN_ADMIN.FILE_UPLOADED_SUCCESSFULLY')
+            'message' => $this->admin->translate('PLUGIN_ADMIN.FILE_UPLOADED_SUCCESSFULLY'),
+            'metadata' => $metadata,
         ];
 
         return true;
@@ -1684,9 +1725,9 @@ class AdminController extends AdminBaseController
             }
         }
 
-
+        // Remove Extra Files
         foreach (scandir($page->path()) as $file) {
-            if (preg_match("/{$fileParts['filename']}@\d+x\.{$fileParts['extension']}$/", $file)) {
+            if (preg_match("/{$fileParts['filename']}@\d+x\.{$fileParts['extension']}(?:\.meta\.yaml)?$|{$filename}\.meta\.yaml$/", $file)) {
                 $result = unlink($page->path() . '/' . $file);
 
                 if (!$result) {
@@ -1774,16 +1815,7 @@ class AdminController extends AdminBaseController
     {
         $input = (array)$this->data;
 
-//        if (isset($input['folder']) && ) {
-//            $order    = $page->value('order');
-//            $ordering = $order ? sprintf('%02d.', $order) : '';
-//            $slug     = empty($input['folder']) ? $page->value('folder') : (string)$input['folder'];
-//            $page->folder($ordering . $slug);
-//        }
-
-
-
-        if ($input['folder'] != $page->value('folder')) {
+        if (isset($input['folder']) && $input['folder'] != $page->value('folder')) {
             $order    = $page->value('order');
             $ordering = $order ? sprintf('%02d.', $order) : '';
             $page->folder($ordering . $input['folder']);
@@ -1809,9 +1841,8 @@ class AdminController extends AdminBaseController
         if (isset($input['frontmatter']) && isset($input['content'])) {
             $page->raw("---\n" . (string)$input['frontmatter'] . "\n---\n" . (string)$input['content']);
             unset($input['content']);
-        }
-
-        if (isset($input['header'])) {
+        // Handle header normally
+        } elseif (isset($input['header'])) {
             $header = $input['header'];
 
             foreach ($header as $key => $value) {
@@ -1839,7 +1870,7 @@ class AdminController extends AdminBaseController
                 });
             }
             $page->header((object)$header);
-            $page->frontmatter(Yaml::dump((array)$page->header()));
+            $page->frontmatter(Yaml::dump((array)$page->header()), 20);
         }
         // Fill content last because it also renders the output.
         if (isset($input['content'])) {
@@ -2204,6 +2235,16 @@ class AdminController extends AdminBaseController
         }
 
         $this->setRedirect('/tools');
+    }
+
+    public function taskRegenerate2FASecret($secret = null)
+    {
+        if (!$this->authorizeTask('regenerate 2FA Secret', ['admin.login'])) {
+            return false;
+        }
+
+        return $this->admin->get2FAData($secret);
+
     }
 
 }

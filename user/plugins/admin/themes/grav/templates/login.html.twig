@@ -9,8 +9,7 @@
             </div>
 
         {% else %}
-
-            {% for field in page.header.form.fields %}
+            {% for field in form.fields %}
                 {% if field.type %}
                     <div>
                         {% include ["forms/fields/#{field.type}/#{field.type}.html.twig", 'forms/fields/text/text.html.twig'] %}
@@ -31,6 +30,12 @@
                     {% endif %}
                 {% endif %}
             </div>
+
+            <script>
+                $(document).ready( function() {
+                    $('#messages').delay(5000).animate({ height: 'toggle', opacity: 'toggle' }, 'slow');
+                });
+            </script>
 
         {% endif %}
 
