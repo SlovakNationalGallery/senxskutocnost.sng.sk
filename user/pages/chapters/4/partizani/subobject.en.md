@@ -15,4 +15,4 @@ returnButtonText: 'Back to Chapter 4'
 
 <span class="drop-cap">P</span> <br> artisans are members of irregular military groups, formed to fight secretly against an occupying force. Regarding the Slovak National Uprising, the partisans were the fighters outside the regular army and after the suppression of the Uprising, also the soldiers who switched to guerrilla warfare.
 
-[![Koloman Sokol - Slovak Insurgents, 1944, Slovak National Gallery](SVK_SNG.K_12391.jpeg "Koloman Sokol - Slovak Insurgents, 1944")](http://www.webumenia.sk/dielo/SVK:SNG.K_12391)
+[![Koloman Sokol - Slovak Insurgents, 1944, Slovak National Gallery](SVK_SNG.K_12391.jpeg "Koloman Sokol - Slovak Insurgents, 1944")](https://www.webumenia.sk/dielo/SVK:SNG.K_12391)

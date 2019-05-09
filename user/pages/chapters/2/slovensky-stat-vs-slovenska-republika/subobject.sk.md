@@ -20,4 +20,4 @@ Ak dnes niektorí autori uprednostňujú označenie "prvá Slovenská republika"
 
 Z hľadiska platného medzinárodného práva na území Slovenska trvala existencia Československej republiky neprerušene od roku 1918 do roku 1992 a dnešná SR je de iure prvá. Po ČSR/ČSSR/ČSFR zdedila hranice a všetky medzinárodné garancie. Slovenská republika je nástupkyňou členského štátu protihitlerovskej koalície. Podobne napríklad Francúzi do svojho "počítania" republík nezahŕňajú vojnovú republiku s vládou vo Vichy.
 
-[![Ladislav Majerský - Reliéf pre sieň Snemu SR. 1939. Časopis Nové Slovensko](SVK_TMP.127.jpeg "Ladislav Majerský - Reliéf pre sieň Snemu SR")](http://www.webumenia.sk/dielo/SVK:TMP.127)
+[![Ladislav Majerský - Reliéf pre sieň Snemu SR. 1939. Časopis Nové Slovensko](SVK_TMP.127.jpeg "Ladislav Majerský - Reliéf pre sieň Snemu SR")](https://www.webumenia.sk/dielo/SVK:TMP.127)

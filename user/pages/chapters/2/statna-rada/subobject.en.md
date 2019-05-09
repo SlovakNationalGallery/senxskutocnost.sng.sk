@@ -18,4 +18,4 @@ returnButtonText: 'Back to Chapter 2'
 
 The members of the State Council were the representatives of political, economic, cultural and clerical elites. They were not elected but appointed - partly by the president, partly by the HSPP - and the representatives of the German minority party, Deutsche Partei, were also included.
 
-[![Andrej Kováčik - Our Friendship is Inseparable!, 1940 – 1941, Slovak National Museum - The Museum of History, Bratislava](SVK_TMP.165.jpeg "Andrej Kováčik - Our Friendship is Inseparable!")](http://www.webumenia.sk/dielo/SVK:TMP.165?collection=83)
+[![Andrej Kováčik - Our Friendship is Inseparable!, 1940 – 1941, Slovak National Museum - The Museum of History, Bratislava](SVK_TMP.165.jpeg "Andrej Kováčik - Our Friendship is Inseparable!")](https://www.webumenia.sk/dielo/SVK:TMP.165?collection=83)

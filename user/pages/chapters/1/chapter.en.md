@@ -27,7 +27,7 @@ The year is 1938 and Nazi Germany in the so-called Anschluss annexes Austria. Hi
 </p>
 </div>
 
-[![Štefan Bednár: He acquired a taste for it... 1935. SNG, Bratislava](stefan-bednar-s-jedlom-rastie-chut.jpg "Štefan Bednár: He acquired a taste for it...")](http://www.webumenia.sk/dielo/SVK:SNG.K_12859?collection=82)
+[![Štefan Bednár: He acquired a taste for it... 1935. SNG, Bratislava](stefan-bednar-s-jedlom-rastie-chut.jpg "Štefan Bednár: He acquired a taste for it...")](https://www.webumenia.sk/dielo/SVK:SNG.K_12859?collection=82)
 
 Hitler is trying to break up Czechoslovakia, which as a democratic country offered a refuge to the opponents of Nazism. Hitler was raising territory claims, willing to proceed through international political agitation or resort to military action. He was definitely playing the German population card - Germans living and allegedly suffering from discrimination beyond the German borders - a similar excuse as he used when he annexed Austria. It suited him that the territory of Slovakia (a relatively uninteresting country for Hitler at the time) was eyed by both Poland and Hungary. The Sudetenland and the border areas of Czechoslovakia, inhabited mostly by ethnic Germans, are at stake now.
 
@@ -38,24 +38,24 @@ Hitler is trying to break up Czechoslovakia, which as a democratic country offer
 <figcaption>Speech by Adolf Hitler to the Nazi Party Congress in Nuremberg on 12 September 1938, in which he sharply attacked Czechoslovakia and President Eduard Benes.</figcaption>
 </figure>
 
-Germany, Italy, Great Britain and France convened in Munich on 29 September 1938, where they decided on the fate of Czechoslovakia without its presence at the table. The Republic must cede Sudeten territory to Germany. The Czechoslovak government was particularly surprised by the attitude of their allies, France and Great Britain, but did not have any other options. A day later, on 30 September 1938, they accepted the decision, which went down in history as the Munich Agreement, sometimes called the Munich Dictate. It was one of the heralds of the coming war, before which, however, Slovakia went through several drastic political changes. 
+Germany, Italy, Great Britain and France convened in Munich on 29 September 1938, where they decided on the fate of Czechoslovakia without its presence at the table. The Republic must cede Sudeten territory to Germany. The Czechoslovak government was particularly surprised by the attitude of their allies, France and Great Britain, but did not have any other options. A day later, on 30 September 1938, they accepted the decision, which went down in history as the Munich Agreement, sometimes called the Munich Dictate. It was one of the heralds of the coming war, before which, however, Slovakia went through several drastic political changes.
 
-<figure class="video">    
+<figure class="video">
 <iframe src="https://player.vimeo.com/video/190295173?title=0&byline=0&portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<figcaption><a href="http://www.webumenia.sk/dielo/SVK:TMP.114?collection=82">Imro Weiner-Kráľ: War Is Coming. 1938. GMB, Bratislava</a></figcaption>
+<figcaption><a href="https://www.webumenia.sk/dielo/SVK:TMP.114?collection=82">Imro Weiner-Kráľ: War Is Coming. 1938. GMB, Bratislava</a></figcaption>
 </figure>
 
 
 ---
 ## Hlinka's Slovak People's Party
 
-[![Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property.](SVK_TMP.115.jpg "Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property")](http://www.webumenia.sk/dielo/SVK:TMP.115?collection=82)
+[![Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property.](SVK_TMP.115.jpg "Unknown Author. Faithful to Ourselves, Together Ahead! 1939 – 1944. Special Print. Private Property")](https://www.webumenia.sk/dielo/SVK:TMP.115?collection=82)
 
-At the time of the Munich Agreement, the most influential political party in Slovakia was Hlinka's Slovak People's Party (HSPP), which in 1935 in coalition with the Slovak National Party won 30% of the votes in the elections. It was founded as Slovak People's Party in 1905, then restored by a Catholic priest and a nationalist, Andrej Hlinka. It was founded on conservative Christian values and slowly but surely became obsessed with the idea of autonomy - an independent Slovakia within the Czechoslovak Republic.   
+At the time of the Munich Agreement, the most influential political party in Slovakia was Hlinka's Slovak People's Party (HSPP), which in 1935 in coalition with the Slovak National Party won 30% of the votes in the elections. It was founded as Slovak People's Party in 1905, then restored by a Catholic priest and a nationalist, Andrej Hlinka. It was founded on conservative Christian values and slowly but surely became obsessed with the idea of autonomy - an independent Slovakia within the Czechoslovak Republic.
 
 <div class="highlight">
 <p>
-The HSPP's gradual radicalisation was epitomised by their totalitarian motto: "One Nation, One Party, One Leader."  
+The HSPP's gradual radicalisation was epitomised by their totalitarian motto: "One Nation, One Party, One Leader."
 </p>
 </div>
 During October 1938, the HSPP strived to solve the issue of Slovakia within the Republic and pushed for autonomy. Within the party, there were two conflicting approaches, the so-called moderate wing (represented mainly by Jozef Tiso, Jozef Sivák and Martin Sokol) and the radical wing (led by Vojtech Tuka, Ferdinand Ďurčanský and Alexander Mach). They differed in their views on autonomy and disagreed on antisemitic legislation. What was the answer of "one nation, one party and one leader" - soon to be Jozef Tiso - to these burning questions?
@@ -95,7 +95,7 @@ During October 1938, the HSPP strived to solve the issue of Slovakia within the 
 ## Declaration of Slovakia’s Autonomy
 ### 6. 10. 1938 {.title-date}
 
-[![Unknown Author. Pittsburgh Agreement Demonstration in Bratislava. Jozef Tiso Giving a Speech. 5. 6. 1938. SNA, Bratislava – Slovak Press Office](SVK_TMP.143.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.143?collection=82)
+[![Unknown Author. Pittsburgh Agreement Demonstration in Bratislava. Jozef Tiso Giving a Speech. 5. 6. 1938. SNA, Bratislava – Slovak Press Office](SVK_TMP.143.jpeg)](https://www.webumenia.sk/dielo/SVK:TMP.143?collection=82)
 
 The Munich Agreement had immediate social and political consequences for Central and Eastern Europe. According to German analysis, requested by Adolf Hitler in October, Slovak people had four options:
 
@@ -134,7 +134,7 @@ The National Assembly met on 19 November 1938 and affirmed Slovak autonomy throu
 ## First Vienna Award
 ### 2. 11. 1938  {.title-date}
 
-[![Vincek Hochšteský. On Guard!. 1939. Decorative Painting. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.116.jpeg "On Guard!")](http://www.webumenia.sk/dielo/SVK:TMP.116?collection=82)
+[![Vincek Hochšteský. On Guard!. 1939. Decorative Painting. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.116.jpeg "On Guard!")](https://www.webumenia.sk/dielo/SVK:TMP.116?collection=82)
 
 <figure class="audio" markdown="1">
 ![Jozef Tiso's speech from 28.11.1938. RTVS](01-Tiso_prejav-slovenska_autonomna_vlada.mp3)
@@ -151,7 +151,7 @@ The official negotiations between the Czecho-Slovak and Hungarian sides did not 
 
 Based on the Munich precedent, Poland also claimed their piece of land, which included  several villages of Orava, Kysuce and Spiš. The Slovak population that remained in their homes in the newly acquired parts of Hungary immediately became a target of oppression, humiliation, violence and even open persecution. The state was able to evacuate and shelter 50,000 Slovaks. Other people fleeing to Slovakia due to the bad conditions became refugees. According to some estimates, up to 100,000 people took refuge in Slovakia during 1938 and 1943 and became dependent on charity and state benefits after fleeing from Hungary. The number of emigrants from Slovakia to Hungary was significantly lower, since there were very few Hungarian nationals living outside the contested territories. On the initiative of the HPSS, after the declaration of autonomy a further 9,000 Czech state employees and teachers were deported, including those who voluntarily came to help out a country which did not have sufficient resources by itself.
 
-[![Unknown Author - Slovaks at Home and Abroad, 1939, Slovak National Archive](SVK_TMP.212.jpeg "Unknown Author - Slovaks at Home and Abroad, 1939")](http://www.webumenia.sk/dielo/SVK:TMP.212)
+[![Unknown Author - Slovaks at Home and Abroad, 1939, Slovak National Archive](SVK_TMP.212.jpeg "Unknown Author - Slovaks at Home and Abroad, 1939")](https://www.webumenia.sk/dielo/SVK:TMP.212)
 
 Shortly after the declaration of autonomy, verbal attacks on Jewish minorities escalated and from 4 November, the populist regime organised the deportation of more than 7,500 people from Slovakia to the annexed territories. The government also started preparing of the anti-Semitic legislation, under the leadership of Karol Sidor.
 
@@ -160,13 +160,13 @@ Shortly after the declaration of autonomy, verbal attacks on Jewish minorities e
 <figcaption>Fragments of speeches by Alexander Mach from 14.3.1939 and 28.9.1942. RTVS</figcaption>
 </figure>
 
-[![Gejza Angyal: Two Desperate Women. 1939. Central Slovak Gallery, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Two Desperate Women")](http://www.webumenia.sk/dielo/SVK:SGB.K_35)
+[![Gejza Angyal: Two Desperate Women. 1939. Central Slovak Gallery, Banská Bystrica](Angyal--Dve_zufale_zeny--SGB--K_35.jpg "Gejza Angyal - Two Desperate Women")](https://www.webumenia.sk/dielo/SVK:SGB.K_35)
 
 ---
 ## Autonomous Slovak Diet Elections
 ### 18. 12. 1938 {.title-date}
 
-[![Ľudovít Križan: We're United! Our Goal: New Slovakia! 1938 – 1939. Poster. SNM – Museum of the Slovak National Councils](Krizan--Sme_jednotni--SNG--MSNRM_7.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.126?collection=82)
+[![Ľudovít Križan: We're United! Our Goal: New Slovakia! 1938 – 1939. Poster. SNM – Museum of the Slovak National Councils](Krizan--Sme_jednotni--SNG--MSNRM_7.jpg)](https://www.webumenia.sk/dielo/SVK:TMP.126?collection=82)
 
 <figure class="audio" markdown="1">
 ![Report from the election of Jozef Tiso for president of Slovak republic - 26.10.1939. RTVS](03-reportaz-z-volieb-Tisa.mp3)
@@ -183,16 +183,16 @@ In elections, where one cannot choose a political party, but merely accept or re
 </p>
 </div>
 
-[![Unknown Author: Opening Ceremony of the Autonomous Slovak Diet in the University Auditorium in Bratislava, 18 January 1939. SNA, Bratislava – Slovak Press Office](SVK_TMP.130.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.130?collection=82)
+[![Unknown Author: Opening Ceremony of the Autonomous Slovak Diet in the University Auditorium in Bratislava, 18 January 1939. SNA, Bratislava – Slovak Press Office](SVK_TMP.130.jpeg)](https://www.webumenia.sk/dielo/SVK:TMP.130?collection=82)
 
-[![Fraňo Štefunko: Andrej Hlinka. Statue Model for the Slovak Diet. 1938—1939. SNM – HM, Bratislava](Stefunko--Hlinka-model_sochy--SNMHM_BA--Job_5639.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.117?collection=82)
+[![Fraňo Štefunko: Andrej Hlinka. Statue Model for the Slovak Diet. 1938—1939. SNM – HM, Bratislava](Stefunko--Hlinka-model_sochy--SNMHM_BA--Job_5639.jpg)](https://www.webumenia.sk/dielo/SVK:TMP.117?collection=82)
 
 ---
 ## Creation of the Slovak State
 ### 14. 3. 1939  {.title-date}
 
 [![ Unknown Author. Glorification of the Creation of the Slovak State. 1939. Slovak National Museum - Museum of History, Bratislava](SVK_TMP.121.jpeg)
-](http://www.webumenia.sk/dielo/SVK:TMP.121?collection=82)
+](https://www.webumenia.sk/dielo/SVK:TMP.121?collection=82)
 
 <figure class="audio" markdown="1">
 ![Christmas radio address by Jozef Tiso - 26.12.1938. RTVS](02-Vianocny_prihovor_Tiso.mp3)
@@ -209,11 +209,11 @@ Tuka declared during a visit with Hitler: "My leader, I put the fate of my natio
 </p>
 </div>
 
-At home, the government, the Diet and the leadership of the HSPP rejected the proposition of the radicals since they envisioned the graduation to an independent state in the distant future through a natural revolution rather than Tuka’s revolution. In line with Hitler's interest, the Czecho-Slovak government in Prague found out about the Slovak desire for independence and responded by military action on 9 March 1939. They declared military dictatorship in Slovak, Jozef Tiso is dismissed from his post as the Prime Minister and Karol Sidor, Tiso's HSPP colleague, was named as his successor.  
+At home, the government, the Diet and the leadership of the HSPP rejected the proposition of the radicals since they envisioned the graduation to an independent state in the distant future through a natural revolution rather than Tuka’s revolution. In line with Hitler's interest, the Czecho-Slovak government in Prague found out about the Slovak desire for independence and responded by military action on 9 March 1939. They declared military dictatorship in Slovak, Jozef Tiso is dismissed from his post as the Prime Minister and Karol Sidor, Tiso's HSPP colleague, was named as his successor.
 
 After Sidor rejected the pressure from the Nazis to declare independence, Hitler invited Jozef Tiso to Berlin, where he threatened him that if Slovakia did not declare independence (in the next few hours), he would "abandon Slovakia to its fate". This fate might have been a division of the territory between its three neighbours - Germany, Poland and Hungary, whose troops were allegedly already moving to the borders. Despite the fact that Jozef Tiso was not an official representative of Slovakia at the moment, with Hitler's support he able to ask the president Emil Hácha to call the Diet on 14 March 1939. At the meeting, the Slovak Diet declared the creation of the Slovak State and Hitler's troops entered the Czech territories the next day, declaring the Protectorate of Bohemia and Moravia, within the German Reich. The newly created Slovak State was facing the five years of its existence, marked by the Second World War.
 
-[![Unknown Author. Brighter Future in an Independent Slovakia. 1939. Postcard. Private Property.](neznamy_autor--lepsia_buducnost_na_slobodnom_Slovensku-pohladnica--sukromny_majetok_2016-023_4.jpg "Unknown Author, Brighter Future in an Independent Slovakia, Postcard")](http://www.webumenia.sk/dielo/SVK:TMP.123?collection=82)
+[![Unknown Author. Brighter Future in an Independent Slovakia. 1939. Postcard. Private Property.](neznamy_autor--lepsia_buducnost_na_slobodnom_Slovensku-pohladnica--sukromny_majetok_2016-023_4.jpg "Unknown Author, Brighter Future in an Independent Slovakia, Postcard")](https://www.webumenia.sk/dielo/SVK:TMP.123?collection=82)
 
 {% include 'partials/subobjects.html.twig' with {
 	'title': 'Learn more about the anthem',
@@ -227,4 +227,4 @@ After Sidor rejected the pressure from the Nazis to declare independence, Hitler
 }%}
 
 ---
-**All artworks in this chapter can also be found in the collection at the Web of Art: [Halfway to the Slovak State](http://www.webumenia.sk/kolekcia/82 "Halfway to the Slovak State").**
+**All artworks in this chapter can also be found in the collection at the Web of Art: [Halfway to the Slovak State](https://www.webumenia.sk/kolekcia/82 "Halfway to the Slovak State").**

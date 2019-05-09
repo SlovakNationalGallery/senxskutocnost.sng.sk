@@ -14,8 +14,8 @@ content:
 returnButtonText: 'Back to Chapter 1'
 ---
 
-[![Martin Benka: Slovaks. 1940 – 1943. Poster design. SNM - Museum in Martin](SVK_TMP.125.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.125?collection=82)
-<span class="drop-cap">L</span>utheran pastor, poet and historian Samuel Tomášik wrote the anthem by the name Hey, Slovaks! back in 1834, when he became outraged that German was more commonly heard in the streets of Prague than Czech. We know this song mainly as the official anthem of the Slovak State (1939 - 1945). Besides the fact that it was inspired by the ratio of Czech and German and its melody by Polish music, it also became an anthem in Yugoslavia, Serbia or Montenegro. 
+[![Martin Benka: Slovaks. 1940 – 1943. Poster design. SNM - Museum in Martin](SVK_TMP.125.jpeg)](https://www.webumenia.sk/dielo/SVK:TMP.125?collection=82)
+<span class="drop-cap">L</span>utheran pastor, poet and historian Samuel Tomášik wrote the anthem by the name Hey, Slovaks! back in 1834, when he became outraged that German was more commonly heard in the streets of Prague than Czech. We know this song mainly as the official anthem of the Slovak State (1939 - 1945). Besides the fact that it was inspired by the ratio of Czech and German and its melody by Polish music, it also became an anthem in Yugoslavia, Serbia or Montenegro.
 
 Lyrics:
 <p>Hey, Slovaks, there still lives<br>
@@ -49,4 +49,4 @@ Black earth damned<br>
 Whom betray treacherously!</p>
 
 ## Other Media
-[![Štefan Leonard Kostelníček. Hey, Slovaks. 1939 – 1945. Decorative painting. SNM – HM](Kostelnicek--Hej_Slovaci-dekorativny_obraz--SNG--HMSNM_14.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.118)
+[![Štefan Leonard Kostelníček. Hey, Slovaks. 1939 – 1945. Decorative painting. SNM – HM](Kostelnicek--Hej_Slovaci-dekorativny_obraz--SNG--HMSNM_14.jpg)](https://www.webumenia.sk/dielo/SVK:TMP.118)

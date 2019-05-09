@@ -13,7 +13,7 @@ content:
 returnButtonText: 'Back to Chapter 4'
 ---
 
-[![Architect Vojtěch Šebor - Laskomer Radio Transmitter, 1934 – 1936 (implementation), around 1998 (photography), Photography: Matúš Dulla, Department of Architecture, Institute of Construction and Architecture, Slovak Academy of Sciences](vysielac--001--0_1--2017_02_06--LP_WEB.jpg "Vojtěch Šebor (architect), Matúš Dulla (photographer) - Laskomer Radio Transmitter")](http://www.webumenia.sk/dielo/SVK:TMP.329)
+[![Architect Vojtěch Šebor - Laskomer Radio Transmitter, 1934 – 1936 (implementation), around 1998 (photography), Photography: Matúš Dulla, Department of Architecture, Institute of Construction and Architecture, Slovak Academy of Sciences](vysielac--001--0_1--2017_02_06--LP_WEB.jpg "Vojtěch Šebor (architect), Matúš Dulla (photographer) - Laskomer Radio Transmitter")](https://www.webumenia.sk/dielo/SVK:TMP.329)
 
 <span class="drop-cap">T</span> <br> he Free Radio Transmitter was an important source of information and a tool for mobilisation during the Slovak National Uprising. The insurgents disconnected the transmitter in Banská Bystrica from the one in Bratislava and used it to declare the Uprising on 30 August 1944. The first call was broadcasted several times between 8 am and 10 am:
 
@@ -40,4 +40,4 @@ The Laskomer transmitter became a target of enemy attacks on 2 September 1944 an
 </p
 </div>
 
-[![Architect Vojtěch Šebor - Laskomer Radio Transmitter, 1934 – 1936 (implementation), around 1998 (photography), Photography: Matúš Dulla, Department of Architecture, Institute of Construction and Architecture, Slovak Academy of Sciences](vysielac--002--0_1--2017_02_06--LP_WEB.jpg "VVojtěch Šebor (architect), Matúš Dulla (photographer) - Laskomer Radio Transmitter")](http://www.webumenia.sk/dielo/SVK:TMP.330?collection=88)
+[![Architect Vojtěch Šebor - Laskomer Radio Transmitter, 1934 – 1936 (implementation), around 1998 (photography), Photography: Matúš Dulla, Department of Architecture, Institute of Construction and Architecture, Slovak Academy of Sciences](vysielac--002--0_1--2017_02_06--LP_WEB.jpg "VVojtěch Šebor (architect), Matúš Dulla (photographer) - Laskomer Radio Transmitter")](https://www.webumenia.sk/dielo/SVK:TMP.330?collection=88)

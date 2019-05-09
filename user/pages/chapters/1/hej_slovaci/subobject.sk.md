@@ -13,7 +13,7 @@ content:
 returnButtonText: 'Späť na 1. kapitolu'
 ---
 
-[![Martin Benka: Slováci. 1940 – 1943. Návrh na plagát. SNM - Múzeum v Martine](SVK_TMP.125.jpeg)](http://www.webumenia.sk/dielo/SVK:TMP.125?collection=82)
+[![Martin Benka: Slováci. 1940 – 1943. Návrh na plagát. SNM - Múzeum v Martine](SVK_TMP.125.jpeg)](https://www.webumenia.sk/dielo/SVK:TMP.125?collection=82)
 <span class="drop-cap">E</span>vanjelický kňaz, básnik a historik Samuel Tomášik napísal hymnickú pieseň s názvom Hej, Slováci ešte v roku 1834, keď ho rozhorčilo, že v uliciach Prahy počuje nemeckú reč viac ako tú českú. U nás je známa najmä ako oficiálna hymna Slovenskej republiky (1939 – 1945), no okrem toho, že jej vznik inšpiroval pomer češtiny a nemčiny, jej nápev vychádza z poľského hudobného podkladu a hymnou sa neskôr stala aj v Juhoslávii, Srbsku či v Čiernej Hore.
 
 Text:
@@ -48,4 +48,4 @@ ako múry hradné.<br>
 kto odstúpi zradne!</p>
 
 ## Other Media
-[![Štefan Leonard Kostelníček. Hey, Slovaks. 1939 – 1945. Decorative painting. SNM – HM](Kostelnicek--Hej_Slovaci-dekorativny_obraz--SNG--HMSNM_14.jpg)](http://www.webumenia.sk/dielo/SVK:TMP.118)
+[![Štefan Leonard Kostelníček. Hey, Slovaks. 1939 – 1945. Decorative painting. SNM – HM](Kostelnicek--Hej_Slovaci-dekorativny_obraz--SNG--HMSNM_14.jpg)](https://www.webumenia.sk/dielo/SVK:TMP.118)

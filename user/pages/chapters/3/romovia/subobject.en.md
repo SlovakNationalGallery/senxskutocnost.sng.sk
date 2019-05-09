@@ -19,14 +19,14 @@ returnButtonText: 'Back to Chapter 3'
 
 <div class="highlight">
 <p>
-After 1941, labour units for "asocial" individuals were created and "Gypsies without employment" were forcibly included.  
+After 1941, labour units for "asocial" individuals were created and "Gypsies without employment" were forcibly included.
 </p>
 </div>
 
-[![Jozef Cincík - Report from the "Gypsy" Camps, 1941, Slovak National Archive](15499male.jpg "Jozef Cincík - Report from the „Gypsy“ Camps")](http://www.webumenia.sk/dielo/SVK:TMP.270)
+[![Jozef Cincík - Report from the "Gypsy" Camps, 1941, Slovak National Archive](15499male.jpg "Jozef Cincík - Report from the „Gypsy“ Camps")](https://www.webumenia.sk/dielo/SVK:TMP.270)
 
 These units were initially temporary or seasonal, but from 1942 they were established as permanent. They were mostly created in Eastern Slovakia in towns such as Hanušovce nad Topľou, Bystré nad Topľou and Nižný Hrabovec. The Romani men made up roughly half of the 3000 prisoners. Further labour units were created in Dubnica nad Váhom, Ilava, Revúca and Ústie nad Oravou. Regardless of location, these units were ruled harshly.
 
-In the autumn of 1944, The Ministry of Defence established an Internment Camp for Gypsies in Dubnica, where whole Romani families were imprisoned. When an epidemic of typhus broke out in the camp in the winter of 1944/45 because of the appalling hygienic conditions, the sick were massacred by German soldiers.  
+In the autumn of 1944, The Ministry of Defence established an Internment Camp for Gypsies in Dubnica, where whole Romani families were imprisoned. When an epidemic of typhus broke out in the camp in the winter of 1944/45 because of the appalling hygienic conditions, the sick were massacred by German soldiers.
 
 From September 1944, the mass murder of the Romani population also spread to other parts of Slovakia. In September, Romanis in Kvetnica were murdered, then Romanis in Tisovec, Čierny Balog, Kremnička, Nemecká, Zvolen and many [other places](http://www.romaholocaust.sk/sk/).

@@ -34,68 +34,68 @@ When everybody is inside, the heavy doors are closed. Then there is a short paus
     'images': [
         {
         'title':'Suffering in the Concentration Camp',
-            'src': 'http://www.webumenia.sk/images/diela/SNG/83/SVK_SNG.K_2311/SVK_SNG.K_2311.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2311?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/83/SVK_SNG.K_2311/SVK_SNG.K_2311.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2311?collection=86'
         },
      {
         'title':'Man Sitting on a Wooden Bench',
-         'src': 'http://www.webumenia.sk/images/diela/SNG/19/SVK_SNG.K_2333/SVK_SNG.K_2333.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2333?collection=86'
+         'src': 'https://www.webumenia.sk/images/diela/SNG/19/SVK_SNG.K_2333/SVK_SNG.K_2333.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2333?collection=86'
         },
         {
         'title':'On the Floor of the Camp',
-         'src': 'http://www.webumenia.sk/images/diela/SNG/76/SVK_SNG.K_2318/SVK_SNG.K_2318.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2318?collection=86'
+         'src': 'https://www.webumenia.sk/images/diela/SNG/76/SVK_SNG.K_2318/SVK_SNG.K_2318.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2318?collection=86'
         },
         {
         'title':'Exhausted',
-            'src': 'http://www.webumenia.sk/images/diela/SNG/65/SVK_SNG.K_13667/SVK_SNG.K_13667.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_13667?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/65/SVK_SNG.K_13667/SVK_SNG.K_13667.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_13667?collection=86'
             },
         {
         'title':'Exhausted - Backside (Administrative Ticket)',
-            'src': 'http://www.webumenia.sk/images/diela/TMP/38/SVK_TMP.267/SVK_TMP.267.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.267?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/TMP/38/SVK_TMP.267/SVK_TMP.267.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:TMP.267?collection=86'
             },
         {
         'title':'Two Men Sitting on a Bench in the Camp',
-            'src': 'http://www.webumenia.sk/images/diela/SNG/78/SVK_SNG.K_2316/SVK_SNG.K_2316.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2316?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/78/SVK_SNG.K_2316/SVK_SNG.K_2316.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2316?collection=86'
                 },
         {
         'title':'The Cell of the Concentration Camp',
-            'src': 'http://www.webumenia.sk/images/diela/SNG/88/SVK_SNG.K_2299/SVK_SNG.K_2299.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2299?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/88/SVK_SNG.K_2299/SVK_SNG.K_2299.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2299?collection=86'
                 },
         {
         'title':'Wooden Bunks in the Concentration Camp',
-            'src': 'http://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.K_2332/SVK_SNG.K_2332.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2332?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/20/SVK_SNG.K_2332/SVK_SNG.K_2332.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2332?collection=86'
                         },
         {
         'title':"Man's Head from the Concentration Camp",
-            'src': 'http://www.webumenia.sk/images/diela/SNG/80/SVK_SNG.K_2314/SVK_SNG.K_2314.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2314?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/80/SVK_SNG.K_2314/SVK_SNG.K_2314.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2314?collection=86'
                         },
         {
         'title':'In a Bunk',
-            'src': 'http://www.webumenia.sk/images/diela/SNG/53/SVK_SNG.K_2320/SVK_SNG.K_2320.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2320?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/53/SVK_SNG.K_2320/SVK_SNG.K_2320.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2320?collection=86'
                 },
         {
         'title':'Dead Behind Barbed Wire in the Concentration Camp',
-            'src': 'http://www.webumenia.sk/images/diela/SNG/10/SVK_SNG.K_2305/SVK_SNG.K_2305.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2305?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/10/SVK_SNG.K_2305/SVK_SNG.K_2305.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2305?collection=86'
                 },
         {
         'title':'Memories of Home',
-            'src': 'http://www.webumenia.sk/images/diela/SNG/7/SVK_SNG.K_2308/SVK_SNG.K_2308.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:SNG.K_2308?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/SNG/7/SVK_SNG.K_2308/SVK_SNG.K_2308.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:SNG.K_2308?collection=86'
         },
                 {
         'title':'Memories of Home - Backside (Administrative Ticket)',
-            'src': 'http://www.webumenia.sk/images/diela/TMP/37/SVK_TMP.266/SVK_TMP.266.jpeg',
-            'href': 'http://www.webumenia.sk/dielo/SVK:TMP.266?collection=86'
+            'src': 'https://www.webumenia.sk/images/diela/TMP/37/SVK_TMP.266/SVK_TMP.266.jpeg',
+            'href': 'https://www.webumenia.sk/dielo/SVK:TMP.266?collection=86'
         }
     ]
 }%}
