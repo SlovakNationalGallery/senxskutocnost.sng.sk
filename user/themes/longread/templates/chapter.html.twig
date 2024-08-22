@@ -79,12 +79,6 @@
 
 
 {% block footer %}
-  {% include 'partials/emailcapture.html.twig' with {
-    'emailCTA': page.header.emailCTA, 
-    'emailPlaceholder': page.header.emailPlaceholder, 
-    'emailButton': page.header.emailButton, 
-    'emailNotice': page.header.emailNotice} 
-  %}
   {% include 'partials/footer.html.twig' with {
     'sharingButtons': true,
     'exhibitionLink': true,
